@@ -72,3 +72,26 @@ New raw data preparation is complete: COCO5000 with captions/annotations, offici
 LLaVA30/90, native answers, source URLs and hashes. Before any extension GPU run,
 the provisional derived-JPEG cohort was archived and replaced with lossless PNG
 canvases (same source IDs); old experiments are untouched.
+
+## Protocol validation amendment before new formal runs
+
+The initial extension debug prefix used two formal images. These were connectivity
+checks only; their records and the original source commit are retained, and they
+must not be described as untouched or independent validation. No baseline parameters
+were selected from those scores. Before any new formal extension attack, debug
+inputs were separated: ImageNet uses the preserved non-test smoke2/screen10;
+COCO and VQA engineering checks use separate COCO images outside all formal clean
+and reference banks. IDs and decoded canonical hashes are audited for disjointness.
+These inputs have their own immutable `debug_inputs.json`, hashed in each job lock.
+Official LLaVA30/90 remains unchanged; debug VQA questions are not benchmark rows.
+
+COCO's initial generic “Describe this image” debug prompt produced verbose,
+often truncated descriptions. The formal captioning prompt is now fixed to
+“Provide a concise, single-sentence caption describing this image.” for all seven
+methods and all three targets, before formal captioning measurements. The earlier
+prompt manifest and debug responses are archived; they are not silently overwritten
+or treated as final scores. This is task/output-format validation, not attack tuning.
+
+The work window records its original start and does not reset on controller reload.
+The code continues beyond eight hours when tasks remain; LLaVA official GPT4 judge
+access remains an explicit separate blocker, not a reason to invent scores.

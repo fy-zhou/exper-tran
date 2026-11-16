@@ -54,7 +54,7 @@ def test_original_vqa_questions_are_not_expanded_into150_images():
     assert len(rows) == 30 and sum(len(r["queries"]) for r in rows) == 90
 
 
-def test_pilot_direction_balancing():
+def test_pilot_direction_balancing(tmp_path, monkeypatch):
     manifest = {
         "images": [
             {"transition": t, "image_id": f"{t}-{i}"}
@@ -63,6 +63,17 @@ def test_pilot_direction_balancing():
         ]
     }
     config = {**protocol.condition("iau_foa", "imagenet"), "pilot": True}
+    import json
+
+    path = tmp_path / "debug.json"
+    chosen = [
+        r
+        for t in ["T01", "T03", "T05", "T07", "T09"]
+        for r in manifest["images"]
+        if r["transition"] == t and r["image_id"].endswith(("-0", "-1"))
+    ]
+    path.write_text(json.dumps({"imagenet": {"pilot": chosen}}))
+    monkeypatch.setattr(protocol, "DEBUG_INPUTS", path)
     result = protocol.eval_rows(config, manifest)
     assert len(result) == 10
     assert all(
@@ -112,3 +123,30 @@ def test_original_question_and_auxiliary_answer_separation():
         assert all(
             "reference_answer" in q and q["text"] != q["reference_answer"] for q in row["queries"]
         )
+
+
+def test_real_engineering_cohorts_are_disjoint_from_formal_and_reference_pixels():
+    import json
+
+    if not protocol.DEBUG_INPUTS.exists():
+        pytest.skip("Prepared independent engineering cohorts unavailable")
+    root = protocol.DEBUG_INPUTS.parent
+    debug = json.loads(protocol.DEBUG_INPUTS.read_text())
+    formal = [json.loads((root / (name + ".json")).read_text()) for name in protocol.DATASETS]
+    hashes = {r["clean_sha256"] for m in formal for r in m["images"]}
+    hashes |= {r["target_reference_sha256"] for m in formal for r in m["images"]}
+    for groups in debug.values():
+        for rows in groups.values():
+            assert not hashes & {r["clean_sha256"] for r in rows}
+
+
+def test_caption_format_is_fixed_for_all_methods_and_original_vqa_stays90():
+    import json
+
+    root = protocol.DEBUG_INPUTS.parent
+    if not (root / "coco_captioning.json").exists():
+        pytest.skip("Prepared cohorts unavailable")
+    coco = json.loads((root / "coco_captioning.json").read_text())
+    assert all("single-sentence caption" in q["text"] for r in coco["images"] for q in r["queries"])
+    llava = json.loads((root / "llava_bench_coco.json").read_text())
+    assert sum(len(r["queries"]) for r in llava["images"]) == 90

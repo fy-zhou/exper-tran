@@ -10,7 +10,7 @@ from pathlib import Path
 
 import native_methods as native
 import torch
-from task_protocol import TARGETS, condition, eval_rows, identity
+from task_protocol import DEBUG_INPUTS, TARGETS, condition, eval_rows, identity
 
 from primary_ml_cka.baselines import campaign as legacy
 from primary_ml_cka.baselines.clip_features import ClipFeatures, audit_model
@@ -33,6 +33,9 @@ def lock_job(config):
         "config": config,
         "sources": sources,
         "manifest_sha256": sha(manifest_path),
+        "engineering_manifest_sha256": sha(DEBUG_INPUTS)
+        if config["smoke_only"] or config.get("pilot")
+        else None,
         "models": {**native.PROXIES, **native.EXTRAS},
         "targets": REG,
     }

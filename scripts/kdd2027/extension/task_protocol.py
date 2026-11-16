@@ -170,6 +170,86 @@ def build_manifests(output, cache):
         "input_resolution_adaptation": "224_canvas_clean_and_adv_paired",
         "no_relabel_as_ten_class_ASR": True,
     }
+    # Engineering cohorts are disjoint from every formal clean/reference set.
+    debug = {}
+    names = [
+        "goldfish",
+        "monarch butterfly",
+        "pineapple",
+        "acoustic guitar",
+        "laptop",
+        "espresso",
+        "volcano",
+        "rocking chair",
+        "soccer ball",
+        "school bus",
+    ]
+    debug["imagenet"] = {}
+    for mode, filename in [("smoke", "smoke.json"), ("pilot", "screen.json")]:
+        data = json.loads((output / "manifests" / filename).read_text())
+        debug["imagenet"][mode] = [
+            {
+                **r,
+                "captions": ["A photo of a " + names[r["source"] - 1] + "."],
+                "queries": [{"id": r["image_id"], "kind": "classification"}],
+            }
+            for r in data["images"]
+        ]
+    dev = []
+    for i, r in enumerate(pool[330:332]):
+        target = pool[332 + i]
+        c = canonical(
+            Path(coco_meta["image_root"]) / r["file_name"], canvas / "debug" / r["file_name"]
+        )
+        t = canonical(
+            Path(coco_meta["image_root"]) / target["file_name"],
+            canvas / "debug_targets" / target["file_name"],
+        )
+        dev.append(
+            {
+                "image_id": "engineering_coco/" + str(r["id"]),
+                "clean": c["path"],
+                "clean_sha256": c["sha256"],
+                "target_reference": t["path"],
+                "target_reference_sha256": t["sha256"],
+                "captions": banks[r["id"]],
+                "target_captions": banks[target["id"]],
+                "queries": [
+                    {
+                        "id": "debug:" + str(r["id"]),
+                        "kind": "captioning",
+                        "text": "Provide a concise, single-sentence caption describing this image.",
+                    }
+                ],
+            }
+        )
+    debug["coco_captioning"] = {"smoke": dev}
+    debug["llava_bench_coco"] = {
+        "smoke": [
+            {
+                **r,
+                "queries": [
+                    {
+                        "id": "debug:" + r["image_id"],
+                        "kind": "open_vqa",
+                        "category": "engineering_debug",
+                        "reference_answer": r["captions"][0],
+                        "text": "What objects are visible in this image?",
+                    }
+                ],
+            }
+            for r in dev
+        ]
+    }
+    formal_clean = {r["clean_sha256"] for m in manifests.values() for r in m["images"]}
+    formal_reference = {
+        r["target_reference_sha256"] for m in manifests.values() for r in m["images"]
+    }
+    for groups in debug.values():
+        for rows in groups.values():
+            if any(r["clean_sha256"] in formal_clean | formal_reference for r in rows):
+                raise ValueError("Engineering/formal or reference leakage")
+    freeze(output / "extension/manifests/debug_inputs.json", debug)
     for name, manifest in manifests.items():
         ids = [r["image_id"] for r in manifest["images"]]
         if len(ids) != len(set(ids)):
@@ -182,17 +262,18 @@ def build_manifests(output, cache):
     return manifests
 
 
+DEBUG_INPUTS = Path(
+    "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/extension/manifests/debug_inputs.json"
+)
+
+
 def eval_rows(config, manifest):
-    if config.get("smoke_only"):
-        return manifest["images"][:2]
-    if config.get("pilot") and config["dataset"] == "imagenet":
-        return [
-            r
-            for tid in ["T01", "T03", "T05", "T07", "T09"]
-            for r in [x for x in manifest["images"] if x["transition"] == tid][:2]
-        ]
-    if config.get("pilot"):
-        return manifest["images"][:10]
+    if config.get("smoke_only") or config.get("pilot"):
+        debug = json.loads(DEBUG_INPUTS.read_text())
+        mode = "smoke" if config.get("smoke_only") else "pilot"
+        if mode not in debug[config["dataset"]]:
+            raise ValueError("No independent engineering cohort configured")
+        return debug[config["dataset"]][mode]
     return manifest["images"]
 
 
