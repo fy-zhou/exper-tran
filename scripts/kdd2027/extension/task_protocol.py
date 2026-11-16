@@ -108,7 +108,11 @@ def build_manifests(output, cache):
                 "captions": banks[r["id"]],
                 "target_captions": banks[target["id"]],
                 "queries": [
-                    {"id": str(r["id"]), "kind": "captioning", "text": "Describe this image."}
+                    {
+                        "id": str(r["id"]),
+                        "kind": "captioning",
+                        "text": "Provide a concise, single-sentence caption describing this image.",
+                    }
                 ],
             }
         )
