@@ -1,2 +1,8 @@
 # Add to the existing pinned repository Python3.11 environment; no model-stack upgrade.
 kmeans-pytorch==0.3
+# Task-specific native dependency/scoring support; model stack remains unchanged.
+numba==0.60.0
+llvmlite==0.43.0
+pycocoevalcap==1.2
+pycocotools==2.0.11
+# IAU KMeans is imported from an external checkout pinned to f7f36bd1..., not installed over0.3.

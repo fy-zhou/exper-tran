@@ -1,0 +1,74 @@
+version: 1
+branch: experiment/kdd2027-baseline-reproduction
+methods: [pgd, mi_fgsm, co_attack, sga, m_attack, foa_attack, iau_foa]
+datasets:
+  imagenet:
+    task: targeted_classification
+    images: 150
+    directions: 5
+    queries_per_image: 1
+    metric: unconditional_targeted_hits_over_all_planned_images
+  coco_captioning:
+    task: image_captioning
+    source: COCO2017_val5000
+    frozen_images: 150
+    selection_seed: 42
+    exclude_LLaVA_source_image_IDs: true
+    metric: clean_and_adversarial_COCO_CIDEr_on_fixed_subset
+    secondary_metric: CIDEr_against_frozen_target_image_captions
+    no_rename_as_classification_ASR: true
+  llava_bench_coco:
+    task: official_open_ended_VQA
+    images: 30
+    original_questions: 90
+    question_categories: [conv, detail, complex]
+    raw_answers: clean_and_adversarial
+    proxy_metric: ROUGE_L_reference_overlap_is_not_correctness
+    official_score: pending_configured_GPT4_judge_no_automatic_commercial_calls
+    not_expand_to150_by_repeating_images: true
+targets: [Qwen3.5-27B, InternVL3.5-14B-HF, Gemma 4 31B-it]
+formal_conditions: 63
+precision: all_floating_model_parameters_bfloat16_no_quantization
+attack_canvas: 224
+original_benchmark_resolution_adaptation: disclosed_clean_and_adv_paired224
+reference_selection: frozen_ground_truth_or_source_image_IDs_never_predictions
+epsilon: 16/255
+steps:
+  pgd: 50
+  mi_fgsm: 50
+  co_attack: 50
+  sga: 50
+  m_attack: 300
+  foa_attack: 300
+  iau_foa: 300
+budget_fairness: unequal_compute_must_report_actual_runtime_and_forwards
+co_sga:
+  generation: original_joint_text_image_core_on_CLIP_B16
+  target_input: frozen_image_and_unmodified_task_prompt
+  adversarial_auxiliary_text: saved_not_fed_to_MLLM
+  original_goal: untargeted_retrieval
+  not_claim_faithful_original_targeted10class_or_joint_retrieval_evaluation: true
+  budget_adaptation: common_eps16_steps50_disclosed
+iau_foa:
+  native5: [B16, B32, Laion, InternVL1, DINO]
+  native5_legal_targets: [Qwen3.5-27B, Gemma 4 31B-it]
+  internvl_target_variant: explicitly_labeled_family_disjoint4_no_InternVL_proxy
+  no_target_feedback_selection: true
+kmeans:
+  source: https://github.com/subhadarship/kmeans_pytorch
+  revision: f7f36bd1cb4e3a761d73d584866d0a9c6b4d2805
+  official_IAU_dependency: true
+  FOA_choice: compatible_iter_limit_API_and_original_empty_cluster_reinitialization_disclosed
+  preserve_older_bounded_dependency_results: true
+execution:
+  minimum_requested_hours: 8
+  hard_stop_at8h: false
+  run_until_available_queue_complete: true
+  no_idle_or_duplicate_jobs_to_fill_time: true
+  reuse_outer_owner_lock: reproduction_owner.lock
+  reuse_inner_admission_lock: gpu_owner.lock
+  attack_and_evaluate_in_separate_processes: true
+  worker_heartbeat_seconds: 20
+  failed_smoke_blocks_its_core_only: true
+  persistent_results: /home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/extension
+  temporary_weights_and_source_cache: /ephemeral/kdd2027
