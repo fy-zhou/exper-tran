@@ -8,7 +8,7 @@
 | FOA-Attack | Pinned official global/local extractor, OT loss and dynamic ensemble history; fixed K10 from official generation entrypoint | Upstream core, same task/precision adaptations. KMeans dependency API repair explicitly disclosed. No target-feedback K3→K5 loop from `FOAttack.py`. Original300 and matched50 separate. |
 | Co-Attack | Audited, not substituted | Original Co-Attack jointly perturbs text/images for retrieval/entailment/grounding. Its image-only mode is a **different** algorithm; not a faithful unchanged targeted ten-class comparison. |
 | SGA | Audited, not substituted | Set-level image/text retrieval guidance and text perturbation require paired captions, retrieval positives/ranks and VLP evaluation. An image-only class-target rewrite would need an explicitly separate adaptation protocol. |
-| IAU-FOA | Official source pinned for review, not yet reproduced | Public code and self-citation exist; publication identifier and explicit license grant are not verified. No result claimed. |
+| IAU-FOA | Official source pinned for review, not yet reproduced | Public code and self-citation exist; paper arXiv2610.06977 now verified; explicit license grant not located and five-proxy family-disjoint adaptation remains pending. No result claimed. |
 
 Only PGD/MI/M/FOA are accepted by the executable method dispatcher. Unsupported
 names raise an error before GPU inference. No baseline is silently replaced with

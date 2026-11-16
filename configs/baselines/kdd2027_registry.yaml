@@ -36,6 +36,7 @@ methods:
     upstream: https://github.com/jiaxiaojunQAQ/FOA-Attack
     concern: requires_global_local_features_and_ot_alignment
   iau_foa:
-    status: source_pinned_publication_and_license_unverified
+    status: source_and_paper_pinned_adaptation_pending
     upstream: https://github.com/jiaxiaojunQAQ/IAU-FOA
-    concern: verify_paper_code_and_dependency_availability
+    paper: https://arxiv.org/abs/2610.06977
+    concern: five_proxy_protocol_includes_InternVL_and_skips_failed_copies

@@ -1,0 +1,2 @@
+# Add to the existing pinned repository Python3.11 environment; no model-stack upgrade.
+kmeans-pytorch==0.3

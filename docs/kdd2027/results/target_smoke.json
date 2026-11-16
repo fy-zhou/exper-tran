@@ -1,0 +1,120 @@
+{
+  "stage": "END_TO_END_2_IMAGE_SMOKE_NOT_FINAL_ASR",
+  "models": {
+    "google/gemma-4-31B-it": {
+      "model": {
+        "repo_id": "google/gemma-4-31B-it",
+        "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+        "family": "gemma4",
+        "expected_vision_depth": 27
+      },
+      "role": "target",
+      "parameter_counts": {
+        "torch.bfloat16": 31273086512
+      },
+      "parameter_bytes": {
+        "torch.bfloat16": 62546173024
+      },
+      "total_parameters": 31273086512,
+      "components": {
+        "model": [
+          "torch.bfloat16"
+        ]
+      },
+      "devices": [
+        "cuda:0"
+      ],
+      "quantization": {
+        "is_loaded_in_4bit": false,
+        "is_loaded_in_8bit": false,
+        "is_quantized": false,
+        "quantization_method": "None",
+        "config_quantization": null,
+        "quantized_modules": []
+      },
+      "allocated": 62554779648,
+      "reserved": 62625153024,
+      "status": "PASS"
+    },
+    "Qwen/Qwen3.5-27B": {
+      "model": {
+        "repo_id": "Qwen/Qwen3.5-27B",
+        "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+        "family": "qwen",
+        "expected_vision_depth": 27
+      },
+      "role": "target",
+      "parameter_counts": {
+        "torch.bfloat16": 27356728560
+      },
+      "parameter_bytes": {
+        "torch.bfloat16": 54713457120
+      },
+      "total_parameters": 27356728560,
+      "components": {
+        "model": [
+          "torch.bfloat16"
+        ],
+        "lm_head": [
+          "torch.bfloat16"
+        ]
+      },
+      "devices": [
+        "cuda:0"
+      ],
+      "quantization": {
+        "is_loaded_in_4bit": false,
+        "is_loaded_in_8bit": false,
+        "is_quantized": false,
+        "quantization_method": "None",
+        "config_quantization": null,
+        "quantized_modules": []
+      },
+      "allocated": 54713562624,
+      "reserved": 54769221632,
+      "status": "PASS"
+    },
+    "OpenGVLab/InternVL3_5-14B-HF": {
+      "model": {
+        "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+        "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+        "family": "internvl",
+        "expected_vision_depth": 24
+      },
+      "role": "target",
+      "parameter_counts": {
+        "torch.bfloat16": 15119523840
+      },
+      "parameter_bytes": {
+        "torch.bfloat16": 30239047680
+      },
+      "total_parameters": 15119523840,
+      "components": {
+        "model": [
+          "torch.bfloat16"
+        ],
+        "lm_head": [
+          "torch.bfloat16"
+        ]
+      },
+      "devices": [
+        "cuda:0"
+      ],
+      "quantization": {
+        "is_loaded_in_4bit": false,
+        "is_loaded_in_8bit": false,
+        "is_quantized": false,
+        "quantization_method": "None",
+        "config_quantization": null,
+        "quantized_modules": []
+      },
+      "allocated": 30247588864,
+      "reserved": 31039946752,
+      "status": "PASS"
+    }
+  },
+  "evaluation_rows": 24,
+  "all_parameters_bf16": true,
+  "result_csv_sha256": "7e26b2c22e609083f8c89e529bd929d747a51d9573144151511753adc73d9702",
+  "evaluation_row_count_actual": 24
+}

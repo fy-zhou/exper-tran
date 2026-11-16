@@ -13,7 +13,7 @@ The small adapter imports only reviewed feature/loss modules, never API scripts.
 | FOA-Attack | [NeurIPS2025 paper](https://papers.neurips.cc/paper_files/paper/2025/hash/540a3bf4863672cdaebfed69fa2ce335-Abstract-Conference.html), [official code](https://github.com/jiaxiaojunQAQ/FOA-Attack) | `6aa9ad463a1e812b7f77ff2e5c4b1712e7c78c4b` | README Apache2 badge; no standalone LICENSE located. Do not redistribute source as if grant independently verified. |
 | Co-Attack | [Paper](https://arxiv.org/abs/2206.09391), [official code](https://github.com/adversarial-for-goodness/Co-Attack) | `96f2c0ebf743f600860ed7aa78c14b38c8883521` | GPL3 LICENSE present |
 | SGA | [Paper](https://arxiv.org/abs/2307.14061), [official code](https://github.com/Zoky-2020/SGA) | `f49e6926cd13148e49bdbc2c3e537660e096230c` | MIT LICENSE present |
-| IAU-FOA | [Author repository](https://github.com/jiaxiaojunQAQ/IAU-FOA) | `749f349da249bd933ace4d33776ee59249b8d2a3` | No explicit LICENSE found; paper publication identity not independently verified |
+| IAU-FOA | [Paper arXiv2610.06977](https://arxiv.org/abs/2610.06977), [author repository](https://github.com/jiaxiaojunQAQ/IAU-FOA) | `749f349da249bd933ace4d33776ee59249b8d2a3` | No explicit LICENSE found; 2026 arXiv preprint identified (not a verified peer-reviewed venue) |
 
 Reviewed M core:
 `generate_adversarial_samples.py::fgsm_attack`,
@@ -57,3 +57,19 @@ The upstream complete requirements file was **not** installed into the frozen
 MLLM environment; it includes incompatible older Transformers and unrelated API
 clients. Tests compare M loss gradients and complete crop/update loop against the
 pinned official function; FOA transport and centroid gradient checks are separate.
+
+Further paper/source crosscheck: FOA paper §3.5/Algorithm1 describes ratios of
+alignment **losses**; pinned code uses ratios of maximized alignment **scores**
+and updates its history on both full and cropped calls. Those conventions are
+not algebraically identical. This campaign retains and labels the official
+code behavior, rather than silently changing it to a different interpretation.
+
+IAU-FOA paper identity was verified subsequently: arXiv2610.06977v1 (2026-10-04),
+matching the author repository. Reviewed `iau_foa/attack.py` and released five-proxy
+config: B16/B32/LAION-G + InternVL3-1B + DINOv2-Base; five photometric copies,
+unbalanced OT and deterministic resize. Original InternVL proxy is illegal for
+our InternVL target under full-family exclusion. A disclosed validator-specific
+adaptation is needed; dropping it and calling that original five-proxy IAU-FOA
+would be inaccurate. Its source can skip failed augmentation copies/steps;
+record every such event if adapted. This extension remains queued after the
+priority M/FOA runs, not reported as implemented or experimentally failed.
