@@ -45,3 +45,32 @@ Co-Attack/SGA original joint text-image retrieval protocols remain incompatible
 with an unchanged image-only targeted10-class table. IAU-FOA paper/source is now
 identified; its five-proxy family-exclusion adaptation and source integration
 remain a subsequent task, not a completed reproduction or failed empirical result.
+
+## 2026-11-16 15:02 UTC — evaluation-priority recovery
+
+50-step attacks: PGD150/150, MI150/150, M150/150, FOA147/150.
+FOA failed on three images because a Lloyd iteration produced an empty cluster;
+the method failed explicitly rather than dropping a local loss or changing K.
+The old launcher incorrectly allowed these failures to block evaluation of ALL
+completed methods. No formal ASR was available at that point. This is an
+orchestration defect, not evidence of zero transfer.
+
+300-step M has also completed150/150. Its images are preserved. Only the owned
+native attack worker was interrupted (FOA300 had1 frozen image) to prioritize
+frozen-image evaluation. An unfinished image is recomputed from its original seed.
+No attack sources, scientific locks, existing PNGs or target protocol changed.
+
+Recovery: `scripts/kdd2027/evaluate_frozen_run.py` verifies the original source and
+cohort hashes, then groups independently completed methods. A partially failed
+method may be evaluated only once every original image has either a valid frozen
+PNG or an explicit failed-attempt record. Its full planned N remains150, missing
+outcomes remain missing, and its aggregate ASR is N/A until complete. The subset
+is artifact-based, never prediction-based; the evaluation plan is frozen before
+model access. Three new regression tests cover method independence, pending
+images and source-lock rejection;36 tests pass in total.
+
+Actual tmux queue now: evaluate50 (three complete methods, then FOA147);
+evaluate300 M150; resume remaining FOA300 attacks; evaluate native completed or
+explicitly partial methods. Logs: `logs/evaluation_recovery.log`.
+The standard reproduction launcher also calls this recovery path after each
+budget, so one failed method cannot suppress other methods' reports again.
