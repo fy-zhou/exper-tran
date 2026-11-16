@@ -4,6 +4,9 @@ REPO_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/../.." && pwd)"
 cd "$REPO_DIR"
 export PYTHONPATH="$REPO_DIR/src${PYTHONPATH:+:$PYTHONPATH}"
 PYTHON_BIN="${BASELINE_PYTHON:-/home/ubuntu/exper-tran/.venv-a100/bin/python}"
+if [[ ! -w /ephemeral/kdd2027/hf-cache || ! -w /ephemeral/kdd2027/datasets ]]; then
+  sudo -n install -d -o "$(id -u)" -g "$(id -g)" /ephemeral/kdd2027/hf-cache /ephemeral/kdd2027/datasets
+fi
 "$PYTHON_BIN" scripts/kdd2027/prepare_upstreams.py
 if [[ ! -d /home/ubuntu/baseline-upstreams/kmeans_pinned ]]; then
   git clone --no-checkout https://github.com/subhadarship/kmeans_pytorch.git /home/ubuntu/baseline-upstreams/kmeans_pinned
