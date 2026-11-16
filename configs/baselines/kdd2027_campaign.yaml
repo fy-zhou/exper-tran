@@ -1,0 +1,54 @@
+version: 1
+scope: baseline_reproduction_not_ours_modification
+primary_budget:
+  steps: 50
+  epsilon: 16/255
+  step_size: 1/255
+  canvas: 224
+  seed: 42
+  parameter_dtype: bfloat16
+  quantization: forbidden
+  cohort: V8_final150_exact_image_IDs
+  evaluation: unconditional_targeted_hits_over_150
+  clean_prediction_gating: forbidden
+reference_selection: smallest_image_id_in_disjoint_48_image_target_class_bank
+proxy_order: [B16, B32, Laion]
+methods:
+  pgd:
+    fidelity: adapted_image_only
+    objective: mean_projected_CLIP_cosine_to_one_target_reference
+    random_start: true
+  mi_fgsm:
+    fidelity: adapted_image_only
+    objective: mean_projected_CLIP_cosine_to_one_target_reference
+    momentum: 1.0
+    random_start: false
+  m_attack:
+    fidelity: upstream_core_task_adapted
+    upstream_entry: generate_adversarial_samples.py::fgsm_attack
+    source_crop: true
+    target_crop: true
+    crop_scale: [0.5, 0.9]
+    ensemble_fusion: equal_feature_cosine_loss_mean_then_one_gradient
+    native_steps: 300
+    matched_budget_steps: 50
+    random_start: false
+  foa_attack:
+    fidelity: upstream_core_task_adapted
+    upstream_entry: generate_adversarial_samples_foa_attack.py::fgsm_attack
+    fixed_K: 10
+    local_weight: 0.2
+    source_crop: true
+    target_crop: true
+    crop_scale: [0.5, 0.9]
+    ensemble_fusion: official_dynamic_score_ratio_softmax_scaled_to_K
+    native_steps: 300
+    matched_budget_steps: 50
+    target_feedback_cluster_search: forbidden
+    kmeans_api_repair: bounded_Lloyd_iter_limit100_fail_empty_or_nonconvergent
+  co_attack:
+    status: incompatible_with_unchanged_image_only_targeted_protocol
+  sga:
+    status: incompatible_with_unchanged_image_only_targeted_protocol
+  iau_foa:
+    status: source_review_pending_paper_and_license_verification

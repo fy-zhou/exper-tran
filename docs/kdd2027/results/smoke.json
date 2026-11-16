@@ -1,0 +1,44 @@
+{
+  "stage": "GPU_SMOKE_ONLY_NOT_FINAL_ASR",
+  "N_per_method": 2,
+  "steps": 2,
+  "methods": {
+    "pgd": {
+      "images_frozen": 2,
+      "all_png_bounds_pass": true,
+      "seconds": 1.093597660000114,
+      "peak_reserved_GiB": 3.77734375,
+      "forward_calls": 18,
+      "backward_calls": 4,
+      "target_access": false
+    },
+    "mi_fgsm": {
+      "images_frozen": 2,
+      "all_png_bounds_pass": true,
+      "seconds": 0.5303223039999239,
+      "peak_reserved_GiB": 3.77734375,
+      "forward_calls": 18,
+      "backward_calls": 4,
+      "target_access": false
+    },
+    "m_attack": {
+      "images_frozen": 2,
+      "all_png_bounds_pass": true,
+      "seconds": 0.865350104000072,
+      "peak_reserved_GiB": 3.77734375,
+      "forward_calls": 36,
+      "backward_calls": 4,
+      "target_access": false
+    },
+    "foa_attack": {
+      "images_frozen": 2,
+      "all_png_bounds_pass": true,
+      "seconds": 1.4401922089999744,
+      "peak_reserved_GiB": 3.796875,
+      "forward_calls": 36,
+      "backward_calls": 4,
+      "target_access": false
+    }
+  },
+  "source_lock_sha256": "af8226e08e49003e2cea43bbc2786aa656e09df112592eed6562d93af11fbf51"
+}

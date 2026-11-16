@@ -4,8 +4,10 @@ The objective is an explicit argument: this module does NOT claim that using
 our Pull-Push loss reproduces the original classifier-targeted attacks.
 The caller must provide a baseline-specific targeted loss and record its origin.
 """
+
 from collections.abc import Callable
 from dataclasses import dataclass
+from math import isfinite
 from typing import Literal
 
 import torch
@@ -27,11 +29,11 @@ class AttackConfig:
     def __post_init__(self) -> None:
         if self.method not in {"pgd", "mi_fgsm"}:
             raise ValueError("Only pgd and mi_fgsm are implemented")
-        if self.steps <= 0:
+        if type(self.steps) is not int or self.steps <= 0:
             raise ValueError("steps must be positive")
         if not 0 < self.epsilon <= 1:
             raise ValueError("epsilon must be in (0, 1]")
-        if self.step_size <= 0:
+        if not isfinite(self.step_size) or self.step_size <= 0:
             raise ValueError("step_size must be positive")
         if not 0 <= self.momentum <= 1:
             raise ValueError("momentum must be in [0, 1]")
@@ -63,9 +65,7 @@ class GradientAttack:
             generator = torch.Generator(device=clean.device)
             if seed is not None:
                 generator.manual_seed(seed)
-            noise = torch.empty_like(clean).uniform_(
-                -cfg.epsilon, cfg.epsilon, generator=generator
-            )
+            noise = torch.empty_like(clean).uniform_(-cfg.epsilon, cfg.epsilon, generator=generator)
             x = project_linf(clean + noise, clean, cfg.epsilon).detach()
         else:
             x = clean.clone()
@@ -79,9 +79,9 @@ class GradientAttack:
             if not bool(torch.isfinite(gradient).all().item()):
                 raise ValueError(f"Non-finite gradient at step {index}")
             if cfg.method == "mi_fgsm":
-                normalized = gradient / gradient.abs().mean(
-                    dim=(1, 2, 3), keepdim=True
-                ).clamp_min(1e-12)
+                normalized = gradient / gradient.abs().mean(dim=(1, 2, 3), keepdim=True).clamp_min(
+                    1e-12
+                )
                 velocity = cfg.momentum * velocity + normalized
                 direction = velocity.sign()
             else:

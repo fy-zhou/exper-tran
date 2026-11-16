@@ -6,32 +6,36 @@ project: kdd2027_image_only_targeted_transfer
 default_epsilon: 0.06274509803921569  # 16/255
 methods:
   pgd:
-    status: optimizer_only
+    status: implemented_gpu_smoke_passed
     implementation: primary_ml_cka.baselines.iterative
-    fidelity: requires_explicit_targeted_baseline_loss
+    fidelity: adapted_image_only_target_image_cosine
     paper: https://arxiv.org/abs/1706.06083
   mi_fgsm:
-    status: optimizer_only
+    status: implemented_gpu_smoke_passed
     implementation: primary_ml_cka.baselines.iterative
-    fidelity: requires_explicit_targeted_baseline_loss
+    fidelity: adapted_image_only_target_image_cosine
     paper: https://arxiv.org/abs/1710.06081
   co_attack:
-    status: not_implemented
+    status: incompatible_original_text_image_retrieval_protocol
     upstream: https://github.com/adversarial-for-goodness/Co-Attack
     concern: original_text_image_joint_perturbation
   sga:
-    status: not_implemented
+    status: incompatible_original_text_image_retrieval_protocol
     upstream: https://github.com/Zoky-2020/SGA
     concern: original_task_and_text_modality_differ
   m_attack:
-    status: not_implemented
+    status: upstream_core_integrated_gpu_smoke_passed
+    fidelity: upstream_core_task_adapted
+    upstream_revision: 9e0cc64a22dff799fa84c12a4e51934d1e849e29
     upstream: https://github.com/VILA-Lab/M-Attack
     concern: verify_original_targeted_objective_and_preprocessing
   foa_attack:
-    status: not_implemented
+    status: upstream_core_integrated_gpu_smoke_passed
+    fidelity: upstream_core_task_adapted
+    upstream_revision: 6aa9ad463a1e812b7f77ff2e5c4b1712e7c78c4b
     upstream: https://github.com/jiaxiaojunQAQ/FOA-Attack
     concern: requires_global_local_features_and_ot_alignment
   iau_foa:
-    status: not_implemented
+    status: source_pinned_publication_and_license_unverified
     upstream: https://github.com/jiaxiaojunQAQ/IAU-FOA
     concern: verify_paper_code_and_dependency_availability
