@@ -1,0 +1,2636 @@
+[
+  {
+    "run": "coco_captioning_pgd_7d1118dc58f2a6fc63",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "pgd",
+    "dataset": "coco_captioning",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "clean_CIDEr_valid_subset": 9.755875541473543e-36,
+    "clean_target_CIDEr_valid_subset": 4.525071710876667e-35,
+    "adv_CIDEr_valid_subset": 7.271536522790589e-15,
+    "adv_target_CIDEr_valid_subset": 6.224331436213324e-15,
+    "metric_scope": "fixed_COCO150_subset_or_explicitly_partial_not_full5k"
+  },
+  {
+    "run": "coco_captioning_pgd_7d1118dc58f2a6fc63",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "pgd",
+    "dataset": "coco_captioning",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "clean_CIDEr_valid_subset": 7.853214708731825e-42,
+    "clean_target_CIDEr_valid_subset": 1.9099938665509225e-42,
+    "adv_CIDEr_valid_subset": 8.617212645602257e-45,
+    "adv_target_CIDEr_valid_subset": 4.7824604038751654e-45,
+    "metric_scope": "fixed_COCO150_subset_or_explicitly_partial_not_full5k"
+  },
+  {
+    "run": "coco_captioning_pgd_7d1118dc58f2a6fc63",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "pgd",
+    "dataset": "coco_captioning",
+    "variant": "default",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "clean_CIDEr_valid_subset": 3.9812189683899783e-50,
+    "clean_target_CIDEr_valid_subset": 4.093285185119344e-50,
+    "adv_CIDEr_valid_subset": 1.9864496583597995e-55,
+    "adv_target_CIDEr_valid_subset": 8.286828754128746e-56,
+    "metric_scope": "fixed_COCO150_subset_or_explicitly_partial_not_full5k"
+  },
+  {
+    "run": "coco_captioning_pgd_d9d50c922985f5f629",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "pgd",
+    "dataset": "coco_captioning",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "clean_CIDEr_valid_subset": 0.5750149456326223,
+    "clean_target_CIDEr_valid_subset": 0.01854869299626953,
+    "adv_CIDEr_valid_subset": 0.5750149456326223,
+    "adv_target_CIDEr_valid_subset": 0.01854869299626953,
+    "metric_scope": "fixed_COCO150_subset_or_explicitly_partial_not_full5k"
+  },
+  {
+    "run": "coco_captioning_pgd_d9d50c922985f5f629",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "pgd",
+    "dataset": "coco_captioning",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "clean_CIDEr_valid_subset": 0.2795331429916044,
+    "clean_target_CIDEr_valid_subset": 0.004407965943256748,
+    "adv_CIDEr_valid_subset": 1.6773082711485057,
+    "adv_target_CIDEr_valid_subset": 0.24662902214278865,
+    "metric_scope": "fixed_COCO150_subset_or_explicitly_partial_not_full5k"
+  },
+  {
+    "run": "coco_captioning_pgd_d9d50c922985f5f629",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "pgd",
+    "dataset": "coco_captioning",
+    "variant": "default",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "clean_CIDEr_valid_subset": 1.8034779372714815,
+    "clean_target_CIDEr_valid_subset": 0.06072744155415634,
+    "adv_CIDEr_valid_subset": 1.567975143970804,
+    "adv_target_CIDEr_valid_subset": 0.05543631599798002,
+    "metric_scope": "fixed_COCO150_subset_or_explicitly_partial_not_full5k"
+  },
+  {
+    "run": "imagenet_co_attack_634ccb7cf710f2b63d",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "co_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "untargeted_retrieval_origin"
+  },
+  {
+    "run": "imagenet_co_attack_634ccb7cf710f2b63d",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "co_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "untargeted_retrieval_origin"
+  },
+  {
+    "run": "imagenet_co_attack_634ccb7cf710f2b63d",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "co_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "untargeted_retrieval_origin"
+  },
+  {
+    "run": "imagenet_co_attack_686bf4662d4a77f4ab",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "co_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "untargeted_retrieval_origin"
+  },
+  {
+    "run": "imagenet_co_attack_686bf4662d4a77f4ab",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "co_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "untargeted_retrieval_origin"
+  },
+  {
+    "run": "imagenet_co_attack_686bf4662d4a77f4ab",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "co_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "untargeted_retrieval_origin"
+  },
+  {
+    "run": "imagenet_foa_attack_2954d8123ef18c7d29",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "foa_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_foa_attack_2954d8123ef18c7d29",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "foa_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_foa_attack_2954d8123ef18c7d29",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "foa_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_foa_attack_8e14854535fed24192",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "foa_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_foa_attack_8e14854535fed24192",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "foa_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_foa_attack_8e14854535fed24192",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "foa_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_iau_foa_01e3195aefe50ca1b3",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "iau_foa",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_iau_foa_01e3195aefe50ca1b3",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "iau_foa",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_iau_foa_2310645ddd727ba591",
+    "smoke_only": false,
+    "pilot": true,
+    "method": "iau_foa",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 10,
+    "planned_queries": 10,
+    "returned_queries": 10,
+    "raw_complete": true,
+    "steps": 300,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 8,
+    "ASR": 0.8,
+    "Wilson95": [
+      0.49016247153665027,
+      0.943317848545623
+    ],
+    "directions": {
+      "T01": {
+        "hits": 1,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.5
+      },
+      "T03": {
+        "hits": 2,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 1.0
+      },
+      "T05": {
+        "hits": 1,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.5
+      },
+      "T07": {
+        "hits": 2,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 1.0
+      },
+      "T09": {
+        "hits": 2,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 1.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 8,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_iau_foa_2310645ddd727ba591",
+    "smoke_only": false,
+    "pilot": true,
+    "method": "iau_foa",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 10,
+    "planned_queries": 10,
+    "returned_queries": 10,
+    "raw_complete": true,
+    "steps": 300,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 10,
+    "ASR": 1.0,
+    "Wilson95": [
+      0.7224672001371218,
+      0.9999999999999999
+    ],
+    "directions": {
+      "T01": {
+        "hits": 2,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 1.0
+      },
+      "T03": {
+        "hits": 2,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 1.0
+      },
+      "T05": {
+        "hits": 2,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 1.0
+      },
+      "T07": {
+        "hits": 2,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 1.0
+      },
+      "T09": {
+        "hits": 2,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 1.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 10,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_iau_foa_86487a591123dbe30c",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "iau_foa",
+    "dataset": "imagenet",
+    "variant": "family_disjoint4",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_iau_foa_9b6fe96cd39851fbf8",
+    "smoke_only": false,
+    "pilot": true,
+    "method": "iau_foa",
+    "dataset": "imagenet",
+    "variant": "family_disjoint4",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 10,
+    "planned_queries": 10,
+    "returned_queries": 10,
+    "raw_complete": true,
+    "steps": 300,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 10,
+    "ASR": 1.0,
+    "Wilson95": [
+      0.7224672001371218,
+      0.9999999999999999
+    ],
+    "directions": {
+      "T01": {
+        "hits": 2,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 1.0
+      },
+      "T03": {
+        "hits": 2,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 1.0
+      },
+      "T05": {
+        "hits": 2,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 1.0
+      },
+      "T07": {
+        "hits": 2,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 1.0
+      },
+      "T09": {
+        "hits": 2,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 1.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 10,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_iau_foa_c3e50a324026cfdeb7",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "iau_foa",
+    "dataset": "imagenet",
+    "variant": "family_disjoint4",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_iau_foa_e6aeea28365b183252",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "iau_foa",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_iau_foa_e6aeea28365b183252",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "iau_foa",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_m_attack_21db829d93ab6201fa",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "m_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 300,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 114,
+    "ASR": 0.76,
+    "Wilson95": [
+      0.6857086062445558,
+      0.8213068666840452
+    ],
+    "directions": {
+      "T01": {
+        "hits": 25,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.8333333333333334
+      },
+      "T03": {
+        "hits": 28,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.9333333333333333
+      },
+      "T05": {
+        "hits": 19,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.6333333333333333
+      },
+      "T07": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T09": {
+        "hits": 12,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.4
+      }
+    },
+    "valid_untargeted_prediction_changes": 114,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_m_attack_21db829d93ab6201fa",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "m_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 300,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 130,
+    "ASR": 0.8666666666666667,
+    "Wilson95": [
+      0.80301982550226,
+      0.9120019952944849
+    ],
+    "directions": {
+      "T01": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T03": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T05": {
+        "hits": 24,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.8
+      },
+      "T07": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T09": {
+        "hits": 16,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.5333333333333333
+      }
+    },
+    "valid_untargeted_prediction_changes": 130,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_m_attack_21db829d93ab6201fa",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "m_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 300,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 135,
+    "ASR": 0.9,
+    "Wilson95": [
+      0.8415651883318548,
+      0.9384586161736851
+    ],
+    "directions": {
+      "T01": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T03": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T05": {
+        "hits": 26,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.8666666666666667
+      },
+      "T07": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T09": {
+        "hits": 19,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.6333333333333333
+      }
+    },
+    "valid_untargeted_prediction_changes": 123,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_m_attack_3335f8f3fe75f843d8",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "m_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 300,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 114,
+    "ASR": 0.76,
+    "Wilson95": [
+      0.6857086062445558,
+      0.8213068666840452
+    ],
+    "directions": {
+      "T01": {
+        "hits": 25,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.8333333333333334
+      },
+      "T03": {
+        "hits": 28,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.9333333333333333
+      },
+      "T05": {
+        "hits": 19,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.6333333333333333
+      },
+      "T07": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T09": {
+        "hits": 12,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.4
+      }
+    },
+    "valid_untargeted_prediction_changes": 114,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_m_attack_3335f8f3fe75f843d8",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "m_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 300,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 130,
+    "ASR": 0.8666666666666667,
+    "Wilson95": [
+      0.80301982550226,
+      0.9120019952944849
+    ],
+    "directions": {
+      "T01": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T03": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T05": {
+        "hits": 24,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.8
+      },
+      "T07": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T09": {
+        "hits": 16,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.5333333333333333
+      }
+    },
+    "valid_untargeted_prediction_changes": 130,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_m_attack_3335f8f3fe75f843d8",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "m_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 300,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 135,
+    "ASR": 0.9,
+    "Wilson95": [
+      0.8415651883318548,
+      0.9384586161736851
+    ],
+    "directions": {
+      "T01": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T03": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T05": {
+        "hits": 26,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.8666666666666667
+      },
+      "T07": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T09": {
+        "hits": 19,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.6333333333333333
+      }
+    },
+    "valid_untargeted_prediction_changes": 123,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_m_attack_803e1b34dad4de0871",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "m_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 300,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 114,
+    "ASR": 0.76,
+    "Wilson95": [
+      0.6857086062445558,
+      0.8213068666840452
+    ],
+    "directions": {
+      "T01": {
+        "hits": 25,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.8333333333333334
+      },
+      "T03": {
+        "hits": 28,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.9333333333333333
+      },
+      "T05": {
+        "hits": 19,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.6333333333333333
+      },
+      "T07": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T09": {
+        "hits": 12,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.4
+      }
+    },
+    "valid_untargeted_prediction_changes": 114,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_m_attack_803e1b34dad4de0871",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "m_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 300,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 130,
+    "ASR": 0.8666666666666667,
+    "Wilson95": [
+      0.80301982550226,
+      0.9120019952944849
+    ],
+    "directions": {
+      "T01": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T03": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T05": {
+        "hits": 24,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.8
+      },
+      "T07": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T09": {
+        "hits": 16,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.5333333333333333
+      }
+    },
+    "valid_untargeted_prediction_changes": 130,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_m_attack_803e1b34dad4de0871",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "m_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 300,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 135,
+    "ASR": 0.9,
+    "Wilson95": [
+      0.8415651883318548,
+      0.9384586161736851
+    ],
+    "directions": {
+      "T01": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T03": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T05": {
+        "hits": 26,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.8666666666666667
+      },
+      "T07": {
+        "hits": 30,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 1.0
+      },
+      "T09": {
+        "hits": 19,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.6333333333333333
+      }
+    },
+    "valid_untargeted_prediction_changes": 123,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_mi_fgsm_14908b734e59c9da25",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "mi_fgsm",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 50,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 1,
+    "ASR": 0.006666666666666667,
+    "Wilson95": [
+      0.0011778013350174782,
+      0.036792839774816774
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T03": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T05": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T07": {
+        "hits": 1,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.03333333333333333
+      },
+      "T09": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 1,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_mi_fgsm_14908b734e59c9da25",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "mi_fgsm",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 50,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 15,
+    "ASR": 0.1,
+    "Wilson95": [
+      0.06154138382631493,
+      0.15843481166814527
+    ],
+    "directions": {
+      "T01": {
+        "hits": 7,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.23333333333333334
+      },
+      "T03": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T05": {
+        "hits": 1,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.03333333333333333
+      },
+      "T07": {
+        "hits": 6,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.2
+      },
+      "T09": {
+        "hits": 1,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.03333333333333333
+      }
+    },
+    "valid_untargeted_prediction_changes": 17,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_mi_fgsm_14908b734e59c9da25",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "mi_fgsm",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 50,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 14,
+    "ASR": 0.09333333333333334,
+    "Wilson95": [
+      0.0564118674770873,
+      0.1505639312756139
+    ],
+    "directions": {
+      "T01": {
+        "hits": 7,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.23333333333333334
+      },
+      "T03": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T05": {
+        "hits": 3,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.1
+      },
+      "T07": {
+        "hits": 4,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.13333333333333333
+      },
+      "T09": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 15,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_mi_fgsm_84e22c5c42fa673caf",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "mi_fgsm",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 50,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 1,
+    "ASR": 0.006666666666666667,
+    "Wilson95": [
+      0.0011778013350174782,
+      0.036792839774816774
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T03": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T05": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T07": {
+        "hits": 1,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.03333333333333333
+      },
+      "T09": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 1,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_mi_fgsm_84e22c5c42fa673caf",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "mi_fgsm",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 50,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 15,
+    "ASR": 0.1,
+    "Wilson95": [
+      0.06154138382631493,
+      0.15843481166814527
+    ],
+    "directions": {
+      "T01": {
+        "hits": 7,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.23333333333333334
+      },
+      "T03": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T05": {
+        "hits": 1,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.03333333333333333
+      },
+      "T07": {
+        "hits": 6,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.2
+      },
+      "T09": {
+        "hits": 1,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.03333333333333333
+      }
+    },
+    "valid_untargeted_prediction_changes": 17,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_mi_fgsm_84e22c5c42fa673caf",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "mi_fgsm",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 50,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 14,
+    "ASR": 0.09333333333333334,
+    "Wilson95": [
+      0.0564118674770873,
+      0.1505639312756139
+    ],
+    "directions": {
+      "T01": {
+        "hits": 7,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.23333333333333334
+      },
+      "T03": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T05": {
+        "hits": 3,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.1
+      },
+      "T07": {
+        "hits": 4,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.13333333333333333
+      },
+      "T09": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 15,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_mi_fgsm_8e9ae1c25c158a08bf",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "mi_fgsm",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 50,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 1,
+    "ASR": 0.006666666666666667,
+    "Wilson95": [
+      0.0011778013350174782,
+      0.036792839774816774
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T03": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T05": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T07": {
+        "hits": 1,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.03333333333333333
+      },
+      "T09": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 1,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_mi_fgsm_8e9ae1c25c158a08bf",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "mi_fgsm",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 50,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 15,
+    "ASR": 0.1,
+    "Wilson95": [
+      0.06154138382631493,
+      0.15843481166814527
+    ],
+    "directions": {
+      "T01": {
+        "hits": 7,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.23333333333333334
+      },
+      "T03": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T05": {
+        "hits": 1,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.03333333333333333
+      },
+      "T07": {
+        "hits": 6,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.2
+      },
+      "T09": {
+        "hits": 1,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.03333333333333333
+      }
+    },
+    "valid_untargeted_prediction_changes": 17,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_mi_fgsm_8e9ae1c25c158a08bf",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "mi_fgsm",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 50,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 14,
+    "ASR": 0.09333333333333334,
+    "Wilson95": [
+      0.0564118674770873,
+      0.1505639312756139
+    ],
+    "directions": {
+      "T01": {
+        "hits": 7,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.23333333333333334
+      },
+      "T03": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T05": {
+        "hits": 3,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.1
+      },
+      "T07": {
+        "hits": 4,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.13333333333333333
+      },
+      "T09": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 15,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_pgd_4731ff4aab2146df8c",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "pgd",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 50,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.024970244368075257
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T03": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T05": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T07": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T09": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_pgd_4731ff4aab2146df8c",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "pgd",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 50,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 6,
+    "ASR": 0.04,
+    "Wilson95": [
+      0.018459160602074795,
+      0.08451346421655444
+    ],
+    "directions": {
+      "T01": {
+        "hits": 3,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.1
+      },
+      "T03": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T05": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T07": {
+        "hits": 3,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.1
+      },
+      "T09": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 8,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_pgd_4731ff4aab2146df8c",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "pgd",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 50,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 7,
+    "ASR": 0.04666666666666667,
+    "Wilson95": [
+      0.022786549161262402,
+      0.09318647239912584
+    ],
+    "directions": {
+      "T01": {
+        "hits": 3,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.1
+      },
+      "T03": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T05": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T07": {
+        "hits": 4,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.13333333333333333
+      },
+      "T09": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 9,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_pgd_b5db07eda8db4af155",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "pgd",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 50,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.024970244368075257
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T03": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T05": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T07": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T09": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_pgd_b5db07eda8db4af155",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "pgd",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 50,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 6,
+    "ASR": 0.04,
+    "Wilson95": [
+      0.018459160602074795,
+      0.08451346421655444
+    ],
+    "directions": {
+      "T01": {
+        "hits": 3,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.1
+      },
+      "T03": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T05": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T07": {
+        "hits": 3,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.1
+      },
+      "T09": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 8,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_pgd_b5db07eda8db4af155",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "pgd",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 50,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 7,
+    "ASR": 0.04666666666666667,
+    "Wilson95": [
+      0.022786549161262402,
+      0.09318647239912584
+    ],
+    "directions": {
+      "T01": {
+        "hits": 3,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.1
+      },
+      "T03": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T05": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T07": {
+        "hits": 4,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.13333333333333333
+      },
+      "T09": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 9,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_pgd_dc19cd9ab077ffda43",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "pgd",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 50,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.024970244368075257
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T03": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T05": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T07": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T09": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_pgd_dc19cd9ab077ffda43",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "pgd",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 50,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 6,
+    "ASR": 0.04,
+    "Wilson95": [
+      0.018459160602074795,
+      0.08451346421655444
+    ],
+    "directions": {
+      "T01": {
+        "hits": 3,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.1
+      },
+      "T03": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T05": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T07": {
+        "hits": 3,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.1
+      },
+      "T09": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 8,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_pgd_dc19cd9ab077ffda43",
+    "smoke_only": false,
+    "pilot": false,
+    "method": "pgd",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 150,
+    "planned_queries": 150,
+    "returned_queries": 150,
+    "raw_complete": true,
+    "steps": 50,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 7,
+    "ASR": 0.04666666666666667,
+    "Wilson95": [
+      0.022786549161262402,
+      0.09318647239912584
+    ],
+    "directions": {
+      "T01": {
+        "hits": 3,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.1
+      },
+      "T03": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T05": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      },
+      "T07": {
+        "hits": 4,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.13333333333333333
+      },
+      "T09": {
+        "hits": 0,
+        "planned_N": 30,
+        "returned": 30,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 9,
+    "method_original_goal": "targeted_feature_matching"
+  },
+  {
+    "run": "imagenet_sga_47db3e3cf000717451",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "sga",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "untargeted_retrieval_origin"
+  },
+  {
+    "run": "imagenet_sga_47db3e3cf000717451",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "sga",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "untargeted_retrieval_origin"
+  },
+  {
+    "run": "imagenet_sga_47db3e3cf000717451",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "sga",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "untargeted_retrieval_origin"
+  },
+  {
+    "run": "imagenet_sga_5ef1026dc71d9e3f2f",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "sga",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "untargeted_retrieval_origin"
+  },
+  {
+    "run": "imagenet_sga_5ef1026dc71d9e3f2f",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "sga",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "untargeted_retrieval_origin"
+  },
+  {
+    "run": "imagenet_sga_5ef1026dc71d9e3f2f",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "sga",
+    "dataset": "imagenet",
+    "variant": "default",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "COMPLETE",
+    "no_commercial_calls": true,
+    "target_hits": 0,
+    "ASR": 0.0,
+    "Wilson95": [
+      0.0,
+      0.6576197724933345
+    ],
+    "directions": {
+      "T01": {
+        "hits": 0,
+        "planned_N": 2,
+        "returned": 2,
+        "ASR": 0.0
+      }
+    },
+    "valid_untargeted_prediction_changes": 0,
+    "method_original_goal": "untargeted_retrieval_origin"
+  },
+  {
+    "run": "llava_bench_coco_pgd_f82b985675dcf032bc",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "pgd",
+    "dataset": "llava_bench_coco",
+    "variant": "default",
+    "target": "Gemma 4 31B-it",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "RAW_COMPLETE_OFFICIAL_JUDGE_PENDING",
+    "no_commercial_calls": true,
+    "clean_ROUGE_L_proxy": 0.1846590909090909,
+    "adv_ROUGE_L_proxy": 0.22023809523809523,
+    "official_LLaVA_GPT4_judge_score": null,
+    "ROUGE_L_is_not_official_VQA_correctness": true
+  },
+  {
+    "run": "llava_bench_coco_pgd_f82b985675dcf032bc",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "pgd",
+    "dataset": "llava_bench_coco",
+    "variant": "default",
+    "target": "Qwen3.5-27B",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "RAW_COMPLETE_OFFICIAL_JUDGE_PENDING",
+    "no_commercial_calls": true,
+    "clean_ROUGE_L_proxy": 0.05989010989010989,
+    "adv_ROUGE_L_proxy": 0.06861720654824102,
+    "official_LLaVA_GPT4_judge_score": null,
+    "ROUGE_L_is_not_official_VQA_correctness": true
+  },
+  {
+    "run": "llava_bench_coco_pgd_f82b985675dcf032bc",
+    "smoke_only": true,
+    "pilot": false,
+    "method": "pgd",
+    "dataset": "llava_bench_coco",
+    "variant": "default",
+    "target": "InternVL3.5-14B-HF",
+    "planned_images": 2,
+    "planned_queries": 2,
+    "returned_queries": 2,
+    "raw_complete": true,
+    "steps": 2,
+    "status": "RAW_COMPLETE_OFFICIAL_JUDGE_PENDING",
+    "no_commercial_calls": true,
+    "clean_ROUGE_L_proxy": 0.20498199279711884,
+    "adv_ROUGE_L_proxy": 0.2109090909090909,
+    "official_LLaVA_GPT4_judge_score": null,
+    "ROUGE_L_is_not_official_VQA_correctness": true
+  }
+]

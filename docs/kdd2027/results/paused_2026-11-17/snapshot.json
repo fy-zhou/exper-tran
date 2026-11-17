@@ -1,0 +1,33 @@
+{
+  "state": "PAUSED_BY_USER",
+  "pause": {
+    "status": "PAUSED_BY_USER",
+    "time_utc": "2026-11-17T02:07:17Z",
+    "last_heartbeat": {
+      "time": 1794881227.3873796,
+      "job": {
+        "method": "co_attack",
+        "dataset": "imagenet",
+        "variant": "default",
+        "smoke": false,
+        "pilot": false
+      },
+      "index": 11,
+      "phase": "attack",
+      "planned_jobs": 33,
+      "pid": 43368,
+      "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/extension/runs/imagenet_co_attack_16f5fdb8880fdfa9e7",
+      "seconds": 260.03991413116455,
+      "minimum_hours": 8.0
+    },
+    "resume": "bash scripts/kdd2027/run_7x3x3.sh start --minimum-hours 8",
+    "note": "No new experiments authorized until user resumes. Atomic completed image receipts preserved; interrupted image may need recomputation."
+  },
+  "source_commit": "87f7c0e2a8bb9b410d5b16019af11d454792599f",
+  "receipt_count": 1518,
+  "audits": 92,
+  "all_checks_pass": true,
+  "formal_completed_slots": 9,
+  "formal_planned_slots": 63,
+  "note": "All historical and revised source versions preserved. No new inference in this export."
+}

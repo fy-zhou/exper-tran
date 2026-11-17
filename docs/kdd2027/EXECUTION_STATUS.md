@@ -74,3 +74,7 @@ evaluate300 M150; resume remaining FOA300 attacks; evaluate native completed or
 explicitly partial methods. Logs: `logs/evaluation_recovery.log`.
 The standard reproduction launcher also calls this recovery path after each
 budget, so one failed method cannot suppress other methods' reports again.
+
+## 2026-11-17 — broad queue paused; narrow continuation authorized
+
+Historical RUNNING text above is superseded. Broad63-cell campaign paused at02:07UTC by user; report and full structured evidence: [pause snapshot](results/paused_2026-11-17/REPORT.md). Nine current formal cells complete. A separate user instruction authorized ImageNet Co-Attack and revised FOA full150 completion; detached `kdd2027-foa-co` runs only those two. Other formal tasks remain paused. No commercial evaluation was launched.

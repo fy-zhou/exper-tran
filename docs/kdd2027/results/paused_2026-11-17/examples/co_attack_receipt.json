@@ -1,0 +1,38 @@
+{
+  "status": "ATTACK_FROZEN",
+  "signature": "1768d5bf1491fd5e916ed2a9a8ee22663bc7f8cc0b00afe9300bedc5957b10fb",
+  "image_id": "train/n03642806/n03642806_15714.JPEG",
+  "clean": "/home/ubuntu/exper-tran/outputs/a100_precommercial_v8_joint_selection24h/paper_closeout/canonical_final150/n03642806/n03642806_15714.png",
+  "adv": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/extension/runs/imagenet_co_attack_16f5fdb8880fdfa9e7/attacks/030d91804912af6356/adv.png",
+  "png_hashes": {
+    "/home/ubuntu/exper-tran/outputs/a100_precommercial_v8_joint_selection24h/paper_closeout/canonical_final150/n03642806/n03642806_15714.png": "7c21d425af06b6c2846244e9bbc351b1748df5dbb9294a0152e850ac9fe4f7ea",
+    "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/extension/runs/imagenet_co_attack_16f5fdb8880fdfa9e7/attacks/030d91804912af6356/adv.png": "5798908fac4028cf87bbd2972f03624d4cb5ba618d5f811bfe1bb1cf98298969"
+  },
+  "linf_png": 0.06274515390396118,
+  "steps": 50,
+  "seed": 4039707828,
+  "target_access": false,
+  "text_encoder_forward_calls": 7,
+  "MLM_full_forward_calls": 4,
+  "forward_counter_scope": "visual_model_invocations; text/MLM separately counted",
+  "forward_calls": 51,
+  "seconds": 2.166810638998868,
+  "peak_reserved_bytes": 723517440,
+  "config": {
+    "method": "co_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "steps": 50,
+    "epsilon": 0.06274509803921569,
+    "seed": 42,
+    "canvas": 224,
+    "parameters": "bfloat16_unquantized",
+    "primary_goal": "untargeted_retrieval_origin",
+    "Co_SGA_budget_adaptation": "eps16/255_steps50",
+    "target_input": "frozen_image_with_original_task_prompt",
+    "kmeans_dependency": null,
+    "no_commercial_calls": true,
+    "smoke_only": false,
+    "pilot": false
+  }
+}

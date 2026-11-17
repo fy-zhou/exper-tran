@@ -1,0 +1,2482 @@
+[
+  {
+    "run": "coco_captioning_pgd_7d1118dc58f2a6fc63",
+    "model": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 31273086512
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 62546173024
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/coco_captioning_pgd_7d1118dc58f2a6fc63/audits/d578824aa35a.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "coco_captioning_pgd_7d1118dc58f2a6fc63",
+    "model": {
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "family": "qwen",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 27356728560
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 54713457120
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/coco_captioning_pgd_7d1118dc58f2a6fc63/audits/49d773457468.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "coco_captioning_pgd_7d1118dc58f2a6fc63",
+    "model": {
+      "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+      "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+      "family": "internvl",
+      "expected_vision_depth": 24
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 15119523840
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 30239047680
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/coco_captioning_pgd_7d1118dc58f2a6fc63/audits/daf133230856.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "coco_captioning_pgd_7d1118dc58f2a6fc63",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/coco_captioning_pgd_7d1118dc58f2a6fc63/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "coco_captioning_pgd_7d1118dc58f2a6fc63",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 151277313
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 302554626
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/coco_captioning_pgd_7d1118dc58f2a6fc63/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "coco_captioning_pgd_7d1118dc58f2a6fc63",
+    "model": {
+      "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+      "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 1366678273
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 2733356546
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/coco_captioning_pgd_7d1118dc58f2a6fc63/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "coco_captioning_pgd_d9d50c922985f5f629",
+    "model": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 31273086512
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 62546173024
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/coco_captioning_pgd_d9d50c922985f5f629/audits/d578824aa35a.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "coco_captioning_pgd_d9d50c922985f5f629",
+    "model": {
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "family": "qwen",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 27356728560
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 54713457120
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/coco_captioning_pgd_d9d50c922985f5f629/audits/49d773457468.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "coco_captioning_pgd_d9d50c922985f5f629",
+    "model": {
+      "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+      "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+      "family": "internvl",
+      "expected_vision_depth": 24
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 15119523840
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 30239047680
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/coco_captioning_pgd_d9d50c922985f5f629/audits/daf133230856.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "coco_captioning_pgd_d9d50c922985f5f629",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/coco_captioning_pgd_d9d50c922985f5f629/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "coco_captioning_pgd_d9d50c922985f5f629",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 151277313
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 302554626
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/coco_captioning_pgd_d9d50c922985f5f629/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "coco_captioning_pgd_d9d50c922985f5f629",
+    "model": {
+      "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+      "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 1366678273
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 2733356546
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/coco_captioning_pgd_d9d50c922985f5f629/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_co_attack_16f5fdb8880fdfa9e7",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_co_attack_16f5fdb8880fdfa9e7/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_co_attack_16f5fdb8880fdfa9e7",
+    "model": {
+      "repo_id": "google-bert/bert-base-uncased",
+      "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+      "family": "bert"
+    },
+    "role": "MLM_auxiliary",
+    "parameter_counts": {
+      "torch.bfloat16": 109514298
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 219028596
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_co_attack_16f5fdb8880fdfa9e7/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_co_attack_634ccb7cf710f2b63d",
+    "model": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 31273086512
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 62546173024
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_co_attack_634ccb7cf710f2b63d/audits/d578824aa35a.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_co_attack_634ccb7cf710f2b63d",
+    "model": {
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "family": "qwen",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 27356728560
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 54713457120
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_co_attack_634ccb7cf710f2b63d/audits/49d773457468.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_co_attack_634ccb7cf710f2b63d",
+    "model": {
+      "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+      "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+      "family": "internvl",
+      "expected_vision_depth": 24
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 15119523840
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 30239047680
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_co_attack_634ccb7cf710f2b63d/audits/daf133230856.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_co_attack_634ccb7cf710f2b63d",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_co_attack_634ccb7cf710f2b63d/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_co_attack_634ccb7cf710f2b63d",
+    "model": {
+      "repo_id": "google-bert/bert-base-uncased",
+      "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+      "family": "bert"
+    },
+    "role": "MLM_auxiliary",
+    "parameter_counts": {
+      "torch.bfloat16": 109514298
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 219028596
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_co_attack_634ccb7cf710f2b63d/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_co_attack_686bf4662d4a77f4ab",
+    "model": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 31273086512
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 62546173024
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_co_attack_686bf4662d4a77f4ab/audits/d578824aa35a.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_co_attack_686bf4662d4a77f4ab",
+    "model": {
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "family": "qwen",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 27356728560
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 54713457120
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_co_attack_686bf4662d4a77f4ab/audits/49d773457468.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_co_attack_686bf4662d4a77f4ab",
+    "model": {
+      "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+      "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+      "family": "internvl",
+      "expected_vision_depth": 24
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 15119523840
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 30239047680
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_co_attack_686bf4662d4a77f4ab/audits/daf133230856.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_co_attack_686bf4662d4a77f4ab",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_co_attack_686bf4662d4a77f4ab/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_co_attack_686bf4662d4a77f4ab",
+    "model": {
+      "repo_id": "google-bert/bert-base-uncased",
+      "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+      "family": "bert"
+    },
+    "role": "MLM_auxiliary",
+    "parameter_counts": {
+      "torch.bfloat16": 109514298
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 219028596
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_co_attack_686bf4662d4a77f4ab/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_foa_attack_2954d8123ef18c7d29",
+    "model": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 31273086512
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 62546173024
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_foa_attack_2954d8123ef18c7d29/audits/d578824aa35a.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_foa_attack_2954d8123ef18c7d29",
+    "model": {
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "family": "qwen",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 27356728560
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 54713457120
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_foa_attack_2954d8123ef18c7d29/audits/49d773457468.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_foa_attack_2954d8123ef18c7d29",
+    "model": {
+      "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+      "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+      "family": "internvl",
+      "expected_vision_depth": 24
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 15119523840
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 30239047680
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_foa_attack_2954d8123ef18c7d29/audits/daf133230856.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_foa_attack_2954d8123ef18c7d29",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_foa_attack_2954d8123ef18c7d29/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_foa_attack_2954d8123ef18c7d29",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 151277313
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 302554626
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_foa_attack_2954d8123ef18c7d29/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_foa_attack_2954d8123ef18c7d29",
+    "model": {
+      "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+      "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 1366678273
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 2733356546
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_foa_attack_2954d8123ef18c7d29/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_foa_attack_8e14854535fed24192",
+    "model": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 31273086512
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 62546173024
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_foa_attack_8e14854535fed24192/audits/d578824aa35a.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_foa_attack_8e14854535fed24192",
+    "model": {
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "family": "qwen",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 27356728560
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 54713457120
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_foa_attack_8e14854535fed24192/audits/49d773457468.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_foa_attack_8e14854535fed24192",
+    "model": {
+      "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+      "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+      "family": "internvl",
+      "expected_vision_depth": 24
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 15119523840
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 30239047680
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_foa_attack_8e14854535fed24192/audits/daf133230856.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_foa_attack_8e14854535fed24192",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_foa_attack_8e14854535fed24192/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_foa_attack_8e14854535fed24192",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 151277313
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 302554626
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_foa_attack_8e14854535fed24192/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_foa_attack_8e14854535fed24192",
+    "model": {
+      "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+      "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 1366678273
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 2733356546
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_foa_attack_8e14854535fed24192/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_01e3195aefe50ca1b3",
+    "model": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 31273086512
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 62546173024
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_01e3195aefe50ca1b3/audits/d578824aa35a.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_01e3195aefe50ca1b3",
+    "model": {
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "family": "qwen",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 27356728560
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 54713457120
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_01e3195aefe50ca1b3/audits/49d773457468.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_01e3195aefe50ca1b3",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_01e3195aefe50ca1b3/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_01e3195aefe50ca1b3",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 151277313
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 302554626
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_01e3195aefe50ca1b3/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_01e3195aefe50ca1b3",
+    "model": {
+      "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+      "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 1366678273
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 2733356546
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_01e3195aefe50ca1b3/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_01e3195aefe50ca1b3",
+    "model": {
+      "repo_id": "OpenGVLab/InternVL3-1B-hf",
+      "revision": "014c0583a0d4bedf29fbe2dbff4f865eb998e171",
+      "family": "internvl"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 938193024
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 1876386048
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_01e3195aefe50ca1b3/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_01e3195aefe50ca1b3",
+    "model": {
+      "repo_id": "facebook/dinov2-base",
+      "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+      "family": "dinov2"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 86580480
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 173160960
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_01e3195aefe50ca1b3/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_2310645ddd727ba591",
+    "model": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 31273086512
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 62546173024
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_2310645ddd727ba591/audits/d578824aa35a.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_2310645ddd727ba591",
+    "model": {
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "family": "qwen",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 27356728560
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 54713457120
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_2310645ddd727ba591/audits/49d773457468.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_2310645ddd727ba591",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_2310645ddd727ba591/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_2310645ddd727ba591",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 151277313
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 302554626
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_2310645ddd727ba591/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_2310645ddd727ba591",
+    "model": {
+      "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+      "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 1366678273
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 2733356546
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_2310645ddd727ba591/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_2310645ddd727ba591",
+    "model": {
+      "repo_id": "OpenGVLab/InternVL3-1B-hf",
+      "revision": "014c0583a0d4bedf29fbe2dbff4f865eb998e171",
+      "family": "internvl"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 938193024
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 1876386048
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_2310645ddd727ba591/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_2310645ddd727ba591",
+    "model": {
+      "repo_id": "facebook/dinov2-base",
+      "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+      "family": "dinov2"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 86580480
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 173160960
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_2310645ddd727ba591/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_86487a591123dbe30c",
+    "model": {
+      "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+      "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+      "family": "internvl",
+      "expected_vision_depth": 24
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 15119523840
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 30239047680
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_86487a591123dbe30c/audits/daf133230856.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_86487a591123dbe30c",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_86487a591123dbe30c/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_86487a591123dbe30c",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 151277313
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 302554626
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_86487a591123dbe30c/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_86487a591123dbe30c",
+    "model": {
+      "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+      "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 1366678273
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 2733356546
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_86487a591123dbe30c/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_86487a591123dbe30c",
+    "model": {
+      "repo_id": "facebook/dinov2-base",
+      "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+      "family": "dinov2"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 86580480
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 173160960
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_86487a591123dbe30c/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_9b6fe96cd39851fbf8",
+    "model": {
+      "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+      "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+      "family": "internvl",
+      "expected_vision_depth": 24
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 15119523840
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 30239047680
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_9b6fe96cd39851fbf8/audits/daf133230856.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_9b6fe96cd39851fbf8",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_9b6fe96cd39851fbf8/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_9b6fe96cd39851fbf8",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 151277313
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 302554626
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_9b6fe96cd39851fbf8/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_9b6fe96cd39851fbf8",
+    "model": {
+      "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+      "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 1366678273
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 2733356546
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_9b6fe96cd39851fbf8/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_9b6fe96cd39851fbf8",
+    "model": {
+      "repo_id": "facebook/dinov2-base",
+      "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+      "family": "dinov2"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 86580480
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 173160960
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_9b6fe96cd39851fbf8/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_c3e50a324026cfdeb7",
+    "model": {
+      "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+      "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+      "family": "internvl",
+      "expected_vision_depth": 24
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 15119523840
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 30239047680
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_c3e50a324026cfdeb7/audits/daf133230856.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_c3e50a324026cfdeb7",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_c3e50a324026cfdeb7/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_c3e50a324026cfdeb7",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 151277313
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 302554626
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_c3e50a324026cfdeb7/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_c3e50a324026cfdeb7",
+    "model": {
+      "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+      "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 1366678273
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 2733356546
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_c3e50a324026cfdeb7/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_c3e50a324026cfdeb7",
+    "model": {
+      "repo_id": "facebook/dinov2-base",
+      "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+      "family": "dinov2"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 86580480
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 173160960
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_c3e50a324026cfdeb7/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_e6aeea28365b183252",
+    "model": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 31273086512
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 62546173024
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_e6aeea28365b183252/audits/d578824aa35a.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_e6aeea28365b183252",
+    "model": {
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "family": "qwen",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 27356728560
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 54713457120
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_e6aeea28365b183252/audits/49d773457468.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_e6aeea28365b183252",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_e6aeea28365b183252/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_e6aeea28365b183252",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 151277313
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 302554626
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_e6aeea28365b183252/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_e6aeea28365b183252",
+    "model": {
+      "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+      "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 1366678273
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 2733356546
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_e6aeea28365b183252/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_e6aeea28365b183252",
+    "model": {
+      "repo_id": "OpenGVLab/InternVL3-1B-hf",
+      "revision": "014c0583a0d4bedf29fbe2dbff4f865eb998e171",
+      "family": "internvl"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 938193024
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 1876386048
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_e6aeea28365b183252/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_iau_foa_e6aeea28365b183252",
+    "model": {
+      "repo_id": "facebook/dinov2-base",
+      "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+      "family": "dinov2"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 86580480
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 173160960
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_iau_foa_e6aeea28365b183252/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_sga_47db3e3cf000717451",
+    "model": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 31273086512
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 62546173024
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_sga_47db3e3cf000717451/audits/d578824aa35a.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_sga_47db3e3cf000717451",
+    "model": {
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "family": "qwen",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 27356728560
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 54713457120
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_sga_47db3e3cf000717451/audits/49d773457468.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_sga_47db3e3cf000717451",
+    "model": {
+      "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+      "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+      "family": "internvl",
+      "expected_vision_depth": 24
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 15119523840
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 30239047680
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_sga_47db3e3cf000717451/audits/daf133230856.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_sga_47db3e3cf000717451",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_sga_47db3e3cf000717451/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_sga_47db3e3cf000717451",
+    "model": {
+      "repo_id": "google-bert/bert-base-uncased",
+      "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+      "family": "bert"
+    },
+    "role": "MLM_auxiliary",
+    "parameter_counts": {
+      "torch.bfloat16": 109514298
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 219028596
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_sga_47db3e3cf000717451/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_sga_5ef1026dc71d9e3f2f",
+    "model": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 31273086512
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 62546173024
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_sga_5ef1026dc71d9e3f2f/audits/d578824aa35a.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_sga_5ef1026dc71d9e3f2f",
+    "model": {
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "family": "qwen",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 27356728560
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 54713457120
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_sga_5ef1026dc71d9e3f2f/audits/49d773457468.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_sga_5ef1026dc71d9e3f2f",
+    "model": {
+      "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+      "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+      "family": "internvl",
+      "expected_vision_depth": 24
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 15119523840
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 30239047680
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_sga_5ef1026dc71d9e3f2f/audits/daf133230856.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_sga_5ef1026dc71d9e3f2f",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_sga_5ef1026dc71d9e3f2f/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "imagenet_sga_5ef1026dc71d9e3f2f",
+    "model": {
+      "repo_id": "google-bert/bert-base-uncased",
+      "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+      "family": "bert"
+    },
+    "role": "MLM_auxiliary",
+    "parameter_counts": {
+      "torch.bfloat16": 109514298
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 219028596
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/imagenet_sga_5ef1026dc71d9e3f2f/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "llava_bench_coco_pgd_5f0fbde35d2aabe45c",
+    "model": {
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "family": "qwen",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 27356728560
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 54713457120
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/llava_bench_coco_pgd_5f0fbde35d2aabe45c/audits/49d773457468.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "llava_bench_coco_pgd_5f0fbde35d2aabe45c",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/llava_bench_coco_pgd_5f0fbde35d2aabe45c/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "llava_bench_coco_pgd_5f0fbde35d2aabe45c",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 151277313
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 302554626
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/llava_bench_coco_pgd_5f0fbde35d2aabe45c/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "llava_bench_coco_pgd_5f0fbde35d2aabe45c",
+    "model": {
+      "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+      "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 1366678273
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 2733356546
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/llava_bench_coco_pgd_5f0fbde35d2aabe45c/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "llava_bench_coco_pgd_f82b985675dcf032bc",
+    "model": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 31273086512
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 62546173024
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/llava_bench_coco_pgd_f82b985675dcf032bc/audits/d578824aa35a.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "llava_bench_coco_pgd_f82b985675dcf032bc",
+    "model": {
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "family": "qwen",
+      "expected_vision_depth": 27
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 27356728560
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 54713457120
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/llava_bench_coco_pgd_f82b985675dcf032bc/audits/49d773457468.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "llava_bench_coco_pgd_f82b985675dcf032bc",
+    "model": {
+      "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+      "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+      "family": "internvl",
+      "expected_vision_depth": 24
+    },
+    "role": "target",
+    "parameter_counts": {
+      "torch.bfloat16": 15119523840
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 30239047680
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/llava_bench_coco_pgd_f82b985675dcf032bc/audits/daf133230856.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "llava_bench_coco_pgd_f82b985675dcf032bc",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/llava_bench_coco_pgd_f82b985675dcf032bc/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "llava_bench_coco_pgd_f82b985675dcf032bc",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 151277313
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 302554626
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/llava_bench_coco_pgd_f82b985675dcf032bc/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  },
+  {
+    "run": "llava_bench_coco_pgd_f82b985675dcf032bc",
+    "model": {
+      "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+      "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 1366678273
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 2733356546
+    },
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "status": "PASS",
+    "source": "extension/runs/llava_bench_coco_pgd_f82b985675dcf032bc/bf16_proxies.json",
+    "bf16_only": true,
+    "unquantized": true
+  }
+]
