@@ -2,7 +2,7 @@ schema_version: 1
 selected_utc: '2026-11-17'
 selection_reason: targeted_image_only_transfer_task_match_not_observed_ASR
 historical_63_cell_queue: preserved_paused_not_modified
-active_authorization: finish_imagenet_co_attack_and_corrected_foa_only
+active_authorization: finish_FOA_and_run_selected_remaining_except_IAU
 shared_constraints:
   image_only_perturbation: true
   no_final_target_feedback_during_generation: true
@@ -38,14 +38,14 @@ methods:
     limitation: native5_for_Qwen_Gemma_explicit_family_disjoint4_adaptation_for_InternVL
   m_attack_v2:
     role: primary_comparison_candidate
-    status: prepared_adapter_static_tests_passed_not_GPU_validated
+    status: GPU_smoke_passed_full_generation_started
     paper: https://arxiv.org/abs/2602.17645v2
     upstream: https://github.com/VILA-Lab/M-Attack-V2
     upstream_revision: 8faca6d95e1caa190d676575489ab81bb31e4d03
     requires_audit: [MCA, ATA_auxiliary_reference_images, patch_momentum, PE_plus, compute_budget]
   anyattack:
     role: pretrained_generator_separate_track_candidate
-    status: prepared_adapter_static_tests_passed_not_GPU_validated
+    status: GPU_smoke_and_full150_generation_passed_target_evaluation_queued
     paper: https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_Anyattack_Towards_Large-scale_Self-supervised_Adversarial_Attacks_on_Vision-language_Models_CVPR_2025_paper.pdf
     upstream: https://github.com/jiamingzhang94/AnyAttack
     upstream_revision: 91b209120c61261a51a45ce217dae7f1daac081d

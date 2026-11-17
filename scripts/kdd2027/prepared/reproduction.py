@@ -48,7 +48,9 @@ def verify_source(root, method):
     return root
 
 
-def official_module(path, *, classes=None, allowed_imports=(), injected=None):
+def official_module(
+    path, *, classes=None, allowed_imports=(), injected=None, singleton_repair=False
+):
     """Keep exact selected class/function AST bodies; remove unrelated entrypoints/imports."""
     tree = ast.parse(Path(path).read_text())
     nodes = []
@@ -64,6 +66,42 @@ def official_module(path, *, classes=None, allowed_imports=(), injected=None):
             )
             if all(n.split(".")[0] in allowed_imports for n in names):
                 nodes.append(node)
+    if singleton_repair:
+
+        class KeepBatch(ast.NodeTransformer):
+            def visit_Call(self, node):
+                self.generic_visit(node)
+                if (
+                    isinstance(node.func, ast.Attribute)
+                    and node.func.attr == "squeeze"
+                    and not node.args
+                    and not node.keywords
+                ):
+                    return ast.copy_location(
+                        ast.Call(
+                            func=ast.Attribute(
+                                value=node.func.value, attr="reshape", ctx=ast.Load()
+                            ),
+                            args=[
+                                ast.Subscript(
+                                    value=ast.Attribute(
+                                        value=ast.Name(id="source_img", ctx=ast.Load()),
+                                        attr="shape",
+                                        ctx=ast.Load(),
+                                    ),
+                                    slice=ast.Constant(0),
+                                    ctx=ast.Load(),
+                                ),
+                                ast.Constant(-1),
+                            ],
+                            keywords=[],
+                        ),
+                        node,
+                    )
+                return node
+
+        nodes = [KeepBatch().visit(node) for node in nodes]
+        nodes = [ast.fix_missing_locations(node) for node in nodes]
     module = types.ModuleType("_reviewed_" + Path(path).stem)
     module.__dict__.update(injected or {})
     exec(compile(ast.Module(body=nodes, type_ignores=[]), str(path), "exec"), module.__dict__)
@@ -91,6 +129,8 @@ def v2_core(root):
     )
     loss = official_module(
         root / "surrogates/loss.py",
+        classes={"cosine_similarity", "EnsAlignmentLoss", "EnsWeightedMultiAlignmentLoss"},
+        singleton_repair=True,
         allowed_imports=("typing", "einops", "torch"),
         injected={"BaseFeatureExtractor": torch.nn.Module},
     )

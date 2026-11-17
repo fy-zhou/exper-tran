@@ -1,0 +1,11 @@
+{
+  "status": "RUNNING",
+  "time_utc": "2026-11-17T04:50:30Z",
+  "IAU_started": false,
+  "AnyAttack_frozen150": 150,
+  "V2_smoke_passed": true,
+  "V2_formal_generation_started": true,
+  "target_evaluations": "queued_after_PNG_freeze",
+  "new_source_only_retrieval": "existing48class_bank_not_official_external_COCO_pool",
+  "no_new_target_ASR_claimed": true
+}

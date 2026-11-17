@@ -1,0 +1,92 @@
+[
+  {
+    "model": {
+      "repo_id": "OpenAI/ViT-B-32",
+      "revision": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af"
+    },
+    "role": "anyattack_encoder",
+    "parameter_counts": {
+      "torch.bfloat16": 151277313
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 302554626
+    },
+    "total_parameters": 151277313,
+    "components": {
+      "positional_embedding": [
+        "torch.bfloat16"
+      ],
+      "text_projection": [
+        "torch.bfloat16"
+      ],
+      "logit_scale": [
+        "torch.bfloat16"
+      ],
+      "visual": [
+        "torch.bfloat16"
+      ],
+      "transformer": [
+        "torch.bfloat16"
+      ],
+      "token_embedding": [
+        "torch.bfloat16"
+      ],
+      "ln_final": [
+        "torch.bfloat16"
+      ]
+    },
+    "devices": [
+      "cuda:0"
+    ],
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "allocated": 365531648,
+    "reserved": 387973120,
+    "status": "PASS"
+  },
+  {
+    "model": {
+      "repo_id": "AnyAttack/decoder",
+      "revision": "bed1f25d46b4eaef0c3d4eb39c3853b2241991cc048b3b2fff21b7b8c38e0070"
+    },
+    "role": "anyattack_generator",
+    "parameter_counts": {
+      "torch.bfloat16": 27926907
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 55853814
+    },
+    "total_parameters": 27926907,
+    "components": {
+      "fc": [
+        "torch.bfloat16"
+      ],
+      "upsample_blocks": [
+        "torch.bfloat16"
+      ],
+      "final_conv": [
+        "torch.bfloat16"
+      ]
+    },
+    "devices": [
+      "cuda:0"
+    ],
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "allocated": 365531648,
+    "reserved": 387973120,
+    "status": "PASS"
+  }
+]

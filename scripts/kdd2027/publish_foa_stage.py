@@ -199,6 +199,7 @@ def export():
         if p.is_file()
         and p.suffix in {".json", ".jsonl", ".csv", ".log", ".txt", ".md", ".yaml", ".yml"}
         and "stage_reports" not in p.parts
+        and "prepared_remaining" not in p.parts
     ]
     file_index = [
         dict(path=str(p.relative_to(OUT)), bytes=p.stat().st_size, sha256=sha(p))
@@ -212,7 +213,13 @@ def export():
     backup = OUT.parent / "archives/kdd2027_baselines_foa_stage_2026-11-17.tar.gz"
     backup.parent.mkdir(exist_ok=True)
     with tarfile.open(backup, "w:gz") as t:
-        t.add(OUT, arcname=OUT.name)
+        t.add(
+            OUT,
+            arcname=OUT.name,
+            filter=lambda member: None
+            if "prepared_remaining" in Path(member.name).parts
+            else member,
+        )
     complete = (
         finished()
         and integrity
@@ -266,7 +273,8 @@ def export():
         "",
         (
             "IAU remains pilot-only (Qwen10/10, InternVL10/10, Gemma8/10); "
-            "V2/AnyAttack are preparation-only. Missing scores remain N/A. Ours "
+            "V2/AnyAttack have separate authorized runs, excluded here. "
+            "Missing scores remain N/A. Ours "
             "and old published artifacts are unchanged."
         ),
         "",
@@ -277,8 +285,8 @@ def export():
         ),
         "",
         (
-            "The broad63-cell queue is paused. This watcher does not launch "
-            "another experiment after FOA."
+            "The broad63-cell queue is paused. This watcher launches no experiment. "
+            "Separately authorized live V2/AnyAttack files are excluded from this stable archive."
         ),
         "",
     ]

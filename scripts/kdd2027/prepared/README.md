@@ -1,3 +1,17 @@
+# Active update — 2026-11-17
+
+The user subsequently authorized running all newly selected baselines except IAU-FOA. This supersedes preparation-only instructions below. AnyAttack two-image smoke and full150 generation passed; V2 two-image smoke passed and native300/K10 generation started. Both full-model BF16 audits passed before inference. Target evaluations remain after frozen PNGs, under the unchanged canonical ImageNet rubric.
+
+One `remaining_parallel.py` admission owner took over the previously owned FOA continuation using verified PID signatures; completed FOA receipts are unchanged/reused. Initial admission-wrapper failures occurred before new-method inference, were repaired and preserved. FOA restarts may recompute an interrupted image. `admitted_worker.py` delegates only the two exact existing admission locks from its verified direct parent, with measured-free-memory admission,8GiB reserve and per-job CUDA caps. At mostFOA+one generator execute; initializations are staggered. Target evaluation gets exclusive GPU priority. `protect_foa.py` only signals verified V2 children of that owner and throttles if last-three FOA image times exceed188s vs the measured156s solo baseline. GPU utilization, not filled VRAM alone, determines useful concurrency. No six-hour full-campaign guarantee is made.
+
+V2's original weighted loss collapses the batch axis with `.squeeze()` at batch1. A recorded AST repair retains the batch axis via reshape; CPU tests verify identical original/fixed loss and pixel gradients for batch2, plus finite batch1 gradients. All original loss weights, transforms, native300 steps and K10 remain. This engineering repair is explicit, not a new attack loss. Source-only CLIP-B32 cosine retrieval selects two neighbors within each existing disjoint48-image class bank, rather than the upstream external COCO retrieval pool: this is a task/reference adaptation, recorded per image. AnyAttack uses released `coco_cos.pt`, HF revision4c7172a1ada67ab01e6606ddda4ccacb1362ea4a, SHA256bed1f25d46b4eaef0c3d4eb39c3853b2241991cc048b3b2fff21b7b8c38e0070; no target-feedback fine-tuning or checkpoint search.
+
+New weights are in /ephemeral; extra dependencies are isolated under `/ephemeral/kdd2027/prepared-deps`, not installed over activeFOA dependencies. New logs, manifests, raw responses and checkpoints are on persistent root `outputs/kdd2027_baseline_reproduction/prepared_remaining`. The FOA-stage uploader explicitly excludes these concurrently written files from its stable snapshot. They require a separate result export after evaluation. Historical scientific sources/outputs are not overwritten. Fourteen preparation/admission/loss/publication tests pass, with Ruff clean.
+
+The original preparation documentation follows as historical context.
+
+---
+
 # Prepared-only M-Attack-V2 / AnyAttack reproduction adapters
 
 No new attack, target evaluation, weight download or model initialization was run for this preparation. CPU/static checks only. Existing FOA source hashes/queue are untouched. These files are **not yet GPU-validated reproductions**; do not add them to an automatic campaign until non-test scientific smoke passes under future authorization.

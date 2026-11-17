@@ -1,0 +1,170 @@
+[
+  {
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "v2_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 85799424
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 171598848
+    },
+    "total_parameters": 85799424,
+    "components": {
+      "embeddings": [
+        "torch.bfloat16"
+      ],
+      "pre_layrnorm": [
+        "torch.bfloat16"
+      ],
+      "encoder": [
+        "torch.bfloat16"
+      ],
+      "post_layernorm": [
+        "torch.bfloat16"
+      ]
+    },
+    "devices": [
+      "cuda:0"
+    ],
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "allocated": 178940928,
+    "reserved": 190840832,
+    "status": "PASS"
+  },
+  {
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    "role": "v2_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 87456000
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 174912000
+    },
+    "total_parameters": 87456000,
+    "components": {
+      "embeddings": [
+        "torch.bfloat16"
+      ],
+      "pre_layrnorm": [
+        "torch.bfloat16"
+      ],
+      "encoder": [
+        "torch.bfloat16"
+      ],
+      "post_layernorm": [
+        "torch.bfloat16"
+      ]
+    },
+    "devices": [
+      "cuda:0"
+    ],
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "allocated": 362110976,
+    "reserved": 379584512,
+    "status": "PASS"
+  },
+  {
+    "model": {
+      "repo_id": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+      "revision": "1a25a446712ba5ee05982a381eed697ef9b435cf"
+    },
+    "role": "v2_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 87456000
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 174912000
+    },
+    "total_parameters": 87456000,
+    "components": {
+      "embeddings": [
+        "torch.bfloat16"
+      ],
+      "pre_layrnorm": [
+        "torch.bfloat16"
+      ],
+      "encoder": [
+        "torch.bfloat16"
+      ],
+      "post_layernorm": [
+        "torch.bfloat16"
+      ]
+    },
+    "devices": [
+      "cuda:0"
+    ],
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "allocated": 544363520,
+    "reserved": 547356672,
+    "status": "PASS"
+  },
+  {
+    "model": {
+      "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+      "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+    },
+    "role": "v2_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 1011203840
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 2022407680
+    },
+    "total_parameters": 1011203840,
+    "components": {
+      "embeddings": [
+        "torch.bfloat16"
+      ],
+      "pre_layrnorm": [
+        "torch.bfloat16"
+      ],
+      "encoder": [
+        "torch.bfloat16"
+      ],
+      "post_layernorm": [
+        "torch.bfloat16"
+      ]
+    },
+    "devices": [
+      "cuda:0"
+    ],
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "allocated": 2567308800,
+    "reserved": 2730491904,
+    "status": "PASS"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "status": "ATTACK_FROZEN",
+    "signature": "35d0b3ce86581907f4e0956a4af6e2b37423131ceefb7f3b53a47ee6d3bdb45e",
+    "image_id": "train/n01443537/n01443537_374.JPEG",
+    "clean": "/home/ubuntu/exper-tran/outputs/a100_precommercial_v7_targeted50/canonical_images/transition_candidates/T01/0058_n01443537_374.png",
+    "adv": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/prepared_remaining/smoke_m_attack_v2/attacks/c75cdb0aec1101b606/adv.png",
+    "png_hashes": {
+      "/home/ubuntu/exper-tran/outputs/a100_precommercial_v7_targeted50/canonical_images/transition_candidates/T01/0058_n01443537_374.png": "b2a54d85a57d2dae837cb6150741b71d9d892752e849c6ea075e72c848c2670a",
+      "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/prepared_remaining/smoke_m_attack_v2/attacks/c75cdb0aec1101b606/adv.png": "20bc52abbe33f67357dbbd629a418701b5a990aa94c4775923c52421c09df4dc"
+    },
+    "linf_png": 0.011764705882352941,
+    "target_access": false,
+    "seed": 2880994901,
+    "steps": 2,
+    "seconds": 7.62721712700295,
+    "peak_reserved_bytes": 3550478336,
+    "reference_hashes": [
+      "c456c3df28aa8885164ae24d318b7d53286ba98ebf34833567544beb5b9ecfd0",
+      "27572c1208010b24f930f2299703597b524320104bc05a6c3b67dc89fd10e012",
+      "43837cdcb1d9e7107307b4591b3789e986ec4a5ba62f4681df101b29f02926dc"
+    ],
+    "visual_forward_calls": 160,
+    "forward_counter_scope": "cumulative model forwards within process"
+  },
+  {
+    "status": "ATTACK_FROZEN",
+    "signature": "6260439be1bbda7ddb59d87adf3ec14748e618493707521f4a0263a085395828",
+    "image_id": "train/n01443537/n01443537_425.JPEG",
+    "clean": "/home/ubuntu/exper-tran/outputs/a100_precommercial_v7_targeted50/canonical_images/transition_candidates/T01/0052_n01443537_425.png",
+    "adv": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/prepared_remaining/smoke_m_attack_v2/attacks/3d2812b5292cc3de07/adv.png",
+    "png_hashes": {
+      "/home/ubuntu/exper-tran/outputs/a100_precommercial_v7_targeted50/canonical_images/transition_candidates/T01/0052_n01443537_425.png": "65d511e18d960e9650bee8d3518a0e7ec4a33bdcdff5a160d917acd89c63456a",
+      "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/prepared_remaining/smoke_m_attack_v2/attacks/3d2812b5292cc3de07/adv.png": "38838e4c45335f85acec188d7ce92fbc25d9315e13728ca3f2af00dd6893d269"
+    },
+    "linf_png": 0.011764705882352941,
+    "target_access": false,
+    "seed": 503221240,
+    "steps": 2,
+    "seconds": 6.854267089998757,
+    "peak_reserved_bytes": 3550478336,
+    "reference_hashes": [
+      "c456c3df28aa8885164ae24d318b7d53286ba98ebf34833567544beb5b9ecfd0",
+      "27572c1208010b24f930f2299703597b524320104bc05a6c3b67dc89fd10e012",
+      "43837cdcb1d9e7107307b4591b3789e986ec4a5ba62f4681df101b29f02926dc"
+    ],
+    "visual_forward_calls": 320,
+    "forward_counter_scope": "cumulative model forwards within process"
+  }
+]

@@ -105,7 +105,9 @@ def main():
         "precision": "bf16_unquantized",
         "decoder_sha256": args.decoder_sha256,
         "clip_weights_sha256": checksum(args.clip_weights) if args.clip_weights else None,
-        "adapter_sources": {f.name: checksum(f) for f in Path(__file__).parent.glob("*.py")},
+        "adapter_sources": {
+            f.name: checksum(f) for f in [Path(__file__), Path(__file__).parent / "reproduction.py"]
+        },
         "status": "UNVALIDATED_IMPLEMENTATION_GENERATION_ONLY",
     }
     freeze(args.output / "method_lock.json", config)

@@ -1,0 +1,46 @@
+[
+  {
+    "status": "ATTACK_FROZEN",
+    "signature": "1185d8302d84cfe6cf46a7823c4f37dee1ca0319ad85d80ba2658fb13df470af",
+    "image_id": "train/n01443537/n01443537_374.JPEG",
+    "clean": "/home/ubuntu/exper-tran/outputs/a100_precommercial_v7_targeted50/canonical_images/transition_candidates/T01/0058_n01443537_374.png",
+    "adv": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/prepared_remaining/smoke_anyattack/attacks/c75cdb0aec1101b606/adv.png",
+    "png_hashes": {
+      "/home/ubuntu/exper-tran/outputs/a100_precommercial_v7_targeted50/canonical_images/transition_candidates/T01/0058_n01443537_374.png": "b2a54d85a57d2dae837cb6150741b71d9d892752e849c6ea075e72c848c2670a",
+      "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/prepared_remaining/smoke_anyattack/attacks/c75cdb0aec1101b606/adv.png": "a8287d7214e73e9d65455b3459369af8636902c1050379b204a66d9598f953c0"
+    },
+    "linf_png": 0.06274509803921569,
+    "target_access": false,
+    "seed": 728685911,
+    "steps": 0,
+    "seconds": 0.5553470209997613,
+    "peak_reserved_bytes": 429916160,
+    "reference_hashes": [
+      "c456c3df28aa8885164ae24d318b7d53286ba98ebf34833567544beb5b9ecfd0"
+    ],
+    "visual_forward_calls": null,
+    "forward_counter_scope": "cumulative model forwards within process"
+  },
+  {
+    "status": "ATTACK_FROZEN",
+    "signature": "bd2a912d7a2b71a84797e79e6cc75f62828ed8414d86ba9faeb99348928ff18f",
+    "image_id": "train/n01443537/n01443537_425.JPEG",
+    "clean": "/home/ubuntu/exper-tran/outputs/a100_precommercial_v7_targeted50/canonical_images/transition_candidates/T01/0052_n01443537_425.png",
+    "adv": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/prepared_remaining/smoke_anyattack/attacks/3d2812b5292cc3de07/adv.png",
+    "png_hashes": {
+      "/home/ubuntu/exper-tran/outputs/a100_precommercial_v7_targeted50/canonical_images/transition_candidates/T01/0052_n01443537_425.png": "65d511e18d960e9650bee8d3518a0e7ec4a33bdcdff5a160d917acd89c63456a",
+      "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/prepared_remaining/smoke_anyattack/attacks/3d2812b5292cc3de07/adv.png": "b4bcc4dcb9907657134c6572d71140b62633096fb6193b353133a4383ab0a4bd"
+    },
+    "linf_png": 0.06274509803921569,
+    "target_access": false,
+    "seed": 1168010212,
+    "steps": 0,
+    "seconds": 0.05197407500236295,
+    "peak_reserved_bytes": 432013312,
+    "reference_hashes": [
+      "c456c3df28aa8885164ae24d318b7d53286ba98ebf34833567544beb5b9ecfd0"
+    ],
+    "visual_forward_calls": null,
+    "forward_counter_scope": "cumulative model forwards within process"
+  }
+]
