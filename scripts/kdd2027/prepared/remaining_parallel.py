@@ -189,6 +189,9 @@ def main():
         # Serial initializations, at most FOA+one new generator concurrently.
         time.sleep(8)
         for method in ["anyattack", "m_attack_v2"]:
+            if method == "m_attack_v2" and (STATE / "user_stop_v2.json").exists():
+                print("USER_PAUSED m_attack_v2; do not resume", flush=True)
+                continue
             while not (STATE / f"{method}_final150.json").exists():
                 time.sleep(5)
             smoke = spawn("smoke_" + method, "generate", gen_args(method, True), 12)
@@ -246,6 +249,8 @@ def main():
                 f'foa_attack failure={foa_code}\n'
             )
         for method in pending:
+            if "m_attack_v2" in method and (STATE / "user_stop_v2.json").exists():
+                continue
             if method.startswith("resume_"):
                 method = method.removeprefix("resume_")
                 proc = spawn("generation_" + method, "generate", gen_args(method, False), 16)

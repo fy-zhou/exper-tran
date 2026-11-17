@@ -77,6 +77,7 @@ elif kind == "evaluate":
         "smoke_only": False,
         "pilot": False,
         "steps": oldlock["steps"],
+        "primary_goal": "targeted_feature_matching",
     }
     lock = {
         "config": config,

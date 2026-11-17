@@ -48,3 +48,9 @@ Packet schema: `images` is a nonempty list of unique `image_id`, `clean`, `clean
 ## FOA-stage publication
 
 `../publish_foa_stage.py --wait --push` is CPU-only. It waits for corrected FOA150 plus all three target evaluations, or for the narrow runner's explicit failure record; exports an honest complete/partial report, all structured raw evidence, full local archive, validates PNGs, and commits/pushes only its report directory. It does not run or restart experiments. The watcher lives in detached tmux `kdd2027-foa-publish`; errors remain logged and local evidence survives failed push. After this stage no new GPU job starts automatically.
+
+## Latest stop scope — 2026-11-17 08:26 UTC
+
+The user paused M-Attack-V2 and requested completion of only corrected FOA and AnyAttack, then end experiments. V2's8 frozen images and interruption metadata are preserved under `prepared_remaining/user_stop_v2.json`; no V2 resume/evaluation or IAU run is authorized. The running owner observed the V2 child terminate and is now waiting for FOA only; its remaining pending list contains AnyAttack. Future owner starts also honor the persisted stop marker. The raw old controller may list the terminated V2 worker as failed; final reporting classifies it USER_PAUSED, not scientific failure.
+
+`publish_final_requested.py` is a CPU-only detached waiter. After the existing owner finishes FOA and AnyAttack evaluation, it validates frozen PNGs, raw row counts/receipt links, BF16 audits; writes the percentage comparison including preserved Ours, all structured evidence and a full persistent local image/checkpoint archive; commits/pushes only its report directory. It launches no inference and does not resume any method. If evaluation fails, the report is PARTIAL_OR_INVALID rather than invented completion. The earlier FOA-stage upload is retained independently.
