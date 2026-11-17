@@ -1,0 +1,57 @@
+schema_version: 1
+selected_utc: '2026-11-17'
+selection_reason: targeted_image_only_transfer_task_match_not_observed_ASR
+historical_63_cell_queue: preserved_paused_not_modified
+active_authorization: finish_imagenet_co_attack_and_corrected_foa_only
+shared_constraints:
+  image_only_perturbation: true
+  no_final_target_feedback_during_generation: true
+  strict_bf16_unquantized_parameters: true
+  epsilon: 0.06274509803921569
+  cohorts_and_prompts: retain_existing_frozen_task_specific_manifests
+  match_budget: report_both_iterations_and_actual_compute
+  final_admission: requires_official_core_audit_and_non_test_smoke
+methods:
+  pgd:
+    role: optimizer_control
+    status: imagenet150_complete
+    fidelity: adapted_target_image_cosine_not_classifier_CE
+  mi_fgsm:
+    role: optimizer_control
+    status: imagenet150_complete
+    fidelity: adapted_target_image_cosine_not_classifier_CE
+  m_attack:
+    role: primary_comparison
+    status: imagenet150_50_and_300_complete
+    upstream: https://github.com/VILA-Lab/M-Attack
+    adaptation: deterministic_class_target_reference_and_shared_BF16_task_protocol
+  foa_attack:
+    role: primary_comparison
+    status: corrected_dependency_imagenet150_running
+    upstream: https://github.com/jiaxiaojunQAQ/FOA-Attack
+    legacy_results: archive_only_after_corrected_full_run_validates
+    kmeans_note: IAU_author_pinned_compatible_dependency_not_FOA_explicit_pin
+  iau_foa:
+    role: primary_comparison
+    status: pilot10_only_full150_not_started
+    upstream: https://github.com/jiaxiaojunQAQ/IAU-FOA
+    limitation: native5_for_Qwen_Gemma_explicit_family_disjoint4_adaptation_for_InternVL
+  m_attack_v2:
+    role: primary_comparison_candidate
+    status: selected_not_implemented_or_executed
+    paper: https://arxiv.org/abs/2602.17645v2
+    upstream: https://github.com/VILA-Lab/M-Attack-V2
+    upstream_revision: 8faca6d95e1caa190d676575489ab81bb31e4d03
+    requires_audit: [MCA, ATA_auxiliary_reference_images, patch_momentum, PE_plus, compute_budget]
+  anyattack:
+    role: pretrained_generator_separate_track_candidate
+    status: selected_not_implemented_or_executed
+    paper: https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_Anyattack_Towards_Large-scale_Self-supervised_Adversarial_Attacks_on_Vision-language_Models_CVPR_2025_paper.pdf
+    upstream: https://github.com/jiamingzhang94/AnyAttack
+    upstream_revision: 91b209120c61261a51a45ce217dae7f1daac081d
+    requires_audit: [checkpoint_identity, target_image_conditioning, downstream_finetuning, input_resolution, epsilon, BF16_compatibility]
+excluded_from_primary:
+  co_attack: joint_text_image_untargeted_retrieval_mismatch_not_excluded_for_low_score
+  sga: joint_text_image_untargeted_retrieval_mismatch
+  instructta: assumes_known_victim_vision_encoder_not_current_unknown_family_disjoint_threat_model
+  attackvlm_query_stage: final_victim_query_optimization_forbidden
