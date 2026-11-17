@@ -1,0 +1,28 @@
+method,steps,target,hits,N,ASR_percent,status,track,source
+pgd,50,Qwen3.5-27B,6,150,4.0,COMPLETE,primary,final150_50_206015cb1202ed50f1
+pgd,50,InternVL3.5-14B-HF,7,150,4.666666666666667,COMPLETE,primary,final150_50_206015cb1202ed50f1
+pgd,50,Gemma 4 31B-it,0,150,0.0,COMPLETE,primary,final150_50_206015cb1202ed50f1
+mi_fgsm,50,Qwen3.5-27B,15,150,10.0,COMPLETE,primary,final150_50_206015cb1202ed50f1
+mi_fgsm,50,InternVL3.5-14B-HF,14,150,9.333333333333334,COMPLETE,primary,final150_50_206015cb1202ed50f1
+mi_fgsm,50,Gemma 4 31B-it,1,150,0.6666666666666667,COMPLETE,primary,final150_50_206015cb1202ed50f1
+m_attack,50,Qwen3.5-27B,63,150,42.0,COMPLETE,primary,final150_50_206015cb1202ed50f1
+m_attack,50,InternVL3.5-14B-HF,76,150,50.66666666666667,COMPLETE,primary,final150_50_206015cb1202ed50f1
+m_attack,50,Gemma 4 31B-it,44,150,29.333333333333332,COMPLETE,primary,final150_50_206015cb1202ed50f1
+m_attack,300,Qwen3.5-27B,130,150,86.66666666666667,COMPLETE,primary,final150_300_87488fbb38aae77f36
+m_attack,300,InternVL3.5-14B-HF,135,150,90.0,COMPLETE,primary,final150_300_87488fbb38aae77f36
+m_attack,300,Gemma 4 31B-it,114,150,76.0,COMPLETE,primary,final150_300_87488fbb38aae77f36
+foa_attack,300,Gemma 4 31B-it,123,150,82.0,COMPLETE,primary,imagenet_foa_attack_29c5c7cef8fc733e71
+foa_attack,300,Qwen3.5-27B,138,150,92.0,COMPLETE,primary,imagenet_foa_attack_29c5c7cef8fc733e71
+foa_attack,300,InternVL3.5-14B-HF,138,150,92.0,COMPLETE,primary,imagenet_foa_attack_29c5c7cef8fc733e71
+co_attack,50,Gemma 4 31B-it,0,150,0.0,COMPLETE,supplemental,imagenet_co_attack_16f5fdb8880fdfa9e7
+co_attack,50,Qwen3.5-27B,0,150,0.0,COMPLETE,supplemental,imagenet_co_attack_16f5fdb8880fdfa9e7
+co_attack,50,InternVL3.5-14B-HF,0,150,0.0,COMPLETE,supplemental,imagenet_co_attack_16f5fdb8880fdfa9e7
+Ours_final150_selected,50,Qwen3.5-27B,137,150,91.33333333333333,COMPLETE,primary,/home/ubuntu/exper-tran/outputs/a100_precommercial_v8_joint_selection24h/paper_closeout/reports/results.csv
+Ours_final150_FDA,50,Qwen3.5-27B,137,150,91.33333333333333,COMPLETE,primary,/home/ubuntu/exper-tran/outputs/a100_precommercial_v8_joint_selection24h/paper_closeout/reports/results.csv
+Ours_final150_selected,50,Gemma 4 31B-it,134,150,89.33333333333333,COMPLETE,primary,/home/ubuntu/exper-tran/outputs/a100_precommercial_v8_joint_selection24h/paper_closeout/reports/results.csv
+Ours_final150_uniform,50,Qwen3.5-27B,138,150,92.0,COMPLETE,primary,/home/ubuntu/exper-tran/outputs/a100_precommercial_v8_joint_selection24h/paper_closeout/reports/results.csv
+Ours_final150_FDA,50,Gemma 4 31B-it,139,150,92.66666666666666,COMPLETE,primary,/home/ubuntu/exper-tran/outputs/a100_precommercial_v8_joint_selection24h/paper_closeout/reports/results.csv
+Ours_final150_FDA,50,InternVL3.5-14B-HF,134,150,89.33333333333333,COMPLETE,primary,/home/ubuntu/exper-tran/outputs/a100_precommercial_v8_joint_selection24h/paper_closeout/reports/results.csv
+Ours_final150_selected,50,InternVL3.5-14B-HF,140,150,93.33333333333333,COMPLETE,primary,/home/ubuntu/exper-tran/outputs/a100_precommercial_v8_joint_selection24h/paper_closeout/reports/results.csv
+Ours_final150_uniform,50,Gemma 4 31B-it,137,150,91.33333333333333,COMPLETE,primary,/home/ubuntu/exper-tran/outputs/a100_precommercial_v8_joint_selection24h/paper_closeout/reports/results.csv
+Ours_final150_uniform,50,InternVL3.5-14B-HF,139,150,92.66666666666666,COMPLETE,primary,/home/ubuntu/exper-tran/outputs/a100_precommercial_v8_joint_selection24h/paper_closeout/reports/results.csv

@@ -1,0 +1,137 @@
+[
+  {
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "total_parameters": 149620737,
+    "components": {
+      "logit_scale": [
+        "torch.bfloat16"
+      ],
+      "text_model": [
+        "torch.bfloat16"
+      ],
+      "vision_model": [
+        "torch.bfloat16"
+      ],
+      "visual_projection": [
+        "torch.bfloat16"
+      ],
+      "text_projection": [
+        "torch.bfloat16"
+      ]
+    },
+    "devices": [
+      "cuda:0"
+    ],
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "allocated": 307109376,
+    "reserved": 312475648,
+    "status": "PASS"
+  },
+  {
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 151277313
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 302554626
+    },
+    "total_parameters": 151277313,
+    "components": {
+      "logit_scale": [
+        "torch.bfloat16"
+      ],
+      "text_model": [
+        "torch.bfloat16"
+      ],
+      "vision_model": [
+        "torch.bfloat16"
+      ],
+      "visual_projection": [
+        "torch.bfloat16"
+      ],
+      "text_projection": [
+        "torch.bfloat16"
+      ]
+    },
+    "devices": [
+      "cuda:0"
+    ],
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "allocated": 617268224,
+    "reserved": 620756992,
+    "status": "PASS"
+  },
+  {
+    "model": {
+      "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+      "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 1366678273
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 2733356546
+    },
+    "total_parameters": 1366678273,
+    "components": {
+      "logit_scale": [
+        "torch.bfloat16"
+      ],
+      "text_model": [
+        "torch.bfloat16"
+      ],
+      "vision_model": [
+        "torch.bfloat16"
+      ],
+      "visual_projection": [
+        "torch.bfloat16"
+      ],
+      "text_projection": [
+        "torch.bfloat16"
+      ]
+    },
+    "devices": [
+      "cuda:0"
+    ],
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "allocated": 3351524352,
+    "reserved": 3516923904,
+    "status": "PASS"
+  }
+]

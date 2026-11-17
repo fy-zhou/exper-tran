@@ -1,0 +1,91 @@
+{
+  "config": {
+    "method": "foa_attack",
+    "dataset": "imagenet",
+    "variant": "default",
+    "steps": 300,
+    "epsilon": 0.06274509803921569,
+    "seed": 42,
+    "canvas": 224,
+    "parameters": "bfloat16_unquantized",
+    "primary_goal": "targeted_feature_matching",
+    "Co_SGA_budget_adaptation": null,
+    "target_input": "frozen_image_with_original_task_prompt",
+    "kmeans_dependency": "f7f36bd1cb4e3a761d73d584866d0a9c6b4d2805",
+    "no_commercial_calls": true,
+    "smoke_only": false,
+    "pilot": false
+  },
+  "sources": {
+    "prepare_datasets.py": "13a244a2ae28921fb5af320988ac98f52fe9ecc07068721926eebe24ff403d0b",
+    "task_protocol.py": "5c1026472ce729e85f8abc605a9c64efcd10d4751ae12851310fd57764fcd67a",
+    "controller.py": "d0026b269e44ae4d0662b0034330dadd392e014d068e1f257022524a17f38ba9",
+    "native_methods.py": "d21a8ae73a4c3dee919de961906915571e7af50ac1351adc8f0d3591a2163b67",
+    "worker.py": "e55485de6b73062f9215ca8ae39f33395c5ce4f95ec3bbf94a7b6df1cf794901",
+    "metrics.py": "2fc347e15ccfae4e0f10420258aadb3b67bca947ecfcfb893540c1347e7dd4fd",
+    "legacy": {
+      "src/primary_ml_cka/baselines/__init__.py": "75774ce21d479abebfa9bc6c68607994842eb8f4db0c543f6629ba3156bd9021",
+      "src/primary_ml_cka/baselines/campaign.py": "91c4a09f350ad600bca7443e42285255a04b2c43cb2379279509142ad7cc980e",
+      "src/primary_ml_cka/baselines/clip_features.py": "7f8a06cbc1e84f69833a22e49aced2a09e8f7452c1b7120054baf2dff4cdd7e8",
+      "src/primary_ml_cka/baselines/feature_attacks.py": "17e153e2e8bbba64be86ef37a2b85a06a9c2ff4ff0acc5914b8eb7f9f381de08",
+      "src/primary_ml_cka/baselines/iterative.py": "475d2dfd1bce8a6ec7968812d5a7d3954423f0a3e610f892f76d9e26b4da4104",
+      "src/primary_ml_cka/baselines/protocol.py": "bb7d428804f1d8f39b421c885b7be65e352deb18e145fea14320383185e2ae3f",
+      "src/primary_ml_cka/models/common/precision.py": "7d1f153aeeefdf10b73c4a5f86459e4c6f996800338b7a827ac7c39b7fd42e5d",
+      "src/primary_ml_cka/models/backends/target_transformers_generation.py": "b9a563a7ca9df46a608234d6d4a386bde9571130dae1d870263e78cfc21e8fd4",
+      "src/primary_ml_cka/models/targets/generation.py": "5c3365300778282a081b66aebdf3044345d095620d958b58403f625a05e71b35",
+      "src/primary_ml_cka/prompts/parser.py": "d970f2a8a699f549460a9692ad35b63bc8635d24cf4586a27557b238541dea42",
+      "configs/baselines/kdd2027_campaign.yaml": "82c9da2ca523fad6648322a2a0cd60f509a68e090e858de46319a15ee5ddf2c8"
+    }
+  },
+  "manifest_sha256": "bb95b10a7c96912cbb1b18ca9d1a21fa873d2625a3be0940134a28b791aad6a9",
+  "engineering_manifest_sha256": null,
+  "models": {
+    "B16": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "B32": {
+      "repo_id": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    "Laion": {
+      "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+      "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+    },
+    "DINO": {
+      "repo_id": "facebook/dinov2-base",
+      "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+      "family": "dinov2"
+    },
+    "InternVL1": {
+      "repo_id": "OpenGVLab/InternVL3-1B-hf",
+      "revision": "014c0583a0d4bedf29fbe2dbff4f865eb998e171",
+      "family": "internvl"
+    },
+    "BERT": {
+      "repo_id": "google-bert/bert-base-uncased",
+      "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+      "family": "bert"
+    }
+  },
+  "targets": {
+    "Qwen3.5-27B": {
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "family": "qwen",
+      "expected_vision_depth": 27
+    },
+    "InternVL3.5-14B-HF": {
+      "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+      "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+      "family": "internvl",
+      "expected_vision_depth": 24
+    },
+    "Gemma 4 31B-it": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    }
+  }
+}

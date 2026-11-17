@@ -1,0 +1,84 @@
+[
+  {
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "role": "baseline_proxy",
+    "parameter_counts": {
+      "torch.bfloat16": 149620737
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 299241474
+    },
+    "total_parameters": 149620737,
+    "components": {
+      "logit_scale": [
+        "torch.bfloat16"
+      ],
+      "text_model": [
+        "torch.bfloat16"
+      ],
+      "vision_model": [
+        "torch.bfloat16"
+      ],
+      "visual_projection": [
+        "torch.bfloat16"
+      ],
+      "text_projection": [
+        "torch.bfloat16"
+      ]
+    },
+    "devices": [
+      "cuda:0"
+    ],
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "allocated": 307109376,
+    "reserved": 312475648,
+    "status": "PASS"
+  },
+  {
+    "model": {
+      "repo_id": "google-bert/bert-base-uncased",
+      "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+      "family": "bert"
+    },
+    "role": "MLM_auxiliary",
+    "parameter_counts": {
+      "torch.bfloat16": 109514298
+    },
+    "parameter_bytes": {
+      "torch.bfloat16": 219028596
+    },
+    "total_parameters": 109514298,
+    "components": {
+      "bert": [
+        "torch.bfloat16"
+      ],
+      "cls": [
+        "torch.bfloat16"
+      ]
+    },
+    "devices": [
+      "cuda:0"
+    ],
+    "quantization": {
+      "is_loaded_in_4bit": false,
+      "is_loaded_in_8bit": false,
+      "is_quantized": false,
+      "quantization_method": "None",
+      "config_quantization": null,
+      "quantized_modules": []
+    },
+    "allocated": 533659648,
+    "reserved": 549453824,
+    "status": "PASS"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE_FOA_AND_CO",
+  "integrity_pass": true,
+  "FOA_full150_complete": true,
+  "bf16_audits_pass": true,
+  "source_commit": "ab8c40e51eec48cb51af65f3ae9da8ca82e6348f",
+  "local_archive": "/home/ubuntu/exper-tran/outputs/archives/kdd2027_baselines_foa_stage_2026-11-17.tar.gz",
+  "local_archive_sha256": "8b2cb05a7a247fe256cd8f8d5cc5e0af85562c00f772ed46ef2c67c8b3cf8e9d",
+  "local_archive_bytes": 189282665,
+  "structured_archive_sha256": "0caa5c1b0d8762f7022537f65b223c0f33ebdb6601fff95c0dbacabb9cc3718f"
+}
