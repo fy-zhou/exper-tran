@@ -1,0 +1,12 @@
+{
+  "status": "PAUSED_BY_USER",
+  "time_utc": "2026-11-17T08:26:32Z",
+  "method": "m_attack_v2",
+  "frozen_images": 8,
+  "required_remaining": [
+    "foa_attack",
+    "anyattack"
+  ],
+  "resume_V2": false,
+  "no_further_experiments_after_required_evaluation": true
+}

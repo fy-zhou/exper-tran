@@ -1,0 +1,102 @@
+[
+  {
+    "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/extension/runs/imagenet_foa_attack_29c5c7cef8fc733e71/bf16_proxies.json",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch16",
+      "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+    },
+    "pass": true
+  },
+  {
+    "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/extension/runs/imagenet_foa_attack_29c5c7cef8fc733e71/bf16_proxies.json",
+    "model": {
+      "repo_id": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+    },
+    "pass": true
+  },
+  {
+    "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/extension/runs/imagenet_foa_attack_29c5c7cef8fc733e71/bf16_proxies.json",
+    "model": {
+      "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+      "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+    },
+    "pass": true
+  },
+  {
+    "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/prepared_remaining/generation_anyattack/bf16_audit.json",
+    "model": {
+      "repo_id": "OpenAI/ViT-B-32",
+      "revision": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af"
+    },
+    "pass": true
+  },
+  {
+    "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/prepared_remaining/generation_anyattack/bf16_audit.json",
+    "model": {
+      "repo_id": "AnyAttack/decoder",
+      "revision": "bed1f25d46b4eaef0c3d4eb39c3853b2241991cc048b3b2fff21b7b8c38e0070"
+    },
+    "pass": true
+  },
+  {
+    "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/extension/runs/imagenet_foa_attack_29c5c7cef8fc733e71/audits/d578824aa35a.json",
+    "model": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    },
+    "pass": true
+  },
+  {
+    "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/extension/runs/imagenet_foa_attack_29c5c7cef8fc733e71/audits/49d773457468.json",
+    "model": {
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "family": "qwen",
+      "expected_vision_depth": 27
+    },
+    "pass": true
+  },
+  {
+    "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/extension/runs/imagenet_foa_attack_29c5c7cef8fc733e71/audits/daf133230856.json",
+    "model": {
+      "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+      "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+      "family": "internvl",
+      "expected_vision_depth": 24
+    },
+    "pass": true
+  },
+  {
+    "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/prepared_remaining/evaluation_anyattack/audits/d578824aa35a.json",
+    "model": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    },
+    "pass": true
+  },
+  {
+    "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/prepared_remaining/evaluation_anyattack/audits/49d773457468.json",
+    "model": {
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "family": "qwen",
+      "expected_vision_depth": 27
+    },
+    "pass": true
+  },
+  {
+    "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/prepared_remaining/evaluation_anyattack/audits/daf133230856.json",
+    "model": {
+      "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+      "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+      "family": "internvl",
+      "expected_vision_depth": 24
+    },
+    "pass": true
+  }
+]

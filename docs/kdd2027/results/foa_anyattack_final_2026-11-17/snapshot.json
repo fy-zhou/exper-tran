@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETE_REQUESTED_SCOPE",
+  "V2_status": "PAUSED_BY_USER",
+  "IAU_started": false,
+  "no_more_experiments": true,
+  "source_commit": "1b99a2eb41b12fd3ef67395a70587e9cd843a0b2",
+  "archive": "/home/ubuntu/exper-tran/outputs/archives/kdd2027_FOA_AnyAttack_final_2026-11-17.tar.gz",
+  "archive_sha256": "718ee9c8bbfefeb080a52da2a2bd3e09672cea5e856c94b72115309bb6413c5d"
+}
