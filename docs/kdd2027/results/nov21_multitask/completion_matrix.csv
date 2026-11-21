@@ -1,13 +1,13 @@
 dataset,method,target,status,N,ASR_percent
-imagenet,attackvlm_mfii,Qwen3.5-27B,PENDING,150,
-imagenet,attackvlm_mfii,InternVL3.5-14B-HF,PENDING,150,
-imagenet,attackvlm_mfii,Gemma 4 31B-it,PENDING,150,
-imagenet,attackvlm_mfit,Qwen3.5-27B,PENDING,150,
-imagenet,attackvlm_mfit,InternVL3.5-14B-HF,PENDING,150,
-imagenet,attackvlm_mfit,Gemma 4 31B-it,PENDING,150,
-imagenet,ssa_cwa_clip,Qwen3.5-27B,PENDING,150,
-imagenet,ssa_cwa_clip,InternVL3.5-14B-HF,PENDING,150,
-imagenet,ssa_cwa_clip,Gemma 4 31B-it,PENDING,150,
+imagenet,attackvlm_mfii,Qwen3.5-27B,COMPLETE,150,0.0
+imagenet,attackvlm_mfii,InternVL3.5-14B-HF,COMPLETE,150,1.3333333333333335
+imagenet,attackvlm_mfii,Gemma 4 31B-it,COMPLETE,150,0.0
+imagenet,attackvlm_mfit,Qwen3.5-27B,COMPLETE,150,0.0
+imagenet,attackvlm_mfit,InternVL3.5-14B-HF,COMPLETE,150,0.6666666666666667
+imagenet,attackvlm_mfit,Gemma 4 31B-it,COMPLETE,150,0.6666666666666667
+imagenet,ssa_cwa_clip,Qwen3.5-27B,COMPLETE,150,62.66666666666667
+imagenet,ssa_cwa_clip,InternVL3.5-14B-HF,COMPLETE,150,59.333333333333336
+imagenet,ssa_cwa_clip,Gemma 4 31B-it,COMPLETE,150,34.66666666666667
 coco_captioning,m_attack,Qwen3.5-27B,COMPLETE,10,
 coco_captioning,m_attack,InternVL3.5-14B-HF,COMPLETE,10,
 coco_captioning,m_attack,Gemma 4 31B-it,COMPLETE,10,
@@ -17,12 +17,12 @@ coco_captioning,foa_attack,Gemma 4 31B-it,COMPLETE,10,
 coco_captioning,pgd,Qwen3.5-27B,COMPLETE,10,
 coco_captioning,pgd,InternVL3.5-14B-HF,COMPLETE,10,
 coco_captioning,pgd,Gemma 4 31B-it,COMPLETE,10,
-llava_bench_coco,m_attack,Qwen3.5-27B,PENDING,3,
-llava_bench_coco,m_attack,InternVL3.5-14B-HF,PENDING,3,
-llava_bench_coco,m_attack,Gemma 4 31B-it,PENDING,3,
-llava_bench_coco,foa_attack,Qwen3.5-27B,PENDING,3,
-llava_bench_coco,foa_attack,InternVL3.5-14B-HF,PENDING,3,
-llava_bench_coco,foa_attack,Gemma 4 31B-it,PENDING,3,
-llava_bench_coco,pgd,Qwen3.5-27B,PENDING,3,
-llava_bench_coco,pgd,InternVL3.5-14B-HF,PENDING,3,
-llava_bench_coco,pgd,Gemma 4 31B-it,PENDING,3,
+llava_bench_coco,m_attack,Qwen3.5-27B,RAW_COMPLETE_OFFICIAL_JUDGE_PENDING,3,
+llava_bench_coco,m_attack,InternVL3.5-14B-HF,RAW_COMPLETE_OFFICIAL_JUDGE_PENDING,3,
+llava_bench_coco,m_attack,Gemma 4 31B-it,RAW_COMPLETE_OFFICIAL_JUDGE_PENDING,3,
+llava_bench_coco,foa_attack,Qwen3.5-27B,RAW_COMPLETE_OFFICIAL_JUDGE_PENDING,3,
+llava_bench_coco,foa_attack,InternVL3.5-14B-HF,RAW_COMPLETE_OFFICIAL_JUDGE_PENDING,3,
+llava_bench_coco,foa_attack,Gemma 4 31B-it,RAW_COMPLETE_OFFICIAL_JUDGE_PENDING,3,
+llava_bench_coco,pgd,Qwen3.5-27B,RAW_COMPLETE_OFFICIAL_JUDGE_PENDING,3,
+llava_bench_coco,pgd,InternVL3.5-14B-HF,RAW_COMPLETE_OFFICIAL_JUDGE_PENDING,3,
+llava_bench_coco,pgd,Gemma 4 31B-it,RAW_COMPLETE_OFFICIAL_JUDGE_PENDING,3,

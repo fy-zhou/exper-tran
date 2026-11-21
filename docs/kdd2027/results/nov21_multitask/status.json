@@ -1,13 +1,20 @@
 {
-  "time_utc": "2026-11-21T08:15:30Z",
+  "time_utc": "2026-11-21T19:54:00Z",
   "planned_open_target_cells": 27,
   "counts": {
-    "COMPLETE": 9,
-    "PENDING": 18
+    "RAW_COMPLETE_OFFICIAL_JUDGE_PENDING": 9,
+    "COMPLETE": 18
   },
-  "GPT_full150_complete": 1,
+  "GPT_full150_complete": 4,
   "GPT_methods_planned": 5,
   "GPT_ours_current_date_control": {},
-  "GPT_blocked": null,
-  "local_queue_finished": false
+  "GPT_blocked": {
+    "method": "anyattack",
+    "N": 150,
+    "exit": 1,
+    "time": 1795250542.405853,
+    "log": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/gpt61_low/anyattack_150.log",
+    "no_repeated_scored_request": true
+  },
+  "local_queue_finished": true
 }
