@@ -1,0 +1,65 @@
+[
+  {
+    "method": "anyattack",
+    "N": 10,
+    "completed_pairs": 10,
+    "hits": 0,
+    "ASR": 0.0,
+    "clean_parser_invalid_observed": 0,
+    "adv_parser_invalid_observed": 0
+  },
+  {
+    "method": "foa_attack",
+    "N": 10,
+    "completed_pairs": 10,
+    "hits": 6,
+    "ASR": 0.6,
+    "clean_parser_invalid_observed": 0,
+    "adv_parser_invalid_observed": 0
+  },
+  {
+    "method": "foa_attack",
+    "N": 150,
+    "completed_pairs": 89,
+    "hits": 58,
+    "ASR": null,
+    "clean_parser_invalid_observed": 0,
+    "adv_parser_invalid_observed": 0
+  },
+  {
+    "method": "m_attack",
+    "N": 10,
+    "completed_pairs": 10,
+    "hits": 5,
+    "ASR": 0.5,
+    "clean_parser_invalid_observed": 0,
+    "adv_parser_invalid_observed": 0
+  },
+  {
+    "method": "m_attack",
+    "N": 150,
+    "completed_pairs": 150,
+    "hits": 83,
+    "ASR": 0.5533333333333333,
+    "clean_parser_invalid_observed": 0,
+    "adv_parser_invalid_observed": 0
+  },
+  {
+    "method": "mi_fgsm",
+    "N": 10,
+    "completed_pairs": 10,
+    "hits": 0,
+    "ASR": 0.0,
+    "clean_parser_invalid_observed": 0,
+    "adv_parser_invalid_observed": 0
+  },
+  {
+    "method": "pgd",
+    "N": 10,
+    "completed_pairs": 10,
+    "hits": 0,
+    "ASR": 0.0,
+    "clean_parser_invalid_observed": 0,
+    "adv_parser_invalid_observed": 0
+  }
+]

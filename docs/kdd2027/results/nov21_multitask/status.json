@@ -1,0 +1,13 @@
+{
+  "time_utc": "2026-11-21T08:15:30Z",
+  "planned_open_target_cells": 27,
+  "counts": {
+    "COMPLETE": 9,
+    "PENDING": 18
+  },
+  "GPT_full150_complete": 1,
+  "GPT_methods_planned": 5,
+  "GPT_ours_current_date_control": {},
+  "GPT_blocked": null,
+  "local_queue_finished": false
+}

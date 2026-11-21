@@ -1,0 +1,477 @@
+{
+  "status": "PASS",
+  "PNG_checks": [
+    {
+      "run": "coco_captioning_foa_attack_10_606d549e5d74ac",
+      "image_id": "coco2017/140840",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_foa_attack_10_606d549e5d74ac",
+      "image_id": "coco2017/556498",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_foa_attack_10_606d549e5d74ac",
+      "image_id": "coco2017/287527",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_foa_attack_10_606d549e5d74ac",
+      "image_id": "coco2017/463842",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_foa_attack_10_606d549e5d74ac",
+      "image_id": "coco2017/448076",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_foa_attack_10_606d549e5d74ac",
+      "image_id": "coco2017/546826",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_foa_attack_10_606d549e5d74ac",
+      "image_id": "coco2017/84170",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_foa_attack_10_606d549e5d74ac",
+      "image_id": "coco2017/572462",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_foa_attack_10_606d549e5d74ac",
+      "image_id": "coco2017/81594",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_foa_attack_10_606d549e5d74ac",
+      "image_id": "coco2017/476119",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_m_attack_10_b214512b4053c6",
+      "image_id": "coco2017/140840",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_m_attack_10_b214512b4053c6",
+      "image_id": "coco2017/556498",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_m_attack_10_b214512b4053c6",
+      "image_id": "coco2017/287527",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_m_attack_10_b214512b4053c6",
+      "image_id": "coco2017/463842",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_m_attack_10_b214512b4053c6",
+      "image_id": "coco2017/448076",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_m_attack_10_b214512b4053c6",
+      "image_id": "coco2017/546826",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_m_attack_10_b214512b4053c6",
+      "image_id": "coco2017/84170",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_m_attack_10_b214512b4053c6",
+      "image_id": "coco2017/572462",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_m_attack_10_b214512b4053c6",
+      "image_id": "coco2017/81594",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_m_attack_10_b214512b4053c6",
+      "image_id": "coco2017/476119",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_pgd_10_baef38653d3472",
+      "image_id": "coco2017/140840",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_pgd_10_baef38653d3472",
+      "image_id": "coco2017/556498",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_pgd_10_baef38653d3472",
+      "image_id": "coco2017/287527",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_pgd_10_baef38653d3472",
+      "image_id": "coco2017/463842",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_pgd_10_baef38653d3472",
+      "image_id": "coco2017/448076",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_pgd_10_baef38653d3472",
+      "image_id": "coco2017/546826",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_pgd_10_baef38653d3472",
+      "image_id": "coco2017/84170",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_pgd_10_baef38653d3472",
+      "image_id": "coco2017/572462",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_pgd_10_baef38653d3472",
+      "image_id": "coco2017/81594",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "coco_captioning_pgd_10_baef38653d3472",
+      "image_id": "coco2017/476119",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "imagenet_attackvlm_mfii_2_7a35385bc818ea",
+      "image_id": "train/n01443537/n01443537_374.JPEG",
+      "pass": true,
+      "linf_uint8": 2
+    },
+    {
+      "run": "imagenet_attackvlm_mfii_2_7a35385bc818ea",
+      "image_id": "train/n01443537/n01443537_425.JPEG",
+      "pass": true,
+      "linf_uint8": 2
+    },
+    {
+      "run": "imagenet_attackvlm_mfit_2_8720abf71783d9",
+      "image_id": "train/n01443537/n01443537_374.JPEG",
+      "pass": true,
+      "linf_uint8": 2
+    },
+    {
+      "run": "imagenet_attackvlm_mfit_2_8720abf71783d9",
+      "image_id": "train/n01443537/n01443537_425.JPEG",
+      "pass": true,
+      "linf_uint8": 2
+    },
+    {
+      "run": "imagenet_ssa_cwa_clip_2_4af72fff45569e",
+      "image_id": "train/n01443537/n01443537_374.JPEG",
+      "pass": true,
+      "linf_uint8": 6
+    },
+    {
+      "run": "imagenet_ssa_cwa_clip_2_4af72fff45569e",
+      "image_id": "train/n01443537/n01443537_425.JPEG",
+      "pass": true,
+      "linf_uint8": 6
+    },
+    {
+      "run": "llava_bench_coco_m_attack_3_3d72b0a9311462",
+      "image_id": "llava_coco/34096",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_bench_coco_m_attack_3_3d72b0a9311462",
+      "image_id": "llava_coco/20650",
+      "pass": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_bench_coco_m_attack_3_3d72b0a9311462",
+      "image_id": "llava_coco/52312",
+      "pass": true,
+      "linf_uint8": 16
+    }
+  ],
+  "model_audits": [
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/coco_captioning_foa_attack_10_606d549e5d74ac/audits/d578824aa35a.json",
+      "model": {
+        "repo_id": "google/gemma-4-31B-it",
+        "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+        "family": "gemma4",
+        "expected_vision_depth": 27
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/coco_captioning_foa_attack_10_606d549e5d74ac/audits/49d773457468.json",
+      "model": {
+        "repo_id": "Qwen/Qwen3.5-27B",
+        "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+        "family": "qwen",
+        "expected_vision_depth": 27
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/coco_captioning_foa_attack_10_606d549e5d74ac/audits/daf133230856.json",
+      "model": {
+        "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+        "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+        "family": "internvl",
+        "expected_vision_depth": 24
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/coco_captioning_foa_attack_10_606d549e5d74ac/bf16_proxies.json",
+      "model": {
+        "repo_id": "openai/clip-vit-base-patch16",
+        "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/coco_captioning_foa_attack_10_606d549e5d74ac/bf16_proxies.json",
+      "model": {
+        "repo_id": "openai/clip-vit-base-patch32",
+        "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/coco_captioning_foa_attack_10_606d549e5d74ac/bf16_proxies.json",
+      "model": {
+        "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+        "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/coco_captioning_m_attack_10_b214512b4053c6/audits/d578824aa35a.json",
+      "model": {
+        "repo_id": "google/gemma-4-31B-it",
+        "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+        "family": "gemma4",
+        "expected_vision_depth": 27
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/coco_captioning_m_attack_10_b214512b4053c6/audits/49d773457468.json",
+      "model": {
+        "repo_id": "Qwen/Qwen3.5-27B",
+        "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+        "family": "qwen",
+        "expected_vision_depth": 27
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/coco_captioning_m_attack_10_b214512b4053c6/audits/daf133230856.json",
+      "model": {
+        "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+        "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+        "family": "internvl",
+        "expected_vision_depth": 24
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/coco_captioning_m_attack_10_b214512b4053c6/bf16_proxies.json",
+      "model": {
+        "repo_id": "openai/clip-vit-base-patch16",
+        "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/coco_captioning_m_attack_10_b214512b4053c6/bf16_proxies.json",
+      "model": {
+        "repo_id": "openai/clip-vit-base-patch32",
+        "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/coco_captioning_m_attack_10_b214512b4053c6/bf16_proxies.json",
+      "model": {
+        "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+        "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/coco_captioning_pgd_10_baef38653d3472/audits/d578824aa35a.json",
+      "model": {
+        "repo_id": "google/gemma-4-31B-it",
+        "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+        "family": "gemma4",
+        "expected_vision_depth": 27
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/coco_captioning_pgd_10_baef38653d3472/audits/49d773457468.json",
+      "model": {
+        "repo_id": "Qwen/Qwen3.5-27B",
+        "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+        "family": "qwen",
+        "expected_vision_depth": 27
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/coco_captioning_pgd_10_baef38653d3472/audits/daf133230856.json",
+      "model": {
+        "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+        "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+        "family": "internvl",
+        "expected_vision_depth": 24
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/coco_captioning_pgd_10_baef38653d3472/bf16_proxies.json",
+      "model": {
+        "repo_id": "openai/clip-vit-base-patch16",
+        "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/coco_captioning_pgd_10_baef38653d3472/bf16_proxies.json",
+      "model": {
+        "repo_id": "openai/clip-vit-base-patch32",
+        "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/coco_captioning_pgd_10_baef38653d3472/bf16_proxies.json",
+      "model": {
+        "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+        "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/imagenet_attackvlm_mfii_2_7a35385bc818ea/bf16_proxies.json",
+      "model": {
+        "repo_id": "openai/clip-vit-base-patch32",
+        "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/imagenet_attackvlm_mfit_2_8720abf71783d9/bf16_proxies.json",
+      "model": {
+        "repo_id": "openai/clip-vit-base-patch32",
+        "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/imagenet_ssa_cwa_clip_2_4af72fff45569e/bf16_proxies.json",
+      "model": {
+        "repo_id": "openai/clip-vit-base-patch16",
+        "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/imagenet_ssa_cwa_clip_2_4af72fff45569e/bf16_proxies.json",
+      "model": {
+        "repo_id": "openai/clip-vit-base-patch32",
+        "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/imagenet_ssa_cwa_clip_2_4af72fff45569e/bf16_proxies.json",
+      "model": {
+        "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+        "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/llava_bench_coco_m_attack_3_3d72b0a9311462/audits/49d773457468.json",
+      "model": {
+        "repo_id": "Qwen/Qwen3.5-27B",
+        "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+        "family": "qwen",
+        "expected_vision_depth": 27
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/llava_bench_coco_m_attack_3_3d72b0a9311462/bf16_proxies.json",
+      "model": {
+        "repo_id": "openai/clip-vit-base-patch16",
+        "revision": "57c216476eefef5ab752ec549e440a49ae4ae5f3"
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/llava_bench_coco_m_attack_3_3d72b0a9311462/bf16_proxies.json",
+      "model": {
+        "repo_id": "openai/clip-vit-base-patch32",
+        "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268"
+      },
+      "pass": true
+    },
+    {
+      "source": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/local/llava_bench_coco_m_attack_3_3d72b0a9311462/bf16_proxies.json",
+      "model": {
+        "repo_id": "laion/CLIP-ViT-G-14-laion2B-s12B-b42K",
+        "revision": "4b0305adc6802b2632e11cbe6606a9bdd43d35c9"
+      },
+      "pass": true
+    }
+  ]
+}
