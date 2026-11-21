@@ -39,6 +39,10 @@ Canvas224, epsilon16/255, fixed prompts/decoding, disjoint target reference imag
 
 ## Execution, outputs and recovery
 
+### November21 restart: non-GPT-only continuation
+
+The VM restarted and the disposable weight cache disappeared. The user requested that non-GPT work finish first. Only the pinned weight download, local GPU queue and CPU reporter are restarted; neither CLI baseline nor Ours-control queue is started. Existing GPT quota-block records remain preserved. The local controller validates attack signatures/PNG hashes and target-response identity before skipping completed stages; reports are regenerated without inference. The 83 frozen MF-it images are reused. Remaining GPU work is MF-it completion/evaluation followed by SSA-CWA150/evaluation on all three large targets. Existing COCO10 and LLaVA3/9-question trials are reused, not expanded or called full benchmarks. LLaVA's official commercial judge remains outside this non-GPT continuation.
+
 Existing single GPU owner/admission locks are reused. Local attacks/evaluations run in fresh separate processes; CPU subscription CLI runs independently without occupying the A100. Complete each attack cohort before loading a final target. Model parameters are strictlyBF16, no quantization fallback; snapshots are pinned and stored on `/ephemeral/kdd2027/hf-cache/hub`. Weights were restored after hibernation. Persistent PNGs, manifests, request records, model audits, losses, logs and state remain under:
 
 `/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21/`

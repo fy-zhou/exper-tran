@@ -1,6 +1,7 @@
 """Bounded new baselines and initial distinct-task evaluations, no V2/IAU resume."""
 
 import fcntl
+import importlib.util
 import json
 import os
 import subprocess
@@ -24,7 +25,38 @@ ENV = {
 }
 
 
+def reusable_phase(worker, run, config, lock, manifest, phase):
+    """Validate artifacts before skipping; never infer completion from an old PID."""
+    rows = manifest["images"]
+    if not rows or not all(
+        worker.valid_receipt(
+            worker.oldworker.receipt_path(run, row), worker.oldworker.sig(lock, row)
+        )
+        for row in rows
+    ):
+        return False
+    if phase == "attack":
+        return True
+    if phase == "report":
+        return False  # Cheap CPU aggregation also repairs a missing/partial summary.
+    return all(
+        worker.oldworker.valid_evaluation(
+            run / "evaluations" / name / (worker.digest([row["image_id"], q["id"]])[:18] + ".json"),
+            run,
+            row,
+            q,
+            worker.oldworker.REG[name],
+        )
+        for name in worker.oldworker.allowed_targets(config)
+        for row in rows
+        for q in row["queries"]
+    )
+
+
 def main():
+    spec = importlib.util.spec_from_file_location("nov21_resume_worker", HERE / "worker.py")
+    worker = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(worker)
     jobs = []
     for method in ["attackvlm_mfii", "attackvlm_mfit", "ssa_cwa_clip"]:
         jobs.append(
@@ -59,7 +91,13 @@ def main():
         for i, job in enumerate(jobs):
             if job["method"] in failed:
                 continue
+            run, config, lock, manifest = worker.setup(
+                job["method"], job["dataset"], job["N"], job["smoke"]
+            )
             for phase in job["phases"]:
+                if reusable_phase(worker, run, config, lock, manifest, phase):
+                    print("REUSE_VALIDATED", i, phase, str(run), flush=True)
+                    continue
                 log = STATE / f"job_{i:02d}_{phase}.log"
                 cmd = [
                     sys.executable,
