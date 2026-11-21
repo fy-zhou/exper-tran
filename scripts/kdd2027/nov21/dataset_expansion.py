@@ -3,6 +3,7 @@
 import argparse
 import copy
 import fcntl
+import hashlib
 import importlib.util
 import json
 import os
@@ -114,7 +115,11 @@ def report():
     OUT.mkdir(parents=True, exist_ok=True)
     DEST.mkdir(parents=True, exist_ok=True)
     summaries = []
+    source_sha = hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
     for path in sorted((OUT / "runs").glob("*/task_summary.json")):
+        lock = json.loads((path.parent / "lock.json").read_text())
+        if lock["expansion_source_sha256"] != source_sha:
+            continue
         summaries.extend({"run": path.parent.name, **r} for r in json.loads(path.read_text()))
     (DEST / "results.json").write_text(json.dumps(summaries, indent=2) + "\n")
     state = json.loads((OUT / "state.json").read_text()) if (OUT / "state.json").exists() else {}
@@ -150,6 +155,8 @@ def finalize(w):
     checks = []
     for path in sorted((OUT / "runs").glob("*/lock.json")):
         lock = json.loads(path.read_text())
+        if lock["expansion_source_sha256"] != w.sha(Path(__file__)):
+            continue
         run = path.parent
         for row in lock["manifest"]["images"]:
             receipt = w.oldworker.receipt_path(run, row)
@@ -170,7 +177,9 @@ def finalize(w):
                 }
             )
     results = json.loads((DEST / "results.json").read_text())
-    core = [r for r in results if r["method"] in ["pgd", "m_attack", "foa_attack"]]
+    core = [
+        r for r in results if r["method"] in ["pgd", "m_attack", "foa_attack"] and r["steps"] == 50
+    ]
     complete = len(core) == 18 and all(r["raw_complete"] for r in core)
     audit = {
         "all_present_attack_artifacts_valid": all(r["valid_attack"] for r in checks),
@@ -244,10 +253,15 @@ def campaign(args):
         for d, n in [("coco_captioning", 150), ("llava_bench_coco", 30)]
         for m in ["pgd", "m_attack", "foa_attack"]
     ]
-    # Scientifically useful additions only if the measured budget permits.
+    # The user extended the total window to24h. Add matched MI controls first,
+    # then native300 comparisons without changing any existing attack formula.
     jobs += [
-        ("mi_fgsm", "coco_captioning", 150, 50, False),
-        ("mi_fgsm", "llava_bench_coco", 30, 50, False),
+        ("mi_fgsm", "coco_captioning", 150, 50, True),
+        ("mi_fgsm", "llava_bench_coco", 30, 50, True),
+        ("m_attack", "coco_captioning", 150, 300, False),
+        ("m_attack", "llava_bench_coco", 30, 300, False),
+        ("foa_attack", "coco_captioning", 150, 300, False),
+        ("foa_attack", "llava_bench_coco", 30, 300, False),
     ]
     env = {
         **os.environ,
@@ -258,6 +272,7 @@ def campaign(args):
         "PRIMARY_ML_CKA_STRICT_BF16": "1",
         "TOKENIZERS_PARALLELISM": "false",
         "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True",
+        "CUBLAS_WORKSPACE_CONFIG": ":4096:8",
     }
     # Same owner as the active ImageNet queue. Never launch a competing controller.
     with (BASE / "reproduction_owner.lock").open("a") as owner:
@@ -275,9 +290,21 @@ def campaign(args):
             run, config, lock, manifest = prepare(w, method, dataset, n, steps)
             # Conservative admission estimate; do not shorten questions, steps or N.
             predicted = (55 if dataset == "coco_captioning" else 100) * 60
+            if steps == 300:
+                predicted = (
+                    (280 if method == "m_attack" else 390)
+                    if dataset == "coco_captioning"
+                    else (130 if method == "m_attack" else 155)
+                ) * 60
             if not required and time.time() + predicted + 600 > state["deadline"]:
                 state["jobs"].append(
-                    {"method": method, "dataset": dataset, "status": "QUEUED_BUDGET"}
+                    {
+                        "method": method,
+                        "dataset": dataset,
+                        "N": n,
+                        "steps": steps,
+                        "status": "QUEUED_BUDGET",
+                    }
                 )
                 save()
                 continue
@@ -325,6 +352,8 @@ def campaign(args):
                         {
                             "method": method,
                             "dataset": dataset,
+                            "N": n,
+                            "steps": steps,
                             "phase": step,
                             "status": "FAILED",
                             "exit": child.returncode,
@@ -334,7 +363,13 @@ def campaign(args):
                     break
             else:
                 state["jobs"].append(
-                    {"method": method, "dataset": dataset, "status": "ATTEMPTED_SEE_COMPLETENESS"}
+                    {
+                        "method": method,
+                        "dataset": dataset,
+                        "N": n,
+                        "steps": steps,
+                        "status": "ATTEMPTED_SEE_COMPLETENESS",
+                    }
                 )
                 save()
         state["status"] = "FINISHED_SEE_COMPLETENESS"
