@@ -192,6 +192,102 @@
     }
   },
   {
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21_dataset_expansion/runs/coco_captioning_foa_attack_150_50_b2a7fc5f847e27",
+    "dataset": "coco_captioning",
+    "method": "foa_attack",
+    "steps": 50,
+    "target": "Qwen3.5-27B",
+    "planned_N": 150,
+    "N_images": 150,
+    "adversarial_scored": 150,
+    "clean_scored": 150,
+    "targeted_success_numerator": 8,
+    "targeted_success_denominator": 150,
+    "ASR": 0.05333333333333334,
+    "TASR": 0.05333333333333334,
+    "clean_target_hit_rate": 0.0,
+    "new_target_hits": 8,
+    "new_target_hit_rate_all": 0.05333333333333334,
+    "TASR_conditional_clean_not_target": 0.05333333333333334,
+    "status": "COMPLETE",
+    "metric": "ASR_means_targeted_image_semantic_success",
+    "judge": "Gemma 4 31B-it",
+    "post_hoc": true,
+    "official": false,
+    "image_cluster_bootstrap_ASR95": [
+      0.02,
+      0.09333333333333334
+    ],
+    "image_level_at_least_one_target_hit": {
+      "hits": 8,
+      "N": 150
+    }
+  },
+  {
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21_dataset_expansion/runs/coco_captioning_foa_attack_150_50_b2a7fc5f847e27",
+    "dataset": "coco_captioning",
+    "method": "foa_attack",
+    "steps": 50,
+    "target": "InternVL3.5-14B-HF",
+    "planned_N": 150,
+    "N_images": 150,
+    "adversarial_scored": 150,
+    "clean_scored": 150,
+    "targeted_success_numerator": 12,
+    "targeted_success_denominator": 150,
+    "ASR": 0.08,
+    "TASR": 0.08,
+    "clean_target_hit_rate": 0.0,
+    "new_target_hits": 12,
+    "new_target_hit_rate_all": 0.08,
+    "TASR_conditional_clean_not_target": 0.08,
+    "status": "COMPLETE",
+    "metric": "ASR_means_targeted_image_semantic_success",
+    "judge": "Gemma 4 31B-it",
+    "post_hoc": true,
+    "official": false,
+    "image_cluster_bootstrap_ASR95": [
+      0.04,
+      0.12666666666666668
+    ],
+    "image_level_at_least_one_target_hit": {
+      "hits": 12,
+      "N": 150
+    }
+  },
+  {
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21_dataset_expansion/runs/coco_captioning_foa_attack_150_50_b2a7fc5f847e27",
+    "dataset": "coco_captioning",
+    "method": "foa_attack",
+    "steps": 50,
+    "target": "Gemma 4 31B-it",
+    "planned_N": 150,
+    "N_images": 150,
+    "adversarial_scored": 150,
+    "clean_scored": 150,
+    "targeted_success_numerator": 1,
+    "targeted_success_denominator": 150,
+    "ASR": 0.006666666666666667,
+    "TASR": 0.006666666666666667,
+    "clean_target_hit_rate": 0.0,
+    "new_target_hits": 1,
+    "new_target_hit_rate_all": 0.006666666666666667,
+    "TASR_conditional_clean_not_target": 0.006666666666666667,
+    "status": "COMPLETE",
+    "metric": "ASR_means_targeted_image_semantic_success",
+    "judge": "Qwen3.5-27B",
+    "post_hoc": true,
+    "official": false,
+    "image_cluster_bootstrap_ASR95": [
+      0.0,
+      0.02
+    ],
+    "image_level_at_least_one_target_hit": {
+      "hits": 1,
+      "N": 150
+    }
+  },
+  {
     "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21_dataset_expansion/runs/coco_captioning_m_attack_150_50_67d207ec290612",
     "dataset": "coco_captioning",
     "method": "m_attack",
