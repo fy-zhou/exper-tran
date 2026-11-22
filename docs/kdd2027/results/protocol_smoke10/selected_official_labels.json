@@ -1,0 +1,379 @@
+[
+  {
+    "image_id": 292819,
+    "image_width": 640,
+    "image_height": 480,
+    "source_object_category": "bicycle",
+    "target_object_category": "motorcycle",
+    "source_object_boxes": [
+      [
+        118.92,
+        86.61,
+        422.97,
+        329.85
+      ]
+    ],
+    "other_objects": {
+      "backpack": [
+        [
+          311.77,
+          231.03,
+          94.17,
+          75.89
+        ]
+      ]
+    },
+    "captions": [
+      "a bicycle sits on its stand in the middle of a grassy, wooded area",
+      "a bike standing up on the ground next to a tree",
+      "A large bike parked in the woods by a set of trees.",
+      "bicycle parked on a grassy hill by tree",
+      "a bike that is parked out in the grass"
+    ],
+    "caption_label": "a motorcycle sits on its stand in the middle of a grassy, wooded area"
+  },
+  {
+    "image_id": 240918,
+    "image_width": 500,
+    "image_height": 332,
+    "source_object_category": "bicycle",
+    "target_object_category": "motorcycle",
+    "source_object_boxes": [
+      [
+        46.87,
+        86.74,
+        160.74,
+        208.49
+      ]
+    ],
+    "other_objects": {},
+    "captions": [
+      "Pink bike sits on a guard rail by the river.",
+      "A pink bicycle leaning against a green railing next to a canal.",
+      "A purple bicycle is parked on a fence next to a river.",
+      "A bike is chained to the post on the sidewalk",
+      "A pink bicycle leaning against a fence near a river."
+    ],
+    "caption_label": "A pink motorcycle leaning against a green railing next to a canal."
+  },
+  {
+    "image_id": 64723,
+    "image_width": 640,
+    "image_height": 478,
+    "source_object_category": "car",
+    "target_object_category": "bus",
+    "source_object_boxes": [
+      [
+        89.42,
+        135.59,
+        342.71,
+        139.74
+      ]
+    ],
+    "other_objects": {
+      "motorcycle": [
+        [
+          132.85,
+          160.16,
+          417.16,
+          311.63
+        ]
+      ]
+    },
+    "captions": [
+      "A face car driving past a parked motorcycle.",
+      "A small blue race car passing by a motorcycle",
+      "A CAR IS DRIVING DOWN A STREET WITH A MOTOCYCLE NEAR IT",
+      "A picture taken by a person on a motorcycle on the road, with a race car behind it, and a rocky terrain in the background.",
+      "a sportscars with a number on the side driving past a motorcycle"
+    ],
+    "caption_label": "A large bus driving past a parked motorcycle"
+  },
+  {
+    "image_id": 372794,
+    "image_width": 640,
+    "image_height": 480,
+    "source_object_category": "car",
+    "target_object_category": "bus",
+    "source_object_boxes": [
+      [
+        2.06,
+        297.29,
+        253.94,
+        151.74
+      ]
+    ],
+    "other_objects": {
+      "train": [
+        [
+          46.38,
+          119.73,
+          563.06,
+          262.11
+        ]
+      ],
+      "stop sign": [
+        [
+          382.41,
+          369.65,
+          20.96,
+          30.78
+        ]
+      ]
+    },
+    "captions": [
+      "A yellow and green train pulling out of a tunnel next to a red car.",
+      "A freight train coming out of a train station.",
+      "A car drives past a train that is coming out of a tunnel.",
+      "A yellow and black train car on the tracks, but partially inside a building.",
+      "A train engine is halfway in and halfway out of the warehouse."
+    ],
+    "caption_label": "A yellow and green train pulling out of a tunnel next to a red bus."
+  },
+  {
+    "image_id": 383846,
+    "image_width": 640,
+    "image_height": 366,
+    "source_object_category": "cat",
+    "target_object_category": "dog",
+    "source_object_boxes": [
+      [
+        380.17,
+        163.48,
+        173.95,
+        163.71
+      ]
+    ],
+    "other_objects": {
+      "person": [
+        [
+          0.0,
+          1.24,
+          639.68,
+          361.05
+        ]
+      ],
+      "knife": [
+        [
+          0.67,
+          142.42,
+          205.51,
+          125.47
+        ]
+      ],
+      "dining table": [
+        [
+          183.45,
+          145.35,
+          211.47,
+          215.98
+        ]
+      ]
+    },
+    "captions": [
+      "there is a cat that is sitting on a mans lap",
+      "A white and tabby striped cat peeks out from under her human's arm to look at a plate on the dinner table.",
+      "A small cat that is trying to peek on the table beneath a persons arm.",
+      "The kitten is sitting at the table with a person.",
+      "A PICTURE OF A CAT IN A MANS LAP "
+    ],
+    "caption_label": "A small dog that is trying to peek on the table beneath a person's arm."
+  },
+  {
+    "image_id": 507384,
+    "image_width": 640,
+    "image_height": 640,
+    "source_object_category": "cat",
+    "target_object_category": "dog",
+    "source_object_boxes": [
+      [
+        138.66,
+        45.14,
+        435.4,
+        311.01
+      ]
+    ],
+    "other_objects": {
+      "bed": [
+        [
+          2.88,
+          4.31,
+          627.05,
+          616.99
+        ]
+      ]
+    },
+    "captions": [
+      "A cat that is laying down on a carpet.",
+      "A fluffy black cat lying down on a quilt on a bed",
+      "A gray cat resting on a carpet on the floor ",
+      "A cat laying on top of a bed on blanket.",
+      "a cat lays down on a rug "
+    ],
+    "caption_label": "A dog laying down on a quilt on a bed"
+  },
+  {
+    "image_id": 12943,
+    "image_width": 640,
+    "image_height": 427,
+    "source_object_category": "chair",
+    "target_object_category": "couch",
+    "source_object_boxes": [
+      [
+        331.26,
+        181.86,
+        234.56,
+        240.31
+      ]
+    ],
+    "other_objects": {
+      "laptop": [
+        [
+          254.28,
+          123.78,
+          179.44,
+          93.08
+        ]
+      ],
+      "refrigerator": [
+        [
+          401.49,
+          174.13,
+          192.98,
+          251.76
+        ]
+      ]
+    },
+    "captions": [
+      "A desk topped with a laptop computer and speakers.",
+      "A black and white desk with a laptop and two speakers.",
+      "A chair is near a desk with a laptop.",
+      "A desk with a chair in front of it and a laptop on top.",
+      "A work area is equipped with a sleek desk and chair."
+    ],
+    "caption_label": "A desk with a couch in front of it and a laptop on top."
+  },
+  {
+    "image_id": 171735,
+    "image_width": 480,
+    "image_height": 640,
+    "source_object_category": "chair",
+    "target_object_category": "couch",
+    "source_object_boxes": [
+      [
+        280.6,
+        209.76,
+        199.4,
+        281.99
+      ]
+    ],
+    "other_objects": {
+      "cat": [
+        [
+          323.46,
+          158.62,
+          156.54,
+          77.41
+        ]
+      ],
+      "tv": [
+        [
+          196.16,
+          0.0,
+          276.75,
+          127.26
+        ]
+      ]
+    },
+    "captions": [
+      "A wooden desk with a cat sitting underneath it.",
+      "A cat sitting on a chair beneath a wooden desk",
+      "a cat siting on a chair next to a dresser",
+      "A grey cat sleeping in chair under a desk.",
+      "The cat is sitting on the chair under the desk."
+    ],
+    "caption_label": "A grey cat sleeping on a couch under a desk."
+  },
+  {
+    "image_id": 431681,
+    "image_width": 500,
+    "image_height": 375,
+    "source_object_category": "tv",
+    "target_object_category": "laptop",
+    "source_object_boxes": [
+      [
+        165.64,
+        0.0,
+        295.12,
+        170.68
+      ]
+    ],
+    "other_objects": {
+      "cat": [
+        [
+          0.0,
+          135.35,
+          460.48,
+          179.84
+        ]
+      ],
+      "keyboard": [
+        [
+          138.2,
+          270.25,
+          361.52,
+          97.75
+        ]
+      ],
+      "mouse": [
+        [
+          0.0,
+          280.5,
+          38.02,
+          63.23
+        ]
+      ]
+    },
+    "captions": [
+      "Cat laying on desk in front of a monitor sniffing a keyboard.",
+      "Cat is laying in front of computer screen watching keyboard",
+      "A cat sitting on a desk between a keyboard and computer monitor.",
+      "a cat that is laying next to a keyboard and monitor ",
+      "A monitor screen and a cat sitting on a keyboard"
+    ],
+    "caption_label": "Cat laying on desk in front of a laptop sniffing the keyboard."
+  },
+  {
+    "image_id": 383209,
+    "image_width": 500,
+    "image_height": 375,
+    "source_object_category": "tv",
+    "target_object_category": "laptop",
+    "source_object_boxes": [
+      [
+        38.68,
+        170.35,
+        290.92,
+        198.43
+      ]
+    ],
+    "other_objects": {
+      "cat": [
+        [
+          154.11,
+          43.67,
+          172.94,
+          140.41
+        ]
+      ]
+    },
+    "captions": [
+      "A gray cat sitting on top of a flat screen TV.",
+      "A cat sitting on top of a television",
+      "A cat standing on a computer monitor staring at an image on its screen.",
+      "A cat on top a television staring at a dot on the screen.",
+      "A cat on top of a television looking at the scree"
+    ],
+    "caption_label": "A gray cat sitting on top of a laptop"
+  }
+]

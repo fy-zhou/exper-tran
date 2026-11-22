@@ -1,0 +1,67 @@
+{
+  "released_samples": 3000,
+  "released_direction_count": 58,
+  "sampling_policy": "revalidate published >=3/5 caption mentions and10-50pct box area BEFORE target output",
+  "aliases": {
+    "bicycle": [
+      "bicycle",
+      "bicycles",
+      "bike",
+      "bikes"
+    ],
+    "car": [
+      "car",
+      "cars"
+    ],
+    "cat": [
+      "cat",
+      "cats",
+      "kitten",
+      "kittens"
+    ],
+    "chair": [
+      "chair",
+      "chairs"
+    ],
+    "tv": [
+      "tv",
+      "television",
+      "monitor",
+      "screen"
+    ]
+  },
+  "GT_verified_source_present_target_absent": true,
+  "pair_counts": [
+    {
+      "source": "bicycle",
+      "target": "motorcycle",
+      "released": 22,
+      "eligible": 17
+    },
+    {
+      "source": "car",
+      "target": "bus",
+      "released": 29,
+      "eligible": 17
+    },
+    {
+      "source": "cat",
+      "target": "dog",
+      "released": 446,
+      "eligible": 442
+    },
+    {
+      "source": "chair",
+      "target": "couch",
+      "released": 50,
+      "eligible": 27
+    },
+    {
+      "source": "tv",
+      "target": "laptop",
+      "released": 47,
+      "eligible": 36
+    }
+  ],
+  "superseded_pre_gpu_manifest": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10/crossvlad_manifest.json"
+}
