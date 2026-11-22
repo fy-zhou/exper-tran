@@ -120,6 +120,8 @@ def main():
             return 2
         state.update(status="OURS_RAW_TASKS_AND_ADAPTED_METRICS_COMPLETE", completed=time.time())
         atomic(OUT / "state.json", state)
+        if not execute("asr.py", ["--ours-only"], "ours_binary_semantic_ASR", state):
+            return 2
     # Same controller and locks, existing baseline phases, scoring after each condition.
     from prepare import expansion
 
@@ -191,6 +193,10 @@ def main():
                 [],
                 "baseline_quality_" + method + "_" + dataset + "_" + str(steps),
                 state,
+            ):
+                return 2
+            if not execute(
+                "asr.py", [], "semantic_ASR_" + method + "_" + dataset + "_" + str(steps), state
             ):
                 return 2
     return 0
