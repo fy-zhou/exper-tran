@@ -43,6 +43,27 @@ def execute(script, args, label, state):
     return True
 
 
+def completed_ours_inputs():
+    from asr import inputs
+
+    from primary_ml_cka.baselines.protocol import sha
+
+    plans, cases, _ = inputs(True)
+    if len(plans) != 6 or len(cases) != sum(p["planned_N"] for p in plans):
+        return False
+    for p in plans:
+        if p["planned_N"] != (150 if p["dataset"] == "coco_captioning" else 90):
+            return False
+        lock = json.loads((Path(p["run"]) / "lock.json").read_text())
+        if any(sha(REPO / name) != value for name, value in lock["sources"].items()):
+            return False
+        if sha(OUT / "reference_banks.json") != lock["reference_banks_sha256"]:
+            return False
+        if sha(OUT / "reference_pool.json") != lock["reference_pool_sha256"]:
+            return False
+    return True
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     budget = json.loads((BASE / "nov21_dataset_expansion/state.json").read_text())
@@ -53,6 +74,15 @@ def main():
         "commercial_calls": False,
         "priority": "Ours native-task validity before baselines",
     }
+    if completed_ours_inputs():
+        with (BASE / "reproduction_owner.lock").open("a") as owner:
+            fcntl.flock(owner, fcntl.LOCK_EX)
+            state["validated_resume"] = (
+                "all720 native-task outputs and540 frozen attacks; no inference replay"
+            )
+            if not execute("asr.py", ["--ours-only"], "ours_binary_semantic_ASR", state):
+                return 2
+        return baseline_queue(state)
     if not execute("prepare.py", [], "prepare_references", state):
         return 2
     with (BASE / "reproduction_owner.lock").open("a") as owner:
@@ -122,6 +152,10 @@ def main():
         atomic(OUT / "state.json", state)
         if not execute("asr.py", ["--ours-only"], "ours_binary_semantic_ASR", state):
             return 2
+    return baseline_queue(state)
+
+
+def baseline_queue(state):
     # Same controller and locks, existing baseline phases, scoring after each condition.
     from prepare import expansion
 
