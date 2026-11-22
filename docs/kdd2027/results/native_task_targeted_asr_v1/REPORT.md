@@ -19,6 +19,9 @@ The prior non-targeted semantic failure rate is auxiliary and must not be relabe
 |coco_captioning|m_attack|50|Qwen3.5-27B|150/150|8/150|5.33%|COMPLETE|
 |coco_captioning|m_attack|50|InternVL3.5-14B-HF|150/150|9/150|6.00%|COMPLETE|
 |coco_captioning|m_attack|50|Gemma 4 31B-it|150/150|0/150|0.00%|COMPLETE|
+|coco_captioning|mi_fgsm|50|Qwen3.5-27B|150/150|1/150|0.67%|COMPLETE|
+|coco_captioning|mi_fgsm|50|InternVL3.5-14B-HF|150/150|1/150|0.67%|COMPLETE|
+|coco_captioning|mi_fgsm|50|Gemma 4 31B-it|150/150|0/150|0.00%|COMPLETE|
 |coco_captioning|pgd|50|Qwen3.5-27B|150/150|0/150|0.00%|COMPLETE|
 |coco_captioning|pgd|50|InternVL3.5-14B-HF|150/150|1/150|0.67%|COMPLETE|
 |coco_captioning|pgd|50|Gemma 4 31B-it|150/150|0/150|0.00%|COMPLETE|

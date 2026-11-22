@@ -384,6 +384,102 @@
     }
   },
   {
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21_dataset_expansion/runs/coco_captioning_mi_fgsm_150_50_10b70ff7a4a654",
+    "dataset": "coco_captioning",
+    "method": "mi_fgsm",
+    "steps": 50,
+    "target": "Qwen3.5-27B",
+    "planned_N": 150,
+    "N_images": 150,
+    "adversarial_scored": 150,
+    "clean_scored": 150,
+    "targeted_success_numerator": 1,
+    "targeted_success_denominator": 150,
+    "ASR": 0.006666666666666667,
+    "TASR": 0.006666666666666667,
+    "clean_target_hit_rate": 0.0,
+    "new_target_hits": 1,
+    "new_target_hit_rate_all": 0.006666666666666667,
+    "TASR_conditional_clean_not_target": 0.006666666666666667,
+    "status": "COMPLETE",
+    "metric": "ASR_means_targeted_image_semantic_success",
+    "judge": "Gemma 4 31B-it",
+    "post_hoc": true,
+    "official": false,
+    "image_cluster_bootstrap_ASR95": [
+      0.0,
+      0.02
+    ],
+    "image_level_at_least_one_target_hit": {
+      "hits": 1,
+      "N": 150
+    }
+  },
+  {
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21_dataset_expansion/runs/coco_captioning_mi_fgsm_150_50_10b70ff7a4a654",
+    "dataset": "coco_captioning",
+    "method": "mi_fgsm",
+    "steps": 50,
+    "target": "InternVL3.5-14B-HF",
+    "planned_N": 150,
+    "N_images": 150,
+    "adversarial_scored": 150,
+    "clean_scored": 150,
+    "targeted_success_numerator": 1,
+    "targeted_success_denominator": 150,
+    "ASR": 0.006666666666666667,
+    "TASR": 0.006666666666666667,
+    "clean_target_hit_rate": 0.0,
+    "new_target_hits": 1,
+    "new_target_hit_rate_all": 0.006666666666666667,
+    "TASR_conditional_clean_not_target": 0.006666666666666667,
+    "status": "COMPLETE",
+    "metric": "ASR_means_targeted_image_semantic_success",
+    "judge": "Gemma 4 31B-it",
+    "post_hoc": true,
+    "official": false,
+    "image_cluster_bootstrap_ASR95": [
+      0.0,
+      0.02
+    ],
+    "image_level_at_least_one_target_hit": {
+      "hits": 1,
+      "N": 150
+    }
+  },
+  {
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21_dataset_expansion/runs/coco_captioning_mi_fgsm_150_50_10b70ff7a4a654",
+    "dataset": "coco_captioning",
+    "method": "mi_fgsm",
+    "steps": 50,
+    "target": "Gemma 4 31B-it",
+    "planned_N": 150,
+    "N_images": 150,
+    "adversarial_scored": 150,
+    "clean_scored": 150,
+    "targeted_success_numerator": 0,
+    "targeted_success_denominator": 150,
+    "ASR": 0.0,
+    "TASR": 0.0,
+    "clean_target_hit_rate": 0.0,
+    "new_target_hits": 0,
+    "new_target_hit_rate_all": 0.0,
+    "TASR_conditional_clean_not_target": 0.0,
+    "status": "COMPLETE",
+    "metric": "ASR_means_targeted_image_semantic_success",
+    "judge": "Qwen3.5-27B",
+    "post_hoc": true,
+    "official": false,
+    "image_cluster_bootstrap_ASR95": [
+      0.0,
+      0.0
+    ],
+    "image_level_at_least_one_target_hit": {
+      "hits": 0,
+      "N": 150
+    }
+  },
+  {
     "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21_dataset_expansion/runs/coco_captioning_pgd_150_50_70987931c17359",
     "dataset": "coco_captioning",
     "method": "pgd",
