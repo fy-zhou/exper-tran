@@ -1,0 +1,2888 @@
+{
+  "targets": {
+    "coco2017/476119": {
+      "dataset": "coco_captioning",
+      "target_image_id": 455624,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000455624.png",
+      "target_sha256": "2507b7d343d06f535bbcca2b49939275ca6aa0a465a124d90b947f7279f9fb35",
+      "source_sha256": "16083dd06de3f41da1ea554ec6dab77da74824ab83e0b9194b4e18ae5ec4a126",
+      "human_target_descriptions": [
+        "Person driving a plated motorcycle on a track with people watching.",
+        "A MAN IS ON THE MOTOR BIKE WITH A HELEMT",
+        "a close up of a person driving a motorcycle on a road",
+        "A man who is riding a silver motorcycle with the number 120 on it.",
+        "People standing behind bales of straw as a protection from motorcycles on a track."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/524b820c8d633051f98d5a07074733f316dda4b913e8abe14b6fa0d7f980dd98.png",
+      "panel_sha256": "1b0ff87e5a029645a5312873ed293da78ce82ec73f0ac664984ac978b2ab3d65"
+    },
+    "coco2017/81594": {
+      "dataset": "coco_captioning",
+      "target_image_id": 98497,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000098497.png",
+      "target_sha256": "60d688dbac401868bfd572bd527da7960b10f65599a3d89e994d21fc675b8ec9",
+      "source_sha256": "b8f9d2141efb50e627766a1c155a62df185f0265db4375fafbdfd78c89573198",
+      "human_target_descriptions": [
+        "A traffic sign that has a picture of a man holding a surfboard on it.",
+        "A yellow sign that is at the top of a pole.",
+        "a yellow sign of a person carrying a surf board",
+        "A sign with a person with a surfboard is near a building and palm trees.",
+        "A ROAD SIGN INDICATING SURFERS OUTSIDE A TEMPLE"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/ea08980841e316580925578092eb1e03636f686d22c93c27b5e2309dbd274380.png",
+      "panel_sha256": "8a8bbf9c412f7607d4e8111b02021ef90d6fa5db591bab66d2064063ec7f4e0c"
+    },
+    "coco2017/572462": {
+      "dataset": "coco_captioning",
+      "target_image_id": 568439,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000568439.png",
+      "target_sha256": "b3940142a883c6ad6d4594b69131d07a1f78b8c9f471b7df26d15b6404bc096b",
+      "source_sha256": "f924984f10e1163f73ca0fb2a52b8784c777ceb3e9e469b033b15a8b047c10b6",
+      "human_target_descriptions": [
+        "A couple of double high buses that are in the street.",
+        "two public transit buses on a city street ",
+        "A man walking down a street past a double decker bus.",
+        "a couple of buses that are parked next to each other",
+        "Two double-decker buses going in opposite directions on a road."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/fdb64cc7c7673cb6443cb5bc387c8030a87219a48a067747e36f978cbe1bed33.png",
+      "panel_sha256": "3389021c587805fb2e393bcedf9259b78e9eb921810a7748ea81acbfed5408fd"
+    },
+    "coco2017/463842": {
+      "dataset": "coco_captioning",
+      "target_image_id": 222825,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000222825.png",
+      "target_sha256": "72fc3329c243975211747c81faad2a8c14731f6a2febf7959ffb8df5a8a04f83",
+      "source_sha256": "c3cb33cedc1dd5cd7acae405c1dc2a5dbff36a8514898d1641a93fbce6c2802f",
+      "human_target_descriptions": [
+        "A kitchen with a stove top oven next to a white fridge.",
+        "a kitchen with white appliances and brown cupboards ",
+        "A kitchen looks very clean with corner cabinets.",
+        "an image of a kitchen setting with white appliances",
+        "A bare kitchen has wood cabinets and white appliances. "
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/25269d38935d0719db3e653e0132941f379cb2845f4b7de25f80c38e96f11145.png",
+      "panel_sha256": "4fc7d7507b1146621611f8752ed218bd30339b711d18d03f236bd7314ec5715c"
+    },
+    "coco2017/556498": {
+      "dataset": "coco_captioning",
+      "target_image_id": 446574,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000446574.png",
+      "target_sha256": "3aeac7d698db2bef3951a69ed88e8f1ce6d497e03fbfa342d4f9f2181f701bd9",
+      "source_sha256": "3907cb48c3a7f7fd8680b6e29f8512dc496ee6619a7d867258a194ec0f466b0a",
+      "human_target_descriptions": [
+        "A bathroom has a shower and toilet in it.",
+        "A toilet sits next to a bathtub in an empty bathroom. ",
+        "a toilet a bathtub a rack bottles and a shower curtain",
+        "A bathroom with curtains that have floral decor on them.",
+        "A tan bathroom with a toliet and a tub."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/d55d6acccaa0745055c6c310a1f12eaed624e25f6cc5f3c06ce2af0abf664638.png",
+      "panel_sha256": "5869986610a90e1c9978252a6588b0a41af9722c7e4216ff51de29828c49f9a5"
+    },
+    "coco2017/448076": {
+      "dataset": "coco_captioning",
+      "target_image_id": 567898,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000567898.png",
+      "target_sha256": "8740451eb2bb8626c5645ab6b9daf4ed82b7d25ff58e3bd14bec1c5dd91850b5",
+      "source_sha256": "e7dc4ab79bdffba2fe081db5dc072dcf3e31e76e8784f39a1af6821420edbfcb",
+      "human_target_descriptions": [
+        "Three round plates filled with artistically presented food.",
+        "Three pans filled with different types of food.",
+        "a couple of tins with some food in them",
+        "Three tins of brownies with frosting decorations on them",
+        "A plate of food sits next to its dessert"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/99225eb49b7391381b0bac4fb34a2013b4e0b89da612173e4a1426db7138b905.png",
+      "panel_sha256": "6eb479e626d914bc6f5d2125963e477ee0b820d6e8946d8563b5659f7c5f1f42"
+    },
+    "coco2017/546826": {
+      "dataset": "coco_captioning",
+      "target_image_id": 322844,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000322844.png",
+      "target_sha256": "7177f9deb12d56513f5376057c4c568306e0482babe69166c8bb3e8d31aee43c",
+      "source_sha256": "bb58ffb087e2b66185903baac54f0eae9cfa3c1ce8c548c3a76a9654bfd0ca89",
+      "human_target_descriptions": [
+        "there are two stuffed animals on a wooden bench",
+        "A teddy bear sitting with a Finding Nemo stuffed animal on a bench.",
+        "A stuffed teddy bear and memo sitting on a bunch.",
+        "A teddy bear is next to a goldfish toy.",
+        "A teddy bear and a stuffed fish set next to each other."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/a887606f7c8d347b696bf02162c283f945abc3bf22a78e38662dd8d4ca6cfb3a.png",
+      "panel_sha256": "34109b9bca867f77c3a6559a519fdf7794f99878e2e0cb3b08919f67e4ee0f0a"
+    },
+    "coco2017/140840": {
+      "dataset": "coco_captioning",
+      "target_image_id": 565962,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000565962.png",
+      "target_sha256": "49df1bb934f840c928f54fe4161adcf37ca7285985159f4425fd70e2236c2327",
+      "source_sha256": "0c0f00e913234464f3d216bfac0d69cd9242df2313e7821ba9c319bf87cba1d2",
+      "human_target_descriptions": [
+        "A cat outside a window looking at a Buddha statue.",
+        "A cat looking inside of a window at a statue of Buddha.",
+        "A cat peers through a window at a Chinese Buddha figure. ",
+        "A cat looking at a buddha statue through a window.",
+        "a close up of a cat looking at a small buddha statue"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/a98d054df12cd955242a6f971913bdc8cc1b07d22b752ce5123043525c731915.png",
+      "panel_sha256": "86352f1ced060adf26eee2c66c36ef0773fd75c91e94e5dd2bf1c1b0fdf04b7b"
+    },
+    "coco2017/84170": {
+      "dataset": "coco_captioning",
+      "target_image_id": 130599,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000130599.png",
+      "target_sha256": "b9b4ba2efa2da6f56a29b2e8df287896e7762f3a6d6c313bfa17aac5ab4b2da8",
+      "source_sha256": "0f4cebaa752bcf6e44110507d65e586f2b624f6955e43c58a971a58faf0387c9",
+      "human_target_descriptions": [
+        "A man punching an innocent giraffe in the side of it's head.",
+        "A young man is playing with a giraffe",
+        "A man pretending to punch a giraffe sculpture.",
+        "A man is miming punching a giraffe statue.",
+        "A man is pretending to hit a statue of a giraffe."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/6686a1a7a2775bb42d032d934d9574536f317b5ec5fb730719c0ec1cfa60fd7c.png",
+      "panel_sha256": "79d9681c2efd157d3f9486ae37b1e550f4f814698f072d6bc42d90b1761eb0d6"
+    },
+    "coco2017/287527": {
+      "dataset": "coco_captioning",
+      "target_image_id": 485802,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000485802.png",
+      "target_sha256": "9714cc8b4513b3eb71f2babb6debd0028875907f5ccb5b80dd0ecfd0350920c6",
+      "source_sha256": "c9a392bba96f18f7c5877b3954da94fc5295df2cd84859597d6e13451ce407aa",
+      "human_target_descriptions": [
+        "An airplane leaving a trail in the sky.",
+        "A plane flying straight up and high in the sky leaves a tail of smoke.",
+        "An airplane leaves a contrail in the air.",
+        "A plane accelerating through the sky leaving a tail. ",
+        "A plane flying in the sky with a trail of white smoke behind it."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/ea38bef16b706df43b07970de74d9cebddf46ca246e58279613b8aa64665cade.png",
+      "panel_sha256": "c985517ffcb81a3c1638f9680574a882a82607c8b31645eb3eef7d1236fffabc"
+    },
+    "coco2017/167572": {
+      "dataset": "coco_captioning",
+      "target_image_id": 44260,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000044260.png",
+      "target_sha256": "040c7a35bd74528171cfd39df81b8312c179ae6aa899d71fee7f4f52d216c7b3",
+      "source_sha256": "87f5a371ada38ea23450939bb371b294067ce4e93cdff34965e8bb0d5d2316f8",
+      "human_target_descriptions": [
+        "A collection of apples growing on a tree. ",
+        "Crisp, delicious apples hang on the dying branches of the tree.",
+        "An apple tree is shown in the middle of an orchard.",
+        "A tree containing apples with more trees in the background.",
+        "A tree has dying leaves and apples in a forest."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/5ba8e233de7c4a80a8293a73b55bfcefffdae91a551f2cb3ec88c9d37b5414e0.png",
+      "panel_sha256": "6cc60ec98003d55770374e4cc409815b8465b9206ccf5bf08003b6cb4b7c790e"
+    },
+    "coco2017/451155": {
+      "dataset": "coco_captioning",
+      "target_image_id": 120584,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000120584.png",
+      "target_sha256": "d26732895ae7f5f129072487c4a0231b98f71f589266d56f556598f0f048e91f",
+      "source_sha256": "c0d28434c001e604f0c405acb258f7a3f26237f0fe16d9a4e5d94df18b569dba",
+      "human_target_descriptions": [
+        "A clock on wood wall above various gaming machines.",
+        "Wood paneled walls with electronic type games nearby.",
+        "A clock high up on a wall in a room.",
+        "A clock mounted high up above a jukebox.",
+        "A photograph of a clock at an arcade."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/acabc20d552fdada9890fdcd6c195fab587ef659ae21ca69d457aa722927c012.png",
+      "panel_sha256": "206ebc58a583aecf2b00c89cd215a09ac18d9d1706f17937eaad33a6653020dd"
+    },
+    "coco2017/492968": {
+      "dataset": "coco_captioning",
+      "target_image_id": 94852,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000094852.png",
+      "target_sha256": "82524c30052bb327f06eb6754331f3881ae3ccf89bab5b32a5c0cd5cdf465ac0",
+      "source_sha256": "f411d5c6a45ebda3d32dc931c5085f4b505f4e428834b48b8f8237b3ac5aef6a",
+      "human_target_descriptions": [
+        "A mother looks after a baby elephant in the wild.",
+        "A large elephant and a baby elephant walking in tall grass.",
+        "A big elephant and a little elephant walking ",
+        "A mother elephant with her young one walking around.",
+        "a couple of elephants that are walking in some grass"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/0e3ecf4acd7ef01308b84345f81f1e079739495030e4f7f20c9009749066dd40.png",
+      "panel_sha256": "e5cbfcfe5c903d1ccdb1dd9b606eac54262afb238f9c46ccffed57e0754ab939"
+    },
+    "coco2017/55299": {
+      "dataset": "coco_captioning",
+      "target_image_id": 231831,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000231831.png",
+      "target_sha256": "429efd1711365c1d85ed0d62762524c9670fc1555ff9d07086f9fd36d80fe50d",
+      "source_sha256": "6536865ca5a3b5da547f19b3105b33d909dfccd562ea66aa0e8cee951bc97af7",
+      "human_target_descriptions": [
+        "A black and white cat sitting on top of a chair.",
+        "A cat that is standing on a desk.",
+        "A black and white cat sitting at a desk. ",
+        "A cat stands with its paws against a desk. ",
+        "A cat is looking at a cluttered computer desk."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/5ea55b7da4044caf7be564c67a99300c77f5e5a642ff7cc31a09694151d6d544.png",
+      "panel_sha256": "088d500de0bf4a2af58e336e0b617e1104403ea0e273c1c54f44332d239fb934"
+    },
+    "coco2017/455085": {
+      "dataset": "coco_captioning",
+      "target_image_id": 290768,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000290768.png",
+      "target_sha256": "a13a45cac40c4772fce5a6cc93ce2016b80193c0fc9315b5f2496359b43e0907",
+      "source_sha256": "fb1d93d31fb3b8d2e21dcfd4227576b28772626df8920df8740f3ed3242e3ca0",
+      "human_target_descriptions": [
+        "A kitchen with a counter, window, stove and cutlery. ",
+        "Kitchen counter with mugs, coffee, and a knife block on it.",
+        "A small kitchen has a checkered floor and a window.",
+        "Three mugs are on the kitchen counter of a stove.",
+        "A kitchen with sunshine shining off of black and white tiles"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/81dd79bd1df2f8d93761f6ed2ddc1e3a23f539683447093d528b952cddf1e326.png",
+      "panel_sha256": "fcaa4c8bb2f08d5359bab0232c564534f7f5ab4cd2487a3a8fd35607df340ffc"
+    },
+    "coco2017/39785": {
+      "dataset": "coco_captioning",
+      "target_image_id": 133778,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000133778.png",
+      "target_sha256": "1f3581af1b9e7c12fe98dc397192baafdd515a756809b2abf4110d4f92e0720e",
+      "source_sha256": "20020fe404b26d99d3e502d8026b13f4c86f67542cf447107861ad20e918212d",
+      "human_target_descriptions": [
+        "A young calf drinks from its mother's udders",
+        "A mother cow with a young calf feeding in a grassy area.",
+        "a calf suckingling on a cows utters in grass",
+        "A baby cattle is being fed by its mother.",
+        "A brown calf drinking milk from its mother."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/dfdef6b4e6bd29bebbb7672ebd7f9ba051ce412ac46034a1dcdaee255fcdbd7f.png",
+      "panel_sha256": "6fd98335dfdbbd675631c38fd31a848d2dd2814ed9bab3c17133af6690b1b2c4"
+    },
+    "coco2017/270122": {
+      "dataset": "coco_captioning",
+      "target_image_id": 363072,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000363072.png",
+      "target_sha256": "40f7f80354f71388b8100d5b83e801994566688209cb18281a0e8fd7cf62cb71",
+      "source_sha256": "99523d7c044f15b33cca4085e227ea2adb00e0f11413a20878afc01c3d3aa4e8",
+      "human_target_descriptions": [
+        "this trains station has a white building in the background",
+        "A silver train sitting next to a forest next to a tall building.",
+        "The commuter train is headed toward the tall building.",
+        "a white train is coming down some metal tracks",
+        "a train on a track near many trees "
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/7315b02bb8edde8b4c70dbccb7aa0c170907d4ac4d4b107471c536e5d3c1215d.png",
+      "panel_sha256": "0448d85900eb0700aa81b9a9c70f09988341081ecdb5c8f7c80b14e2e4ab8dd0"
+    },
+    "coco2017/122962": {
+      "dataset": "coco_captioning",
+      "target_image_id": 464689,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000464689.png",
+      "target_sha256": "87f977d2b6f1d28dc6e5e9bc0a81533fc97f45badd2fe76df3bf9a8174098b14",
+      "source_sha256": "81564e414d6711664c8bc440b475b0c2d116c22bf5662fa1c5e54c3221301820",
+      "human_target_descriptions": [
+        "A picture of the entrance to an old house.",
+        "the front door to the house is open ",
+        "a building that has some stairs out front",
+        "these stairs are leading up to an open door",
+        "Concrete stairs lead to the double doors of the house."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/43fdd7404ac048fa03a7eb7b1682faadc6fc1b7a4699e8d21f3a986484b719f8.png",
+      "panel_sha256": "646919b69b009d6f5dd63dd79755e0016cdd8a0566c7cfeca3ad85841665846c"
+    },
+    "coco2017/335529": {
+      "dataset": "coco_captioning",
+      "target_image_id": 226984,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000226984.png",
+      "target_sha256": "92312452596692ea2c1b79230217911bd8b883027018f3a5e898203955dfba44",
+      "source_sha256": "60d90ddae2e8b519b53a337efe648cd3f573402773a753b76954e0c7555717c0",
+      "human_target_descriptions": [
+        "A kitchen filled with appliances and wooden cabinets.",
+        "The counters in this kitchen are covered with stuff.",
+        "a kitchen containing a stove and refrigerator and sink",
+        "A kitchen with white appliances, countertop and oak cabinets.",
+        "A kitchen with an oven with a green rag and an orange rag."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/cb4145780c498920111f6cd1c5b511597a342946fa81454f8c6f672fa055cd40.png",
+      "panel_sha256": "e43543fb600570fbaa502a041580b39772b0aee31fe923d581c6310c56da06bb"
+    },
+    "coco2017/316666": {
+      "dataset": "coco_captioning",
+      "target_image_id": 326128,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000326128.png",
+      "target_sha256": "ea31321cbba7bcfdf75d98f8fbc8894a5e2963cba3b83f21d8399f618b26dbdf",
+      "source_sha256": "019cfcbb14c0bc945610108428969a369d4204d7ff524ceb4c61a2979729f404",
+      "human_target_descriptions": [
+        "The man is posing for a picture with his snowboard.",
+        "The skier is happy to pose for the picture.",
+        "A man that is standing with a snowboard in the snow.",
+        "A man standing on a snowboard on a mountain peak.",
+        "A person standing in the snow near a snow board."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/5dedd74e20f8fb065101603f5f155735997e4b73ca68eff372e2df461e2ac686.png",
+      "panel_sha256": "0fa5e8d6cb8977c07446bfc37d7183e1f1a9721ea50543cc2fad0de3433af506"
+    },
+    "coco2017/453841": {
+      "dataset": "coco_captioning",
+      "target_image_id": 18193,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000018193.png",
+      "target_sha256": "b815ec688349ca53b6e98644831691ad55063de6f8fcdc30d9a973a3b578f556",
+      "source_sha256": "e9f2374936b762a17d5b7e8d8b6b51e9766ef6c9978b642c1eff9b6c3cdf48f0",
+      "human_target_descriptions": [
+        "A woman in green sweater eating a hotdog by campfire.",
+        "a person eating an apple with a plate of food",
+        "A person eating from a plate on their lap while sitting in a camping chair.",
+        "A person is sitting outside in a chair with a plate of food.",
+        "A woman eating a sandwich near a campfire."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/bc261036380ed40a0ed0a2477bc9cd1b700b3e92d271f10f9d9bdefcc36e4f7d.png",
+      "panel_sha256": "c2a38c48659ce28e64c35391c9b78b28e0345f3b58681b528daf7e913cdf8e6e"
+    },
+    "coco2017/226903": {
+      "dataset": "coco_captioning",
+      "target_image_id": 290179,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000290179.png",
+      "target_sha256": "bca5f41827a1a645ce895fa10e0b30b48cbe7ad00fa280625472dabae585ab8c",
+      "source_sha256": "8bf8316e8450f7a16fbfb2c8a81f93546e1e30dc1d2775a824b69d041331927d",
+      "human_target_descriptions": [
+        "A great shot of a very nice and large city somewhere.",
+        "A river is seen from afar and the river is next to a city that features old buildings.",
+        "a tall tower with a clock on top with buildings near by",
+        "Big Ben towering over the city of London England",
+        "An aerial view of the city of London on a cloudy day."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/4aedea5fb2343ec382b1ca7920f3b0db0ddd547a4e0cfeb2a2830e83d93243c7.png",
+      "panel_sha256": "e31496db859391850f3a655c6fa7e73149ef09cb87e20d42d7a58dc493b2fad0"
+    },
+    "coco2017/182923": {
+      "dataset": "coco_captioning",
+      "target_image_id": 122166,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000122166.png",
+      "target_sha256": "63c2ec8effb8bd978b8aaf55e8922cc32ee6e950fb20cc7d5fd07a7938586b18",
+      "source_sha256": "30fcbfebb17106a06e8b5560dd945d7a8eb5e32d4b5212aebf260e8af962e44d",
+      "human_target_descriptions": [
+        "a person riding on a bicycle on the street in front of some cars",
+        "The cars are travelling behind the guy on the bicycle",
+        "a woman rides a bike in front of some cars ",
+        "A woman on a bike rides on the street in front of cars.",
+        "A woman is riding her bike down the street in front of traffic."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/536441e66213f5b63583d1dd363754e588e4a045a4d296fe2723bab4553709de.png",
+      "panel_sha256": "7a3fc689a562ccf9a8fd64b824c4fed164c1699ac067067301e9c6269cbdea4d"
+    },
+    "coco2017/244750": {
+      "dataset": "coco_captioning",
+      "target_image_id": 100238,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000100238.png",
+      "target_sha256": "88ab1a6069406359f2f1c0ba27b075783f2a51f018416aedf83525d36ffa9dce",
+      "source_sha256": "1f7332b27809a4cc815ff806fc6eb4930b820e04b7bd7eb80a5d36f3eca90263",
+      "human_target_descriptions": [
+        "A family standing next to each other while holding frisbees.",
+        "A group of people each holding a frisbee",
+        "Some people posting in front of a camera for a picture. ",
+        "Three adults and a child stand together holding Frisbees.",
+        "A group of adults and a child holding frisbees."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/70aaf6118f5e256dbec1b39c682376a954988973f4db43afc03137416811dccb.png",
+      "panel_sha256": "c26dfac748af1a87f593290640afe4ebaff1c51bde396e0e03c941974be08fe9"
+    },
+    "coco2017/16958": {
+      "dataset": "coco_captioning",
+      "target_image_id": 20571,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000020571.png",
+      "target_sha256": "2c695a9ad70b53f70a886ccf165bd38a6067f14d35c948700b671c48c43f03a6",
+      "source_sha256": "c2885e973f10e128dc4c073b9dd0e920764f9cd0403b83b60fa56d4c65e52d03",
+      "human_target_descriptions": [
+        "a group of boats parked next to a dock in the water",
+        "A few fishing boats tied to a dock.",
+        "Two tug boats tied up to the dock.",
+        "some boats that are by a dock in some water",
+        "A tugboat sits beside a ferry on placid water with a mountain in the distance."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/43ad46826ae6926acb285a7efc4893abe5540e462425baa9810787a958bf683c.png",
+      "panel_sha256": "2bf70363dbe0d7d22e5bdd44cfe41afed7f42c266425f91c44cea38801a34dae"
+    },
+    "coco2017/308793": {
+      "dataset": "coco_captioning",
+      "target_image_id": 367386,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000367386.png",
+      "target_sha256": "5eaef0fa95d8e9d58b06491e96d581e6c57c43a1ba2f2e1805819e96b62da4fd",
+      "source_sha256": "de571dc3419b7fd7de9ace9591f28d166e83254b749f83ac14339ecf2fa191e2",
+      "human_target_descriptions": [
+        "A living room with some empty couches in it ",
+        "The room has two couches next to a dark coffee table. ",
+        "The living room actually features several different colors.",
+        "A living room with sofas, tables, a lamp and windows.",
+        "a living room with some tables and couches"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/5ee19345c2dd068cd2bce19d10f4e63c29d374615a139d9251d8644bdb06ea6f.png",
+      "panel_sha256": "e78705ab1a58e9c8a83cdc0ed06f91fe6b3db68427863de1b656147a927f5d74"
+    },
+    "coco2017/496571": {
+      "dataset": "coco_captioning",
+      "target_image_id": 144706,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000144706.png",
+      "target_sha256": "7327d307c8a27b3b741a993034d329334faaf74dd4771f50de9c0d2ab09fa091",
+      "source_sha256": "e5cf3529649a08ce30dd35de3979d88d80a41b19cb59ed8fbd8055e36d1a7804",
+      "human_target_descriptions": [
+        "A picture of a street light through a rainy lens.",
+        "a window with rain drops on it looking at a street light ",
+        "the view on a street through a window on a rainy day",
+        "Windshield with rain drops coming up to a stoplight.",
+        "The window showing a traffic signal is covered in droplets of rainwater. "
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/b02352c9f8acf78a2708f738183cb91a1d5bda85ff4f086a1855846522d257d7.png",
+      "panel_sha256": "74c35c3762efe937da04a5a55a12c73412bf1d7fdd637f6979207a572f75dece"
+    },
+    "coco2017/121506": {
+      "dataset": "coco_captioning",
+      "target_image_id": 184762,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000184762.png",
+      "target_sha256": "57535a63d72f565e7b0e29acc22e852e13876959dc4e8d42c55e7ce2cda78552",
+      "source_sha256": "085497cb70d3278ed07ffebe53e0611090a903b54335196c178fc544d46ad53a",
+      "human_target_descriptions": [
+        "A gold clock with ornate iron hands keeps time on a large clock with roman numerals.",
+        "A close up of the clock face of a grandfather clock.",
+        "a close up of an analog clock with roman numerals",
+        "The clock inside the house has a large face. ",
+        "a large wall clock with an upscale design and roman numerals"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/5b599fff1d4f19b58b2e8a3d748a9ed72cb0e37d057a9d034410a4ea70a8da5a.png",
+      "panel_sha256": "b5464f980b4819fdbd675eb115328e486bbe0120414b2f1c6a34b4aa3b984512"
+    },
+    "coco2017/404601": {
+      "dataset": "coco_captioning",
+      "target_image_id": 26690,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000026690.png",
+      "target_sha256": "ba1615f23c4c39484beb79e5c033b04c3282ed09a65926e698024d4df8c38d16",
+      "source_sha256": "510e2cc45918fed579f62608584df35dbfc87f94dfcf60ecafa084c483309739",
+      "human_target_descriptions": [
+        "A man is high in the air as he skateboards on the ramp.",
+        "A man flying through the air while riding a skateboard.",
+        "A LARGE GROUP OF PEOPLE WATCH AS A SKATER DOES HIS TRICKS",
+        "A skateboarder doing a trick at a competition.",
+        "A person being photographed while on a skateboard. "
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/d1ded5b589b295078a5bb25180db4635516f2c97f8876e6ae18693e564f5f470.png",
+      "panel_sha256": "2fd497bf9cd0dd5617d31af6470bbbf247bba30facfc9a2f9e7f5c5121574b21"
+    },
+    "coco2017/401244": {
+      "dataset": "coco_captioning",
+      "target_image_id": 392722,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000392722.png",
+      "target_sha256": "3fb6aaf3eee0561260528f45759e8fc19cddb9c6af1430426d29c35b635af77b",
+      "source_sha256": "836617dc44106858945c0d306c5ed9797bac81da9583e65d2ad14867f4679cf3",
+      "human_target_descriptions": [
+        "A group of people standing next to a double decker bus.",
+        "People stand near the curb behind a lime green double-decked bus.",
+        "this is people standing in the sidewalk near a bus",
+        "a double decked bus sits parked next to a side walk ",
+        "A group of people standing outside of a double decker bus."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/11ab300e7b069e3fba9b9f8e5a9834552cb9e359f7ed6d5525e0a2356c4bfb50.png",
+      "panel_sha256": "826bf63cf631e7ce4f45ddd2bb55ee3303af7931155061cde80272e45d6f3f83"
+    },
+    "coco2017/257478": {
+      "dataset": "coco_captioning",
+      "target_image_id": 278006,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000278006.png",
+      "target_sha256": "3ffd790742959556f8d95dae3e61a22be109aad11600fe0a2b56d7c016ec9c8d",
+      "source_sha256": "37b26a2a9abdfd8435e81b81ff4616d0ee44338579263744f02eebb0818b1d22",
+      "human_target_descriptions": [
+        "There are a few street signs next to a house.",
+        "Street signs in front of a hree-story grey frame house with bay windows, dormers, and a porch.",
+        "A street sign marks the intersection of 3 streets, while three housed stand in the background.",
+        "A couple of green street signs sitting in front of a gray building.",
+        "A grey house sitting between a couple of other houses."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/5dff0956931bff22152a3c27a4e2d4d1f66d9d547c4f96069240e6e598999769.png",
+      "panel_sha256": "ddb7855be8794852f1422eba3fa3908e3116159e4c09e647618e3ff07d6435bd"
+    },
+    "coco2017/114770": {
+      "dataset": "coco_captioning",
+      "target_image_id": 136600,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000136600.png",
+      "target_sha256": "0955f5cd3e8e3528a20ad429d57e9813d80ae031b3f4aa2d08d5c0f52935c999",
+      "source_sha256": "1702e7a085e863ee6f257fdd408dfdc6f71a4cfbf3fab53e65f0810746a2d187",
+      "human_target_descriptions": [
+        "A lap top sits on a small desk with jars and candles around it",
+        "A laptop computer sitting on top of a wooden desk.",
+        "Three jars are on a desk above a laptop.",
+        "A desk with a laptop and jars and candles.",
+        "A laptop computer is surrounded by jars and candles."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/8190532f1fda957e495dc120be3490e8282eb49feaf48597e905c7a30086c152.png",
+      "panel_sha256": "fb6b6db04f3f73fc5c131c3091da23e547cf6a5f2c47727722aa1b70039b5da5"
+    },
+    "coco2017/133969": {
+      "dataset": "coco_captioning",
+      "target_image_id": 80949,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000080949.png",
+      "target_sha256": "caf89626125b3c1368cfe646ece900b6872a3ec8d256026f9426f85da01c2116",
+      "source_sha256": "d2cdac62fd2e8e374fec3129081e231fcc0d95c80b4574e68d70f09d38475c93",
+      "human_target_descriptions": [
+        "A KITTEN NAPPING ON THE KEYBOARD OF A LAPTOP.",
+        "A kitten lies down on the keyboard of a laptop.",
+        "A kitten laying asleep on top of a turned on laptop.",
+        "A kitten laying over a keyboard on a laptop.",
+        "A kitty cat lies down on a computer keyboard."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/aa0c67382dab7d4fb8f0bc23fb7bfee7d40828a8d4a933adb2f3ba5958f94081.png",
+      "panel_sha256": "3a1a4f3d6873e64d8c1ce274cfcfdcbc68a502448843345df9bfd6d3a402c36d"
+    },
+    "coco2017/523175": {
+      "dataset": "coco_captioning",
+      "target_image_id": 562121,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000562121.png",
+      "target_sha256": "f4510289bcdea63618b310d836f3c943d6892c193309c59fc54e9484b722c88f",
+      "source_sha256": "a33a20c9176827f58e57be94bd8866dc87dd8f439174dddaeafa180374e5935d",
+      "human_target_descriptions": [
+        "Two zebras fighting in a cloud of dust",
+        "Two zebras fighting in a open area with green bushes.",
+        "Two zebras are battling each other on hind legs.",
+        "Two zebra having a fight on top of a dry grass field.",
+        "Two zebras in a jungle area fighting in a dirt area."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/b93ebcd73a24a58424cad6ccd5e910380c42c7e559bb2db8106eb65493ad4887.png",
+      "panel_sha256": "e97786647e4d3903579e8f999c153eec84bdc1bba83a03605cab5720ef3e4ed9"
+    },
+    "coco2017/232088": {
+      "dataset": "coco_captioning",
+      "target_image_id": 275392,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000275392.png",
+      "target_sha256": "2e07391cf88bf6c72d0cee3a8dc6c8176bf3051682a7f344d4114d0559b4b9f3",
+      "source_sha256": "12ae22b6d44f641ac99df6447935abf0a231c38071fdf012b00ce54cfdf52b0c",
+      "human_target_descriptions": [
+        "A person riding a brown horse with blonde hair in a green field.",
+        "Woman sitting ontop of a large brown and white horse.",
+        "A smiling woman is on a brown horse.",
+        "The child sits on the horse in the pasture.",
+        "A woman on a horse smiling in a green grass."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/3aac9f016c67bf0e69224d2721c7081338da43cfd6bfb15be6c1578343c8f496.png",
+      "panel_sha256": "d0af85468bfa23b0d235d6b99d358598d8781f7e128bae0ea824736a6b261b54"
+    },
+    "coco2017/551439": {
+      "dataset": "coco_captioning",
+      "target_image_id": 130566,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000130566.png",
+      "target_sha256": "80db8370bb9779d8b0ea0b409ae25c9a12c488ff65d88ce2a51f961ede75249f",
+      "source_sha256": "502482fc67a57965a53135fe8d07c4fb708cc889b1aee6f727f72d5975cf2aa1",
+      "human_target_descriptions": [
+        "A yellow train on the tracks with several cars",
+        "A train pulls past an intersection in the rail in a rural area.",
+        "a long cargo train going down a track by some trees ",
+        "A train with a red and yellow engine on a railroad track.",
+        "A train pulls a large number of cars through a junction."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/1bbae875f19dfd7584a66af089618d5d67061e74d446dfb1b4cd11cc0b09e8f2.png",
+      "panel_sha256": "83666468bf3452f27eee6d0af153592056071f00035f727c4d66ec7ec1815323"
+    },
+    "coco2017/1503": {
+      "dataset": "coco_captioning",
+      "target_image_id": 309467,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000309467.png",
+      "target_sha256": "19f47fa7ea8351eb00c50d010ce24797ce88dffcc92de5552ab06a5e70e5afc5",
+      "source_sha256": "e0f48894062e49c3fab65efbfc140e2d369b8794f5d4576fd86bd21691ae29e9",
+      "human_target_descriptions": [
+        "Two people cross country skiing on a snow covered hill.",
+        "Two people carrying backpacks are cross country skiing.",
+        "Two skiers in dark clothing are standing on the snowy slope. ",
+        "Skiers stand at hillcrest against a clear blue sky. ",
+        "two people walking up the hill so they can ski down it"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/1ca93f531ab619d45fdf2d4db629736493522c097a7a654a0f51094570934c06.png",
+      "panel_sha256": "5fb4b5aca9758137650beebc6802b50a7e035edc25c12942e54dfc6df24dc9c1"
+    },
+    "coco2017/164602": {
+      "dataset": "coco_captioning",
+      "target_image_id": 486104,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000486104.png",
+      "target_sha256": "e922f3e750268a9c14b00cdf04399676b24bc3c9a96d211e2565218e46cb70d6",
+      "source_sha256": "ef5d2a459364dd83599d77f32c71c5401a90b4243925f70f679c3dcbf05366ad",
+      "human_target_descriptions": [
+        "A baseball player holding a bat while standing on a field.",
+        "A baseball game with a batter ready to swing",
+        "A batter, catcher and umpire in a baseball game.",
+        "A photo of a person being taken in this picture.\n",
+        "A baseball game is in action as a batter swings."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/9a98f46363855b43cde33295d012ffc9548e42d28a48396a62dbc3825befa14a.png",
+      "panel_sha256": "6ae58eb9b7a4e5924fbba802b77c187c36c85a1308c1df3949b7b6c491c417ec"
+    },
+    "coco2017/537153": {
+      "dataset": "coco_captioning",
+      "target_image_id": 124277,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000124277.png",
+      "target_sha256": "cd3563329e4ca09a256cc9065438e2fca429d2645ae4326c6188e52b9e459e2b",
+      "source_sha256": "facc0af4a5f3fd1d30be4595ef188beb8539c51aeae5fd1c07d4824bef6ff128",
+      "human_target_descriptions": [
+        "A train that is going through a city.",
+        "A train riding along a group of train tracks.",
+        "A train turns on the tracks in a different direction.",
+        "A train that is going over a bridge overlooking the city.",
+        "An elevated subway train in a major city on a sunny day."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/fd6b36b32687857d1018b4db1fc954c488ad1213e6f04f9b8dacd0ec6e56b9e4.png",
+      "panel_sha256": "18211f7975ca3b9be757e462c6aaf821eb04d13b45b20b4ccb0608ccb9b7178e"
+    },
+    "coco2017/449661": {
+      "dataset": "coco_captioning",
+      "target_image_id": 16502,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000016502.png",
+      "target_sha256": "0815ed58597e6fe14262fff12c9270822fac8e0ce047510523ebf54d8c23c7b9",
+      "source_sha256": "b99c79d6797b7ff535a3ad35d647831fe049dc2b63f073bfb6ff605e5aebd416",
+      "human_target_descriptions": [
+        "A sheep standing on top of a rock. ",
+        "Goat standing on top of rock pile with grass growing on it",
+        "A sheep is standing on top of a large rock.",
+        "The sheep is standing all alone on the rock.",
+        "A mountain goat stands on top of a rock on a hill."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/6a046a31f8526dfdbfe3f0d3177627b0e01d2d82032591891f531666a0662a61.png",
+      "panel_sha256": "17f27ddbf69d68914a01c7968aada068dd85bdc798c53590fdcd401cacdb88f8"
+    },
+    "coco2017/381971": {
+      "dataset": "coco_captioning",
+      "target_image_id": 509735,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000509735.png",
+      "target_sha256": "3b287eeff9ba664b3dfb0a3a9f58ca4929406390998bd710484f88b95e670301",
+      "source_sha256": "c49e35f6fbb018351927cc09599b537f15156cf8df485dc43dacb005b6d8ca65",
+      "human_target_descriptions": [
+        "A family of giraffes by a few zebras and a gazelle.",
+        "A group of giraffes drink water in the wilderness.",
+        "Giraffe and zebra grazing in a field next to plants.",
+        "Several giraffes and zebras walking in a dirt field.",
+        "A group of zebras and giraffes by a water hole."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/9022b450c60e9879c1142fbe997315bd0bc001f0d0e7cbd5322189664473c088.png",
+      "panel_sha256": "e9636db668e4bb5ed0f97e3f796177a8c9c16e919e2a9dee0e67fdc092261d4e"
+    },
+    "coco2017/176701": {
+      "dataset": "coco_captioning",
+      "target_image_id": 532761,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000532761.png",
+      "target_sha256": "c10a6f131c067832551e98d7fe559503233f8e5c215cdb74907d10fe1f5f033b",
+      "source_sha256": "95ed5a02823e1b93d830b58f0c112e2d6147e3142b2683e9d8d5e3a24dfcf22e",
+      "human_target_descriptions": [
+        "A living room that is filled with furniture.",
+        "A room with a television, a sofa, and a seat.",
+        "this living room is painted yellow with beige couches",
+        "A living room with a table in front of a flat screen TV.",
+        "A living room with a couch, coffee table, TV on a stand and a chair with ottoman"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/6fcf34b730d782e201e46050f1d72cfb1b822fb65a7b493e94f772f311a92c43.png",
+      "panel_sha256": "45e8c5866271840f6f76b1297c0eaa35797b7c2338c197d978bbee79464c87b1"
+    },
+    "coco2017/426166": {
+      "dataset": "coco_captioning",
+      "target_image_id": 229601,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000229601.png",
+      "target_sha256": "60bd9c40e6f707943974f582b4357e61d4f9ad7a3eff0dc015274f136f48c88d",
+      "source_sha256": "2af4c7a6f4efd5d46df9e980b60e5f4b928924de154f499640508d49915e9b0e",
+      "human_target_descriptions": [
+        "A baseball player who is running on a baseball field.",
+        "a number of baseball players on a field ",
+        "A baseball player running to a base during a game at night. ",
+        "there is a baseball player that has just run to the base",
+        "A baseball game is going with children playing a runner is about to hit the base."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/6e94b99da53cc24508c8ea17b76f30c3954b54edaf24e0c58d802b648ea5f7eb.png",
+      "panel_sha256": "4674a84ba18b3a017474226f6d30676de0643cd3691e5ee074617e5829d1ec42"
+    },
+    "coco2017/508482": {
+      "dataset": "coco_captioning",
+      "target_image_id": 139,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000000139.png",
+      "target_sha256": "6e902d2d32c21fd54c86444e105e4167348551d4f5f8b3f060a02b8835eb8f61",
+      "source_sha256": "b5c7d27c1f6b9aa63817412739bc712803673a23e61849004d8664a6e887353c",
+      "human_target_descriptions": [
+        "A woman stands in the dining area at the table.",
+        "A room with chairs, a table, and a woman in it.",
+        "A woman standing in a kitchen by a window",
+        "A person standing at a table in a room.",
+        "A living area with a television and a table"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/b9cbf9e2626c680d67fba82795d3eea3499da3438f32f722b285db5f482065c7.png",
+      "panel_sha256": "442b4fed92498cb2f3c09d9afdc74e4eb653b1adb2a27425e42a678f879a2220"
+    },
+    "coco2017/327780": {
+      "dataset": "coco_captioning",
+      "target_image_id": 517832,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000517832.png",
+      "target_sha256": "d843a53f781c647ff999cae4431a2c242b255800a2bd65612d96331be4380706",
+      "source_sha256": "a5b12e3737607966eeb07450cf7265132a116465eeb6be9b46f73522d378b08b",
+      "human_target_descriptions": [
+        "A small black dog sitting in an orange checkered chair.",
+        "A cute black dog with a white spot sitting on a chair",
+        "A plaid couch with a black dog sitting on it.",
+        "The black dog sits alertly on the vintage chair.",
+        "a dog sitting in an orange chair looking at someone"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/464681d3893cb7ba3a617256c4301eba01096002fbf945c6e168781de546db7a.png",
+      "panel_sha256": "26c9fdaa1bdabeed713b75ec9316d6407a2175483a776bc2ded9af392e95a06a"
+    },
+    "coco2017/89697": {
+      "dataset": "coco_captioning",
+      "target_image_id": 152686,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000152686.png",
+      "target_sha256": "938d80124906f6def65bdf9748190be6cfcb787778b43a91e4a8ccf65e3db6eb",
+      "source_sha256": "9bf1665433eab2cbb88e40dd1ffbdaa09840d730ee1c9ef4d57a4e2f3f767b9b",
+      "human_target_descriptions": [
+        "Tennis player serving  a tennis ball on a clay court",
+        "a man is swinging a tennis racket on a court",
+        "A man holding a tennis racket over his head.",
+        "tennis player in mid-jump with racquet overhead and tennis ball at edge of photo",
+        "A man dressed in orange is playing tennis."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/92fe9346e072915adb097cb2d3bdb0cfa58f61fc7b17c97ab085d1eac315020b.png",
+      "panel_sha256": "12195cf73e1cddb88fe1b4e5a77d68d01c21b8fac7183a7aceccc82574e749b8"
+    },
+    "coco2017/334521": {
+      "dataset": "coco_captioning",
+      "target_image_id": 461009,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000461009.png",
+      "target_sha256": "f25c80f606abf14331942e78fc36b6fbe973b795d1105d507b81e8ef1388d4d1",
+      "source_sha256": "1f1d857d1fe6417568b1e93318ede1b647fb87f238af849c0edc379d36773909",
+      "human_target_descriptions": [
+        "A man holding an apple between his fingers.",
+        "  guy sitting down holding a peach between fingers",
+        "A man holding a ball in his hand in a room.",
+        "A man is holding fruit between his fingers.",
+        "a picture of a guy holding an apple"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/4dd5115b114d8a45558ec8e2c4da631bd0b68cbfa4fe58658074a502609c4f32.png",
+      "panel_sha256": "5607ea53e305908f5911152ceeb4e5daa17d2102f43b2132b50af57e61294112"
+    },
+    "coco2017/67616": {
+      "dataset": "coco_captioning",
+      "target_image_id": 475387,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000475387.png",
+      "target_sha256": "686fd9f0685af50db1d27ef9b43a48dc38aaa878f86d0e1f77b702d64c6b3874",
+      "source_sha256": "bbb42bd2debb4a50ec772144a98da3979361b891b07beb1b438aeddd5a4c4422",
+      "human_target_descriptions": [
+        "A train traveling down tracks near a train station.",
+        "Engine and train stopped at an indoor platform.",
+        "A train in the station with people waiting",
+        "An old train is pulled up to a passenger terminal.",
+        "A passanger train stopped to pick up passangers at a station."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/94ecebb5a65eae831459e7904f19d260d7b7277a291be35da71e4673723f1b8e.png",
+      "panel_sha256": "18b594f2ef6dfb34436e4086799805226342e59a068037131ef1a5f2213e2673"
+    },
+    "coco2017/475484": {
+      "dataset": "coco_captioning",
+      "target_image_id": 151820,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000151820.png",
+      "target_sha256": "707cdd29bc5056804743e04e1a6cc2315819a0c49f8fef9f35dd9f0b71bf7e92",
+      "source_sha256": "03fb3f940dd2f562f793934f7d0bfe9ea50ab11b2c544ced02a5e2c3c35dfdc6",
+      "human_target_descriptions": [
+        "A group of people sitting down to eat and having conversations.",
+        "A group of people talking and sharing a meal in a restaurant.",
+        "A group of seven people having a light meal and discussion at a single large table.",
+        "Seven business people eating and talking around a dining table",
+        "a group of people sit at a table eating"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/72ce3311e0fcc290cf44fa65cbc5958fc8b36af959e02d0bb3a9b7eb34a85609.png",
+      "panel_sha256": "0d541b525552c596bbcad416671ac6e13105ee75dce383c1431f0a35a17b5078"
+    },
+    "coco2017/446005": {
+      "dataset": "coco_captioning",
+      "target_image_id": 102805,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000102805.png",
+      "target_sha256": "806dc95aaab0597465774b5370c0d633f5e676ce58dff99a799af797ca6b6e79",
+      "source_sha256": "2955bf323d3378e4fc525641686d246bcb7ce2bb5c6ffbb9c9685a571d4d4f5d",
+      "human_target_descriptions": [
+        "A man in holds a Frisbee in the parking lot by the river.",
+        "The man found the frisbee by the parked cars.",
+        "A man holding a frisbee in a parking lot near water. ",
+        "A man holding a white object in his hand.",
+        "A man wearing a hat and holding an object in his hand."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/43ba59525bc3cfb555fc405c4530930b8294552beab4c182ca7099fe348b9309.png",
+      "panel_sha256": "c9da1ec8b98bddea83deaba14fc551e2858c3a9f509a804116bef6294ca0849e"
+    },
+    "coco2017/548555": {
+      "dataset": "coco_captioning",
+      "target_image_id": 63740,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000063740.png",
+      "target_sha256": "5fa281dda2c962dcf915f20eae0fb60c8bc2124ec1c4d523672348e11a39d11b",
+      "source_sha256": "846ae67af61b19dd81ab2ca6e8e5359fbf64b1754fe8eef454cfa8e5dee3ec6d",
+      "human_target_descriptions": [
+        "Two computers sitting on top of a desk.",
+        "A laptop computer and a desktop computer on a white desk",
+        "A desktop with two computers and fruit on it.",
+        "A lap top computer next to a computer monitor sitting on top of a desk.",
+        "a laptop computer a keyboard and two monitors"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/2dad6a64d562a874a4290503a4f707a43fd546f8777863ad8dd9f48b37783e28.png",
+      "panel_sha256": "4072547c78acd1dadee2830d72801de7a813bf95987d0591b6c0455d827f24db"
+    },
+    "coco2017/506933": {
+      "dataset": "coco_captioning",
+      "target_image_id": 312263,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000312263.png",
+      "target_sha256": "43b9c57e257f30fda83ec715faf6924cd5ddb44d4a712aa1a33bb895b5c110af",
+      "source_sha256": "ace98ec4d98871e12c78e1b2156050d06579f29ce8910d3681c4f75e26012d49",
+      "human_target_descriptions": [
+        "A clock is at the bottom of a very tall building.",
+        "The clock tower is on the first floor of the tall building. ",
+        "Black and white, looking up the side of a building, with a clock and with rows of windows.",
+        "A very tall building with lots of windows and a clock mounted to it's side.",
+        "A large building that has a clock on it."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/e8f3ec66dc81b7d82458f3ef89fe62a3d39367f7c77f5e93ecbb50ca684b251a.png",
+      "panel_sha256": "360a504b6605e818dc148119b6bd4c79db424a20b11d4244b1a24e5de3d18a13"
+    },
+    "coco2017/265518": {
+      "dataset": "coco_captioning",
+      "target_image_id": 31749,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000031749.png",
+      "target_sha256": "189e60a7ca1b6ffde676762677326a531c4c26fa26674fd394eadb059aedc9f7",
+      "source_sha256": "5ec82414915ac470777b7d363d24c889abcfef01ff0bcc4da35c062d20d51701",
+      "human_target_descriptions": [
+        "A demonic looking chucky like doll standing next to a white clock.",
+        "A painting of a doll sitting down and a clock close by.",
+        "A disturbing doll sits next to a clock in a mirrored image.",
+        "A red headed doll sitting next to a clock.",
+        "A mirror image of a red haired doll clock."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/484454e8f507bfe94707904eeb9f54451e5d6a2c6bdd217650b56971214b8490.png",
+      "panel_sha256": "665404b6fc696a18aabae4ae7ee14d967c361ef4866c0bc4c62c4715efac896f"
+    },
+    "coco2017/97679": {
+      "dataset": "coco_captioning",
+      "target_image_id": 290843,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000290843.png",
+      "target_sha256": "cd71f41f25621dcae9d4cb6a2b5d36768d593407f4579cb9e6e0de0bac29c792",
+      "source_sha256": "ed03bacc9775a5b4ac3d6326c38ccf6bf92e4739431626c370a9fbb6711df47a",
+      "human_target_descriptions": [
+        "A woman sitting on a laptop computer next to a cat.",
+        "A cat watches as its owner uses the laptop.",
+        "A cat is sitting on the bed near a person using a laptop.",
+        "A person sitting on bed behind an open laptop computer and a cat sitting beside and looking at the laptop screen area.",
+        "Cat staring at laptop screen as owner is online."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/8fdc454a1501348e353b2f7c1ce728862e9999fccbc1273fd70433397f143ead.png",
+      "panel_sha256": "708c362892dfbb0fcef949cf75bd11e2a211d7fa778ced3a95cacdb1623a223e"
+    },
+    "coco2017/295420": {
+      "dataset": "coco_captioning",
+      "target_image_id": 138241,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000138241.png",
+      "target_sha256": "6ccd7df7f6b61d0b2f9de837dfc45d058c5d96975b40ca4f348d17429b07e284",
+      "source_sha256": "bc3a85ea5402e073788bdc9f7c56b590f0fb4b97923975c1b59c38a359069c9e",
+      "human_target_descriptions": [
+        "A burrito sitting on top of a white plate.",
+        "Three plates of food showing a meal in the shape of log covered with vegetables. ",
+        "Plates of food have a tortillas and meat on them.",
+        "Several different plates with food served on them.",
+        "two plates each with a fajita with meat and vegetables."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/46f8f8903fa2fc5665ae0486ad20b57e29b88b2eff310b909651296e5cab24b7.png",
+      "panel_sha256": "736242ba0d62de60d0d318a2b3bf1e861a3828889a945c51ec03032d09b7d357"
+    },
+    "coco2017/67406": {
+      "dataset": "coco_captioning",
+      "target_image_id": 456394,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000456394.png",
+      "target_sha256": "38045e636c6cbb07bc6a06d7ee6755b9df2d821caabb05e029913c8ace1d72d9",
+      "source_sha256": "ab402b511a7bcbe7f7010e897fdbfbb8c5c248a56cab2f7cc36d29b3346db559",
+      "human_target_descriptions": [
+        "BLUE MOTORCYCLE ON DISPLAY, SURROUNDED BY OTHER VEHICLES",
+        "A blue motorcycle is displayed in a showroom.",
+        "A motorcycle is on esplanade at the car show.",
+        "A blue motorcycle parked on display  next to other vehicles.",
+        "A show floor with a shiny blue motorcycle surrounded by bars."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/6c19bddbb409da7b23c7451470ccafc73d79f1c0cd77e1b0411c8f068302a522.png",
+      "panel_sha256": "68ee52fd533784b22ecae2d9112abdf5bb9935d0e4f23cbe640ec93a748a7848"
+    },
+    "coco2017/82180": {
+      "dataset": "coco_captioning",
+      "target_image_id": 314294,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000314294.png",
+      "target_sha256": "97cecdc3f1c9feaedde184c5556abbce11958386ccfec03ab76a798eaafc0ebc",
+      "source_sha256": "bf15faf0e30076838ed9dd8b99779595dc4a26412be272602a501451331d8399",
+      "human_target_descriptions": [
+        "An elephant standing under the shade of a tree.",
+        "An elephant standing in the middle of a rocky environment.",
+        "An elephant is alone in a wooded enclosure.",
+        "An elephant standing in a shaded cleaning in a wooded area.",
+        "An elephant walks alone past some big rocks boulders in an open field"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/d54208417529cdc94aa685855d755048c26f51aa364a9f68a23104e72167c334.png",
+      "panel_sha256": "a1d66c483e264558a38b98b63990de22075d3264994c7de72edd75cd21c7cd7b"
+    },
+    "coco2017/565563": {
+      "dataset": "coco_captioning",
+      "target_image_id": 270883,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000270883.png",
+      "target_sha256": "71448f173e01e27d60565b45ba12502c353cb5f716f186386ab430add3bbd044",
+      "source_sha256": "fd01b457ecb4bc71b3a9ee850f18d0811482474c7732bd5c57aca2342415d379",
+      "human_target_descriptions": [
+        "A woman in lingerie is laying on a soft bed.",
+        "A woman in lingerie laying on a bed.",
+        "A woman in lingerie is bound to a bed.",
+        "Young woman erotically bound on top of bed.",
+        "A woman lays on a bed in her underwear."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/685d4112bff4ff2675e43d00517266aa332b995151f7104cbdebf170028d41f2.png",
+      "panel_sha256": "f7a508a1324155366f3c33bc613d3eb208aee8d614a0cabf8877659073b5dce6"
+    },
+    "coco2017/528705": {
+      "dataset": "coco_captioning",
+      "target_image_id": 2006,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000002006.png",
+      "target_sha256": "5855dab3450b3aa4a09f1f312c768d94ee6680709bd0c16fb089bfa1943d69bf",
+      "source_sha256": "e085f5429758a6e72195a319f653b7b070732ab69c4bc8b6327255482aae828a",
+      "human_target_descriptions": [
+        "a big purple bus parked in a parking spot",
+        "A purple bus can't be missed on the city streets.",
+        "a big purple public bus called south tyne",
+        "A city bus drives through a city area.",
+        "City bus driving through pedestrian saturated area near crosswalk."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/35935df7d71e25bff9eb86622bd99bb36fd9abf529f040cb0060a42124c7db5e.png",
+      "panel_sha256": "c56764840e680c3ef02bee38c94d13465b1e8e3d8395b11836d636283b90ba41"
+    },
+    "coco2017/274708": {
+      "dataset": "coco_captioning",
+      "target_image_id": 455981,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000455981.png",
+      "target_sha256": "0d4ee6fccda120a658fe6ae43ed94fe700a0a51153dde159a8ac85538a464ff9",
+      "source_sha256": "ae6debc718d80b5b25d1834924c3dce137cd1b275c563354338d5ea40d0a0788",
+      "human_target_descriptions": [
+        "A white toilet that does not have it's seat down.",
+        "A toilet sits in a small bathroom with a tile floor.",
+        "A toilet with some toilet paper and a plunger",
+        "A white toilet bowl with the lid up and seat down.",
+        "a close up of a toilet with its lid open"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/833f0c3e0bacc83003f738c6a422ef2a938c59bf438d2463e265fff1b4b69989.png",
+      "panel_sha256": "a414c388048408ebade2049ab3b5e4709042cfccb9e7dc10f9dfb08ce8f5b11f"
+    },
+    "coco2017/498463": {
+      "dataset": "coco_captioning",
+      "target_image_id": 15272,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000015272.png",
+      "target_sha256": "238618ddbb24a06522e53b9dda7314f093075aa572431ec46066034426962d2f",
+      "source_sha256": "034a71b21e642f5677cbd884111b4966df7e597e631c18d741936ef0190316e6",
+      "human_target_descriptions": [
+        "A red light is a wonderful contrast to the pink leaves on trees",
+        "A stoplight that has turned red on a road lined with trees that are in bloom.",
+        "A traffic light in front of trees with white blossoms.",
+        "a beautiful red bud tree full of flowers under a stop light ",
+        "A traffic light hanging in front of blossoming trees."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/102535830323bf33cd3e5393d27c216cbeb700ce93d985fda0508753b0237f56.png",
+      "panel_sha256": "5bc8a5882ebc96e7a7e251011afd972e0b6edb83d5ee43567ffeed2855b23f5c"
+    },
+    "coco2017/15746": {
+      "dataset": "coco_captioning",
+      "target_image_id": 342186,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000342186.png",
+      "target_sha256": "269e00b88e3ed713687a3b1c8d1f1e0c2a0923180de9b76c03464bdefe6f2233",
+      "source_sha256": "eb228fd85ced7f96751cf83cd140c95e31470e915970e4c366450594ba4d1161",
+      "human_target_descriptions": [
+        "A closeup of a pizza on a plate. ",
+        "A pizza that is sitting on a plate, on a table.",
+        "A pizza with toppings served on a plate",
+        "A very tasty looking pizza with some toppings.",
+        "A veggie pizza is sitting on a white plate."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/d94b561bdbfee35ea194a820f5bc9d43de320eff6f52bc88646db9f1646268a9.png",
+      "panel_sha256": "6126c4648c4c9008ec3a310206175d77c2f555bfdc6786d92a529ca6f96abb48"
+    },
+    "coco2017/463522": {
+      "dataset": "coco_captioning",
+      "target_image_id": 121417,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000121417.png",
+      "target_sha256": "1f7a27d87f1d4bff13a483791fbf1373789d73d7599b1dc24253c9b17c087941",
+      "source_sha256": "08e4414890c6c91e77a3d412ec2cde49e8e731a06a751026ae9b01ab4ea78aa9",
+      "human_target_descriptions": [
+        "a woman is sitting with an umbrella outside",
+        "A woman sitting on a bench holding a pink umbrella.",
+        "A person sitting on a bench under an umbrella.",
+        "A lady sitting on a bench on the side of a street holding an umbrella ",
+        "A woman sitting on a bench with an umbrella on her head."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/4144a20a012d9c85e65a9f3d5910fdca55ffd90e69f128ba51ab79a0df4eb8b8.png",
+      "panel_sha256": "94a6e3077140ab799c0c874d047d24526823c00a62a7fc91d3c04a64a77b6d81"
+    },
+    "coco2017/1675": {
+      "dataset": "coco_captioning",
+      "target_image_id": 12062,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000012062.png",
+      "target_sha256": "bcdf5486cefe67cb68388a610012d99b6392cfc4d6bce58d63e41d5064286e3c",
+      "source_sha256": "e6d3e97fda001dc692e4604c74072376d7a1d88c6a960995c2bbc1261f1bda67",
+      "human_target_descriptions": [
+        "A large white sheep standing next to other sheep.",
+        "A sheep in a cage looking at sheep fur. ",
+        "A lamb standing up in a couch full of wool. ",
+        "A sheep inspects a big pile of shaved sheep wool.",
+        "A freshly shorn sheep standing near a pile of wool."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/d1c51e407908d2e1056a9e7b8d76e2181aa403db75ccde90c093a56f616efe78.png",
+      "panel_sha256": "38d5fc245051476baa474f9296dad0707096db1bf7f5e5e40343740a1ac3dfdb"
+    },
+    "coco2017/568690": {
+      "dataset": "coco_captioning",
+      "target_image_id": 398652,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000398652.png",
+      "target_sha256": "cdc71d176df2aa7280f4a1b975466dc688ef3a2ca7eaae5cdf05fc4f66dfa414",
+      "source_sha256": "13271c6f58d35354809550d74ed23131176079a362c03c01c9544a5ece7719ba",
+      "human_target_descriptions": [
+        "A lot of potted plants sitting on a glass table.",
+        "A glass top table with flowers and paper cards.",
+        "A beautiful view of a glass full of items. ",
+        "Round glass table full of potted plants and description cards",
+        "A large glass table topped with different types of plants."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/21c5691b9f62e9fc58fa4531a9e44b5ab0647723dffd49ff558cf3212d2fc320.png",
+      "panel_sha256": "177ab2f8ab6d06f7c7381db770b88951c59e2232789e3c7652fa0d68917aeafc"
+    },
+    "coco2017/297562": {
+      "dataset": "coco_captioning",
+      "target_image_id": 320664,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000320664.png",
+      "target_sha256": "a3754f2113ec379075ca6435114f8e4d0e935d8ce3bcd0d57f4ac85c63bb0c94",
+      "source_sha256": "2e864ea86111918ecd6bb0bddcd54138acf07e6baaae47e7269cad98e9e4bc81",
+      "human_target_descriptions": [
+        "A hot dog is on a plate with macaroni and cheese.",
+        "Fork, spoon and knife surround a plate of picnic food.",
+        "A plate of some food on a table.",
+        "a plate with a hot dog in a bun, macaroni and cheese and stuffing on it",
+        "Traditional American comfort food arranged on a plate"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/e559122c8b4f20f3b998ffe985245e27506a93f1f9dfbde09fef6d72ed2c22d4.png",
+      "panel_sha256": "7a8499232f9b51c44b8b6e2606af07b6e7ede6f1e2815f158494d4f22625990c"
+    },
+    "coco2017/347174": {
+      "dataset": "coco_captioning",
+      "target_image_id": 532493,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000532493.png",
+      "target_sha256": "af1ea7fa26add17f10d44fa4c842d8975268018ea5afffc60c6ccb50df9fac67",
+      "source_sha256": "80c2c92211afd65f4817f0f42bb04f2307e95baf917cf190718a9b9071e18c85",
+      "human_target_descriptions": [
+        "A surfer on a white board riding a small wave.",
+        "a male surfer is riding a wave on a sunny day",
+        "Surfer at the height of a large wave looks down. ",
+        "A young man riding on a surf board on an ocean wave.",
+        "A woman surfer riding the waves in the ocean."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/dc50aa6151d649a42583dd697b9fab6c5606ba0bda7426ea06c655dea27e9d57.png",
+      "panel_sha256": "53007aa8d169e59558f2d67914ca7e52feeaf764e58910565855ceee1e010e30"
+    },
+    "coco2017/425906": {
+      "dataset": "coco_captioning",
+      "target_image_id": 479030,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000479030.png",
+      "target_sha256": "b1763ae01f702b81a3fa799ae9fd6d96307273a3e294753b871cf251df9282a8",
+      "source_sha256": "39c034553dd9a4e51b498da9bbd5ad66cbee6bb05366f7aebb437dae8d769256",
+      "human_target_descriptions": [
+        "A large long train on a steel track.",
+        "A red and white train passing by a street.",
+        "A red train going down the track in the city.",
+        "A long red and white train travels near many other tracks.",
+        "Red and white commuter train riding down tracks next to the highway. "
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/ef545592fdb14050d388be9a8515f48acc74f118b36c6df49049893320ff1704.png",
+      "panel_sha256": "9213bf5d6aa5d620c7e7a62a814e5d5c21968ab548315cb8b83e9d4b815be709"
+    },
+    "coco2017/132408": {
+      "dataset": "coco_captioning",
+      "target_image_id": 491216,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000491216.png",
+      "target_sha256": "b96c0bb23fa4d2119fc080023c95f448ca5696a12a58b2b31ca36240d4d27a29",
+      "source_sha256": "aec473669e88635911c3482ce51d4744f57cba9dbb6e51496a3ea60f33b31f8d",
+      "human_target_descriptions": [
+        "A cat walking through a kitchen by a eating tray.",
+        "A kitchen with a cat walking past a refrigerator freezer.",
+        "A cat is walking in a kitchen that has cookware hanging on the wall.",
+        "a cat walking down the center of the kitchen",
+        "A cat is walking across a rug on a kitchen floor."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/885929dcdc52a7bbecf9b0bd3ac30c06b87f03f15b7de8ab15a2a38ef0e34bd6.png",
+      "panel_sha256": "50a6ac4b8c4a284dad46f82fc0053604a306d607e589eb32c92f2ded7d67531f"
+    },
+    "coco2017/470121": {
+      "dataset": "coco_captioning",
+      "target_image_id": 459396,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000459396.png",
+      "target_sha256": "a809c8b881db4765d73c6138e220ffcbd5b7516edbe4fc7c334fc7648dcfff55",
+      "source_sha256": "dc6fed9239e1173dfba73d3304b2723befe7f0246f29b4edc25073a8ad88de49",
+      "human_target_descriptions": [
+        "A brown cow grazing on a patch of lush green grass.",
+        "A cow is grazing while two cows in the background look on. ",
+        "Brown and black cows are eating grass by a fence.",
+        "A black cow grazes on lush green grass.",
+        "Cow eating grass while a bull watches nearby"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/9efc21bb010a34d8bee28dbac4cdc543c9a248f4aa6ef139817a15e05be58c75.png",
+      "panel_sha256": "5e3fc77f84740d1fb8d15c716c7eed0d306454a375837fad6a3a7b0c19d53f61"
+    },
+    "coco2017/438269": {
+      "dataset": "coco_captioning",
+      "target_image_id": 84241,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000084241.png",
+      "target_sha256": "f7a8875496281796489f188cb846976985a28354a4d10aa444229a19c7010358",
+      "source_sha256": "d1706dc3f2cb77b2faf158d446435598c215a71f67da16ca337a9cdc8bcddae8",
+      "human_target_descriptions": [
+        "A group of women in kitchen next to pot.",
+        "Three women cooking in a professional kitchen together.",
+        "They are all working in the kitchen together.",
+        "Two women are laughing in the kitchen while they cook.",
+        "two women are talking while they cook in a kitchen"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/da9e4091c635845312c82eaa8fda177fbd4f52a2179d43d83165fb99cc0f20f4.png",
+      "panel_sha256": "b14466ab78d07d3b6978640e0f661bcf2e3241cf861041a12aed2fa68c1c7b9a"
+    },
+    "coco2017/332570": {
+      "dataset": "coco_captioning",
+      "target_image_id": 528977,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000528977.png",
+      "target_sha256": "8f902c96d26ae51d8a1583326eaed66d71e2c7e9ff90bfcca71f6f3cf9f761fa",
+      "source_sha256": "f8a3473854ce2a2275922c74bc037b26ba479685e7b4a7c3849f78494e213522",
+      "human_target_descriptions": [
+        "Street signs, graffiti, old buildings and a bridge.",
+        "Graffiti on a building next to street signs.",
+        "Street signs cast shadows on the graffiti decorated wall.",
+        "A brown building has graffiti on the side.",
+        "Various street signs and a building next to a bridge."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/92c30230ccc7c65a2e20e9f110a171c7b84cbf90e8976a32b8320ab0959b1a20.png",
+      "panel_sha256": "8d0013fe163ed23c5eb15382add8462baadc47a692086658b231b80376c9e0ec"
+    },
+    "coco2017/575187": {
+      "dataset": "coco_captioning",
+      "target_image_id": 566042,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000566042.png",
+      "target_sha256": "b2ed4e953f377afc13ebd4bb5adc20328c7b961017fec587c7bcfde739157b0c",
+      "source_sha256": "9f06eae2699a65366f464c1835695f4948dd0bc2a25a3a8bf805f7739c2ecc3a",
+      "human_target_descriptions": [
+        "Six giraffe are standing looking in the same direction.",
+        "A herd of giraffes of multiple heights standing together.",
+        "Several giraffe peering their heads out in sequential order.",
+        "Five giraffes standing together and eating near some trees. ",
+        " A small pack of giraffes are looking in to the distance."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/c6e0916447a614c34bdc3399dd85c3291de8db2f15f8428ae4cdff1db337785b.png",
+      "panel_sha256": "8114003b0c07deea4f67bdcef539176e8fc911228f9ebdf584c7b71e4196a6e5"
+    },
+    "coco2017/566436": {
+      "dataset": "coco_captioning",
+      "target_image_id": 215245,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000215245.png",
+      "target_sha256": "427a9307bbfe5f9f95bc38fc3c5418308c8c7b75f4d0c91a0bd180e02a9e0077",
+      "source_sha256": "e10c31c07d96916c503fd3c6d7919eb436beb5fc5ae4272527041f8a1644f482",
+      "human_target_descriptions": [
+        "A group of zebra's playing and grazing in a field.",
+        "A grassy field with various zebras standing next to each other.",
+        "A large group of zebra standing in the grass.",
+        "A large group of zebras graze in the grasslands of africa",
+        "a bunch of zebras out in a grassy field"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/9cb712f62bed40335055ecc9b3362d30f6f7a668f4ca8e63e6b143dce52fd7a3.png",
+      "panel_sha256": "f078f61c45964b5e3e0e2adfb1b3e4879cdad2befc6675a4c5beee76fe1d74d5"
+    },
+    "coco2017/484978": {
+      "dataset": "coco_captioning",
+      "target_image_id": 7278,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000007278.png",
+      "target_sha256": "34c1c007bcfe9b75082061d89b7b476a3754640fdf893d091b76378803f85439",
+      "source_sha256": "d3ec0798fc68fa8fc4e1f199f0898217093b6428dd3e1b6f8099e88b174122bd",
+      "human_target_descriptions": [
+        "there is a male surfer that is riding in the wave",
+        "a man on a surf board rides a wave ",
+        "A man in a wet suit riding a wave on a surf board.\n",
+        "A man that is on a surfboard in the water.",
+        "A surfer in the ocean on the crest of a wave."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/14ece5b0f9cba7ea2cd3ac327765dd92b65e8fd4736dc47960256d55e014a011.png",
+      "panel_sha256": "76f81d79ec39fcc3c255bff1e2f44652d6e847d7085ae329a5f89df69ac4234e"
+    },
+    "coco2017/476810": {
+      "dataset": "coco_captioning",
+      "target_image_id": 400082,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000400082.png",
+      "target_sha256": "96f928e6efedd83ce4ebc023dcb8ad3ece28d6c40ebe81df34e72886bf0505e4",
+      "source_sha256": "9a7d0c71157ba29135fe879d60b404914f63b02aaf66673acb3e3cda09892721",
+      "human_target_descriptions": [
+        "A hotdog, fries and a drink sit on a table beside a book.",
+        "Two boxes of takeout food are sitting on a park bench.",
+        "a close up of a paper box holding hot dogs and french fries",
+        "Boxed hotdog, fries and a drink are set out for daytime reading.",
+        "A table has a hot dog and french fries on it."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/d513a90e4a0fb12b8a20c61daabe6cc3f60189080d7a97a2cdc84b33b722c9a0.png",
+      "panel_sha256": "2e8f620fe47ea152699648098e9ca132ac1cdd40c2593464aa2bfaacedfb0a23"
+    },
+    "coco2017/454750": {
+      "dataset": "coco_captioning",
+      "target_image_id": 6471,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000006471.png",
+      "target_sha256": "f0643cb9706753e6d8c2d723e60e014814d7be66f346068b109b183ca0efd046",
+      "source_sha256": "e551768581ca7eec271db3b112db1e0a660d9c5d57fb3be98383a082b78e22a2",
+      "human_target_descriptions": [
+        "A baseball player holding a bat next to a base.",
+        "A hitter is waiting for the pitch to be thrown",
+        "A baseball player in a batting stance at home plate with the catcher in position to catch a pitch.",
+        "A baseball player holds his bat and waits for the pitch. ",
+        "A man at bat waiting for a pitch with a catcher and umpire behind him and players from the opposing team in the dugout."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/977ce0dafedc4f9905083dca6af7983d675ced06f631e89786a0727f66f33be1.png",
+      "panel_sha256": "19447a39b1d764129c0fd8d3c18ecfa5c19fd4fd6743cdc3dd0b9386caeb8d5d"
+    },
+    "coco2017/508370": {
+      "dataset": "coco_captioning",
+      "target_image_id": 256916,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000256916.png",
+      "target_sha256": "c52fce9970855f2f1db14dde3a868fa405bbc8385bd05bdc81b1cd4883d19793",
+      "source_sha256": "213a549c6d95bd00e9744d932474701fd2e5efbe8c3cb593ec052f6172f1aa33",
+      "human_target_descriptions": [
+        "A silver pan topped with pepperoni pizza on a table.",
+        "Pizzas are sitting on trays on a table.",
+        "Several square pizzas are sitting on round plates. ",
+        "Four metal plates each holding a pizza on a table.",
+        "Four pans of pizza set on a long table."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/fa6b6ccb5cff4e7df964dacb91df7ac76b788ca7a2c2d640fad5cfba69f22730.png",
+      "panel_sha256": "352c172edc1b60eee085037eaed9fc493d936b061f32195a01a71475041f58cc"
+    },
+    "coco2017/451043": {
+      "dataset": "coco_captioning",
+      "target_image_id": 405205,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000405205.png",
+      "target_sha256": "7d0e880dc6aa9b872a43ed73b21fb7220483ce1eaf4560adb43d3c075da9110c",
+      "source_sha256": "467ddf657c7a1aedda5af4dabadb3a6018d7d444729b9d2de685d11fbc1ec3b2",
+      "human_target_descriptions": [
+        "A passenger bus that is parked in a parking lot.",
+        "A big white bus is parked in the middle of a parking lot. ",
+        "Buses and tractor trailers are parked together in different directions.",
+        "A bus parked between two trucks in a parking lot.",
+        "A number of  vehicles stops in a traffic jam"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/2aed975d87f12182b4cff2a85a61ab1e3af03a081b79e137d4f1ee9e27c41324.png",
+      "panel_sha256": "8b1edd3c574ce9260426d90390bb46de7f63ae9386cf7eb6492dbed575bb20f3"
+    },
+    "coco2017/192670": {
+      "dataset": "coco_captioning",
+      "target_image_id": 275198,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000275198.png",
+      "target_sha256": "a295bd20c07086d0d1e9ee4750bf9c2ebe3d44495d400db9eb458fc50e12ecaa",
+      "source_sha256": "0607bdf82f64f939d5ecbec04eae2399ab3adc7c48d67bf2dc754b4b9d04bb3f",
+      "human_target_descriptions": [
+        "A group of people holding umbrellas eating a meal outdoors.",
+        "A woman standing next to a table covered with plates of mostly eaten food.",
+        "A family holding umbrellas at a backyard barbecue.",
+        "A family having lunch in their backyard in the rain.",
+        "A group of people around a metal table with umbrellas."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/be32b28be00e4ed1fe885ec9298f79e97748bca87fa999d4524c9e3fd99ad7c7.png",
+      "panel_sha256": "87c80fb28d53ea4b29a1304e0d488d1e1920c0771269e7169b6ad97ef07e5871"
+    },
+    "coco2017/450100": {
+      "dataset": "coco_captioning",
+      "target_image_id": 199442,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000199442.png",
+      "target_sha256": "28f81a924e7dbca74fcbc36e8fac1d22639a7167d62acc9ce36636a1649a56a3",
+      "source_sha256": "eaa12c40e566f999d96b6da7a2028a7c0456e975064deceff5da604dab2e8f43",
+      "human_target_descriptions": [
+        "A man riding a wave on top of a surfboard.",
+        "A surfer surfing on top of a wave.",
+        "A man wearing a black wetsuit surfing in the ocean. ",
+        "The young man is surfing in the water",
+        "A man surfs at the top of the wave."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/d12a5f7541d37a37e0454d93af1486a3aabc0071409146c06bfcb3afc2c12f12.png",
+      "panel_sha256": "98b37f90928658f02cf3e7042c7be6c6ce96bbf121f81c9de662bcb41aa55cdd"
+    },
+    "coco2017/529105": {
+      "dataset": "coco_captioning",
+      "target_image_id": 4134,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000004134.png",
+      "target_sha256": "9f034ec727d70e27751196cb7a3a4b6508014d5e2b0c33d18b748f8f121a81cc",
+      "source_sha256": "4840938bd69ff98778ec7c63899edb0cf1622f696191b5a0e613b07872f167c2",
+      "human_target_descriptions": [
+        "A man is shaking hands with another man.",
+        "Two men shake hands at a formal dinner gathering.",
+        "Two men standing next to each other holding hands.",
+        "Two men are shaking hands at a social gathering.",
+        "Two men shaking hands after a dinner speech."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/25269c7583ac83768ba508be1e21587037944e20e626f5daa9742e39d8771974.png",
+      "panel_sha256": "9b413540da06148b37c7f93891697bdc34be5df2dd76ecf0e828143cbbf8de27"
+    },
+    "coco2017/183500": {
+      "dataset": "coco_captioning",
+      "target_image_id": 479099,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000479099.png",
+      "target_sha256": "c27c869220e75c13117246df2573e83d66d667ec225d461b604419dc4aef6b6c",
+      "source_sha256": "6722a2eadf1204b3627574df606854a41ded323360f3a3548543f9dd2b37af4f",
+      "human_target_descriptions": [
+        "A tree standing in the middle of a grass circle.",
+        "A red-brick wall with a gray bench in a lush green space.",
+        "A green yard has a little bench and brick fence.",
+        "A far away bench covers all the distant serenity of a beautiful flower garden.",
+        "A tree sitting in the middle of a lush green field."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/649fbb4de8e3cee3334dbed92e93c1ae4fad43376f1aabad6ca245f623ccd3ce.png",
+      "panel_sha256": "475bc1c0ad13811ec6aae3ef5a5c64dd93f945f1eeae0787ec75b2860204b826"
+    },
+    "coco2017/422836": {
+      "dataset": "coco_captioning",
+      "target_image_id": 524850,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000524850.png",
+      "target_sha256": "f0c733200aa4535e53399059f40ceda4cb7c6e010e55b0254ee9673731c76d9c",
+      "source_sha256": "21135d4f04a042860847463ded35036d21ad4343d0751eb94dc348f900dd3348",
+      "human_target_descriptions": [
+        "A crowd of people standing around a bus next to a parked jetliner.",
+        "A group of people standing next to a bus under an airplane.",
+        "People getting on to a bus from an airplane on the tarmac",
+        "An upper shot of several people standing near a plane. ",
+        "A bus loads and unloads passengers next to a plane. "
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/253828af2528aae41cb605b243ccbbe9b8efa37e3da7c9c226dc77847c8f2923.png",
+      "panel_sha256": "dd7f61e9463d41882f9cde671af782d041b15e141ad2f76034f2a984f5df2b96"
+    },
+    "coco2017/133567": {
+      "dataset": "coco_captioning",
+      "target_image_id": 235057,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000235057.png",
+      "target_sha256": "9954b3f1d54f7b163814328021514363cd6c9415fb605a5ff2d0e51a19805a89",
+      "source_sha256": "ec511687c823c778f6540330d25045dafd7d89b66a05a0e3ef60b5be9f2da906",
+      "human_target_descriptions": [
+        "A giraffe extends its tongue to drink water",
+        "A giraffe leaning down to take a drink of water.",
+        "A giraffe has it's tongue out drinking water.",
+        "A giraffe lapping up water with tongue near a pond.",
+        "A giraffe drinking water with a long tongue."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/d8da0d81f102a18645b5382a442c49eb1e5358a40e8a9cbd36de0707c850df40.png",
+      "panel_sha256": "c1a52c99b9b4b02df5610c0ac5ea710c32ef2cc21aa95fe507fb9b70960ed557"
+    },
+    "coco2017/217614": {
+      "dataset": "coco_captioning",
+      "target_image_id": 35682,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000035682.png",
+      "target_sha256": "a59247f4d0bf1bfbee8f373bb913087d485b0b510766b7d3bbb3d466489d2484",
+      "source_sha256": "7aca5ab17327c6ca8ed5257d143c972de8cdbf0c54d4380b863d892bd512bd55",
+      "human_target_descriptions": [
+        "Eating a donut makes for a quick and easy breakfast.",
+        "a man sits at a table with a bunch of doughnuts ",
+        "A man sitting at a table that has plates with donuts on it.",
+        "A plate of donuts on a tray sitting on a table in a bakery.",
+        "A meal of donuts and a beverage is seen in front of a man at a restaurant."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/8d8a4ccbc377891fc9d2158bc93128ff945400228bba72e613c703d97b892b0b.png",
+      "panel_sha256": "0a6ffffa3e1c4d057cf46ce664fd762ba7befb42a87be7cfc890978d702b73a1"
+    },
+    "coco2017/349480": {
+      "dataset": "coco_captioning",
+      "target_image_id": 579655,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000579655.png",
+      "target_sha256": "6b6df7a4de123ac0e0ca0ecbb38e6947bd9f0af0da56408709c7a2cc6df8569c",
+      "source_sha256": "4eb1dd8e8e46ccfa81256f743f7cf36c171fda2604496523b16754d9c8bd1797",
+      "human_target_descriptions": [
+        "A woman holding a phone in one hand up to her ear. ",
+        "A woman talking on a phone sitting next to glasses.",
+        "A woman talking on the phone looks in the distance.",
+        "A woman sitting in front of several glasses, talking on her phone. ",
+        "A woman with dark hair with a phone to her ear"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/fc362c116fd62bd2eb8bc1cf3bc4cc1162e5990bbfe2ef9fb659a9f187c40843.png",
+      "panel_sha256": "1c680e7183e49d978261422597e74f5a3ebc3834aab49784533648db81717e69"
+    },
+    "coco2017/530975": {
+      "dataset": "coco_captioning",
+      "target_image_id": 42070,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000042070.png",
+      "target_sha256": "158a1f6a8d1a2f720ea29dae64ebb6e7421050fa57c427a85e676c3d41644d51",
+      "source_sha256": "1373fa7a2483197d6eb6ed239b03cb81809f3b520e2ac218355466acb96a00ee",
+      "human_target_descriptions": [
+        "A very big city bus on a big street.",
+        "A large bus on the side of a street.",
+        "Blue, white, and green passenger bus parked at a stop. ",
+        "a city bus parked on the side of the road",
+        "A white bus driving down a street next to a building."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/e3fd5f8f7da12626eeaeb6d4995431962d22c016f96c1be46448a54ca9fcdb3e.png",
+      "panel_sha256": "7ccad3eb93cfc4785fa7476eb8240eff2118d6f83ffdc17d1e3cd13c874d1624"
+    },
+    "coco2017/147729": {
+      "dataset": "coco_captioning",
+      "target_image_id": 493566,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000493566.png",
+      "target_sha256": "bd9b0dae9932d3ffcd9e8957a1a7555333ae0eb6e0f15b13af27ae155a2f7059",
+      "source_sha256": "bb9a5c76b8c68ceb34fd3d421bde2e4c19b3d2e810acdd0866d6719ef11caaf0",
+      "human_target_descriptions": [
+        "An orange and green train reads \"BNSF\" on the side.",
+        "A train caboose on tracks next to another train.",
+        "The last car of a train sits on train tracks.",
+        "Diesel train engine with company logo in train yard.",
+        "This train car has letters and numbers on it."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/e4ea6b208ab4ee760bf088f20e5c9ecef4f1205a4e45ef898800e1576e5c321d.png",
+      "panel_sha256": "9b325e943c98264a20fff98893a7c04b9191afcee8761c4d8a76a420f1ea4057"
+    },
+    "coco2017/172877": {
+      "dataset": "coco_captioning",
+      "target_image_id": 376284,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000376284.png",
+      "target_sha256": "0f3168fbde1263c981fc8bd089a6efa816a9552937a3017f3a973dfb26f86e87",
+      "source_sha256": "c43147251652cfb97a47e8f1c04ea604b25acf26bf4f339cb85c8bef32116163",
+      "human_target_descriptions": [
+        "A fire hydrant and some cars on a street.",
+        "Fire hydrant and pylons on a city street corner.",
+        "fire hydrant on city street with several parked cars.",
+        "there is a fire hydrant surrounded by three metal poles",
+        "Cars are parked on the street next to an old fire hydrant."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/3f8965863cae319311063839f9dfa9b4ef4503b454f8aa8beccc7cd370c6c69a.png",
+      "panel_sha256": "a9142e1c87a1ce8f6d2112144160e447a2fba525a610a99c44ca80abd0633577"
+    },
+    "coco2017/571943": {
+      "dataset": "coco_captioning",
+      "target_image_id": 553094,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000553094.png",
+      "target_sha256": "2cebddee4804bf3cf087cacf202ec8bac1df46e294f0dd4f435bdb6560997e07",
+      "source_sha256": "0baee649c5d86db398f0e2bf6c335ef3b5999a30f8c41b9c22a18cf7a02a8fd6",
+      "human_target_descriptions": [
+        "a fighter het flying up in the air ",
+        "Fighter Jet with afterburners on flying almost vertically.",
+        "A jet with smoke pouring from its wings.",
+        "A smoking jet going straight up in the sky.",
+        "two gray jets are flying next to each other "
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/42df4d8502bbd844352f5772ffcd96238c6c3ebefc64ff859d93ea6e0df13873.png",
+      "panel_sha256": "e91c7d649dfa8e24928fbc2d6b9bd06610194d5479610f4045139e1a745172b8"
+    },
+    "coco2017/84664": {
+      "dataset": "coco_captioning",
+      "target_image_id": 108026,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000108026.png",
+      "target_sha256": "c2137a7879363a577e60344054be1a71978bd479a624ee6855ca2c2b9ce3ecda",
+      "source_sha256": "e643dc3ec88dbaa15530ef35e66b8f6f12d62118b4158ea2ff5512f2bbe9dd26",
+      "human_target_descriptions": [
+        "A man holds a controller and keyboard with his hands",
+        "A computer user types one handed on a keyboard.",
+        "Person holding on to a video game remote while using a computer mouse with other hand",
+        "A person uses a black computer keyboard on a wooden desk.",
+        "A gamer holding a controller and using a keyboard"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/cc48d9927e042a1c0551d92806f7ee392368d9bfc49a00ecb047564e7c507389.png",
+      "panel_sha256": "d1a8b0fe1ca59ac3226121a6180cb639bd341f7768b71473f00d9de34abdde86"
+    },
+    "coco2017/24610": {
+      "dataset": "coco_captioning",
+      "target_image_id": 302536,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000302536.png",
+      "target_sha256": "292a6ba9dd5befeb6a02e617b1887d73059952e0d893ebb6fb61ced532e86846",
+      "source_sha256": "0589276b4b98e4e4fe6d0529266b8317bf8f1421f947805249f3aba6f1341e06",
+      "human_target_descriptions": [
+        "a person wearing a green hat playing nintendo wii",
+        "Man with a party hat happily playing on the Wii in his living room",
+        "A man in a living room playing video games.",
+        "An older man playing a video game with a green paper hat on his head.",
+        "A man playing a game with a wii controller in a living room."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/53f14268884bd3883d5150f5cd004d69da5512958a373e5c10002a823a1173f6.png",
+      "panel_sha256": "f45e86b1b248775f88a7ba3d5f0d70b288f9e420194fbe10ca4bc32c226a9093"
+    },
+    "coco2017/504711": {
+      "dataset": "coco_captioning",
+      "target_image_id": 49761,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000049761.png",
+      "target_sha256": "5b6c972561c173c0cb66d886cf0c190c37e56e0e1e7713623c4c38eef3526cad",
+      "source_sha256": "d91620b79eef86bdf9a29b7e218eec5e406b3b41f3cf76758ea53827b233f8cc",
+      "human_target_descriptions": [
+        "A herd of cattle and zebra standing next to each other on a  field.",
+        "Wild zebra and wildebeest grazing near a watering hole. ",
+        "A view of several different types of animals near a watering hole in Africa.",
+        "Some zebras walk through a grassy field and flamingos stands in a lake in the background.",
+        "Hoofed animals are outnumbered by a massive congregation of flamingos."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/70a80f33058cb74f1d2d2a8029137e8a309c8304cdf02360a4fb4e0aabc2bf2b.png",
+      "panel_sha256": "2a86543e627d85cdd4567d8886f6d47a9390b155efd60dc72ca3487973efe56e"
+    },
+    "coco2017/384350": {
+      "dataset": "coco_captioning",
+      "target_image_id": 85329,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000085329.png",
+      "target_sha256": "f98ff9803f35182c7145cad024a4250b35a21e61bcd11ba6f4d89b8345f42264",
+      "source_sha256": "8c4936517058ad97413f2d07e466938cafbf85c30958193931ba4afa131cfbc2",
+      "human_target_descriptions": [
+        "An image of a very cute girl with face piercings.",
+        "Painting of girl that has multiple piercings on face",
+        "A young brunette woman with multiple face piercings.",
+        "A young woman with green eyes and piercings all over her face.",
+        "A drawing of a young woman with many facial piercings."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/f745bed7d763669343e5cd6dde69736b23e0a410aa75bf17f256cc25ba73225d.png",
+      "panel_sha256": "49a5eec572b5966c101c26300a584218c158c2e6a7759a0320bd27224438a894"
+    },
+    "coco2017/311909": {
+      "dataset": "coco_captioning",
+      "target_image_id": 438017,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000438017.png",
+      "target_sha256": "ad34bb76733fedbdd28e2fbfe3c9ff51d3ebd718777927c35f11497a568885f7",
+      "source_sha256": "88330b5868116f1b2331546f48e13a542438bd247569f3635cf49e4275ffb634",
+      "human_target_descriptions": [
+        "a street light on a corner with a red light on it ",
+        "The road is wet because it has rained. ",
+        "a street with traffic and wet roads from the rain",
+        "a couple of red lights are hanging over a road",
+        "A red stop light that is over a street."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/05fdca637b3fb1db8b4146dbb77197c1c709e69b4a6f22ff07d64337487a6882.png",
+      "panel_sha256": "f1709f1bb74a753c4a20623da880ad8dedc4f0f7d1cddb9af7a63c4f712a6448"
+    },
+    "coco2017/453166": {
+      "dataset": "coco_captioning",
+      "target_image_id": 517056,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000517056.png",
+      "target_sha256": "5e48927bf4ac5268e569fb68b9ff3400936f9bbc50e4b98e734a14fa6b003a37",
+      "source_sha256": "3cbead4ac55edccc6b58adac36ed55b4d08585ab36367b58f4c3af2c0ad04ca8",
+      "human_target_descriptions": [
+        "Two women handing out cake on plates on a dining table. ",
+        "Two women stand close to a cake that is mostly gone.",
+        "Two woman are slicing and plating pieces of cake.\n",
+        "Two women stand over a table with a cake cut into pieces.",
+        "Two women are cutting and serving a large cake."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/c0351abcab5c306fbb1b94f47f245c242a312de7eee5f7725574aa139b12b885.png",
+      "panel_sha256": "82e247db2e57ad0424ec17f19a8afd9d90560cb51b16f6deca75cc6d61d63d0d"
+    },
+    "coco2017/270705": {
+      "dataset": "coco_captioning",
+      "target_image_id": 134689,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000134689.png",
+      "target_sha256": "4f5eef6b9e7196a97c43024243295dc47abfee7e5413e729a411d0ac37445692",
+      "source_sha256": "b784b80c4b5758d837bb138552537d0e5d04c46bd92d971578056b8ea7a1fb08",
+      "human_target_descriptions": [
+        "there is a very tall giraffe standing in the wild",
+        "A giraffe is standing by some brush in a field.",
+        "A giraffe standing in a dirt field near a tree. ",
+        "A single giraffe standing in a brushy area looking at the photographer",
+        "A giraffe standing in dry dead brush on the savannah."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/9a9971247b6e8ad5e95f8853e9b3082f80aaf4a2ff33d61017f2c9a9215ad118.png",
+      "panel_sha256": "37a644998e130dabd33c9baafd2ace14ebf1b377ef43dc61df0490250ba5b846"
+    },
+    "coco2017/179285": {
+      "dataset": "coco_captioning",
+      "target_image_id": 240049,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000240049.png",
+      "target_sha256": "96ded2e975e7da580798337774fadb89850e030923272ba65085f08b01ba5a31",
+      "source_sha256": "148836f3dd0d4c562fe5032efddcd9d2d3050a7b76fe8eba94b15fb10e877d7e",
+      "human_target_descriptions": [
+        "A woman holding a young child in her arms.",
+        "A woman holds a baby on her arm and both are looking forward at an enclosed area with two giraffes in it. ",
+        "A woman holding a little child as they look at giraffes.",
+        "A woman holding a young child looking at some giraffes",
+        "a woman and a baby look at giraffes at the zoo"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/5aa42f25e0d28f8794967e494a654c947c31e564a8cb2f874819ec6f393ab436.png",
+      "panel_sha256": "f4fe5875070f12f1f830863dde886674b1bb052238a8dbcfa4c533765e53b68f"
+    },
+    "coco2017/32038": {
+      "dataset": "coco_captioning",
+      "target_image_id": 575081,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000575081.png",
+      "target_sha256": "374c59a979e1e8c6d18538200781538a63b6de6bd0fdf6677ca59de7a50fd149",
+      "source_sha256": "40a4eab863003bf457e15091082e1158e0fa69eb7a1b42351a1a7709a28f623a",
+      "human_target_descriptions": [
+        "A boy holding a game controller and playing a video game.",
+        "A young child standing in front of a TV holding a Wii controller.",
+        "a kid holding his arm up as he plays a video game in the living room ",
+        "A small child that is playing a game on a video game console. ",
+        "A young boy in his pajamas is playing a video game."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/91e17270b21144340f098f2eb276177a0f2dba28cea006bd6173c6acdfc53db9.png",
+      "panel_sha256": "635b16ff5ccc1a1b9303e4aad60060d17d4777d2816120f5d3254d29f68669cd"
+    },
+    "coco2017/61471": {
+      "dataset": "coco_captioning",
+      "target_image_id": 361147,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000361147.png",
+      "target_sha256": "1065aa32e6c98d2ad5218bcf2722e83760304941e5a06f70b5000d58d511327c",
+      "source_sha256": "4de65c8a912d29d5222ef5eb54fd96031e191866f4237dd2fef96fb7f0ef094c",
+      "human_target_descriptions": [
+        "A tennis player shows controlled excitement while a crowd watches.",
+        "A man in a tennis match holding his racket.",
+        "a tennis player on a court with a racket",
+        "The tennis player looks solemn holding his racket.",
+        "A tennis player is standing on a tennis court with a racquet in his hand."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/73722d9e968ed456f059083e15fcbd07d0912c460119217e45e3cfe718068fd3.png",
+      "panel_sha256": "a26fbe09fe467a81a166ae2cb81652335765a44617783c1e9f4c27a434df8651"
+    },
+    "coco2017/341921": {
+      "dataset": "coco_captioning",
+      "target_image_id": 525286,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000525286.png",
+      "target_sha256": "30a3b7fd8fdaf08720aead8cc15f35ff9b3d5b433b067ad7ea097bd200372a9a",
+      "source_sha256": "af37c93b4b38917380d98d4dc43e99b03349d025800048d9ef031e57830e2970",
+      "human_target_descriptions": [
+        "A large clock  is on the wall where the paint is peeling.",
+        "A thermometer near a tiled wall beneath trees.",
+        "A measuring instrument hanging on the wall of a building who's paint is chipping.",
+        "This is a temperature gauge that is hanging outdoors. ",
+        "A clock hangs on a wall of a neglected building."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/111304922c239a7723209c617db4fe4c7154778f562c80ec2477b9ef4ab92ac8.png",
+      "panel_sha256": "47c0be839822f012099b478b8fae0a46aac952c6abf3dd2c18e3739a0b8d6c69"
+    },
+    "coco2017/411665": {
+      "dataset": "coco_captioning",
+      "target_image_id": 128699,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000128699.png",
+      "target_sha256": "de5222410669e22172fc727b2091d37d972b4daf3472c1476315b28ec1919f25",
+      "source_sha256": "a2c89f1195a7d6b2364ca97828cc9342541be7386e32824316ed07493d0dcc63",
+      "human_target_descriptions": [
+        "A man that has a skateboard in the air.",
+        "A MAN IS JUMPING ON HIS SKATE BOARD IN THE SKY ",
+        "A boy jumping on a brick patterned ramp on his skateboard. ",
+        "A photo of a man doing a trick on his skateboard.",
+        "A man makes a jump on his skateboard before a crowd."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/a8d9f485e3bbdc567f81e89cd1aaafc6a96fc71e90903e71547ee2ce7d666148.png",
+      "panel_sha256": "5cea810e40dc79a46d56199f90f98f8ab24e8cb2724e1416e13aade11e4ec2f2"
+    },
+    "coco2017/557172": {
+      "dataset": "coco_captioning",
+      "target_image_id": 8690,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000008690.png",
+      "target_sha256": "1ed4336ae53e7b5764ebca0b426c50110573495f52bb40082eb5f7793af7ca29",
+      "source_sha256": "f2f72656c6fb5cb718fdcafd2994dc1326d99ac55ddb83c04a56eb55601a6bd1",
+      "human_target_descriptions": [
+        "The two young girls are petting the two goats.",
+        "Two small children petting animals at a zoo.",
+        "Two young girls petting goats in a pen.",
+        "Two girls pet a goat that is in a pen.",
+        "This is an image of two girls with goats"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/d640fe121d75cb9fb7dc21ffe2ed5a5f5a6b1873b61c65051dcae483e4889a5d.png",
+      "panel_sha256": "c3e3ada70394df366511d1aba812a2aaa5bd2f3f2672a058ded6ec3447e8e759"
+    },
+    "coco2017/210915": {
+      "dataset": "coco_captioning",
+      "target_image_id": 542856,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000542856.png",
+      "target_sha256": "93c87dd2722e9559ae3bce18d5364108062be60dcdc4d06d11a359acdc48a173",
+      "source_sha256": "b33104ceecd3d6b15fbdd618177d9a04f2308af709b16323758385ab09968669",
+      "human_target_descriptions": [
+        "a public transportation bus with an advertisement on the side ",
+        "A large white bus on a city street.",
+        "a public transit bus on a city street",
+        "A city bus carrying ads featuring women coming to town.",
+        "A bus is going down the street and it has an advertisement on the side of it."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/4934c3b0f100ea9a30dd781ec34a1da707343071d20b87c4c2ea720ea1ca3343.png",
+      "panel_sha256": "e353000dc3a6d09aff6c5d20aab18856f9f4bbe44bae09c68e7f1949b76536b6"
+    },
+    "coco2017/270244": {
+      "dataset": "coco_captioning",
+      "target_image_id": 568814,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000568814.png",
+      "target_sha256": "ef4386de604af043be60b2bc46d43c96a159d45418d7850a21d42115f6216d70",
+      "source_sha256": "5ba00e83940999e885eb4121c025f3a6a6635b1cb75cd039fad18fffd70d5a6f",
+      "human_target_descriptions": [
+        "A man with a bear sitting with his arms crossed and his tie over his left shoulder.",
+        "A man with a beard in a tie sits with his arms crossed.",
+        "a man with a beard and a gray shirt and tie",
+        "A man with a tie is staring at something.",
+        "Man with beard folding arms with tie over shoulder."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/0537e03e49ca79e8353174cd2a494b446aacc4f3ce2a5883003f638404c94622.png",
+      "panel_sha256": "1f0b2150ac1b756a73559c9a28d487bc66381cad9747442913e4bc449d9d25c5"
+    },
+    "coco2017/303566": {
+      "dataset": "coco_captioning",
+      "target_image_id": 22969,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000022969.png",
+      "target_sha256": "beacad0bee84bdfdf918c7c420fa68e5ddc5458c023c65d72a8e0de3f6baee12",
+      "source_sha256": "f70486c2422dbe52ab8c217b4fa666c8dbdda8b5fbc97d2cc0983308d57b2d55",
+      "human_target_descriptions": [
+        "Giraffes in their wood and grass zoo enclosure",
+        "A large giraffe looks at a smaller giraffe looking over a fence.",
+        "Two giraffe stand in an enclosure, on giraffe leans over the wall.",
+        "Pair of giraffes exploring a large, airy zoo enclosure.",
+        "Two giraffes in a zoo enjoy a walk and a snack"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/18ecf3aac639fd4c9630dd2a5900852dc605c3c264f763f08a560b20e0a99f51.png",
+      "panel_sha256": "aed2620c3fee507a7b295df35fecfeebd3ab5a9234a19c04ab85db409f3c75be"
+    },
+    "coco2017/423123": {
+      "dataset": "coco_captioning",
+      "target_image_id": 147498,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000147498.png",
+      "target_sha256": "e5da93851087557fb01f0594e46864d3bd47fac46b61902654c1ca7c22ec8c7a",
+      "source_sha256": "7737e73d1aece4810868a2b6e6a0c5b4bb6714296be94cf2c1d2f31405ab805e",
+      "human_target_descriptions": [
+        "Many birds fly around, above an empty beach",
+        "A flock of birds flies over a beach.",
+        "A flock of birds flying over a beach.",
+        "A flock of birds flying over water and sand with a volley ball net on the sand.",
+        "A beach area with black birds flying over it."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/cd636a1dc614402324413d457d87fbf70bfc799c14a9fdcf8b32bee27291e318.png",
+      "panel_sha256": "18365dc882759761f1d197cc1ed28176bcdbdb12b05ad216528f1a7b47675061"
+    },
+    "coco2017/25603": {
+      "dataset": "coco_captioning",
+      "target_image_id": 140987,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000140987.png",
+      "target_sha256": "996a013c6c4ec47f10d15febb49849ac5e0a6567e7b1e6f92910f8ebe6f4ed5a",
+      "source_sha256": "a496ba3299b256aba0bf2352fb5f846313fbc1d5794072b4635eee2cc4cbc6f7",
+      "human_target_descriptions": [
+        "A cute little blond girl sitting next to a pizza.",
+        "The young girl smiles brightly with a plate of pizza.",
+        "A girl sitting on a chair in front of a pepperoni pizza.",
+        "A smiling girl has a small plate of pizza.",
+        "A little girl grins at her plate of pizza."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/931625dbadba1eed1f49299f03817487cea8e9745cdad44681dfa7ba0c69ef98.png",
+      "panel_sha256": "6f5e487a7b0627c9ac9e1eeefc16669dfb7cf800b0ef6e1ed595f811a90655c3"
+    },
+    "coco2017/541055": {
+      "dataset": "coco_captioning",
+      "target_image_id": 558114,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000558114.png",
+      "target_sha256": "4110d1aa90e33c3d37a45a7560b9fa788fc89136d084fb30594bca6a60cfc5a5",
+      "source_sha256": "3a0ae836ca687204076b8a3b6cfb6e2b8b3dc4ca924538f0abca5b29c80d9592",
+      "human_target_descriptions": [
+        "Basketball players walking on court with coach in wearing dark suit.",
+        "A basketball couch walking with his team on a court.",
+        "A group of basketball players walking on the court",
+        "basketball players walking across a court with their coach ",
+        "THERE IS A GAME A BASKETBALL GAME GOING ON"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/3ff42ef776dccc00fcb1a977269392d5bacd03cff10f9a00810cea01404a1dc5.png",
+      "panel_sha256": "35461420ee6fd1d2533413149943732fa2e2b4e0a2ae8e0ba1b9be02a70fc210"
+    },
+    "coco2017/189775": {
+      "dataset": "coco_captioning",
+      "target_image_id": 482970,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000482970.png",
+      "target_sha256": "940275d9222d1db119d312414f082ab642c85f9ce234148e9b4069feaa74b812",
+      "source_sha256": "be0e0b1d9a236e415da8fd86f7a0d748799b76ad885acce2a531a66b5d6e64ed",
+      "human_target_descriptions": [
+        "A laptop computer sitting on a desk with a speaker.",
+        "An open laptop and speakers on top of a desk.",
+        "An open laptop computer sitting on top of a wooden desk.",
+        "A laptop sitting on a desk with a chat window displayed.",
+        "A powered on laptop computer next to a speaker on a desk."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/dbc02d9e4388baa55157ae9225378137961f4ac90e21dc1340711c3b41cc1b67.png",
+      "panel_sha256": "8900f607d84199896ba8886dc08ffc54afba5e7da83e5cb619e326750d7da92d"
+    },
+    "coco2017/378284": {
+      "dataset": "coco_captioning",
+      "target_image_id": 125936,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000125936.png",
+      "target_sha256": "1f6d5cfc722c76fde1e93bc527741e98e91cb7206b48e5fb2c4ee81f55d0a27b",
+      "source_sha256": "4865bcd519616c6dc46d9c93eb9bb637a03557b1ca48dbe6bdf38d192ea47cb1",
+      "human_target_descriptions": [
+        "People in a grocery story that sells fruit and drinks.",
+        "People on both sides of a counter at a small food market.",
+        "People in a store that is selling bananas and apples.",
+        "A man is at the counter by a bowl of fruit.",
+        "Two customers and three employees interact in the deli."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/d964f82368551a0658209706ac3266af70c5093faed052a4e20fbe235e6bbf8c.png",
+      "panel_sha256": "f8b1b9a5d6927d39f06ad5caed50d960fe60a744b7f3e3e90a8f1571fb4bc1bf"
+    },
+    "coco2017/127092": {
+      "dataset": "coco_captioning",
+      "target_image_id": 13729,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000013729.png",
+      "target_sha256": "c765ec5748dcb8374ff64b9c7a003332c8a203ae42e187fec5d6fa8731a72180",
+      "source_sha256": "fb29e5cf5d9103720fc15525cf76d0a82a7afac4931cf07cc5ad0b6526ce7730",
+      "human_target_descriptions": [
+        "a group of people that are playing some wii",
+        "Four people standing in a room playing a video game. ",
+        "A group of people are playing Wii in their living room. ",
+        "A group of people playing with a Wii in the living room. ",
+        "Three men and a woman playing a wii video game"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/395c45b6e6aedae51e334639e30ceb3b9932df1656fad6ed94dbf5630c748507.png",
+      "panel_sha256": "ecf0a0391e25d48f9ed61a54911f3020176228059293a8084a68127a98da8082"
+    },
+    "coco2017/528314": {
+      "dataset": "coco_captioning",
+      "target_image_id": 2592,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000002592.png",
+      "target_sha256": "f86c4ff6e996f3c314ef9f6fe00d781963b52e6abfac153837de81584f5de650",
+      "source_sha256": "a8f5378137107625474449931636f251f4a8cd3fa31dcc6569b5fc0455cf680d",
+      "human_target_descriptions": [
+        "Decorated coffee cup and knife sitting on a patterned surface.",
+        "A large knife is sitting in front of a mug has a skull and crossbones.",
+        "a white mug  showing pirate skull and bones and a large knife on a counter top.",
+        "There is a white coffee cup with a skull and bones on it next to a knife",
+        "a close up of a knife and a cup on a surface"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/fa73f07d1957b2a09c9071b0ac75bda95e763385359810b2e8162db6449786a3.png",
+      "panel_sha256": "718e67b6e2fdd0778703e879a1678e038a098802586ab630b11a7f27dcabefcc"
+    },
+    "coco2017/88462": {
+      "dataset": "coco_captioning",
+      "target_image_id": 171757,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000171757.png",
+      "target_sha256": "469f6ad43e788d6361e7376e610e0b6f38003093822c9da93a99c918f39d17d2",
+      "source_sha256": "0d3a978d3275ee8fc4d281fdd210d1c26d9f675daa8de987663442e38fc39727",
+      "human_target_descriptions": [
+        "a couple of people that are standing up in a room",
+        "a group of people listening to music or possible playing video games",
+        "The group of people are really into the game.",
+        "A group of people are socializing in a room.",
+        "A group of people standing inside of a living room."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/7e20f37a9e32f0785a498071361831a880e12616c860786ce1c39406b3f94987.png",
+      "panel_sha256": "67256e490e39974b7ae4e959ca780b9d9784610709832243ccef1de20c3adcdd"
+    },
+    "coco2017/459634": {
+      "dataset": "coco_captioning",
+      "target_image_id": 23230,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000023230.png",
+      "target_sha256": "bc0b745cf15fc5e8c05a9640d19fc950322190b0a9e1f3dcf12f4c858ac81435",
+      "source_sha256": "f8b98489455e415b4681da782e45a31653d08335ff092474331f9fd073323d2e",
+      "human_target_descriptions": [
+        "A family of swans swimming on top of a lake.",
+        "A group of geese swimming in water near a wooded area.",
+        "Four geese floating in the middle of a river.",
+        "ducks in a body of water with trees in the background",
+        "A gaggle of geese swim in a body of water. "
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/4f669301e157131d72841d38432293f777eb1fcf0fc1c7cebaa7578744d7435d.png",
+      "panel_sha256": "7c17177daaae284070d2c76a78fc18368d2f9ba0db7d33c7552fdfe12a5495fe"
+    },
+    "coco2017/242287": {
+      "dataset": "coco_captioning",
+      "target_image_id": 100489,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000100489.png",
+      "target_sha256": "05cccadc93d216d0796e2ecdcc7577ce73ac5fee0b4789a9279f7ec9a59b5ced",
+      "source_sha256": "591353629aac5104287990f8d956ee06b53b19642027040d929d712966ff02a3",
+      "human_target_descriptions": [
+        "A bird perched on top of a tree filled with leaves.",
+        "A light blue bird perched on top of a tree branch.",
+        "A blue bird is sitting on a tree branch.",
+        "A bird perches on a tree branch, against a clear blue sky.",
+        "A blue bird sitting on the top of a branch with autumn leaves"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/a93edb18c52acb137a284cc9f207cf8e5a5a320754076fdb2d652723ab9a76b5.png",
+      "panel_sha256": "9d2fd0b95e98b866402395418e09b5faf52b1167063bbc8f20259d545ab407a1"
+    },
+    "coco2017/221017": {
+      "dataset": "coco_captioning",
+      "target_image_id": 127624,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000127624.png",
+      "target_sha256": "d7ab402712ec2a9d7050e81dd25d805c789cb9af3d99b34f377182c88543ea1f",
+      "source_sha256": "91bd73360e8e4848555f48ab8f86127570ed0753456083537dee2cc951143b55",
+      "human_target_descriptions": [
+        "A train next to a train station with city in background.",
+        "Dusk is about to enter behind the city.",
+        "View of a highway near a city at sunset",
+        "A city skyline is shown with a subway train coming around the bend. ",
+        "grainy image of two trains on tracks moving through a city"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/8a5abaf6baaba410fdbc6e4ddeba11e40f53d914c7c1f963302d0cefa980b6cf.png",
+      "panel_sha256": "381953105c5e3a6485ad75b90ddf4ca24f47f2f391053adad9bb4ecc13dfd8a5"
+    },
+    "coco2017/214224": {
+      "dataset": "coco_captioning",
+      "target_image_id": 102331,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000102331.png",
+      "target_sha256": "23a48e4f7e43540afa78f5bb27995cb4265c1477d972921b5e1244140109487f",
+      "source_sha256": "abbb35b95bbdabe683852b839c7850907579e74a0103a6a1c32e1dbef643e4c0",
+      "human_target_descriptions": [
+        "A person on a motorcycle in the dirt doing tricks. ",
+        "A boy on a motocross motorcycle flying through the air.",
+        "Kid jumps a hill while riding on dirt bike",
+        "A professional photograph of a motorcycle rider in the air.",
+        "A boy is jumping in the air on his dirt bike."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/e4a3864f77d52c1f9ce82206a4ac810789f0916267a63c8ac49065f58f5dbf24.png",
+      "panel_sha256": "33d709b47d9410409dc243e81d72eb62d8f7d3a6f9f796eb90d426af1aba69c0"
+    },
+    "coco2017/473121": {
+      "dataset": "coco_captioning",
+      "target_image_id": 498857,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000498857.png",
+      "target_sha256": "fc7906ce3eb4f9502b151d375effbfa5bfc20b2bad3e6006708c821a6d20bd9c",
+      "source_sha256": "6bf12b7b73af05df4e6385d2fbf124278b872c049841004f39e7069c9a8fd553",
+      "human_target_descriptions": [
+        "A giraffe eats leaves through a wire fence.",
+        "A picture of a giraffe standing in a zoo exhibit.",
+        "a baby giraffe standing next to  a wire fence ",
+        "A giraffe standing up behind a fenced in area",
+        "A giraffe eats some leaves through a fence."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/1e0db273a49c91519fc465f611f4a35013e34d980b1e6be9b09cba608c1b7914.png",
+      "panel_sha256": "04a282480121ff14b9eb0a98a40e0be269ea77b5a4e6c5e76a71e1c31206f129"
+    },
+    "coco2017/191288": {
+      "dataset": "coco_captioning",
+      "target_image_id": 135890,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000135890.png",
+      "target_sha256": "742fabf07ff8e06e95e1fdbaeed5450cf40e9dea28c4ec0190b5a18184bb8372",
+      "source_sha256": "dfc761d90e23a56a994c66e9b147955544728f470885968a9be687938df6b6f2",
+      "human_target_descriptions": [
+        "A large stone building with a clock on it",
+        "Big Ben and part of parliament from across the street.",
+        "A building in shadow with a clock tower.",
+        "A large building with a tower and a clock",
+        "The Big Ben clock tower towering over the city of London."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/7a850065c1d0ec78a226d0960194e9aa19827398f14b85ebbff3bb9c904ffee4.png",
+      "panel_sha256": "88e2a588cde5c77b6cfc7d057a089cc63f9fa63a95539037f5429a873744d27c"
+    },
+    "coco2017/422998": {
+      "dataset": "coco_captioning",
+      "target_image_id": 493284,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000493284.png",
+      "target_sha256": "a743093bc856feb4e7135fafbea9876ba8f8a58120dd7c7cc5de4371d11d1cc5",
+      "source_sha256": "e6979b185bd7a4db0269d7644ec61d495fb327ea00b810421ef1ccfb8bfb28cf",
+      "human_target_descriptions": [
+        "A group of adult and young elephants walking. ",
+        "The family of elephants is looking for some good food.",
+        "A baby and a young elephant walk in front of the herd.",
+        "Adults and their young offspring standing together in the woods.",
+        "A group of elephants that are walking together. "
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/a57df33da1cadff166c8654033e070a2b96c32762d35cebfb7969e48cd6e1784.png",
+      "panel_sha256": "502d0b9163cd7031c0c227bb2c17b821dc1e5219afc6d3ea331e04c886c053a0"
+    },
+    "coco2017/539143": {
+      "dataset": "coco_captioning",
+      "target_image_id": 206838,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000206838.png",
+      "target_sha256": "b6c84e298ff95e563088d74092abe47c3529445571df763b2ded7dd8aa5dbabb",
+      "source_sha256": "ccce95331c1cfee7567738c538c128bf372cd71087e8c284b1a6765f0be49494",
+      "human_target_descriptions": [
+        "two women in swimsuits riding horses in the water",
+        "Two bikini clad women riding horses in an ocean",
+        "Two women in bikinis on horses stand in the ocean.",
+        "Two beautiful women riding horses in the ocean in bikinis.",
+        "people riding horses partially submerged in a body of water"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/3d2c389d0c10e4223171e265708b9e8f6a0e3ca663101fd5761dae7212325095.png",
+      "panel_sha256": "f455b9fa495da113a8956074f678b6212833d83637b37a4ac5490c48b68b1f75"
+    },
+    "coco2017/422706": {
+      "dataset": "coco_captioning",
+      "target_image_id": 309391,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000309391.png",
+      "target_sha256": "40cc92f11d5b4c8c88201c935c053e0ec9d4fe8264aa5d15c01deea7aa1efe2a",
+      "source_sha256": "5e47f227176513d995613472d2d7265bd806223ec8dcd333baccfb90485068f1",
+      "human_target_descriptions": [
+        "Many electronic wires pass over the road with few cars on it.",
+        "This is a photo of traffic on a busy city highway. ",
+        "Several vehicles are moving down a city street.",
+        "A view of street with a bus parked on the side.",
+        "Vehicle traffic on a hilly street in a small town."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/601e594cd46314f952bfcd5b40a840fc4448ff5868a66c3a03f2004b749b1e75.png",
+      "panel_sha256": "23f480fa03018863e19522708280799f885dbc63f89a3aee72cc775a1e4049c9"
+    },
+    "coco2017/572956": {
+      "dataset": "coco_captioning",
+      "target_image_id": 219485,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000219485.png",
+      "target_sha256": "08e1a1b9b768b753a107e3c66827bf133b6a0743551da36c257fb119cfe0c296",
+      "source_sha256": "085354012f83f0b01860504e4f942d48778ec384f7101e31031b8514d38aa679",
+      "human_target_descriptions": [
+        "Cat in window sill of colored panes on building",
+        "A cat sitting on a window sill in a room.",
+        "A gray cat is sitting in a tall window.",
+        "a black cat sitting in the window sill",
+        "A grey cat standing in a window with grey lining."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/51774330703df120a6627030ac59795b3b1978131de3ab0adfd3cd5db25eea81.png",
+      "panel_sha256": "c8e8f6aa070a6795f30770700baf3bef44a3e9363157b56e82109021e74e5066"
+    },
+    "coco2017/461405": {
+      "dataset": "coco_captioning",
+      "target_image_id": 32081,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000032081.png",
+      "target_sha256": "ffd85b2668b17740d223649eba1b510d53206238eca6530e647fec1c8df857b8",
+      "source_sha256": "9ed7e46af3d94f374095acd7e20e66fa0df5827d747e3cef44fa55f14e41a9d6",
+      "human_target_descriptions": [
+        "A woman holding a tennis racquet on a tennis court.",
+        "A woman on the tennis court playing tennis",
+        "there is a female tennis p;ayer that is about to serve the ball",
+        "A woman in a skirt preparing to hit a ball while playing tennis.",
+        "A woman swings her tennis racket while reaching upward."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/67f8b587a07d08209047266bc7a32acb48b82e2b4e15af57d2ca6a4c7a93039e.png",
+      "panel_sha256": "1e5fdce13cc2ae91421114cba91fd0927ec2f2e6ffad096848c5bf78ce80c8e0"
+    },
+    "coco2017/415238": {
+      "dataset": "coco_captioning",
+      "target_image_id": 460494,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000460494.png",
+      "target_sha256": "67065c0103bd07a9ca84ea232949d13538934d5f89b0a51e602bf62016b9c86b",
+      "source_sha256": "cbeea5bbede1312bbb45b731726951b34e02fa5143bde03e197ed10bd898b196",
+      "human_target_descriptions": [
+        "Assorted meal sitting on a plate with a white glass of milk.",
+        "A plate that has food that is sitting on the table.",
+        "A red plate topped with broccoli, meat and veggies.",
+        "A very bright red plate with some tasty looking food.",
+        "A red plate holds on it broccoli, carrots, muffins and meat."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/ea1c4d2120d79c74c2f26b8150b22c59329ab7a861274850a686de394ce2398a.png",
+      "panel_sha256": "2b9a2c63bacae89468d529cc07f71eb734a8a1037cf72e1d032eaebaeeed2674"
+    },
+    "coco2017/305695": {
+      "dataset": "coco_captioning",
+      "target_image_id": 73326,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000073326.png",
+      "target_sha256": "600df762b9971e0467b39b6f4003a6fdb531817510a82517ef493bcabf5f6f85",
+      "source_sha256": "91dd3ba47618691363a85eeae5c1d8b2d354e1334155443bebd98636b3882985",
+      "human_target_descriptions": [
+        "An open refrigerator including bottles of various food.",
+        "This refrigerator is packed with many foods and drinks",
+        "An open refrigerator filled up with food and condiments. ",
+        "The contents of a refrigerator filled to over flowing",
+        "an open refrigerator in a kitchen next to a counter"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/24f36f3e659cd7163cdfd7103dcf9c079098c4804ff01f30c75043fa7ba60600.png",
+      "panel_sha256": "d82f5986e2adb2d19c64a70f62de541e2595053dfd8003ecbd6d1faf1327fcdd"
+    },
+    "coco2017/79144": {
+      "dataset": "coco_captioning",
+      "target_image_id": 41633,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000041633.png",
+      "target_sha256": "3e876dce8c87d554f2ac0b2dd25334bd908c8cbc8b37483d2c4c8a56be08fe94",
+      "source_sha256": "e6498d4860dfef8929d77e0fc42dcb2ed2da4c483191c23b313c5c2fc0578251",
+      "human_target_descriptions": [
+        "A burgundy low-rider show-quality, hot rod Chevy truck.",
+        "An old model red Chevrolet truck is on the pavement.",
+        "A classic red truck is parked in the lot.",
+        "A very bright and shinny refurbished red truck.",
+        "A vintage red truck parked in a parking lot under a blue sky."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/fa808facb2605086ad3d0159937c110e62303e31c94916b659855adc9b1bdc73.png",
+      "panel_sha256": "9c3eebc7c00adb159ed9c3531e4ebcd26d7bd431d7b5a9a0b52da04c9d5fa0dd"
+    },
+    "coco2017/190923": {
+      "dataset": "coco_captioning",
+      "target_image_id": 157213,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000157213.png",
+      "target_sha256": "f57d0f3d4bf227e13b7cdca324bf093c48d4faa450501f4ed14469c24dfbfc83",
+      "source_sha256": "483e8326a680de888235032be82dc3316e7976bad2c1286f29d85acc24ca5080",
+      "human_target_descriptions": [
+        "an elephant in a field near many bushes ",
+        "A large elephant moving through the grassy plains.",
+        "The elephant walks on a big grass field.",
+        "An elephant in a grassy area with trees around.",
+        "A small elephant standing on top of a grass covered field."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/ef45abcf230ff5f851adae3c9ef8b9131da4ff3dea5564892804e52cbedd6232.png",
+      "panel_sha256": "729280c702f3f5e4daed059791f9bb09be6f764700e14f264c70c6dc709e217f"
+    },
+    "coco2017/92416": {
+      "dataset": "coco_captioning",
+      "target_image_id": 2532,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000002532.png",
+      "target_sha256": "3a0ebf9da49daca9b6226c7e8c1e063599511d94bc064b3e26b80239d871add1",
+      "source_sha256": "9076b4eaff6a9ad5fd019bdfc1f819adff15276c82a89fe1a493cdbb71dfcdf2",
+      "human_target_descriptions": [
+        "A person standing on top of a ski covered slope.",
+        "A person on skis and with poles in the snow and facing the blue sky.",
+        "A person standing on skiis on the snowy slope. ",
+        "A skier stands on skis at the top of a snowy plateau.",
+        "A person is skiing on a snowy hill top."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/d29bc1271f15ac3b232584d6570e041942a0507a1eff03e47ce722930f5a9032.png",
+      "panel_sha256": "b3ea474d19cdbec9a80acfbd7c098093bdbba5c468249c0c8bc8a4776b789009"
+    },
+    "coco2017/67180": {
+      "dataset": "coco_captioning",
+      "target_image_id": 320706,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000320706.png",
+      "target_sha256": "19112e28728d901f263d2d805c932e651f0de5e31279fc068773f50bf0759a2d",
+      "source_sha256": "550557f8a15283e3255deece70a2763a48cf0330f2b2a5e09b533608d2c0e7c4",
+      "human_target_descriptions": [
+        "A blending mixer sitting on a kitchen counter.",
+        "a blinder that has some vegetables in it",
+        "Blender mixing food together on kitchen counter of tile",
+        "The blender is being used to liquify vegetables  for sauces during dinner preparation.",
+        "The blender is full all the way to the top."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/6596c7372db6e7ee630e3d47d808e630c1b8b985e9313267894a3ba8308714f6.png",
+      "panel_sha256": "4788e047452e30f590d4fea6eb932689ae621c8cd40ba5e063c3caa912923174"
+    },
+    "coco2017/119445": {
+      "dataset": "coco_captioning",
+      "target_image_id": 569565,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000569565.png",
+      "target_sha256": "8b08475b810083b65b376d510e56ed7abbb3d475162cf6fc08e1ba7047a4aff2",
+      "source_sha256": "56c28ea0ebc1033e6c72cd12ab9249e91024238dc3508af180756beb68bee690",
+      "human_target_descriptions": [
+        "A yellow dump truck driving past a forest.",
+        "some construction stucks pared on the side of the road",
+        "a yellow truck and a white truck and a road and trees",
+        "Two large trucks are travelling along a tree-lined roadway.",
+        "Large work trucks sitting on the side of the street."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/a8dc86d64b22a62186307e0f2f9248a374c8c3f2303c8c5f1ea2a4b78401ac6e.png",
+      "panel_sha256": "1da9f0f6f7eeeb1f2516828ece6f35c81c7f67c6c7ec909960ee46596270c569"
+    },
+    "coco2017/74457": {
+      "dataset": "coco_captioning",
+      "target_image_id": 314709,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000314709.png",
+      "target_sha256": "b85ccc74f83af807f4eda389fafeb7e56ba9b6e62f2d3675456e12bff650dd03",
+      "source_sha256": "7b70ca452e6e65f91dd3ebda3318f5767bec07aa97807f256dff3e96de18eea5",
+      "human_target_descriptions": [
+        "a person riding skis on a snowy slope",
+        "A man riding skis down a snow covered slope.",
+        "A woman is skiing down a snowy hill.",
+        "An individual is in the open view in the picture. \n",
+        "A guy is having fun skiing down the slope of the hill."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/0eaef6e747dbd5f453f65245cc5e732911fe3dadab5c8e9b5e1cbc05f939a4e1.png",
+      "panel_sha256": "c76d579fbe49df8050f39b2c145c61a287088868cdee5cd9e491b9e47025a6e1"
+    },
+    "coco2017/559513": {
+      "dataset": "coco_captioning",
+      "target_image_id": 437331,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000437331.png",
+      "target_sha256": "fba00a12d5ef31a7595a5221c53f6efea324bf3f805df48d6b541fc5d3e28353",
+      "source_sha256": "7e7bed4d43e61d802b93ad4a2aa479b5191c055a13e5264c4d5c2e7c9ede477f",
+      "human_target_descriptions": [
+        "a person riding a surf board on a wave",
+        "A person wearing a wetsuit riding a wave on a surfboard.",
+        "Male surfer demonstrating skills on small breaking wave.",
+        "A person on a surf board riding a wave.",
+        "man on surf board riding a wave of green and white"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/c651891ef2cd519555f85aa868da0970f2539b06d8b7132c40f3a87ce07d324a.png",
+      "panel_sha256": "bc24967a126e3539ad2f4054fc70926b27edbdec9bd544168f41d50341806ad8"
+    },
+    "coco2017/231549": {
+      "dataset": "coco_captioning",
+      "target_image_id": 426241,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000426241.png",
+      "target_sha256": "255cd864d2476f1d31427365e310d35cffabb69f6f5bcb43f08d120f5fa85115",
+      "source_sha256": "54a7083760630c59167e198b6cf67ed15b0e15777d9699ab30c41cacf78ea4e7",
+      "human_target_descriptions": [
+        "A desktop computer sitting on top of a glass table.",
+        "A home office with a chrome and glass desk and computer equipment.",
+        "Many electronic devises and a tangle of wires are on and around the desk.",
+        "A home computer on a desk in a room.",
+        "A computer sitting on a see through desk"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/0537c799bc2868ddd8f7fb53ef2556d0da7970f09870fde78db88216715f64f8.png",
+      "panel_sha256": "27a6105fc51b784a1bef311c4895876586d46c332bd819c3a7ec7b5fa06ae87a"
+    },
+    "coco2017/464144": {
+      "dataset": "coco_captioning",
+      "target_image_id": 370813,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000370813.png",
+      "target_sha256": "f7149e9393d3b22c14f1f2f23155d79c5336c304e5b9adbf5f4f967c4f18c549",
+      "source_sha256": "6508095fca912b50fe4bb84b53b35af5e53d71d4f9cb011ac69dfdf4d1b7b75a",
+      "human_target_descriptions": [
+        "A skateboarder's airborne feet and skateboard near a curb",
+        "a person jumping a skate board in the air ",
+        "Skateboard in middle of maneuver in the air with rider ",
+        "a man does a trick on his skate board",
+        "A person that is standing on a skateboard. "
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/8d349bc96350460d49d5c06e797f3d82c388ec78ccc83eee40d24637e2ebadc5.png",
+      "panel_sha256": "7ca9e389ed74a80b945e9141128685eafd9e4fe152593a4ba1379447a33de9da"
+    },
+    "coco2017/113235": {
+      "dataset": "coco_captioning",
+      "target_image_id": 190307,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000190307.png",
+      "target_sha256": "4463911ed6bc1f01c1dad9f5ee5a3b57dbd84f9a69247b555ff44c4a7a813230",
+      "source_sha256": "93c47c14b2a91aefc9a87c8a526ce6a2a7766ac1dd857961c6be2b3891418333",
+      "human_target_descriptions": [
+        "The young woman is riding the dolphin in the water.",
+        "A woman is standing on a dolphins head.",
+        "A woman in a wet suit standing on a dolphins head",
+        "A female surfer dressed in black riding a small wave.",
+        "A woman rides the nose of a dolphin in a show"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/fff44b5adbdea348dabdc7d8c3326331c0a222e0d036a0728af25e39cc33c592.png",
+      "panel_sha256": "966b632311c2c61967ad20267b19f3b4991b356571917bb57d7ea02be78b44d5"
+    },
+    "coco2017/482585": {
+      "dataset": "coco_captioning",
+      "target_image_id": 534394,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000534394.png",
+      "target_sha256": "0cbb2f98cc16f0edbf31e22a3bc5d924422f5a88a53ed63c5b3fb96509b81eec",
+      "source_sha256": "4d32b07fdd2de6dad34e725a59ee53a9c29a4567bf9d67a695d6b293937c7661",
+      "human_target_descriptions": [
+        "A herd of sheep moving up over a wall to a field from a sidewalk.",
+        "Group of sheep crossing over a street onto an open field. ",
+        "A herd of sheep walking along a road.",
+        "The sheep follow each other over the short block wall.",
+        "A large number of sheep walking on a sidewalk"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/6263c53b119e5bee51100410fc0bd91a3d996114c4a4c58bea7a2d55af8c0693.png",
+      "panel_sha256": "701bff241cffefedc0ae8d80a8738fd751c15ae88a320650143a8d67e4f3bd6a"
+    },
+    "coco2017/481404": {
+      "dataset": "coco_captioning",
+      "target_image_id": 561223,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000561223.png",
+      "target_sha256": "b90b10070d051a55ffacc60c2a5f9aa9b2fb0195c48c7bcea69c70b80fa762f1",
+      "source_sha256": "aa8fb577053866f0e59fc33230092c1be04133c9c3b0ec5add24139ef1d4ab15",
+      "human_target_descriptions": [
+        "A young man riding a surfboard on a wave.",
+        "A surfer wearing red and black shorts rides a white surf board.",
+        "A man dodges waves on a surf board",
+        "A young man surfing on a small patch of rough water in the ocean",
+        "Man in shorts and a t-shirt surfing in the ocean"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/37b340aa2bcee1a2d75556f0e939e2005d0c2e77646797319ed9fec73ddc7310.png",
+      "panel_sha256": "7e123ecf6894557f5012937a3dbed24e9c7b3338f4915d7d2bdadc39328335ab"
+    },
+    "coco2017/369812": {
+      "dataset": "coco_captioning",
+      "target_image_id": 440617,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000440617.png",
+      "target_sha256": "9a4ca86c59cdbc00101247965ce376233a2be623c25bc89d30ee542f08d906cd",
+      "source_sha256": "bc929c7eb37387a056aa845ed9d2ac079f391fb539dce949d9385cafb1b43c46",
+      "human_target_descriptions": [
+        "an image of a bus that is going down the tracks",
+        "a train on a train track with power lines above",
+        "A yellow and white train passing by multiple rows of tracks.",
+        "A passenger train speeding down a train track.",
+        "A train is traveling along a stretch of track."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/7ef0f502dc9289c311d85c76a22a694219d1916b09d875861cd59ed3b24a221c.png",
+      "panel_sha256": "eb639285842acee064c63c68ee30d3a305e3af26fd0e5605f3310b4582d3c834"
+    },
+    "coco2017/113720": {
+      "dataset": "coco_captioning",
+      "target_image_id": 417249,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000417249.png",
+      "target_sha256": "7868ac3abd01017654d35999e342451aaea033688c3db93fae83fc5382e9fe61",
+      "source_sha256": "497e8b0f5cf21be122cc1bba2e6a6b75bc82c6bc5bee344e2fcbb46f1911e06d",
+      "human_target_descriptions": [
+        "A woman is carrying many packages in an office building",
+        "Adults in public area with luggage and carts near stairway.",
+        "A woman carrying luggage and many boxes in an airport.",
+        "A person carrying a large stack of luggage.",
+        "this is a woman pushing some luggage at the airport"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/10a6096c4319215917b0666d33f22b5d36af86138e69567cf3023e27be3ecf6b.png",
+      "panel_sha256": "901189ed4eae38f4e6996868a0a881085316dd77958af20bc0b93cb6522e420d"
+    },
+    "coco2017/471893": {
+      "dataset": "coco_captioning",
+      "target_image_id": 260657,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000260657.png",
+      "target_sha256": "7127e2c352654e30952109bbe1f0bfecec9f08d9ad4a52ee9edc56db506fd97d",
+      "source_sha256": "400b37923d4855e047910b7a6eb3fff32e995cd3109c90ae7f508921b3917535",
+      "human_target_descriptions": [
+        "A worn and a new sign for the same Mexican food restaurant.",
+        "These two photographs show the old sign and the new sign of this restaurant.",
+        "Two tall signs advertising Mexican food under a cloudy sky.",
+        "a number of business signs in a tall pole ",
+        "two signs that are advertising a mexican restaurant."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/a58f913ad14c9ca3b51fe3b70cb96cf1c07c13adf8d99b24c430d12d37074ac1.png",
+      "panel_sha256": "171cd8584e0726f3b77a81351411ae1b27a7a6823faaeefc64c4ff436fccc44f"
+    },
+    "coco2017/66886": {
+      "dataset": "coco_captioning",
+      "target_image_id": 491867,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000491867.png",
+      "target_sha256": "a59d7e72fb127408706ffeb5f8029ad20a11c560cf768bf8277c0997fef7a7a9",
+      "source_sha256": "a4dee294d4a365ecf8aca6934540d0f209d05d586a471808a3fb3b03138715ec",
+      "human_target_descriptions": [
+        "A young bald man dressed sharply smiles happily",
+        "This man has a paper flower and a green tie",
+        "Man with green tie with white polka dots stands at outdoor event.",
+        "A man wearing glasses and a green tie",
+        "a man that has a green tie and white shirt"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/647687926848b9ce6caf6c26da6b877716df1d455fe88b8a0e8dab7192fe525f.png",
+      "panel_sha256": "3b61656cb55957b1aec3b0e96aaa7d8c8d691413e7800d69a947f347f0e6704e"
+    },
+    "coco2017/188592": {
+      "dataset": "coco_captioning",
+      "target_image_id": 187236,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000187236.png",
+      "target_sha256": "7abf7c88d14109a0fe8442484226fd4070777fca80b8af68e565182a00e797c8",
+      "source_sha256": "ddb06ea09804ad371e0428b78c372e4b819cd25e538175149b9c293284da3f09",
+      "human_target_descriptions": [
+        "Couple of cats sleeping on opposite ends of the couch",
+        "Two cats laying on the floor and sleeping.",
+        "Cats curled up and lazing on a couch",
+        "Two cats sleeping on a sofa inside a house.",
+        "Three cats are napping on the carpeted floor."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/3af1a586460ba01787fa746c79ea93d7f6182de63ca06703c010892798703da9.png",
+      "panel_sha256": "8146be4e6a0e10a5bb44b40e41784bc1a2718d18cbc7433615488258f4103e97"
+    },
+    "coco2017/213445": {
+      "dataset": "coco_captioning",
+      "target_image_id": 5001,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000005001.png",
+      "target_sha256": "f1dce3d2472e454de148e25ffa93beeb050e674d8a127f9cca09cb199f767fe8",
+      "source_sha256": "aa1046b53a2d908c5dea0ddd73ff5b5ad88a8b31a9cb68cc0ede12a14ff283b8",
+      "human_target_descriptions": [
+        "A group of people cutting a ribbon on a street.",
+        "A man uses a pair of big scissors to cut a pink ribbon.",
+        "A man cutting a ribbon at a ceremony ",
+        "A group of people on the sidewalk watching two young children.",
+        "A group of people holding a large pair of scissors to a ribbon."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/ba86f9acf4d4f1efb31336f27670290936d0a486fe977213dab213f4ea2ed235.png",
+      "panel_sha256": "10e4ccdc360982422a3e4a2caeaf14a54f8a9bf3d509704947e62d37be308a05"
+    },
+    "coco2017/97924": {
+      "dataset": "coco_captioning",
+      "target_image_id": 79408,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000079408.png",
+      "target_sha256": "a96ecd9007b4eb0c5020188287cc87483199790b9e09648d913dbdbd7b840021",
+      "source_sha256": "ee9f963b155e4299bfdcee5b61cb2cf0d705f31e49cc84721227e0fe105428eb",
+      "human_target_descriptions": [
+        "A red stop sign sitting next to a forest.",
+        "Stop sign with a tree branch touching it.",
+        "A stop sgn with a branch in front of it",
+        "Ice covered tree branch rubbing a stop sign. ",
+        "A stop sign with trees and tree branches close to it. "
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/a9cf70d8de81f0174ea051c81c1ab0d35784cc3760dac020ebf21d34b746b219.png",
+      "panel_sha256": "35d60a101e554d0f6367252f1364d88b22ad0f99af5c44a60b7e5ad378540336"
+    },
+    "coco2017/226592": {
+      "dataset": "coco_captioning",
+      "target_image_id": 398905,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000398905.png",
+      "target_sha256": "11254035c9e4f74ece3910ab9bc631bfcdbf328a38930a2e6f53cd87f095c18f",
+      "source_sha256": "535c5dac79a7b26c2bb3b4300369dae3dbe5bac75b19411a2573c73a0e8f3e1a",
+      "human_target_descriptions": [
+        "A person is sitting at a keyboard near a microphone.",
+        "A man with a beard playing a keyboard on stage.",
+        "A man with a beard at sound board in front of microphone.",
+        "Frizzy haired guy standing at a keyboard listening to the music.",
+        "A bearded man onstage playing an electronic keyboard."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/c0dc8afbf7c689b3938cb53a1a7adf0fa5005029d39038e45b41fa66485a810e.png",
+      "panel_sha256": "97e190eaba9361c98cad493561aae8b45cea9502bb359af19b38aeb5ea4cb874"
+    },
+    "coco2017/171298": {
+      "dataset": "coco_captioning",
+      "target_image_id": 205105,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000205105.png",
+      "target_sha256": "06f2c4ce331bd1bdd3fb11791a394c82de04d8b6c4ddeecd16d109961d0bcb5c",
+      "source_sha256": "d6db380ea80f18135a147351b1ab2d9ac01a89bb48cf8c16f33dca813b8bacb1",
+      "human_target_descriptions": [
+        "A man holding a tennis racquet on a tennis court.",
+        "Tennis player preparing to hit ball on standard court.",
+        "A man throws a tennis ball and poses his racquet. ",
+        "A man who is about to hit  tennis ball with a racket.",
+        "a tennis player is serving the ball to his opponent"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/fb1cb966651c4e25d6f6ef33bbd891e5f49efe6bbad8b53c16d5d02b55a61572.png",
+      "panel_sha256": "471a938f48b40a7e75f3a48d5c3da5a84286502791b5e92746cbf2a4f93155a0"
+    },
+    "coco2017/551350": {
+      "dataset": "coco_captioning",
+      "target_image_id": 471991,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000471991.png",
+      "target_sha256": "15f49e1d910967d70fa0d861844526700a7b5e63f6de0927b8c249eb31f73070",
+      "source_sha256": "bc581c695f745e1e9684620658a10841c61d934267667f28f69a5d80daa394e8",
+      "human_target_descriptions": [
+        "An elaborate church with tiled floors and stained glass.",
+        "A large chapel facing towards the alter with pews on either side and beautiful glass and marble adornments. ",
+        "A church with pews running along the sides with a clear center isle.",
+        "A room with black and white tiled flooring.",
+        "The large room has wooden counters with chairs behind them on both sides."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/cdc7ead98b51eacf75c84115c94491aca69e075032cef10977721339abb47dea.png",
+      "panel_sha256": "5447b15eeffb5641801099ea887e9c0dfc66b4877f52a733f71e6426643a552a"
+    },
+    "llava_coco/20650": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 170099,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000170099.png",
+      "target_sha256": "cf73e080bc7cdc5180e17342d045e70a0935639ebc5d4b8163683edb4c3ed3a5",
+      "source_sha256": "9acc30f1e915835367cf2a36d54bed72ad49c8bd9506a216d40e7458814a6328",
+      "human_target_descriptions": [
+        "a person wearing a suit and tie next to a couch",
+        "A man in shirt and tie standing by a photograph.",
+        "A man talking in front of a photo of an orange sofa with black and white fence behind it.",
+        "A man is standing talking in front of a picture.",
+        "A man wearing a red tie with his long sleeve shirt and pants"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/b432f86c00ef227beb4f04a670e80e030bd7a38e4c0fd76c07fc67f99fc26ab4.png",
+      "panel_sha256": "e3ee636a363f931863b8874517792bc980d70ec36729fb33725293636c4b45e5"
+    },
+    "llava_coco/34096": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 185472,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000185472.png",
+      "target_sha256": "fbf1173f9220af01a4adcf5d879ea0b096e08c967c9022276b1111c272638250",
+      "source_sha256": "f603fdc8ce46523db82ad1da890d74dc4b5b06de0ba152f8efc19c59d3816174",
+      "human_target_descriptions": [
+        "The train is approaching and a man is getting off his bicycle.",
+        "A train approaching a station with a man and a bike on it. ",
+        "A train is pulling up to people waiting and a crossing guard getting off his bike.",
+        "A group of passengers at a train station standing on the platform as a train arrives",
+        "A person getting off a bike and a train coming on the tracks."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/439537a6bbe6bb25b3ec27dcc8afa80cd55c427ab8d570ffc80456f33014a77d.png",
+      "panel_sha256": "11bd039d28f115a3046f3c406f761c276aa46790a8760625ccf00b0cf0838a14"
+    },
+    "llava_coco/52312": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 154431,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000154431.png",
+      "target_sha256": "9b7baa75a5508325be02c62553a9c75bae226e5bd5708ed9def1ca1647ce5486",
+      "source_sha256": "f7a0caeb4806443233179058834718d49c9dbe826324d2d099ce3f5ea1dc0b46",
+      "human_target_descriptions": [
+        "A view of a TV and a statue laying on the ground, next to a window.",
+        "a statue of a bodt stting on a cart with wheels",
+        "There is a statue of a body in the room.",
+        "A black sculpture of a torso is on the floor next to a TV.",
+        "A living room with TV and entertainment center beside a sculpture of a torso."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/ae40dafd473a60ecc24922b2505185fcc8f0d7457d939847b591c41b9404863f.png",
+      "panel_sha256": "1f10f07047d9e71a098615388809890226178feaa74c1ca800d844e1d90a1969"
+    },
+    "llava_coco/56013": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 49091,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000049091.png",
+      "target_sha256": "3a206ca92e412739f389350b1e25b7e7443b3dd81fe39cae17eb8fff43d937c7",
+      "source_sha256": "389f708ebaaa834656027993176f973be3081e4789aa1110174e43324ac6feb4",
+      "human_target_descriptions": [
+        "A city lined with tall buildings covered in hanging letters.",
+        "Signs displayed in a crowded urban alleyway ",
+        "dozens of signs with Chinese characters hung over the streets of a city",
+        "a black and white photo of a street signs and buildings",
+        "a bunch of buildings in a city having signs strung across"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/806f106273fc88d24d02531e4a971d7462fb39c5c467861f1baaa4de90665627.png",
+      "panel_sha256": "6f4b2de00a626f8cd33279a488b17bf16c67959f6e70add281398068db687d08"
+    },
+    "llava_coco/66144": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 428867,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000428867.png",
+      "target_sha256": "fe181654a2fac44b0eec0d5aa581b380f76743a137b4cff28027f65e68c5b59f",
+      "source_sha256": "d7c4f1fbb174e0d1ae56490a5caadfd8e031422badada5cac3dff6ce745c0f33",
+      "human_target_descriptions": [
+        "A group of different colored teddy bears sitting on top of a blue table.",
+        "A table full of different teddy bears with place cards",
+        "This is a display of various types of collectibles.",
+        "Stuffed animals are displayed down a table with notecards.",
+        "Green, yellow, and pink teddy bears sitting on top of a table on display. "
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/16d800c3f3ad18d81a5fc336fa47e174944fb509f8204c20316f51c2687040d5.png",
+      "panel_sha256": "9b59810f95fdfdd886413ad3b20a5561d8c8b6244fb94f92eba78a0f1cb45797"
+    },
+    "llava_coco/81552": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 517687,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000517687.png",
+      "target_sha256": "0ec0a8a76a082761920cf57a85d802d58f419f8c796d91ec192a033e9cda0407",
+      "source_sha256": "30c1aa1957421a623444ab09fe0efff6d06cfbe764fa34433efdc52d1924dace",
+      "human_target_descriptions": [
+        "a close up of two cell phones near one another ",
+        "Two mobile devices are lying on a table.",
+        "Two cell phones of differing quality are set side by side on a table.",
+        "two cellphones are sitting side by side on the table.",
+        "Two cell phones are sitting next to each other on a table."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/5acb49967edf6b8d86d94d74cbb06581ee2e2c9a7ea62b47e4c028f3f341dba9.png",
+      "panel_sha256": "07c0eebef6b68aa8b6ceeca40b38c438bf09faa49c4e27a8d62f6071a8ac0a00"
+    },
+    "llava_coco/92109": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 386457,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000386457.png",
+      "target_sha256": "0d183dfbd8df62c65110f9c8f8ca717c7c3f2d8fd3625e25a01d1d01888280eb",
+      "source_sha256": "8d93b739f36570b58d1d9d556fa1ec18939c83046d6bbe929672258e7ac4a765",
+      "human_target_descriptions": [
+        "Cat wedged between two large oak doors trying to get out.",
+        "a cat looking out from an open doorway ",
+        "a cat stares through an opening between two doors ",
+        "A cat peeking out from behind a door.",
+        "A cat is trying to squeeze through a door."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/6963bd00b9d1f2af95f7db57bcb3ad3f10120e6752caf3f5aee0e0dfc8cd204b.png",
+      "panel_sha256": "6290d4f8cecc73c38826270fc0bccc69cdaea651c2132c6f917bbcf33b5b9f0c"
+    },
+    "llava_coco/97131": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 106266,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000106266.png",
+      "target_sha256": "5c1b15bb9496d259676f264da5bdbb963912b3abadd206d7ccf342ffdb74ad3c",
+      "source_sha256": "f7e85b50883bc1bcc754be247d5e6663677240ab3b4791738bb47439cc9bac36",
+      "human_target_descriptions": [
+        "Steak and crab cakes served with grilled peaches.",
+        "A plate that has been filled with meat and fruit ",
+        "A plate of food has potatoes and fruit.",
+        "A plate of meat, vegetable and fruit is has been cooked on a grill.",
+        "A plate topped with potatoes pan cakes and other foods."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/c30dd147a42d1492394172b3c717b06fd614d7398b223fe7e28eecb73d3586a9.png",
+      "panel_sha256": "4e4008fcf445a1fab3646f6a09fff7f974d9fcd81cd4f4c3f1b2cc4410f244c4"
+    },
+    "llava_coco/109532": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 371472,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000371472.png",
+      "target_sha256": "c51a8c7e56f0863288aa7ac6b1b7d263f7158e0e2bedf5a6950ae5bbbe6fcdce",
+      "source_sha256": "9e0cfbc2b3b0e8c93bf45137c20d5d64756e7f31b0456b4707f2d5d6d24b85b2",
+      "human_target_descriptions": [
+        "A pile of pineapple sitting next to a pile of bananas.",
+        "A pile of pineapples and bananas are sitting in a market. ",
+        "Pineapples and bananas are for sale in a market. ",
+        "many pienapples and bannanas sitting on a stand",
+        "A large batch of pineapples stacked up next to each other."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/09e66d5a2c4b77d687c7bdb326c5661f2c215e4077fd06630a4190a5604b1a98.png",
+      "panel_sha256": "24b3ba589fbc80e05adfabc15d50c2e80e93a0da45cb6cd4e7dc468533c50e29"
+    },
+    "llava_coco/164255": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 84650,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000084650.png",
+      "target_sha256": "b5f7562b2b8afba282eb46c113dc00c85d7c68287397c69e78603e7453c0d3f1",
+      "source_sha256": "b6f5f2710597319cb905e729a9e6a8675b2a40587ad8f3cfe0e5ece751936a9a",
+      "human_target_descriptions": [
+        "a cat laying on a luggage bag on the ground",
+        "A brown cat lying on a black suitcase.",
+        "The cat is laying on a luggage bag",
+        "A cat lying on a suit case and looking alertly.",
+        "THERE IS A CAT THAT IS SITTION ON TOP OF THE SUITCASE"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/3e1b796a655eb80604f22ca6dde0c95d02886073de2c72c25143b7323d164504.png",
+      "panel_sha256": "02cb55b2590311dc27daef5278660836e082d3f8ddf440e3d78cd0cc30cd4fa1"
+    },
+    "llava_coco/203629": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 36678,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000036678.png",
+      "target_sha256": "eb0bb7b03ce9eeb41a524f39f461835fdd850f03420282195d8e8ea4cf16a5a1",
+      "source_sha256": "6dfeb640ce4655da7bde847c484b456187d156798a22b7028845e84900e4b65e",
+      "human_target_descriptions": [
+        "The Big Ben clock tower towering over the city of London.",
+        "Old English castle sitting on side of river.",
+        "The Thames river near Westminster on a cloudy evening.",
+        "A large cathedral and clocktower building sits in front of an ocean with ferry and sailboats riding past.",
+        "A scenic river view with the a palace in the background."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/604655964afec9926682f66f7576761e8606bd10cd8c34903c9c7dce1dddda25.png",
+      "panel_sha256": "ee0289fcb486033afe6a17718b496c490cedd4890c621cfb0b4085aa012f51e2"
+    },
+    "llava_coco/205183": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 252219,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000252219.png",
+      "target_sha256": "4ccd3b799106cd015c794c1791fc3a554073178371b2cc8f03230e909484903c",
+      "source_sha256": "10207ec0731d2642fc96aecd522650fd6be1a2165dcd2f23f36c779a49266edb",
+      "human_target_descriptions": [
+        "a person with a shopping cart on a city street ",
+        "City dwellers walk by as a homeless man begs for cash.",
+        "People walking past a homeless man begging on a city street",
+        "a homeless man holding a cup and standing next to a shopping cart on a street",
+        "People are walking on the street by a homeless person."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/4a4d07860c8fbfa888f2deb429e088e2ec67f08feb98199cbdac73f8cdbd7ac3.png",
+      "panel_sha256": "d06002286ca3a095037a1820c502fcbecec24b2a479e281f8e553eae30a3d543"
+    },
+    "llava_coco/210299": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 118594,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000118594.png",
+      "target_sha256": "a200cf7b6f9a3de24450c4a3237a4e5cbbdcd057fd6eab51f614b2301a461058",
+      "source_sha256": "98ed46de3b92845d254f578412d8a4d5d2dc883596e3ce1d6399592f6f8fee09",
+      "human_target_descriptions": [
+        "A Texas Longhorn bull grazing on grass. ",
+        "the cog is grazing on the grass, he has big horns",
+        "A Texas longhorn bull eating grass by a barbed wire fence",
+        "Brown and white cow with long horns standing next to a chain fence. ",
+        "two really long horned cows eating in a field"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/83483267c306baa0d9963a410a38cee0c096b125d2b6e0584f6f53fb1f549593.png",
+      "panel_sha256": "60aff2e84df2bafa6d026b46ae202982c852dd149898aaed6601a72ca095e4b9"
+    },
+    "llava_coco/225738": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 151480,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000151480.png",
+      "target_sha256": "babe48811f21aa902e15c7f5f0e601fced1967eadb18db8d5d784d7c5e47b19e",
+      "source_sha256": "f76f063ce092bd7e44a4b2c223b21eac29938074dfab94ba6b5039f19e81695f",
+      "human_target_descriptions": [
+        "A group of baseball players that are walking in the outfield.",
+        "A group of baseball players walking across a lush green field.",
+        "The baseball team getting ready to walk off the field.",
+        "Members of a baseball team are walking across a field.",
+        "A group of baseball players walking across a grassy area."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/67ce1fe89f22131140cc60c1660fd516c5c81ae77d7f84ca831eb1fcc850e4b7.png",
+      "panel_sha256": "a5f8ad412aeadf24690d97da93c5761b845a3f435d5befaf0a319773215ceacd"
+    },
+    "llava_coco/258285": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 377113,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000377113.png",
+      "target_sha256": "0cbbe1dadac1c24ce39c207a9f00c8eb8eded554af4d6a546dfca2b0537df2a8",
+      "source_sha256": "f7105571d3d57c8382b06cf09dc1826863f485ef6389d83676ba38e70a044f75",
+      "human_target_descriptions": [
+        "A person on some skis in the water.",
+        "a water skier in a red and white shirt and hat",
+        "A young man on water skis at competition.",
+        "A boy wearing  skating boats in water",
+        "A person engaging in a water sport with skis on. "
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/94dc57ef79f335978c5dabfaeec5205b70f5bafc2299e8317f0fc60108f67f22.png",
+      "panel_sha256": "763c61166ba0036ea074b9079d0416c3f5d83c230586ab4ba0eb63014925f91e"
+    },
+    "llava_coco/293505": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 352582,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000352582.png",
+      "target_sha256": "95c2efbf307c8dc13272d7265f1874b6ad80f0e28f94b62c7f68ef6a99b1a728",
+      "source_sha256": "d59072d2b27b05eed30abdd8dfe2b56ae8ff1d8b36e3729fc0590796909f673a",
+      "human_target_descriptions": [
+        "A man in a suit tossing a frisbee",
+        "A young man participates in a Frisbee game.",
+        "Two men one getting ready to throw a freebie. ",
+        "A man throwing a white frisbee in a tree covered park.",
+        "This is an image of a man trowing a frisbee."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/fe4e7446ec99506301e31b4b6894612fdca1c7f26a56597a12e3314fe09b0d0d.png",
+      "panel_sha256": "642494e19477c5181b04f3e8faeda890839256160496ca2e3c082b62a8e64267"
+    },
+    "llava_coco/319432": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 449190,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000449190.png",
+      "target_sha256": "c94a04647671223f1977bb14a2b4bf8cf592ada88c17ea3e5ab44dfbc878fa49",
+      "source_sha256": "88b48c5f99ee32d7afb41989ca839da484f19c967ac0c34b3edb01610b6b0bf9",
+      "human_target_descriptions": [
+        "a close up of a burrito french fries and a cup of fruit",
+        "A close-up of a burrito and potato wedges.",
+        "A wrap served with a container of bacon and another container of vegetables.",
+        "A table topped with a cut in half burrito next to cup of veggies.",
+        "A burrito along with some other spanish foods"
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/d1091aa6e5a05d0a6e787fb3822a1976e5a96d2d07628199d938eed534530e0c.png",
+      "panel_sha256": "970a86ad248711f66cbc603807632611346a70d282adb281fd4755ccc2197d08"
+    },
+    "llava_coco/353536": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 139077,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000139077.png",
+      "target_sha256": "1865710b800d2d861c9f7b14baac1eac215b04125f0070a56fb1dc98ae922947",
+      "source_sha256": "72315e32caf791c4ec28a949f595f9207b1fc57825d755d0d7354c8d48ea79bd",
+      "human_target_descriptions": [
+        "A young boy holding a Nintendo Wii game controller.",
+        "a little kid playing a game with the wii driving remote",
+        "a kid with a remote playing video game",
+        "A small child stands in front of a television playing a video game.",
+        "A boy stands in front of a TV in a living room."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/143cc8f151b75df1b8a4b82510e4a9c1a7348d67f33b2e827ed6daf89665d25c.png",
+      "panel_sha256": "4c7ef3c58f5835010597bf0fbf12cf82bb8a97b027cacce8c61aade49196f16e"
+    },
+    "llava_coco/367571": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 156076,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000156076.png",
+      "target_sha256": "9a7196cc94bfba9e1243928e756668ef6e36acdb340c85cb7f761097caf89343",
+      "source_sha256": "45a9b43cfef7ce8fe499a69b893ee67578580a43f987c542bb83c5eba661064a",
+      "human_target_descriptions": [
+        "A couple of men and one young man eating pizza.",
+        "Guys sitting at a table eating pizza and talking ",
+        "three guys sitting at a table with two pizzas",
+        "Some people are seen eating several large pizzas.",
+        "The men are enjoying the very large pizzas."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/093c062bb53618719d15ea1a1f0d40b57b3a24a1f826d69d8b7ac633cfa61de3.png",
+      "panel_sha256": "efcc3a76b16d9626db13417f3adb43eb29c1b8e6c2d4915830e669dfc151699d"
+    },
+    "llava_coco/385873": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 454067,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000454067.png",
+      "target_sha256": "27b5aa2bd7ee056c838e20f26c96b75601cc634900a4733dd1fd33cb967ee177",
+      "source_sha256": "aff1f3c1c671b4a0602d28ddb4fe59fc38c6de670f298493022e0b5f74a8742e",
+      "human_target_descriptions": [
+        "A man standing in front of a TV holding a Wii game controller.",
+        "A person is playing a Wii golf game in a living room. ",
+        "A woman is playing video games on a small television ",
+        "Someone in green is playing a golf game for the Wii. ",
+        "A person with a remote in a room."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/26da51751292bb6f46ad12192002fed9fefc390814dfe44cf779ad1703539814.png",
+      "panel_sha256": "a1d57a58a8cbc7fb2525a41a9ec43547ebb95de4f2904ca5500b232e0cb334eb"
+    },
+    "llava_coco/408439": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 399764,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000399764.png",
+      "target_sha256": "a23c583b38a38f2fa4539db4084775c4abb46ba79ff03908330246c66a300aa0",
+      "source_sha256": "3455caf66d8709c6a0b8dd18972f96f01ebc0eeaf1b865a034f0f7e702b14cb3",
+      "human_target_descriptions": [
+        "A man is leading a cow with a ribbon on its neck.",
+        "man with grey hair leading a cow with red ribbon",
+        "An old man walking a big brown cow around.",
+        "A man that is standing with a cow.",
+        "A man is walking with a cow who's sporting a red ribbon. "
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/9d7cedabad31737d6d50319df0b4c85d3793d6086209cb4201afd4e0da857cf6.png",
+      "panel_sha256": "cb4333e01499c7a8aabc7ed2739349c2a3e69498c0923645951dc8c7cc1a507c"
+    },
+    "llava_coco/431165": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 150726,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000150726.png",
+      "target_sha256": "b5c06cbfd8febca7f2d2bbdf0a269a308063ef173d996d9e5e48f65f3a31fc41",
+      "source_sha256": "2f0e579845e8ab817979fc5053499f39f4041b900d460f83eac06080f40793fb",
+      "human_target_descriptions": [
+        "Pair of giraffes walking on grassy area in enclosure.",
+        "Two giraffes walking next to each other in a field.",
+        "Two giraffes are walking abreast on the grassy field.",
+        "Two giraffes walking next to each other. ",
+        "A pair of giraffes walking in an area between a rock and a tree."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/459c4a68255e681bd31a5766fd39ab62947ee90a474d76127fbf81c761bf27a2.png",
+      "panel_sha256": "e29d35b11b52e82bb8dd0f0524b6b3e863708b62fdeebf714c12f77bce571eb7"
+    },
+    "llava_coco/441147": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 446206,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000446206.png",
+      "target_sha256": "a81fba1cbd1f86cd21f269789a6f175a689d8378ba23f00baff504eb6da4e52d",
+      "source_sha256": "5d112cbae0285061e2d56e17471303fc3751770b0ced99e47ab779d4fae3e3eb",
+      "human_target_descriptions": [
+        "There is a train and bus in the cityscape. ",
+        "a train and a bus in the middle of a city",
+        "A passenger bus on the road with a train on the overpass",
+        "a monorail going down the track as a bus parks by the side of a road ",
+        "A bus is passing in front of big buildings and beautiful gardens."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/9faf05e3108b4abe27f278e1623f1ec7d7d23aa29e3aa3b845a209b9af2a0d5b.png",
+      "panel_sha256": "0c47c24b532e1397bb2670cc8921c9cb433bcb9640267a517146c963070a7237"
+    },
+    "llava_coco/460149": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 469652,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000469652.png",
+      "target_sha256": "8054159b91593453265f2ed9ad261adda8b3a1acb9a91ea2c71330323ffc219a",
+      "source_sha256": "fc395f869ab3bab29814a1e2873621edb776e73773ba3d7ea9356070258d2acf",
+      "human_target_descriptions": [
+        "a close up of a giraffes head with a wooden wall in the background",
+        "A Giraffe looking down in front of a fence.",
+        "This a close up picture of the giraffes face his eyes are half closed.",
+        "A giraffe standing next to a  bamboo building.",
+        "A giraffe is pictured in front of a wooden fence."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/8efa16d18fd1ebda7d9d6b0b382aebc11a44bf3a28c2f7ec6573a597b7c4540c.png",
+      "panel_sha256": "7984caf1dc203705f465ccf8b336a829ad626ac690bd8dd7a4446a6f35cad1f8"
+    },
+    "llava_coco/506095": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 102820,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000102820.png",
+      "target_sha256": "63f7fb525310ddb6e879f2763eda34a1a441fce684a2791e78e7479e59478bc0",
+      "source_sha256": "643801c8d303eb878c88f7c1a3d5fe5577ec7b077c34e31490404f7d98cdb4d2",
+      "human_target_descriptions": [
+        "Young girls sitting on wooden decking with decorated cake.",
+        "A young child that is sitting by a red cake.",
+        "A child with a red spider man cake.",
+        "A boy sitting cross legged on a porch with a cake in front of him.",
+        "A child sitting cross legged in front of a birthday cake."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/1c58220cb67bfddf414d0cff1d02db965d5dba5a803fd71374f256ae7825705d.png",
+      "panel_sha256": "9a6b8f7b426537c755e822e4ed828e9e0a774ee9cab5ec062bd7ec738a083610"
+    },
+    "llava_coco/506483": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 403584,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000403584.png",
+      "target_sha256": "47ca10a651cb2fbfc7a8e83793e2ee6c7a00eb936257473cd10e220789c46ada",
+      "source_sha256": "344bf86671e890f82cdff7fd06ae51ff6d32fe397d848c781bf37b9898633d2b",
+      "human_target_descriptions": [
+        "Two people standing on a beach next to the ocean.",
+        "Two surfers stand with their surfboards on a beach.",
+        "Two people on beach holding surfboards under their arms.",
+        "People standing in an over cast ski looking out to sea with surf boards.",
+        "Tow men standing on a beach holding surfboards."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/6277a6a0763ebb76f4177ab32913a390b6c89457ae7474ef5910019c878c9fd7.png",
+      "panel_sha256": "c2514e6c1d7881d40d2676f5813f9f0308b8d74ab8d7eb8069857ae03424f964"
+    },
+    "llava_coco/514915": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 31735,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000031735.png",
+      "target_sha256": "d44ea9996b5627a7327fbf615d06b35521eb8670add2c32b897653ba0aded5b5",
+      "source_sha256": "debc9a7ccefb945ab0740909483edc5888088e8702622c28094581ac6227e965",
+      "human_target_descriptions": [
+        "A red living room filled with furniture and two windows.",
+        "A living room painted red with black couches and coffee tables",
+        "A living room with red walls and dark furniture, with light streaming in two windows.",
+        "A view of a room that has two windows and a blue couch.",
+        "A modern living room with very unique furniture."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/51059941491396c6e6b31956e4d7bfb2f9de0200c6f72d54a8456b23ac2233d3.png",
+      "panel_sha256": "598cd743db2722c827bf29e213210886b0102df8c0106ff765d2dad178ba3409"
+    },
+    "llava_coco/515716": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 5992,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000005992.png",
+      "target_sha256": "c7aabcde58c1ba22cd97184cf19e3700727e0b060c0741c0871b3250c3889d46",
+      "source_sha256": "9f4e7defed31ca1e869d553e9b7468540b67c662735b26ece9890efe3a08afe7",
+      "human_target_descriptions": [
+        "A small group of sheep standing together next to a building.",
+        "Group of sheep standing next to a brick building. ",
+        "sheep standing around next to a brick wall ",
+        "A herd of sheep standing on top of a green grass covered yard.",
+        "A group of shaggy haired sheep standing beside a building."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/0b7b952469df5ca8450adf947dbb8a60bd7648b96b6b9dfeee5fb416fb2ffdf3.png",
+      "panel_sha256": "215df0ac33f3864857be3d3c4b2c857ae2ad4fcc45cd8166080ef1510f4072f1"
+    },
+    "llava_coco/525439": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 53529,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000053529.png",
+      "target_sha256": "282edd4fdf040f621475c4a20729fc19079005457b746d6a784440cfe41b2ef5",
+      "source_sha256": "2443cf2c104936184a3c06b12941e8072fd3ce6b5c8073469ea1d003de912fde",
+      "human_target_descriptions": [
+        "A dog with a hat and a person in a truck.",
+        "a person in a car sits next to a top with a hat on",
+        "A dog with a green hat sitting in a truck.",
+        "A dog with a green hat in a truck and a green shamrock posted to the truck's side mirror. ",
+        "A dog sitting in a vehicle with a St. Patrick hat on."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/fe10d294105eeb7a7050691c5ab580a098f3df85e9be6f28ba36d18321c03214.png",
+      "panel_sha256": "d407c58f3c31c8a2d19bdab48ee95605bf2a4bab411a6a345c4207b3f60356d9"
+    },
+    "llava_coco/534270": {
+      "dataset": "llava_bench_coco",
+      "target_image_id": 353518,
+      "target_image": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000353518.png",
+      "target_sha256": "bf49424a0b26fed96fefd275fa510419a4b5e49105135a401c59b5a9fdf430ec",
+      "source_sha256": "5514383e3e992b87c1ddd6156bf9e6bcd7a70840533160d367ed832d668db410",
+      "human_target_descriptions": [
+        "A fleet of ships docked on a sandy beach.",
+        "Several wooden boats docked on the ocean beach.",
+        "Boats are lined up on the sea shore.",
+        "A harbor with boats washed up in the low tide",
+        "Five boats sitting on the beach by the ocean."
+      ],
+      "panel": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_task_targeted_asr_v1/context_panels/63b5d8277896d060a923e72dad8844032e6df01385ecc809b42d3b433db51c1b.png",
+      "panel_sha256": "fb940df86b5340205930d1c1f847049e12594afaba426afefea3eb19072befe7"
+    }
+  },
+  "annotation_archive_sha256": "113a836d90195ee1f884e704da6304dfaaecff1f023f49b6ca93c4aaae470268",
+  "target_pairing": "unchanged original pre-attack manifests",
+  "candidate_outputs_used_to_select_targets": false,
+  "post_hoc_evaluation_rule": true
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/runs/coco_captioning_gemma4_150_22888e0a5e68fa",
+    "dataset": "coco_captioning",
+    "method": "ours_uniform4_neighborhood48",
+    "steps": 50,
+    "target": "Gemma 4 31B-it",
+    "planned_N": 150,
+    "N_images": 150,
+    "adversarial_scored": 150,
+    "clean_scored": 150,
+    "targeted_success_numerator": 5,
+    "targeted_success_denominator": 150,
+    "ASR": 0.03333333333333333,
+    "TASR": 0.03333333333333333,
+    "clean_target_hit_rate": 0.0,
+    "new_target_hits": 5,
+    "new_target_hit_rate_all": 0.03333333333333333,
+    "TASR_conditional_clean_not_target": 0.03333333333333333,
+    "status": "COMPLETE",
+    "metric": "ASR_means_targeted_image_semantic_success",
+    "judge": "Qwen3.5-27B",
+    "post_hoc": true,
+    "official": false,
+    "image_cluster_bootstrap_ASR95": [
+      0.006666666666666667,
+      0.06666666666666667
+    ],
+    "image_level_at_least_one_target_hit": {
+      "hits": 5,
+      "N": 150
+    }
+  },
+  {
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/runs/coco_captioning_internvl_150_7da5c01b7747e7",
+    "dataset": "coco_captioning",
+    "method": "ours_uniform4_neighborhood48",
+    "steps": 50,
+    "target": "InternVL3.5-14B-HF",
+    "planned_N": 150,
+    "N_images": 150,
+    "adversarial_scored": 150,
+    "clean_scored": 150,
+    "targeted_success_numerator": 23,
+    "targeted_success_denominator": 150,
+    "ASR": 0.15333333333333332,
+    "TASR": 0.15333333333333332,
+    "clean_target_hit_rate": 0.0,
+    "new_target_hits": 23,
+    "new_target_hit_rate_all": 0.15333333333333332,
+    "TASR_conditional_clean_not_target": 0.15333333333333332,
+    "status": "COMPLETE",
+    "metric": "ASR_means_targeted_image_semantic_success",
+    "judge": "Gemma 4 31B-it",
+    "post_hoc": true,
+    "official": false,
+    "image_cluster_bootstrap_ASR95": [
+      0.1,
+      0.21333333333333335
+    ],
+    "image_level_at_least_one_target_hit": {
+      "hits": 23,
+      "N": 150
+    }
+  },
+  {
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/runs/coco_captioning_qwen_150_cdf5a54d024c61",
+    "dataset": "coco_captioning",
+    "method": "ours_uniform4_neighborhood48",
+    "steps": 50,
+    "target": "Qwen3.5-27B",
+    "planned_N": 150,
+    "N_images": 150,
+    "adversarial_scored": 150,
+    "clean_scored": 150,
+    "targeted_success_numerator": 15,
+    "targeted_success_denominator": 150,
+    "ASR": 0.1,
+    "TASR": 0.1,
+    "clean_target_hit_rate": 0.0,
+    "new_target_hits": 15,
+    "new_target_hit_rate_all": 0.1,
+    "TASR_conditional_clean_not_target": 0.1,
+    "status": "COMPLETE",
+    "metric": "ASR_means_targeted_image_semantic_success",
+    "judge": "Gemma 4 31B-it",
+    "post_hoc": true,
+    "official": false,
+    "image_cluster_bootstrap_ASR95": [
+      0.05333333333333334,
+      0.15333333333333332
+    ],
+    "image_level_at_least_one_target_hit": {
+      "hits": 15,
+      "N": 150
+    }
+  },
+  {
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/runs/llava_bench_coco_gemma4_30_0ad7585ae8c3f9",
+    "dataset": "llava_bench_coco",
+    "method": "ours_uniform4_neighborhood48",
+    "steps": 50,
+    "target": "Gemma 4 31B-it",
+    "planned_N": 90,
+    "N_images": 30,
+    "adversarial_scored": 90,
+    "clean_scored": 90,
+    "targeted_success_numerator": 14,
+    "targeted_success_denominator": 90,
+    "ASR": 0.15555555555555556,
+    "TASR": 0.15555555555555556,
+    "clean_target_hit_rate": 0.0,
+    "new_target_hits": 14,
+    "new_target_hit_rate_all": 0.15555555555555556,
+    "TASR_conditional_clean_not_target": 0.15555555555555556,
+    "status": "COMPLETE",
+    "metric": "ASR_means_targeted_image_semantic_success",
+    "judge": "Qwen3.5-27B",
+    "post_hoc": true,
+    "official": false,
+    "image_cluster_bootstrap_ASR95": [
+      0.07777777777777778,
+      0.24444444444444444
+    ],
+    "image_level_at_least_one_target_hit": {
+      "hits": 10,
+      "N": 30
+    }
+  },
+  {
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/runs/llava_bench_coco_internvl_30_8fa6b3d00fc76b",
+    "dataset": "llava_bench_coco",
+    "method": "ours_uniform4_neighborhood48",
+    "steps": 50,
+    "target": "InternVL3.5-14B-HF",
+    "planned_N": 90,
+    "N_images": 30,
+    "adversarial_scored": 90,
+    "clean_scored": 90,
+    "targeted_success_numerator": 11,
+    "targeted_success_denominator": 90,
+    "ASR": 0.12222222222222222,
+    "TASR": 0.12222222222222222,
+    "clean_target_hit_rate": 0.0,
+    "new_target_hits": 11,
+    "new_target_hit_rate_all": 0.12222222222222222,
+    "TASR_conditional_clean_not_target": 0.12222222222222222,
+    "status": "COMPLETE",
+    "metric": "ASR_means_targeted_image_semantic_success",
+    "judge": "Gemma 4 31B-it",
+    "post_hoc": true,
+    "official": false,
+    "image_cluster_bootstrap_ASR95": [
+      0.044444444444444446,
+      0.2111111111111111
+    ],
+    "image_level_at_least_one_target_hit": {
+      "hits": 8,
+      "N": 30
+    }
+  },
+  {
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/runs/llava_bench_coco_qwen_30_04fd8c9582822a",
+    "dataset": "llava_bench_coco",
+    "method": "ours_uniform4_neighborhood48",
+    "steps": 50,
+    "target": "Qwen3.5-27B",
+    "planned_N": 90,
+    "N_images": 30,
+    "adversarial_scored": 90,
+    "clean_scored": 90,
+    "targeted_success_numerator": 10,
+    "targeted_success_denominator": 90,
+    "ASR": 0.1111111111111111,
+    "TASR": 0.1111111111111111,
+    "clean_target_hit_rate": 0.0,
+    "new_target_hits": 10,
+    "new_target_hit_rate_all": 0.1111111111111111,
+    "TASR_conditional_clean_not_target": 0.1111111111111111,
+    "status": "COMPLETE",
+    "metric": "ASR_means_targeted_image_semantic_success",
+    "judge": "Gemma 4 31B-it",
+    "post_hoc": true,
+    "official": false,
+    "image_cluster_bootstrap_ASR95": [
+      0.03333333333333333,
+      0.2
+    ],
+    "image_level_at_least_one_target_hit": {
+      "hits": 6,
+      "N": 30
+    }
+  }
+]
