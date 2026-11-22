@@ -13,3 +13,18 @@ The prior non-targeted semantic failure rate is auxiliary and must not be relabe
 |llava_bench_coco|ours_uniform4_neighborhood48|50|Gemma 4 31B-it|90/90|14/90|15.56%|COMPLETE|
 |llava_bench_coco|ours_uniform4_neighborhood48|50|InternVL3.5-14B-HF|90/90|11/90|12.22%|COMPLETE|
 |llava_bench_coco|ours_uniform4_neighborhood48|50|Qwen3.5-27B|90/90|10/90|11.11%|COMPLETE|
+|coco_captioning|m_attack|50|Qwen3.5-27B|150/150|8/150|5.33%|COMPLETE|
+|coco_captioning|m_attack|50|InternVL3.5-14B-HF|150/150|9/150|6.00%|COMPLETE|
+|coco_captioning|m_attack|50|Gemma 4 31B-it|150/150|0/150|0.00%|COMPLETE|
+|coco_captioning|pgd|50|Qwen3.5-27B|150/150|0/150|0.00%|COMPLETE|
+|coco_captioning|pgd|50|InternVL3.5-14B-HF|150/150|1/150|0.67%|COMPLETE|
+|coco_captioning|pgd|50|Gemma 4 31B-it|150/150|0/150|0.00%|COMPLETE|
+|coco_captioning|pgd|50|Qwen3.5-27B|10/150|0/150|N/A|PARTIAL|
+|coco_captioning|pgd|50|InternVL3.5-14B-HF|10/150|0/150|N/A|PARTIAL|
+|coco_captioning|pgd|50|Gemma 4 31B-it|10/150|0/150|N/A|PARTIAL|
+|llava_bench_coco|m_attack|50|Qwen3.5-27B|90/90|11/90|12.22%|COMPLETE|
+|llava_bench_coco|m_attack|50|InternVL3.5-14B-HF|90/90|14/90|15.56%|COMPLETE|
+|llava_bench_coco|m_attack|50|Gemma 4 31B-it|90/90|3/90|3.33%|COMPLETE|
+|llava_bench_coco|pgd|50|Qwen3.5-27B|90/90|1/90|1.11%|COMPLETE|
+|llava_bench_coco|pgd|50|InternVL3.5-14B-HF|90/90|0/90|0.00%|COMPLETE|
+|llava_bench_coco|pgd|50|Gemma 4 31B-it|90/90|0/90|0.00%|COMPLETE|
