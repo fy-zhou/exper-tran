@@ -552,6 +552,102 @@
     "official": false
   },
   {
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21_dataset_expansion/runs/llava_bench_coco_foa_attack_30_50_58e6ba607240e2",
+    "dataset": "llava_bench_coco",
+    "method": "foa_attack",
+    "steps": 50,
+    "target": "Qwen3.5-27B",
+    "planned_N": 90,
+    "N_images": 30,
+    "adversarial_scored": 90,
+    "clean_scored": 90,
+    "targeted_success_numerator": 15,
+    "targeted_success_denominator": 90,
+    "ASR": 0.16666666666666666,
+    "TASR": 0.16666666666666666,
+    "clean_target_hit_rate": 0.0,
+    "new_target_hits": 15,
+    "new_target_hit_rate_all": 0.16666666666666666,
+    "TASR_conditional_clean_not_target": 0.16666666666666666,
+    "status": "COMPLETE",
+    "metric": "ASR_means_targeted_image_semantic_success",
+    "judge": "Gemma 4 31B-it",
+    "post_hoc": true,
+    "official": false,
+    "image_cluster_bootstrap_ASR95": [
+      0.06666666666666667,
+      0.2777777777777778
+    ],
+    "image_level_at_least_one_target_hit": {
+      "hits": 8,
+      "N": 30
+    }
+  },
+  {
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21_dataset_expansion/runs/llava_bench_coco_foa_attack_30_50_58e6ba607240e2",
+    "dataset": "llava_bench_coco",
+    "method": "foa_attack",
+    "steps": 50,
+    "target": "InternVL3.5-14B-HF",
+    "planned_N": 90,
+    "N_images": 30,
+    "adversarial_scored": 90,
+    "clean_scored": 90,
+    "targeted_success_numerator": 11,
+    "targeted_success_denominator": 90,
+    "ASR": 0.12222222222222222,
+    "TASR": 0.12222222222222222,
+    "clean_target_hit_rate": 0.0,
+    "new_target_hits": 11,
+    "new_target_hit_rate_all": 0.12222222222222222,
+    "TASR_conditional_clean_not_target": 0.12222222222222222,
+    "status": "COMPLETE",
+    "metric": "ASR_means_targeted_image_semantic_success",
+    "judge": "Gemma 4 31B-it",
+    "post_hoc": true,
+    "official": false,
+    "image_cluster_bootstrap_ASR95": [
+      0.05555555555555555,
+      0.2111111111111111
+    ],
+    "image_level_at_least_one_target_hit": {
+      "hits": 8,
+      "N": 30
+    }
+  },
+  {
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21_dataset_expansion/runs/llava_bench_coco_foa_attack_30_50_58e6ba607240e2",
+    "dataset": "llava_bench_coco",
+    "method": "foa_attack",
+    "steps": 50,
+    "target": "Gemma 4 31B-it",
+    "planned_N": 90,
+    "N_images": 30,
+    "adversarial_scored": 90,
+    "clean_scored": 90,
+    "targeted_success_numerator": 9,
+    "targeted_success_denominator": 90,
+    "ASR": 0.1,
+    "TASR": 0.1,
+    "clean_target_hit_rate": 0.0,
+    "new_target_hits": 9,
+    "new_target_hit_rate_all": 0.1,
+    "TASR_conditional_clean_not_target": 0.1,
+    "status": "COMPLETE",
+    "metric": "ASR_means_targeted_image_semantic_success",
+    "judge": "Qwen3.5-27B",
+    "post_hoc": true,
+    "official": false,
+    "image_cluster_bootstrap_ASR95": [
+      0.03333333333333333,
+      0.18888888888888888
+    ],
+    "image_level_at_least_one_target_hit": {
+      "hits": 6,
+      "N": 30
+    }
+  },
+  {
     "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21_dataset_expansion/runs/llava_bench_coco_m_attack_30_50_27c8d978a095bd",
     "dataset": "llava_bench_coco",
     "method": "m_attack",
