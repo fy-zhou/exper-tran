@@ -64,6 +64,16 @@ def completed_ours_inputs():
     return True
 
 
+def targeted_ours_ready():
+    path = REPO / "docs/kdd2027/results/native_task_targeted_asr_v1/results.json"
+    if not path.exists():
+        return False
+    rows = [
+        r for r in json.loads(path.read_text()) if r["method"] == "ours_uniform4_neighborhood48"
+    ]
+    return len(rows) == 6 and all(r["status"] == "COMPLETE" for r in rows)
+
+
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     budget = json.loads((BASE / "nov21_dataset_expansion/state.json").read_text())
@@ -80,7 +90,11 @@ def main():
             state["validated_resume"] = (
                 "all720 native-task outputs and540 frozen attacks; no inference replay"
             )
-            if not execute("asr.py", ["--ours-only"], "ours_binary_semantic_ASR", state):
+            if not execute("tasr.py", ["--ours-only"], "ours_targeted_ASR", state):
+                return 2
+            if not targeted_ours_ready():
+                state["status"] = "PARTIAL_TARGETED_JUDGMENTS"
+                atomic(OUT / "state.json", state)
                 return 2
         return baseline_queue(state)
     if not execute("prepare.py", [], "prepare_references", state):
@@ -150,7 +164,11 @@ def main():
             return 2
         state.update(status="OURS_RAW_TASKS_AND_ADAPTED_METRICS_COMPLETE", completed=time.time())
         atomic(OUT / "state.json", state)
-        if not execute("asr.py", ["--ours-only"], "ours_binary_semantic_ASR", state):
+        if not execute("tasr.py", ["--ours-only"], "ours_targeted_ASR", state):
+            return 2
+        if not targeted_ours_ready():
+            state["status"] = "PARTIAL_TARGETED_JUDGMENTS"
+            atomic(OUT / "state.json", state)
             return 2
     return baseline_queue(state)
 
@@ -230,7 +248,7 @@ def baseline_queue(state):
             ):
                 return 2
             if not execute(
-                "asr.py", [], "semantic_ASR_" + method + "_" + dataset + "_" + str(steps), state
+                "tasr.py", [], "targeted_ASR_" + method + "_" + dataset + "_" + str(steps), state
             ):
                 return 2
     return 0

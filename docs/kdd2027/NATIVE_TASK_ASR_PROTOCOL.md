@@ -1,3 +1,5 @@
+> Superseded as the main metric on2026-11-22: the user requires **targeted** success, displayed as ASR. This document and its results describe an auxiliary **non-targeted** semantic failure rate only. Never relabel its percentages as TASR. See [the targeted protocol](NATIVE_TASK_TARGETED_ASR_PROTOCOL.md).
+
 # Native-task semantic ASR v1 — post-hoc evaluation addition
 
 The user requires binary attack success rates for COCO captioning and LLaVA open QA. This protocol is **post-hoc**: quality scores and some raw outputs had already been examined. It must not be presented as preregistered or as an official benchmark ASR definition. Freeze this rule once, apply it to Ours and every applicable baseline, and do not pick a numeric quality threshold or tune attacks using it. The previously reported CIDEr and paired quality scores stay unchanged.
