@@ -1,0 +1,13 @@
+{
+  "status": "OURS_RAW_TASKS_AND_ADAPTED_METRICS_COMPLETE",
+  "started": 1795290725.3658125,
+  "deadline": 1795370461.072828,
+  "commercial_calls": false,
+  "priority": "Ours native-task validity before baselines",
+  "stage": "baseline_llava_bench_coco_m_attack_50_evaluate",
+  "heartbeat": 1795333010.5815113,
+  "pid": 31811,
+  "completed": 1795319157.0131042,
+  "snapshot_utc": "2026-11-22T07:59:00Z",
+  "overall_complete": false
+}

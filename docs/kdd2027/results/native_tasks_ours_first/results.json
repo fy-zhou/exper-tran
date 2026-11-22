@@ -1,0 +1,278 @@
+[
+  {
+    "run": "coco_captioning_gemma4_10_cb305a74358b6e",
+    "dataset": "coco_captioning",
+    "target": "Gemma 4 31B-it",
+    "N_images": 10,
+    "planned_queries": 10,
+    "raw_returned": 10,
+    "raw_complete": true,
+    "protocol_adaptation": "label_free_disjoint48_reference_neighborhoods",
+    "official_llava_score": null,
+    "clean_CIDEr_observed": 0.5160691839681533,
+    "adv_CIDEr_observed": 0.06053816207462239,
+    "image_bootstrap_drop95_observed": [
+      0.24551509096787674,
+      0.6659637852787876
+    ],
+    "primary_metric_valid": true,
+    "CIDEr_IDF_population": 10
+  },
+  {
+    "run": "coco_captioning_gemma4_150_22888e0a5e68fa",
+    "dataset": "coco_captioning",
+    "target": "Gemma 4 31B-it",
+    "N_images": 150,
+    "planned_queries": 150,
+    "raw_returned": 150,
+    "raw_complete": true,
+    "protocol_adaptation": "label_free_disjoint48_reference_neighborhoods",
+    "official_llava_score": null,
+    "clean_CIDEr_observed": 0.5360942863067093,
+    "adv_CIDEr_observed": 0.05397750606021918,
+    "image_bootstrap_drop95_observed": [
+      0.4144432975948435,
+      0.5556189482150452
+    ],
+    "primary_metric_valid": true,
+    "CIDEr_IDF_population": 150
+  },
+  {
+    "run": "coco_captioning_internvl_10_6271aebf0b6e0d",
+    "dataset": "coco_captioning",
+    "target": "InternVL3.5-14B-HF",
+    "N_images": 10,
+    "planned_queries": 10,
+    "raw_returned": 10,
+    "raw_complete": true,
+    "protocol_adaptation": "label_free_disjoint48_reference_neighborhoods",
+    "official_llava_score": null,
+    "clean_CIDEr_observed": 1.2996178725239569,
+    "adv_CIDEr_observed": 0.28201423937863057,
+    "image_bootstrap_drop95_observed": [
+      0.5338331466673335,
+      1.5642376454065041
+    ],
+    "primary_metric_valid": true,
+    "CIDEr_IDF_population": 10
+  },
+  {
+    "run": "coco_captioning_internvl_150_7da5c01b7747e7",
+    "dataset": "coco_captioning",
+    "target": "InternVL3.5-14B-HF",
+    "N_images": 150,
+    "planned_queries": 150,
+    "raw_returned": 150,
+    "raw_complete": true,
+    "protocol_adaptation": "label_free_disjoint48_reference_neighborhoods",
+    "official_llava_score": null,
+    "clean_CIDEr_observed": 1.4366307970694399,
+    "adv_CIDEr_observed": 0.12806283143736225,
+    "image_bootstrap_drop95_observed": [
+      1.180558798922812,
+      1.457657764910726
+    ],
+    "primary_metric_valid": true,
+    "CIDEr_IDF_population": 150
+  },
+  {
+    "run": "coco_captioning_qwen_10_e916fea600f564",
+    "dataset": "coco_captioning",
+    "target": "Qwen3.5-27B",
+    "N_images": 10,
+    "planned_queries": 10,
+    "raw_returned": 10,
+    "raw_complete": true,
+    "protocol_adaptation": "label_free_disjoint48_reference_neighborhoods",
+    "official_llava_score": null,
+    "clean_CIDEr_observed": 0.3449329034839505,
+    "adv_CIDEr_observed": 0.11319803756204613,
+    "image_bootstrap_drop95_observed": [
+      -0.00908337320260298,
+      0.5932221820682696
+    ],
+    "primary_metric_valid": true,
+    "CIDEr_IDF_population": 10
+  },
+  {
+    "run": "coco_captioning_qwen_150_cdf5a54d024c61",
+    "dataset": "coco_captioning",
+    "target": "Qwen3.5-27B",
+    "N_images": 150,
+    "planned_queries": 150,
+    "raw_returned": 150,
+    "raw_complete": true,
+    "protocol_adaptation": "label_free_disjoint48_reference_neighborhoods",
+    "official_llava_score": null,
+    "clean_CIDEr_observed": 0.6124385119892448,
+    "adv_CIDEr_observed": 0.07181501479840409,
+    "image_bootstrap_drop95_observed": [
+      0.4274648642165384,
+      0.6625625583279549
+    ],
+    "primary_metric_valid": true,
+    "CIDEr_IDF_population": 150
+  },
+  {
+    "run": "llava_bench_coco_gemma4_30_0ad7585ae8c3f9",
+    "dataset": "llava_bench_coco",
+    "target": "Gemma 4 31B-it",
+    "N_images": 30,
+    "planned_queries": 90,
+    "raw_returned": 90,
+    "raw_complete": true,
+    "protocol_adaptation": "label_free_disjoint48_reference_neighborhoods",
+    "official_llava_score": null,
+    "judge_valid": 90,
+    "judge_invalid": 0,
+    "primary_metric_valid": true,
+    "clean_open_judge_observed": 9.355555555555556,
+    "adv_open_judge_observed": 0.5111111111111111,
+    "image_cluster_bootstrap_drop95_observed": [
+      8.411111111111111,
+      9.255555555555555
+    ],
+    "judge": {
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "family": "qwen",
+      "expected_vision_depth": 27
+    },
+    "official_score": false
+  },
+  {
+    "run": "llava_bench_coco_gemma4_3_60e947be2b332c",
+    "dataset": "llava_bench_coco",
+    "target": "Gemma 4 31B-it",
+    "N_images": 3,
+    "planned_queries": 9,
+    "raw_returned": 9,
+    "raw_complete": true,
+    "protocol_adaptation": "label_free_disjoint48_reference_neighborhoods",
+    "official_llava_score": null,
+    "judge_valid": 9,
+    "judge_invalid": 0,
+    "primary_metric_valid": true,
+    "clean_open_judge_observed": 9.555555555555555,
+    "adv_open_judge_observed": 0.0,
+    "image_cluster_bootstrap_drop95_observed": [
+      9.333333333333334,
+      9.666666666666666
+    ],
+    "judge": {
+      "repo_id": "Qwen/Qwen3.5-27B",
+      "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "family": "qwen",
+      "expected_vision_depth": 27
+    },
+    "official_score": false
+  },
+  {
+    "run": "llava_bench_coco_internvl_30_8fa6b3d00fc76b",
+    "dataset": "llava_bench_coco",
+    "target": "InternVL3.5-14B-HF",
+    "N_images": 30,
+    "planned_queries": 90,
+    "raw_returned": 90,
+    "raw_complete": true,
+    "protocol_adaptation": "label_free_disjoint48_reference_neighborhoods",
+    "official_llava_score": null,
+    "judge_valid": 90,
+    "judge_invalid": 0,
+    "primary_metric_valid": true,
+    "clean_open_judge_observed": 8.7,
+    "adv_open_judge_observed": 1.9,
+    "image_cluster_bootstrap_drop95_observed": [
+      6.08888888888889,
+      7.466666666666667
+    ],
+    "judge": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    },
+    "official_score": false
+  },
+  {
+    "run": "llava_bench_coco_internvl_3_6c0bc0412e24c6",
+    "dataset": "llava_bench_coco",
+    "target": "InternVL3.5-14B-HF",
+    "N_images": 3,
+    "planned_queries": 9,
+    "raw_returned": 9,
+    "raw_complete": true,
+    "protocol_adaptation": "label_free_disjoint48_reference_neighborhoods",
+    "official_llava_score": null,
+    "judge_valid": 9,
+    "judge_invalid": 0,
+    "primary_metric_valid": true,
+    "clean_open_judge_observed": 8.222222222222221,
+    "adv_open_judge_observed": 0.6666666666666666,
+    "image_cluster_bootstrap_drop95_observed": [
+      6.333333333333333,
+      8.333333333333334
+    ],
+    "judge": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    },
+    "official_score": false
+  },
+  {
+    "run": "llava_bench_coco_qwen_30_04fd8c9582822a",
+    "dataset": "llava_bench_coco",
+    "target": "Qwen3.5-27B",
+    "N_images": 30,
+    "planned_queries": 90,
+    "raw_returned": 90,
+    "raw_complete": true,
+    "protocol_adaptation": "label_free_disjoint48_reference_neighborhoods",
+    "official_llava_score": null,
+    "judge_valid": 90,
+    "judge_invalid": 0,
+    "primary_metric_valid": true,
+    "clean_open_judge_observed": 9.533333333333333,
+    "adv_open_judge_observed": 0.18888888888888888,
+    "image_cluster_bootstrap_drop95_observed": [
+      8.966666666666667,
+      9.68888888888889
+    ],
+    "judge": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    },
+    "official_score": false
+  },
+  {
+    "run": "llava_bench_coco_qwen_3_ac5c70b646ec34",
+    "dataset": "llava_bench_coco",
+    "target": "Qwen3.5-27B",
+    "N_images": 3,
+    "planned_queries": 9,
+    "raw_returned": 9,
+    "raw_complete": true,
+    "protocol_adaptation": "label_free_disjoint48_reference_neighborhoods",
+    "official_llava_score": null,
+    "judge_valid": 9,
+    "judge_invalid": 0,
+    "primary_metric_valid": true,
+    "clean_open_judge_observed": 9.666666666666666,
+    "adv_open_judge_observed": 0.0,
+    "image_cluster_bootstrap_drop95_observed": [
+      9.333333333333334,
+      10.0
+    ],
+    "judge": {
+      "repo_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "family": "gemma4",
+      "expected_vision_depth": 27
+    },
+    "official_score": false
+  }
+]

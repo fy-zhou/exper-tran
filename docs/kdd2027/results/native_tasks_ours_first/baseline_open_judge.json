@@ -1,0 +1,29 @@
+[
+  {
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21_dataset_expansion/runs/llava_bench_coco_pgd_30_50_b2cd399a357e8a",
+    "target": "Gemma 4 31B-it",
+    "valid": 90,
+    "invalid": 0,
+    "official_score": false,
+    "clean_observed": 8.7,
+    "adv_observed": 8.011111111111111
+  },
+  {
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21_dataset_expansion/runs/llava_bench_coco_pgd_30_50_b2cd399a357e8a",
+    "target": "Qwen3.5-27B",
+    "valid": 90,
+    "invalid": 0,
+    "official_score": false,
+    "clean_observed": 8.844444444444445,
+    "adv_observed": 7.377777777777778
+  },
+  {
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/nov21_dataset_expansion/runs/llava_bench_coco_pgd_30_50_b2cd399a357e8a",
+    "target": "InternVL3.5-14B-HF",
+    "valid": 90,
+    "invalid": 0,
+    "official_score": false,
+    "clean_observed": 8.066666666666666,
+    "adv_observed": 7.111111111111111
+  }
+]
