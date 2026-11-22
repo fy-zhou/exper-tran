@@ -54,7 +54,7 @@ def poll():
             emit(
                 "BLOCKER",
                 "official_gpt4",
-                "LLaVA raw answers ready; official GPT4 scoring not configured. No substitute judge.",
+                "LLaVA answers ready; official GPT4 access missing. No substitute judge.",
             )
     if state.get("status") in [
         "RAW_COMPLETE_OFFICIAL_LLAVA_JUDGE_BLOCKED",
