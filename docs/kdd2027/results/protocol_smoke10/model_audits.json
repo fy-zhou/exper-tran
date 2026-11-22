@@ -1,0 +1,530 @@
+[
+  {
+    "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10_v2/runs/crossvlad_ours_internvl_0d592e743fe0de/audits/proxy_2eca981ec284.json",
+    "sha256": "c2d63a6a0c4d3e93c2143eef7cad96d282777997fe356a00e8e7b84fd1cd4a11",
+    "audit": {
+      "model": {
+        "repo_id": "Qwen/Qwen3.5-2B",
+        "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+        "family": "qwen",
+        "expected_vision_depth": 24
+      },
+      "role": "native_task_proxy",
+      "parameter_counts": {
+        "torch.bfloat16": 2213241664
+      },
+      "parameter_bytes": {
+        "torch.bfloat16": 4426483328
+      },
+      "total_parameters": 2213241664,
+      "components": {
+        "model": [
+          "torch.bfloat16"
+        ]
+      },
+      "devices": [
+        "cuda:0"
+      ],
+      "quantization": {
+        "is_loaded_in_4bit": false,
+        "is_loaded_in_8bit": false,
+        "is_quantized": false,
+        "quantization_method": "None",
+        "config_quantization": null,
+        "quantized_modules": []
+      },
+      "allocated": 5041419264,
+      "reserved": 5062524928,
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10_v2/runs/crossvlad_ours_internvl_0d592e743fe0de/audits/proxy_375bdd50aa6f.json",
+    "sha256": "c8e59327a1f2b88362ead2b60bb8272339b17817d93716dd3bdd2b98fead298f",
+    "audit": {
+      "model": {
+        "repo_id": "openai/clip-vit-large-patch14",
+        "revision": "32bd64288804d66eefd0ccbe215aa642df71cc41",
+        "family": "clip",
+        "expected_vision_depth": 24
+      },
+      "role": "native_task_proxy",
+      "parameter_counts": {
+        "torch.bfloat16": 427616513
+      },
+      "parameter_bytes": {
+        "torch.bfloat16": 855233026
+      },
+      "total_parameters": 427616513,
+      "components": {
+        "logit_scale": [
+          "torch.bfloat16"
+        ],
+        "text_model": [
+          "torch.bfloat16"
+        ],
+        "vision_model": [
+          "torch.bfloat16"
+        ],
+        "visual_projection": [
+          "torch.bfloat16"
+        ],
+        "text_projection": [
+          "torch.bfloat16"
+        ]
+      },
+      "devices": [
+        "cuda:0"
+      ],
+      "quantization": {
+        "is_loaded_in_4bit": false,
+        "is_loaded_in_8bit": false,
+        "is_quantized": false,
+        "quantization_method": "None",
+        "config_quantization": null,
+        "quantized_modules": []
+      },
+      "allocated": 863787520,
+      "reserved": 889192448,
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10_v2/runs/crossvlad_ours_internvl_0d592e743fe0de/audits/proxy_453cab2efaae.json",
+    "sha256": "d2289e55d7404bdab34f4aa0133635ad4ef542a066ecb0ed0094749fd13df362",
+    "audit": {
+      "model": {
+        "repo_id": "google/gemma-4-E2B-it",
+        "revision": "3e22461f65e89153144f8adb70e3b8c2cc9845a7",
+        "family": "gemma4",
+        "expected_vision_depth": 16
+      },
+      "role": "native_task_proxy",
+      "parameter_counts": {
+        "torch.bfloat16": 5104297504
+      },
+      "parameter_bytes": {
+        "torch.bfloat16": 10208595008
+      },
+      "total_parameters": 5104297504,
+      "components": {
+        "model": [
+          "torch.bfloat16"
+        ]
+      },
+      "devices": [
+        "cuda:0"
+      ],
+      "quantization": {
+        "is_loaded_in_4bit": false,
+        "is_loaded_in_8bit": false,
+        "is_quantized": false,
+        "quantization_method": "None",
+        "config_quantization": null,
+        "quantized_modules": []
+      },
+      "allocated": 11486861824,
+      "reserved": 11507073024,
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10_v2/runs/crossvlad_ours_internvl_0d592e743fe0de/audits/resident_2eca981ec284.json",
+    "sha256": "1abbc8362d726ba786d56ef05d1e4be44fd2cb3b94e234668f556990858f09b9",
+    "audit": {
+      "model": {
+        "repo_id": "Qwen/Qwen3.5-2B",
+        "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+        "family": "qwen",
+        "expected_vision_depth": 24
+      },
+      "role": "native_task_proxy_resident",
+      "parameter_counts": {
+        "torch.bfloat16": 2213241664
+      },
+      "parameter_bytes": {
+        "torch.bfloat16": 4426483328
+      },
+      "total_parameters": 2213241664,
+      "components": {
+        "model": [
+          "torch.bfloat16"
+        ]
+      },
+      "devices": [
+        "cpu",
+        "cuda:0"
+      ],
+      "quantization": {
+        "is_loaded_in_4bit": false,
+        "is_loaded_in_8bit": false,
+        "is_quantized": false,
+        "quantization_method": "None",
+        "config_quantization": null,
+        "quantized_modules": []
+      },
+      "allocated": 1277746176,
+      "reserved": 5062524928,
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10_v2/runs/crossvlad_ours_internvl_0d592e743fe0de/audits/resident_375bdd50aa6f.json",
+    "sha256": "1e0983e3c0dcc4ffcd6e6c2652a45297caa436d9ac5429d42ece9c48cab0b9bd",
+    "audit": {
+      "model": {
+        "repo_id": "openai/clip-vit-large-patch14",
+        "revision": "32bd64288804d66eefd0ccbe215aa642df71cc41",
+        "family": "clip",
+        "expected_vision_depth": 24
+      },
+      "role": "native_task_proxy_resident",
+      "parameter_counts": {
+        "torch.bfloat16": 427616513
+      },
+      "parameter_bytes": {
+        "torch.bfloat16": 855233026
+      },
+      "total_parameters": 427616513,
+      "components": {
+        "logit_scale": [
+          "torch.bfloat16"
+        ],
+        "text_model": [
+          "torch.bfloat16"
+        ],
+        "vision_model": [
+          "torch.bfloat16"
+        ],
+        "visual_projection": [
+          "torch.bfloat16"
+        ],
+        "text_projection": [
+          "torch.bfloat16"
+        ]
+      },
+      "devices": [
+        "cpu",
+        "cuda:0"
+      ],
+      "quantization": {
+        "is_loaded_in_4bit": false,
+        "is_loaded_in_8bit": false,
+        "is_quantized": false,
+        "quantization_method": "None",
+        "config_quantization": null,
+        "quantized_modules": []
+      },
+      "allocated": 614912512,
+      "reserved": 889192448,
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10_v2/runs/crossvlad_ours_internvl_0d592e743fe0de/audits/resident_453cab2efaae.json",
+    "sha256": "c605cc038e1c6edcdb93f07f5d6313176482ca9c3793ab7fb0318379860a28f1",
+    "audit": {
+      "model": {
+        "repo_id": "google/gemma-4-E2B-it",
+        "revision": "3e22461f65e89153144f8adb70e3b8c2cc9845a7",
+        "family": "gemma4",
+        "expected_vision_depth": 16
+      },
+      "role": "native_task_proxy_resident",
+      "parameter_counts": {
+        "torch.bfloat16": 5104297504
+      },
+      "parameter_bytes": {
+        "torch.bfloat16": 10208595008
+      },
+      "total_parameters": 5104297504,
+      "components": {
+        "model": [
+          "torch.bfloat16"
+        ]
+      },
+      "devices": [
+        "cpu",
+        "cuda:0"
+      ],
+      "quantization": {
+        "is_loaded_in_4bit": false,
+        "is_loaded_in_8bit": false,
+        "is_quantized": false,
+        "quantization_method": "None",
+        "config_quantization": null,
+        "quantized_modules": []
+      },
+      "allocated": 1612718080,
+      "reserved": 11507073024,
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10_v2/runs/crossvlad_ours_qwen_2292db3aab510b/audits/proxy_375bdd50aa6f.json",
+    "sha256": "c8e59327a1f2b88362ead2b60bb8272339b17817d93716dd3bdd2b98fead298f",
+    "audit": {
+      "model": {
+        "repo_id": "openai/clip-vit-large-patch14",
+        "revision": "32bd64288804d66eefd0ccbe215aa642df71cc41",
+        "family": "clip",
+        "expected_vision_depth": 24
+      },
+      "role": "native_task_proxy",
+      "parameter_counts": {
+        "torch.bfloat16": 427616513
+      },
+      "parameter_bytes": {
+        "torch.bfloat16": 855233026
+      },
+      "total_parameters": 427616513,
+      "components": {
+        "logit_scale": [
+          "torch.bfloat16"
+        ],
+        "text_model": [
+          "torch.bfloat16"
+        ],
+        "vision_model": [
+          "torch.bfloat16"
+        ],
+        "visual_projection": [
+          "torch.bfloat16"
+        ],
+        "text_projection": [
+          "torch.bfloat16"
+        ]
+      },
+      "devices": [
+        "cuda:0"
+      ],
+      "quantization": {
+        "is_loaded_in_4bit": false,
+        "is_loaded_in_8bit": false,
+        "is_quantized": false,
+        "quantization_method": "None",
+        "config_quantization": null,
+        "quantized_modules": []
+      },
+      "allocated": 863787520,
+      "reserved": 889192448,
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10_v2/runs/crossvlad_ours_qwen_2292db3aab510b/audits/proxy_453cab2efaae.json",
+    "sha256": "e88abb92c1c4de2530b9506c64fbec3fbbc9b70145d313c250739b1903713789",
+    "audit": {
+      "model": {
+        "repo_id": "google/gemma-4-E2B-it",
+        "revision": "3e22461f65e89153144f8adb70e3b8c2cc9845a7",
+        "family": "gemma4",
+        "expected_vision_depth": 16
+      },
+      "role": "native_task_proxy",
+      "parameter_counts": {
+        "torch.bfloat16": 5104297504
+      },
+      "parameter_bytes": {
+        "torch.bfloat16": 10208595008
+      },
+      "total_parameters": 5104297504,
+      "components": {
+        "model": [
+          "torch.bfloat16"
+        ]
+      },
+      "devices": [
+        "cuda:0"
+      ],
+      "quantization": {
+        "is_loaded_in_4bit": false,
+        "is_loaded_in_8bit": false,
+        "is_quantized": false,
+        "quantization_method": "None",
+        "config_quantization": null,
+        "quantized_modules": []
+      },
+      "allocated": 11432052736,
+      "reserved": 11444158464,
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10_v2/runs/crossvlad_ours_qwen_2292db3aab510b/audits/proxy_d0d3bf3394bc.json",
+    "sha256": "453b891572841395aff072f2df60085cb60aa8f003daa03cd5fe4c9a167a9061",
+    "audit": {
+      "model": {
+        "repo_id": "OpenGVLab/InternVL3_5-2B-HF",
+        "revision": "3f301ffcf3dcbb47893afae6650ea3e78d96fb6d",
+        "family": "internvl",
+        "expected_vision_depth": 24
+      },
+      "role": "native_task_proxy",
+      "parameter_counts": {
+        "torch.bfloat16": 2348347392
+      },
+      "parameter_bytes": {
+        "torch.bfloat16": 4696694784
+      },
+      "total_parameters": 2348347392,
+      "components": {
+        "model": [
+          "torch.bfloat16"
+        ],
+        "lm_head": [
+          "torch.bfloat16"
+        ]
+      },
+      "devices": [
+        "cuda:0"
+      ],
+      "quantization": {
+        "is_loaded_in_4bit": false,
+        "is_loaded_in_8bit": false,
+        "is_quantized": false,
+        "quantization_method": "None",
+        "config_quantization": null,
+        "quantized_modules": []
+      },
+      "allocated": 5311622656,
+      "reserved": 5649727488,
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10_v2/runs/crossvlad_ours_qwen_2292db3aab510b/audits/resident_375bdd50aa6f.json",
+    "sha256": "1e0983e3c0dcc4ffcd6e6c2652a45297caa436d9ac5429d42ece9c48cab0b9bd",
+    "audit": {
+      "model": {
+        "repo_id": "openai/clip-vit-large-patch14",
+        "revision": "32bd64288804d66eefd0ccbe215aa642df71cc41",
+        "family": "clip",
+        "expected_vision_depth": 24
+      },
+      "role": "native_task_proxy_resident",
+      "parameter_counts": {
+        "torch.bfloat16": 427616513
+      },
+      "parameter_bytes": {
+        "torch.bfloat16": 855233026
+      },
+      "total_parameters": 427616513,
+      "components": {
+        "logit_scale": [
+          "torch.bfloat16"
+        ],
+        "text_model": [
+          "torch.bfloat16"
+        ],
+        "vision_model": [
+          "torch.bfloat16"
+        ],
+        "visual_projection": [
+          "torch.bfloat16"
+        ],
+        "text_projection": [
+          "torch.bfloat16"
+        ]
+      },
+      "devices": [
+        "cpu",
+        "cuda:0"
+      ],
+      "quantization": {
+        "is_loaded_in_4bit": false,
+        "is_loaded_in_8bit": false,
+        "is_quantized": false,
+        "quantization_method": "None",
+        "config_quantization": null,
+        "quantized_modules": []
+      },
+      "allocated": 614912512,
+      "reserved": 889192448,
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10_v2/runs/crossvlad_ours_qwen_2292db3aab510b/audits/resident_453cab2efaae.json",
+    "sha256": "276bee43275e3794c1b960925feaffd827c253ff6fd2fe04c321ab7192dff19f",
+    "audit": {
+      "model": {
+        "repo_id": "google/gemma-4-E2B-it",
+        "revision": "3e22461f65e89153144f8adb70e3b8c2cc9845a7",
+        "family": "gemma4",
+        "expected_vision_depth": 16
+      },
+      "role": "native_task_proxy_resident",
+      "parameter_counts": {
+        "torch.bfloat16": 5104297504
+      },
+      "parameter_bytes": {
+        "torch.bfloat16": 10208595008
+      },
+      "total_parameters": 5104297504,
+      "components": {
+        "model": [
+          "torch.bfloat16"
+        ]
+      },
+      "devices": [
+        "cpu",
+        "cuda:0"
+      ],
+      "quantization": {
+        "is_loaded_in_4bit": false,
+        "is_loaded_in_8bit": false,
+        "is_quantized": false,
+        "quantization_method": "None",
+        "config_quantization": null,
+        "quantized_modules": []
+      },
+      "allocated": 1557908992,
+      "reserved": 11444158464,
+      "status": "PASS"
+    }
+  },
+  {
+    "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10_v2/runs/crossvlad_ours_qwen_2292db3aab510b/audits/resident_d0d3bf3394bc.json",
+    "sha256": "f942fe246d1a968a3d42afe2a116e64d5ae2ca945901780f36f6989919aaaf9c",
+    "audit": {
+      "model": {
+        "repo_id": "OpenGVLab/InternVL3_5-2B-HF",
+        "revision": "3f301ffcf3dcbb47893afae6650ea3e78d96fb6d",
+        "family": "internvl",
+        "expected_vision_depth": 24
+      },
+      "role": "native_task_proxy_resident",
+      "parameter_counts": {
+        "torch.bfloat16": 2348347392
+      },
+      "parameter_bytes": {
+        "torch.bfloat16": 4696694784
+      },
+      "total_parameters": 2348347392,
+      "components": {
+        "model": [
+          "torch.bfloat16"
+        ],
+        "lm_head": [
+          "torch.bfloat16"
+        ]
+      },
+      "devices": [
+        "cpu",
+        "cuda:0"
+      ],
+      "quantization": {
+        "is_loaded_in_4bit": false,
+        "is_loaded_in_8bit": false,
+        "is_quantized": false,
+        "quantization_method": "None",
+        "config_quantization": null,
+        "quantized_modules": []
+      },
+      "allocated": 1222937088,
+      "reserved": 5649727488,
+      "status": "PASS"
+    }
+  }
+]

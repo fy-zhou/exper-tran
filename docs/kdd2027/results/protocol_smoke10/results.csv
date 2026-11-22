@@ -1,4 +1,5 @@
 dataset,method,target,run,steps,returned,planned,status,target_hits,ASR,official_clean_score,official_adv_score,clean_target_hits
+crossvlad_captioning,ours,InternVL3.5-14B-HF,/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10_v2/runs/crossvlad_ours_internvl_0d592e743fe0de,50,0,10,PARTIAL,0,,,,0
 crossvlad_captioning,ours,Qwen3.5-27B,/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10_v2/runs/crossvlad_ours_qwen_2292db3aab510b,50,0,10,PARTIAL,0,,,,0
 llava_bench_coco,ours,Gemma 4 31B-it,/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10_v2/runs/llava_ours_gemma4_ebdef0e9b4a501,50,30,30,BLOCKED_OFFICIAL_GPT4_ACCESS,,,,,
 llava_bench_coco,ours,InternVL3.5-14B-HF,/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10_v2/runs/llava_ours_internvl_950fa075003ed4,50,30,30,BLOCKED_OFFICIAL_GPT4_ACCESS,,,,,

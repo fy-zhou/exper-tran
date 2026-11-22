@@ -13,6 +13,7 @@ Official GPT4 access BLOCKED; no open judge or newer CLI is substituted. No ASR 
 
 |Task|Method|Target|Steps|Returned|Hits/N or official score|Status|
 |---|---|---|---:|---:|---|---|
+|crossvlad_captioning|ours|InternVL3.5-14B-HF|50|0/10|N/A|PARTIAL|
 |crossvlad_captioning|ours|Qwen3.5-27B|50|0/10|N/A|PARTIAL|
 |llava_bench_coco|ours|Gemma 4 31B-it|50|30/30|N/A|BLOCKED_OFFICIAL_GPT4_ACCESS|
 |llava_bench_coco|ours|InternVL3.5-14B-HF|50|30/30|N/A|BLOCKED_OFFICIAL_GPT4_ACCESS|

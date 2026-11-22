@@ -1,0 +1,11 @@
+{
+  "status": "BLOCKED_NOT_CALLED",
+  "OPENAI_API_KEY_present": false,
+  "subscription_cli_not_official_gpt4": true,
+  "paid_fallback": false,
+  "requests_prepared": 179,
+  "scores_fabricated": false,
+  "historical_COCO_reviewer_model": "gpt-4",
+  "historical_in_the_wild_reviewer_model": "gpt-4-0314",
+  "note": "No credentials/snapshot verification or approved paid route; only packets prepared."
+}

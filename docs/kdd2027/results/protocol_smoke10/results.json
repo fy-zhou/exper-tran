@@ -2,6 +2,48 @@
   {
     "dataset": "crossvlad_captioning",
     "method": "ours",
+    "target": "InternVL3.5-14B-HF",
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10_v2/runs/crossvlad_ours_internvl_0d592e743fe0de",
+    "steps": 50,
+    "returned": 0,
+    "planned": 10,
+    "status": "PARTIAL",
+    "target_hits": 0,
+    "ASR": null,
+    "official_clean_score": null,
+    "official_adv_score": null,
+    "clean_target_hits": 0,
+    "directions": {
+      "bicycle->motorcycle": {
+        "hits": 0,
+        "returned": 0,
+        "N": 2
+      },
+      "car->bus": {
+        "hits": 0,
+        "returned": 0,
+        "N": 2
+      },
+      "cat->dog": {
+        "hits": 0,
+        "returned": 0,
+        "N": 2
+      },
+      "chair->couch": {
+        "hits": 0,
+        "returned": 0,
+        "N": 2
+      },
+      "tv->laptop": {
+        "hits": 0,
+        "returned": 0,
+        "N": 2
+      }
+    }
+  },
+  {
+    "dataset": "crossvlad_captioning",
+    "method": "ours",
     "target": "Qwen3.5-27B",
     "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/protocol_smoke10_v2/runs/crossvlad_ours_qwen_2292db3aab510b",
     "steps": 50,

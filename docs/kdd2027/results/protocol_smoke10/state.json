@@ -1,0 +1,11 @@
+{
+  "started": 1795375905.816839,
+  "done": [
+    "crossvlad_ours_qwen_attack"
+  ],
+  "failed": [],
+  "status": "RUNNING",
+  "heartbeat": 1795376319.6664963,
+  "stage": "crossvlad_ours_internvl_attack",
+  "pid": 59025
+}

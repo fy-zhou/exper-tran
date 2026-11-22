@@ -1,0 +1,320 @@
+{
+  "state": {
+    "started": 1795375905.816839,
+    "done": [
+      "crossvlad_ours_qwen_attack"
+    ],
+    "failed": [],
+    "status": "RUNNING",
+    "heartbeat": 1795376319.6664963,
+    "stage": "crossvlad_ours_internvl_attack",
+    "pid": 59025
+  },
+  "all_planned_raw_cells_complete": false,
+  "all_present_attacks_valid": false,
+  "official_llava_scoring_complete": false,
+  "official_llava_blocker": "GPT4 access not configured; no replacement judge",
+  "scored_commercial_requests": 0,
+  "attacks": [
+    {
+      "run": "crossvlad_ours_internvl_0d592e743fe0de",
+      "image_id": "crossvlad/292819",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "crossvlad_ours_internvl_0d592e743fe0de",
+      "image_id": "crossvlad/240918",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "crossvlad_ours_internvl_0d592e743fe0de",
+      "image_id": "crossvlad/64723",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "crossvlad_ours_internvl_0d592e743fe0de",
+      "image_id": "crossvlad/372794",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "crossvlad_ours_internvl_0d592e743fe0de",
+      "image_id": "crossvlad/383846",
+      "valid": false,
+      "linf_uint8": null
+    },
+    {
+      "run": "crossvlad_ours_internvl_0d592e743fe0de",
+      "image_id": "crossvlad/507384",
+      "valid": false,
+      "linf_uint8": null
+    },
+    {
+      "run": "crossvlad_ours_internvl_0d592e743fe0de",
+      "image_id": "crossvlad/12943",
+      "valid": false,
+      "linf_uint8": null
+    },
+    {
+      "run": "crossvlad_ours_internvl_0d592e743fe0de",
+      "image_id": "crossvlad/171735",
+      "valid": false,
+      "linf_uint8": null
+    },
+    {
+      "run": "crossvlad_ours_internvl_0d592e743fe0de",
+      "image_id": "crossvlad/431681",
+      "valid": false,
+      "linf_uint8": null
+    },
+    {
+      "run": "crossvlad_ours_internvl_0d592e743fe0de",
+      "image_id": "crossvlad/383209",
+      "valid": false,
+      "linf_uint8": null
+    },
+    {
+      "run": "crossvlad_ours_qwen_2292db3aab510b",
+      "image_id": "crossvlad/292819",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "crossvlad_ours_qwen_2292db3aab510b",
+      "image_id": "crossvlad/240918",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "crossvlad_ours_qwen_2292db3aab510b",
+      "image_id": "crossvlad/64723",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "crossvlad_ours_qwen_2292db3aab510b",
+      "image_id": "crossvlad/372794",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "crossvlad_ours_qwen_2292db3aab510b",
+      "image_id": "crossvlad/383846",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "crossvlad_ours_qwen_2292db3aab510b",
+      "image_id": "crossvlad/507384",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "crossvlad_ours_qwen_2292db3aab510b",
+      "image_id": "crossvlad/12943",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "crossvlad_ours_qwen_2292db3aab510b",
+      "image_id": "crossvlad/171735",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "crossvlad_ours_qwen_2292db3aab510b",
+      "image_id": "crossvlad/431681",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "crossvlad_ours_qwen_2292db3aab510b",
+      "image_id": "crossvlad/383209",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_gemma4_ebdef0e9b4a501",
+      "image_id": "llava_coco/20650",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_gemma4_ebdef0e9b4a501",
+      "image_id": "llava_coco/34096",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_gemma4_ebdef0e9b4a501",
+      "image_id": "llava_coco/52312",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_gemma4_ebdef0e9b4a501",
+      "image_id": "llava_coco/56013",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_gemma4_ebdef0e9b4a501",
+      "image_id": "llava_coco/66144",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_gemma4_ebdef0e9b4a501",
+      "image_id": "llava_coco/81552",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_gemma4_ebdef0e9b4a501",
+      "image_id": "llava_coco/92109",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_gemma4_ebdef0e9b4a501",
+      "image_id": "llava_coco/97131",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_gemma4_ebdef0e9b4a501",
+      "image_id": "llava_coco/109532",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_gemma4_ebdef0e9b4a501",
+      "image_id": "llava_coco/164255",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_internvl_950fa075003ed4",
+      "image_id": "llava_coco/20650",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_internvl_950fa075003ed4",
+      "image_id": "llava_coco/34096",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_internvl_950fa075003ed4",
+      "image_id": "llava_coco/52312",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_internvl_950fa075003ed4",
+      "image_id": "llava_coco/56013",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_internvl_950fa075003ed4",
+      "image_id": "llava_coco/66144",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_internvl_950fa075003ed4",
+      "image_id": "llava_coco/81552",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_internvl_950fa075003ed4",
+      "image_id": "llava_coco/92109",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_internvl_950fa075003ed4",
+      "image_id": "llava_coco/97131",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_internvl_950fa075003ed4",
+      "image_id": "llava_coco/109532",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_internvl_950fa075003ed4",
+      "image_id": "llava_coco/164255",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_qwen_cc48cf17e8ab3a",
+      "image_id": "llava_coco/20650",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_qwen_cc48cf17e8ab3a",
+      "image_id": "llava_coco/34096",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_qwen_cc48cf17e8ab3a",
+      "image_id": "llava_coco/52312",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_qwen_cc48cf17e8ab3a",
+      "image_id": "llava_coco/56013",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_qwen_cc48cf17e8ab3a",
+      "image_id": "llava_coco/66144",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_qwen_cc48cf17e8ab3a",
+      "image_id": "llava_coco/81552",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_qwen_cc48cf17e8ab3a",
+      "image_id": "llava_coco/92109",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_qwen_cc48cf17e8ab3a",
+      "image_id": "llava_coco/97131",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_qwen_cc48cf17e8ab3a",
+      "image_id": "llava_coco/109532",
+      "valid": true,
+      "linf_uint8": 16
+    },
+    {
+      "run": "llava_ours_qwen_cc48cf17e8ab3a",
+      "image_id": "llava_coco/164255",
+      "valid": true,
+      "linf_uint8": 16
+    }
+  ]
+}
