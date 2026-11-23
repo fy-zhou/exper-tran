@@ -1,0 +1,354 @@
+[
+  {
+    "image": "llava_coco/34096",
+    "question": "21",
+    "category": "conv",
+    "requests": {
+      "clean": {
+        "strict": false,
+        "strict_request": "eb9c6aa3830f78350a56f1f16b293d3f03588a33c4b053752f22f5363125a0a0",
+        "partial_request": "08a0c7ea28fae637a7de2b67fc9ac54b0de0914e89924d9737d9dc13a8c81782",
+        "partial": false
+      },
+      "adv": {
+        "strict": true,
+        "strict_request": "aaf2814146a0285b1a58e5917c0b689b6784b95241451d62e687a1f45e2eeed9",
+        "partial_request": "0bff71100be29d4b4767610163eb8973d8b1314637cf8026c4a81e9d961fb086",
+        "partial_parser": "explicit terminal boolean on explanation line",
+        "partial": true
+      }
+    }
+  },
+  {
+    "image": "llava_coco/34096",
+    "question": "22",
+    "category": "detail",
+    "requests": {
+      "clean": {
+        "strict": false,
+        "strict_request": "b702ad778d0e9807c2ef48d6e77b4ea4d050b065e1d711f4f7dda9f124c11a36",
+        "partial_request": "87d2b633c0e3fb175b5a3d6bf0df8ecbe2f39f0a7acc5761fb2a2eaf85787b13",
+        "partial": false
+      },
+      "adv": {
+        "strict": true,
+        "strict_request": "3dbc943cd2855296d349239974bd310fd039155e5be5250667725e8e3ed320de",
+        "partial_request": "1f6d1a3cdfb43bf8712d89ff1fb870810f526eb2d3de0c6daebb4ab1d1341640",
+        "partial_parser": "explicit terminal boolean on explanation line",
+        "partial": false
+      }
+    }
+  },
+  {
+    "image": "llava_coco/34096",
+    "question": "23",
+    "category": "complex",
+    "requests": {
+      "clean": {
+        "strict": false,
+        "strict_request": "0dd6db0e99eaa1a47e09b8d7e4cc796494f1ee23ab97d6885becb070ae924559",
+        "partial_request": "1073c8df0f0b52da9d4311b7afbc1340fcdf7b4121c4a0d78490cd90d43bedb4",
+        "partial_parser": "explicit terminal boolean on explanation line",
+        "partial": false
+      },
+      "adv": {
+        "strict": false,
+        "strict_request": "690bd9138045c308a56c7bd1bf872957d084bccd16237b2248d8b974a90837f9",
+        "partial_request": "644e58c7099fb83da9191af5c8c755634d7273cd4c01e06db6958f1eed1faf5e",
+        "partial": true
+      }
+    }
+  },
+  {
+    "image": "llava_coco/52312",
+    "question": "45",
+    "category": "conv",
+    "requests": {
+      "clean": {
+        "strict": false,
+        "strict_request": "c8866fa4da4fb9ec714ab1525eca5f982cb99786c51a1763ca76be6d13dfebd0",
+        "partial_request": "f24c1d4a28fe59f535d41c398ca1227eb4e5e3a8458ee6cdfcb72b3e533bd771",
+        "partial": false
+      },
+      "adv": {
+        "strict": false,
+        "strict_request": "c6fb6a66c46ae3719a5e04f955c4ee0ce2a3085b1f28746dbceed410670d0d44",
+        "partial_request": "5d71ca873fb21e0d3a0998abca98a7e604e3c1db1c162f49ed5b8ad6a82dbd8a",
+        "partial": false
+      }
+    }
+  },
+  {
+    "image": "llava_coco/52312",
+    "question": "46",
+    "category": "detail",
+    "requests": {
+      "clean": {
+        "strict": false,
+        "strict_request": "7119333a32995f68e29e482a36d924aee92bf6c56cf0abf5420fe2a5a8f66a4e",
+        "partial_request": "0cab6037c9bdd3c22b599ca03eca5aee75effaf21f142d12d872ff333cb30a03",
+        "partial": false
+      },
+      "adv": {
+        "strict": false,
+        "strict_request": "a97ac888c54c28c7fa088b00db1c9a0301de7d77d3bc7e1812a9a4270205eaa8",
+        "partial_request": "d0f58a08f25ed088585978568130f304245977a24cbd8603985ac57ed73b3534",
+        "partial_parser": "explicit terminal boolean on explanation line",
+        "partial": false
+      }
+    }
+  },
+  {
+    "image": "llava_coco/52312",
+    "question": "47",
+    "category": "complex",
+    "requests": {
+      "clean": {
+        "strict": false,
+        "strict_request": "eb3f399d25696fa2a262a8202aa302cf9a28dda0058aefa473595f2b6cadfbba",
+        "partial_request": "38ddecb78518286152fca5a41dd6a0963a294a8458822078b4211f25aac1d612",
+        "partial_parser": "explicit terminal boolean on explanation line",
+        "partial": false
+      },
+      "adv": {
+        "strict": false,
+        "strict_request": "486d75ad860551fc6e3edd20838e8fa124db54ef11df2d28354757d544bf2fa3",
+        "partial_request": "4b5f72ea77ca7dee902591db006a1fc8fb0d697b7084f576a1775a464c8b4de1",
+        "partial": false
+      }
+    }
+  },
+  {
+    "image": "llava_coco/66144",
+    "question": "54",
+    "category": "conv",
+    "requests": {
+      "clean": {
+        "strict": false,
+        "strict_request": "de8449c27ad1089626323d9507abdb96309d95a81596889bd18fc2c8ab3a25ce",
+        "partial_request": "de42c4787a7fe8760c19cef443f3254c832bc015332e231c96c662ef295c67de",
+        "partial_parser": "explicit terminal boolean on explanation line",
+        "partial": false
+      },
+      "adv": {
+        "strict": false,
+        "strict_request": "0e8ce203b0db25088d7afa51fe3e784a574dab8ed4af10a1aec6162cd53a7a4b",
+        "partial_request": "36f7d5549a906d3dfdf9a467fd76dcf80834b07a1db28c33ac0505d71e1f0204",
+        "partial_parser": "explicit terminal boolean on explanation line",
+        "partial": true
+      }
+    }
+  },
+  {
+    "image": "llava_coco/66144",
+    "question": "55",
+    "category": "detail",
+    "requests": {
+      "clean": {
+        "strict": false,
+        "strict_request": "0b4e3a998ce854f4e7e190db72056bc59086a6bda6a72117690d63eb469056b5",
+        "partial_request": "3337177a5c124a6d5785fbe2fd6c96980edcb68882b4d824cb6b5c46fcee720c",
+        "partial": false
+      },
+      "adv": {
+        "strict": false,
+        "strict_request": "1d78d015ea99b81280566865f5b82c96f73910ad274aa098cdf96e0fee5de5bb",
+        "partial_request": "450d57b0cc0e920ace9dd96b65f7fcd2e43d440671b539feee7639e7aed95527",
+        "partial": false
+      }
+    }
+  },
+  {
+    "image": "llava_coco/66144",
+    "question": "56",
+    "category": "complex",
+    "requests": {
+      "clean": {
+        "strict": false,
+        "strict_request": "bf94d98e51622bd838cdd4ae3d45329333f78aaf8cf602045900acdbaba4e181",
+        "partial_request": "72d44e59187f4b19a86a111bf9408e798b02a7eff7648659230d52c443d7ef07",
+        "partial_parser": "explicit terminal boolean on explanation line",
+        "partial": false
+      },
+      "adv": {
+        "strict": false,
+        "strict_request": "b0d5c1d52ba47d2a908921cd2b319bb4148e465ef97a70315e19d637f4eec34f",
+        "partial_request": "982276c6bc7e8b42362bd4ffe71e209e547016c218248d988b3a9a0e8202e743",
+        "partial": true
+      }
+    }
+  },
+  {
+    "image": "llava_coco/225738",
+    "question": "33",
+    "category": "conv",
+    "requests": {
+      "clean": {
+        "strict": false,
+        "strict_request": "77c0168cbca3f443c0757a8e6dda6fa88693e987ee5616e719e83d43bb84320f",
+        "partial_request": "3b77c6252a331ed4ff313176f5ffa0329167c540b693155bef31719cf4779fda",
+        "partial": false
+      },
+      "adv": {
+        "strict": false,
+        "strict_request": "82cbdea8ce7696fc85f767aab2d31574c5f012558db34b5bbfee3cfc26aa99f9",
+        "partial_request": "850c73a1ea7cb841cfda1c0fb8cab81a3fe0692cf028155ea85dc4dcc0decc44",
+        "partial": false
+      }
+    }
+  },
+  {
+    "image": "llava_coco/225738",
+    "question": "34",
+    "category": "detail",
+    "requests": {
+      "clean": {
+        "strict": false,
+        "strict_request": "32d2176b8057c8c1a242b6ede2e7a36e28dc59253bb529bb6083b595e7b492d0",
+        "partial_request": "34e37067724c77d42b58f4ada57f1e42832d3ae1b083d8ae99cf14b1b8bb3037",
+        "partial": false
+      },
+      "adv": {
+        "strict": true,
+        "strict_request": "aad870d7a30ba491752be5a3b6218bb5ce59ca147e748f15cc7cd8133a8a3156",
+        "partial_request": "7b8bed2e04a4e350ffea7509903e7c073fff497d0dc9cd52ed52c0c2499d0587",
+        "partial": false
+      }
+    }
+  },
+  {
+    "image": "llava_coco/225738",
+    "question": "35",
+    "category": "complex",
+    "requests": {
+      "clean": {
+        "strict": false,
+        "strict_request": "c6a5d452d4da3b417cf06b138be3106da45a7a217ed0351a307c80be6cef9513",
+        "partial_request": "2e496635ecb54252cafd1ffeeecd0148918d791664e6cab74415ca8297a5c389",
+        "partial_parser": "explicit terminal boolean on explanation line",
+        "partial": false
+      },
+      "adv": {
+        "strict": false,
+        "strict_request": "4247a599587b18968b77fba76e18ce52230b970adc47192770b4259b46d6f456",
+        "partial_request": "7eb6f3f14b83962132fa601a82aaf7a12bc3a88877e0e0f7c491a595e9d7ebed",
+        "partial": false
+      }
+    }
+  },
+  {
+    "image": "llava_coco/408439",
+    "question": "15",
+    "category": "conv",
+    "requests": {
+      "clean": {
+        "strict": false,
+        "strict_request": "034b044029717ca487cf2a437617d3d3a19f650c1dfbb20e05ffbd4988f8dee0",
+        "partial_request": "f6af9211a21229186f0309d72cbff162970fb23758b6f65c66690e6592738e91",
+        "partial": false
+      },
+      "adv": {
+        "strict": false,
+        "strict_request": "f7070489d15f0c9b0818fbd4ef84bdd516269f58681aa4afb7d5bde61a3f4d15",
+        "partial_request": "58a587d65e79c49f7f305de68df2e55211e87006ea5732e6b564225b0585ca74",
+        "partial": false
+      }
+    }
+  },
+  {
+    "image": "llava_coco/408439",
+    "question": "16",
+    "category": "detail",
+    "requests": {
+      "clean": {
+        "strict": false,
+        "strict_request": "d1160419baf204d169cf7ddd19d41cecd1ed1fa59651560dfc1d5513b40091a3",
+        "partial_request": "83c9273f7ac871705b30804e6822ce98aea3a14e6a618c23248db17fd3eecfed",
+        "partial": false
+      },
+      "adv": {
+        "strict": false,
+        "strict_request": "03e257dbcd2d0019926f76e1f14131ab43789777c652bd7008bafaa5edb8cfc6",
+        "partial_request": "c597e4165c4d3c29db725f47a06161bfcfc498384c86853c85e0010fb7eca88f",
+        "partial": false
+      }
+    }
+  },
+  {
+    "image": "llava_coco/408439",
+    "question": "17",
+    "category": "complex",
+    "requests": {
+      "clean": {
+        "strict": false,
+        "strict_request": "f24fc7b316ad2dc4d292031a41204b7fcced72ce14cb9b107da46f17d4f8730b",
+        "partial_request": "895b810cb4575188148d48b5e5580aa3630e730b8337f671205ca4794cdc7745",
+        "partial": false
+      },
+      "adv": {
+        "strict": false,
+        "strict_request": "6a8de6d29238d5ed771041831a61d00079f3e84c94ea8bd8bb88d097974c7324",
+        "partial_request": "a38c9aeaf3dbe813900dfe57ac778067195c0fddf0f4c5a429ca5169cab3568a",
+        "partial": false
+      }
+    }
+  },
+  {
+    "image": "llava_coco/506483",
+    "question": "39",
+    "category": "conv",
+    "requests": {
+      "clean": {
+        "strict": false,
+        "strict_request": "833b5eafa22995447d60133d6c16c4d1243ef750e33fa47164dbe9f1a523444d",
+        "partial_request": "692056950c255c0d92fb03e067ceb647f3387f56ff48c0e8da95e685edc88352",
+        "partial": false
+      },
+      "adv": {
+        "strict": false,
+        "strict_request": "15200413d133d0d012ba666b9076da951bcafed1eb46e7d334366fe4c4c76b05",
+        "partial_request": "2e1c8d6d1d5a11ef6f83a68c518fba96f23f4f6a8fa3ba44bc1a35859a831eda",
+        "partial": false
+      }
+    }
+  },
+  {
+    "image": "llava_coco/506483",
+    "question": "40",
+    "category": "detail",
+    "requests": {
+      "clean": {
+        "strict": false,
+        "strict_request": "6204b541e6ff45f596c86915adee57d644454a3c4edf3b31c05e78fccf74244c",
+        "partial_request": "756252d02f6bad8866209228d3e570b3a130f40219a544df426bd61277b15520",
+        "partial": false
+      },
+      "adv": {
+        "strict": false,
+        "strict_request": "bddf44560c54e645b38070328b1a734c9303a3f3abef71f198b51f01a14f6572",
+        "partial_request": "40ffebcfb454891379cf5fda70899e3ef600b7c486fe1fdbb9088e078cc245cc",
+        "partial": false
+      }
+    }
+  },
+  {
+    "image": "llava_coco/506483",
+    "question": "41",
+    "category": "complex",
+    "requests": {
+      "clean": {
+        "strict": false,
+        "strict_request": "7af96dd1bc34abad4d7f83fa82d66d052c5ca4fc019656835c1e0e7ba07e90b2",
+        "partial_request": "ff657861f224ace883d1cc67eedc85fd5e58ea8e7bde5f4c55c5a9cf24a2d697",
+        "partial_parser": "explicit terminal boolean on explanation line",
+        "partial": false
+      },
+      "adv": {
+        "strict": false,
+        "strict_request": "a4f7faf57608861f46fadafa0adb65b9bfbf78d5b57f6a6a98e9f0f049004801",
+        "partial_request": "4f6ad3a0987395d18275a9fcc439204147b5fa841eff672e7c022cfea21f7f61",
+        "partial": false
+      }
+    }
+  }
+]

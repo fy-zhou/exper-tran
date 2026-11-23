@@ -1,0 +1,1874 @@
+{
+  "annotation_sha256": "031296bbc80c45a1d1f76bf9a90ead27e94e99ec629208449507a4917a3bf009",
+  "images": {
+    "353536": {
+      "captions": [
+        "A table topped with plates and glasses with eating utensils..",
+        "a fork is laying on a small white plate",
+        "dirty dishes on a table, and a bottle of something.",
+        "a table top with some dishes on top of it ",
+        "A table full of dirty dishes is pictured in this image."
+      ],
+      "instances": [
+        {
+          "category": "dining table",
+          "bbox": [
+            0,
+            0.0071,
+            0.9984,
+            0.9882
+          ]
+        },
+        {
+          "category": "bottle",
+          "bbox": [
+            0.5537,
+            0.0023,
+            0.7684,
+            0.4112
+          ]
+        },
+        {
+          "category": "cup",
+          "bbox": [
+            0.3718,
+            0.0112,
+            0.5444,
+            0.427
+          ]
+        },
+        {
+          "category": "fork",
+          "bbox": [
+            0.4418,
+            0.4645,
+            0.8182,
+            0.5723
+          ]
+        },
+        {
+          "category": "fork",
+          "bbox": [
+            0.0888,
+            0.2332,
+            0.2725,
+            0.4557
+          ]
+        },
+        {
+          "category": "spoon",
+          "bbox": [
+            0.1443,
+            0.2181,
+            0.326,
+            0.4127
+          ]
+        },
+        {
+          "category": "cup",
+          "bbox": [
+            0.6878,
+            0.0556,
+            0.8117,
+            0.3607
+          ]
+        }
+      ]
+    },
+    "293505": {
+      "captions": [
+        "A person on a motor bike next to a cow.",
+        "A woman riding a motorcycle down a dirt road.",
+        "there is a woman riding a scooter down a dirt road",
+        "A woman on a moped, two men and animals walking down the road.",
+        "A woman on a motorcycle is next to a man walking a dog along with other people going down a dirt road."
+      ],
+      "instances": [
+        {
+          "category": "cow",
+          "bbox": [
+            0.6021,
+            0.472,
+            0.721,
+            0.816
+          ]
+        },
+        {
+          "category": "motorcycle",
+          "bbox": [
+            0.4021,
+            0.5119,
+            0.5156,
+            0.7882
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.4082,
+            0.4001,
+            0.5144,
+            0.6391
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.7541,
+            0.3011,
+            1,
+            1
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.7054,
+            0.415,
+            0.7887,
+            0.7137
+          ]
+        },
+        {
+          "category": "cow",
+          "bbox": [
+            0.347,
+            0.4404,
+            0.3729,
+            0.5088
+          ]
+        },
+        {
+          "category": "cow",
+          "bbox": [
+            0.3613,
+            0.4355,
+            0.381,
+            0.5007
+          ]
+        }
+      ]
+    },
+    "515716": {
+      "captions": [
+        "A couple of women standing on either side of a man wearing glasses.",
+        "Two women and a man are holding glasses up at a wine tasting.",
+        "Three young adults holding wine glasses while standing at a bar.",
+        "A group of people sit holding glasses and smiling at a table with several bottles.",
+        "A group of people at a celebration having a taste of wine."
+      ],
+      "instances": [
+        {
+          "category": "bottle",
+          "bbox": [
+            0.529,
+            0.6044,
+            0.6371,
+            0.9077
+          ]
+        },
+        {
+          "category": "bottle",
+          "bbox": [
+            0.3785,
+            0.3982,
+            0.481,
+            0.8917
+          ]
+        },
+        {
+          "category": "bottle",
+          "bbox": [
+            0.9416,
+            0.4644,
+            0.9881,
+            0.6531
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0,
+            0.1264,
+            0.1363,
+            0.8111
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.05,
+            0.0929,
+            0.2114,
+            0.4714
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.4011,
+            0.0315,
+            0.6775,
+            0.6831
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.6169,
+            0.191,
+            0.9405,
+            0.8584
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.7226,
+            0.0983,
+            0.9471,
+            0.5641
+          ]
+        },
+        {
+          "category": "wine glass",
+          "bbox": [
+            0.6335,
+            0.4342,
+            0.6968,
+            0.6281
+          ]
+        },
+        {
+          "category": "wine glass",
+          "bbox": [
+            0.2852,
+            0.3464,
+            0.3723,
+            0.5581
+          ]
+        },
+        {
+          "category": "wine glass",
+          "bbox": [
+            0.5221,
+            0.4218,
+            0.5826,
+            0.5441
+          ]
+        },
+        {
+          "category": "handbag",
+          "bbox": [
+            0.7037,
+            0.6008,
+            1,
+            0.9159
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.9437,
+            0.319,
+            0.9991,
+            0.6043
+          ]
+        },
+        {
+          "category": "bottle",
+          "bbox": [
+            0.921,
+            0.46,
+            0.9532,
+            0.6357
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.1163,
+            0.1708,
+            0.4095,
+            0.8292
+          ]
+        }
+      ]
+    },
+    "81552": {
+      "captions": [
+        "A cat sitting and curled up on a red couch",
+        "A cat laying on a red couch sleeping. ",
+        "a tan and black cat curled up asleep on a red velvet seat",
+        "A cat is curled up on a red sofa.",
+        "Cat curled up, sleeping on a red plush couch."
+      ],
+      "instances": [
+        {
+          "category": "cat",
+          "bbox": [
+            0.4125,
+            0.2365,
+            0.6345,
+            0.4817
+          ]
+        },
+        {
+          "category": "couch",
+          "bbox": [
+            0.0033,
+            0.0045,
+            1,
+            0.9897
+          ]
+        }
+      ]
+    },
+    "164255": {
+      "captions": [
+        "An umbrella that is standing in the sand.",
+        "An umbrella is stuck in the sand on the beach.",
+        "a colorful striped umbrella on the beach near the ocean",
+        "A colorful umbrella is set up at the beach.",
+        "The colorful umbrella is sitting by the beach,"
+      ],
+      "instances": [
+        {
+          "category": "umbrella",
+          "bbox": [
+            0,
+            0.1011,
+            0.5667,
+            0.5753
+          ]
+        }
+      ]
+    },
+    "525439": {
+      "captions": [
+        "a man stands in front of a flipped skate boarder ",
+        "A man standing next to a skateboard that is laying on the ground wheels pointed up.",
+        "Skateboard laying upside down on cement with someone standing next to it.",
+        "A boy in camo shorts stands before an overturned skateboard.",
+        "a person with an upside down skate board "
+      ],
+      "instances": [
+        {
+          "category": "person",
+          "bbox": [
+            0.3067,
+            0.0006,
+            0.6299,
+            0.7387
+          ]
+        },
+        {
+          "category": "skateboard",
+          "bbox": [
+            0,
+            0.592,
+            0.6263,
+            0.9685
+          ]
+        }
+      ]
+    },
+    "20650": {
+      "captions": [
+        "Burger with broccoli, pickle, and fork on orange plate ",
+        "On a plate is kept a burger and a bowl of broccoli and a fork.",
+        "There is half a sandwich on an orange plate with a pickle and a bowl of broccoli",
+        "A A bowl and a sandwich on an orange plate on a table.",
+        "A plate has a sandwich, broccoli, and a pickle. "
+      ],
+      "instances": [
+        {
+          "category": "sandwich",
+          "bbox": [
+            0.4362,
+            0.1546,
+            0.8054,
+            0.8593
+          ]
+        },
+        {
+          "category": "sandwich",
+          "bbox": [
+            0.3109,
+            0.0062,
+            0.7476,
+            0.2932
+          ]
+        },
+        {
+          "category": "fork",
+          "bbox": [
+            0,
+            0.6654,
+            0.5779,
+            0.8756
+          ]
+        },
+        {
+          "category": "bowl",
+          "bbox": [
+            0.0017,
+            0.2629,
+            0.4871,
+            0.7438
+          ]
+        },
+        {
+          "category": "bowl",
+          "bbox": [
+            0.7079,
+            0.0028,
+            0.8275,
+            0.0298
+          ]
+        },
+        {
+          "category": "broccoli",
+          "bbox": [
+            0.185,
+            0.2878,
+            0.3662,
+            0.5465
+          ]
+        },
+        {
+          "category": "broccoli",
+          "bbox": [
+            0.0169,
+            0.3438,
+            0.3843,
+            0.6539
+          ]
+        },
+        {
+          "category": "broccoli",
+          "bbox": [
+            0.3098,
+            0.1908,
+            0.4656,
+            0.463
+          ]
+        },
+        {
+          "category": "broccoli",
+          "bbox": [
+            0.1044,
+            0.1073,
+            0.2846,
+            0.3422
+          ]
+        },
+        {
+          "category": "broccoli",
+          "bbox": [
+            0.092,
+            0.2762,
+            0.242,
+            0.4424
+          ]
+        },
+        {
+          "category": "dining table",
+          "bbox": [
+            0.002,
+            0,
+            0.9993,
+            0.987
+          ]
+        }
+      ]
+    },
+    "34096": {
+      "captions": [
+        "A house being built with lots of wood.",
+        "A big pile of building material is placed on the floor in the wooden structure.",
+        "A partially-built house with wooden studs and staircase in view.",
+        "A house full of wood getting built at the moment.",
+        "The beginning stages of a home still being made. "
+      ],
+      "instances": [
+        {
+          "category": "bed",
+          "bbox": [
+            0.5051,
+            0.4199,
+            0.7208,
+            0.5903
+          ]
+        },
+        {
+          "category": "tv",
+          "bbox": [
+            0.1918,
+            0.4412,
+            0.3349,
+            0.6063
+          ]
+        }
+      ]
+    },
+    "441147": {
+      "captions": [
+        "Two antique suitcases sit stacked one on top of the other.",
+        "Two suitcases are stacked on each other and one is black while the other is brown and yellow.",
+        "a close up of two luggage suit cases stacked on each other",
+        "A stack of antique luggage is displayed with price tags.",
+        "two suitcases made of leather and stacked on top of each other"
+      ],
+      "instances": [
+        {
+          "category": "suitcase",
+          "bbox": [
+            0.1669,
+            0.0247,
+            0.9893,
+            0.4449
+          ]
+        },
+        {
+          "category": "suitcase",
+          "bbox": [
+            0.0017,
+            0.3101,
+            0.9944,
+            0.9955
+          ]
+        }
+      ]
+    },
+    "431165": {
+      "captions": [
+        "A baby elephant standing in front of a brick building.",
+        "An elephant is standing near a dirt mount in an exhibit.",
+        "Grey elephant standing next to a large sand dune in a pen. ",
+        "An elephant standing alone inside of an enclosure.",
+        "The baby elephant is alone in the pen."
+      ],
+      "instances": [
+        {
+          "category": "elephant",
+          "bbox": [
+            0.3034,
+            0.3989,
+            0.6378,
+            0.7798
+          ]
+        }
+      ]
+    },
+    "319432": {
+      "captions": [
+        "Man holding two shirts with luggage and window",
+        "A man holding clothes on a hanger with a suitcase in front of him. ",
+        "A man show a red and a white clothing hangers.",
+        "A man holding his garment bags in both hands ",
+        "A man holding up some clothes in some hanger bags."
+      ],
+      "instances": [
+        {
+          "category": "person",
+          "bbox": [
+            0,
+            0.0916,
+            0.7764,
+            0.8524
+          ]
+        },
+        {
+          "category": "suitcase",
+          "bbox": [
+            0.1527,
+            0.7976,
+            0.5873,
+            0.9997
+          ]
+        }
+      ]
+    },
+    "225738": {
+      "captions": [
+        "A group of giraffes standing up in their natural habitat.",
+        "A group of giraffe standing in a grass field.",
+        "A group of four giraffes near the same tree. ",
+        "there are four giraffes standing among some dry brush ",
+        "A herd of giraffe standing on top of a grass field."
+      ],
+      "instances": [
+        {
+          "category": "giraffe",
+          "bbox": [
+            0.6476,
+            0.2315,
+            0.8549,
+            0.9146
+          ]
+        },
+        {
+          "category": "giraffe",
+          "bbox": [
+            0.3302,
+            0.1356,
+            0.521,
+            0.9296
+          ]
+        },
+        {
+          "category": "giraffe",
+          "bbox": [
+            0.4055,
+            0.2605,
+            0.5152,
+            1
+          ]
+        },
+        {
+          "category": "giraffe",
+          "bbox": [
+            0.3473,
+            0.1942,
+            0.5834,
+            0.9225
+          ]
+        }
+      ]
+    },
+    "56013": {
+      "captions": [
+        "a number of luggage bags on a cart in a lobby",
+        "Wheeled cart with luggage at lobby of commercial business.",
+        "Trolley used for transporting personal luggage to guests rooms.",
+        "A luggage cart topped with lots of luggage.",
+        "a cart filled with suitcases and bags "
+      ],
+      "instances": [
+        {
+          "category": "backpack",
+          "bbox": [
+            0.2763,
+            0.5197,
+            0.4556,
+            0.6781
+          ]
+        },
+        {
+          "category": "suitcase",
+          "bbox": [
+            0.4105,
+            0.5801,
+            0.5973,
+            0.8275
+          ]
+        },
+        {
+          "category": "suitcase",
+          "bbox": [
+            0.1731,
+            0.6452,
+            0.3631,
+            0.8356
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.9585,
+            0.297,
+            1,
+            0.478
+          ]
+        },
+        {
+          "category": "suitcase",
+          "bbox": [
+            0.5256,
+            0.5185,
+            0.7118,
+            0.7064
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.7621,
+            0.253,
+            0.8713,
+            0.4604
+          ]
+        },
+        {
+          "category": "backpack",
+          "bbox": [
+            0.5174,
+            0.5139,
+            0.6938,
+            0.6982
+          ]
+        },
+        {
+          "category": "handbag",
+          "bbox": [
+            0.3156,
+            0.1805,
+            0.4307,
+            0.4263
+          ]
+        },
+        {
+          "category": "suitcase",
+          "bbox": [
+            0.7466,
+            0.4531,
+            0.8582,
+            0.5571
+          ]
+        }
+      ]
+    },
+    "92109": {
+      "captions": [
+        "A giraffe's head is pictured in this clear, colorful photo.",
+        "A giraffe is standing tall in the middle of several bright green trees",
+        "The face of a giraffe looking to the side.",
+        "the close up head shot of a giraffe",
+        "this is a giraffe chewing on some leaves"
+      ],
+      "instances": [
+        {
+          "category": "giraffe",
+          "bbox": [
+            0.2357,
+            0.1221,
+            1,
+            0.987
+          ]
+        }
+      ]
+    },
+    "385873": {
+      "captions": [
+        "Three pizzas sitting next to each other in boxes.",
+        "Two smaller pizzas sit beside a large pizza topped with tortilla chips.",
+        "Three pizzas inside their delivery boxes, one with two side orders of sauce.",
+        "One pizza is larger than two other pizzas.",
+        "Three pizza boxes with pizza in them are open."
+      ],
+      "instances": [
+        {
+          "category": "bowl",
+          "bbox": [
+            0.6339,
+            0.6238,
+            0.7357,
+            0.7522
+          ]
+        },
+        {
+          "category": "pizza",
+          "bbox": [
+            0.3,
+            0.382,
+            0.6152,
+            0.7326
+          ]
+        },
+        {
+          "category": "pizza",
+          "bbox": [
+            0,
+            0.3995,
+            0.2874,
+            0.7449
+          ]
+        },
+        {
+          "category": "pizza",
+          "bbox": [
+            0.6236,
+            0.2786,
+            0.9994,
+            0.7529
+          ]
+        },
+        {
+          "category": "bowl",
+          "bbox": [
+            0.94,
+            0.2469,
+            1,
+            0.3516
+          ]
+        }
+      ]
+    },
+    "367571": {
+      "captions": [
+        "A couple of different doughnuts in a box ",
+        "There are four donuts in a box, and some are cake donuts and a doughnut with nuts and coconut on top.",
+        "A box of glazed doughnuts on a table.",
+        "Three donuts with toppings on them sitting inside a box. ",
+        "A box that is filled with different kinds of doughnuts."
+      ],
+      "instances": [
+        {
+          "category": "donut",
+          "bbox": [
+            0.4123,
+            0.3347,
+            0.7108,
+            0.6812
+          ]
+        },
+        {
+          "category": "donut",
+          "bbox": [
+            0.0926,
+            0.4926,
+            0.4863,
+            0.9215
+          ]
+        },
+        {
+          "category": "donut",
+          "bbox": [
+            0.7132,
+            0.4234,
+            0.9571,
+            0.8739
+          ]
+        },
+        {
+          "category": "donut",
+          "bbox": [
+            0.1295,
+            0.3311,
+            0.397,
+            0.5495
+          ]
+        }
+      ]
+    },
+    "52312": {
+      "captions": [
+        "The old man literally has a toothbrush mustache.",
+        "An old man with a tooth brush head under his nose, mimicking Hitler",
+        "A man wearing a toothbrush for a moustache.",
+        "A man with the head of a toothbrush under his nose like a mustache ",
+        "An elderly man wearing the head of a toothbrush as a moustache."
+      ],
+      "instances": [
+        {
+          "category": "toothbrush",
+          "bbox": [
+            0.3449,
+            0.5896,
+            0.5945,
+            0.6789
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0,
+            0.0304,
+            1,
+            0.9899
+          ]
+        }
+      ]
+    },
+    "109532": {
+      "captions": [
+        "An adorable husky dog sleeping in a dog bed next to a fan.",
+        "A dark room with a dog sleeping on a dog bed.",
+        "A dog is sleeping in a dark room.",
+        "a large dog laying in a dog bed in a living room",
+        "A dog sleeping on a dog bed in a room. "
+      ],
+      "instances": [
+        {
+          "category": "dog",
+          "bbox": [
+            0.4258,
+            0.6606,
+            0.5818,
+            0.9253
+          ]
+        },
+        {
+          "category": "potted plant",
+          "bbox": [
+            0.6033,
+            0.2606,
+            0.7812,
+            0.6126
+          ]
+        },
+        {
+          "category": "chair",
+          "bbox": [
+            0.6704,
+            0.5155,
+            0.8993,
+            0.8011
+          ]
+        },
+        {
+          "category": "potted plant",
+          "bbox": [
+            0.6715,
+            0.4388,
+            0.7629,
+            0.6123
+          ]
+        },
+        {
+          "category": "chair",
+          "bbox": [
+            0.8522,
+            0.6527,
+            0.9484,
+            0.8184
+          ]
+        }
+      ]
+    },
+    "66144": {
+      "captions": [
+        "A woman standing in front of window next to a bug and a stop sign.",
+        "A car parked on the street next to a tree and stop sign. ",
+        "A lone Volkswagen is parked by a stop sign.",
+        "A window view of a small car near a street stop sign.",
+        "An old VW Bug standing at a stop sign."
+      ],
+      "instances": [
+        {
+          "category": "stop sign",
+          "bbox": [
+            0.5006,
+            0.3282,
+            0.5693,
+            0.4278
+          ]
+        },
+        {
+          "category": "car",
+          "bbox": [
+            0.2417,
+            0.4876,
+            0.5596,
+            0.726
+          ]
+        },
+        {
+          "category": "car",
+          "bbox": [
+            0.2793,
+            0.3253,
+            0.3299,
+            0.3626
+          ]
+        },
+        {
+          "category": "car",
+          "bbox": [
+            0.1527,
+            0.3325,
+            0.2901,
+            0.4055
+          ]
+        },
+        {
+          "category": "car",
+          "bbox": [
+            0.1101,
+            0.3386,
+            0.1771,
+            0.3734
+          ]
+        },
+        {
+          "category": "car",
+          "bbox": [
+            0,
+            0.6545,
+            0.0825,
+            0.8262
+          ]
+        },
+        {
+          "category": "car",
+          "bbox": [
+            0,
+            0.3224,
+            0.0641,
+            0.3638
+          ]
+        },
+        {
+          "category": "car",
+          "bbox": [
+            0.451,
+            0.3328,
+            0.5104,
+            0.3923
+          ]
+        }
+      ]
+    },
+    "514915": {
+      "captions": [
+        "A large black dog laying on a kitchen floor.",
+        "A dog is laying down on the floor in the home.",
+        "Black dog laying down on the kitchen floor next to it's bowls and toy",
+        "A black dog with a red collar laying on a tiled floor.",
+        "A black dog that is laying on the floor."
+      ],
+      "instances": [
+        {
+          "category": "dog",
+          "bbox": [
+            0.0865,
+            0.2763,
+            0.8123,
+            0.7925
+          ]
+        },
+        {
+          "category": "bowl",
+          "bbox": [
+            0.4366,
+            0.0897,
+            0.5327,
+            0.2129
+          ]
+        },
+        {
+          "category": "bowl",
+          "bbox": [
+            0.5371,
+            0.0354,
+            0.6652,
+            0.1406
+          ]
+        }
+      ]
+    },
+    "97131": {
+      "captions": [
+        "A car parked by a parking meter in front of a building.",
+        "A car is sitting parked at a curb in front of a parking meter.",
+        "A black car on the street next to a parking meter.",
+        "A gray car parked in front of two parking meters.",
+        "A black car parked on the side of the road."
+      ],
+      "instances": [
+        {
+          "category": "car",
+          "bbox": [
+            0.2267,
+            0.3617,
+            0.9464,
+            0.7608
+          ]
+        },
+        {
+          "category": "car",
+          "bbox": [
+            0.7934,
+            0.3221,
+            0.8803,
+            0.3995
+          ]
+        },
+        {
+          "category": "car",
+          "bbox": [
+            0,
+            0.4472,
+            0.0284,
+            0.7259
+          ]
+        },
+        {
+          "category": "parking meter",
+          "bbox": [
+            0.1556,
+            0.3499,
+            0.1856,
+            0.4532
+          ]
+        },
+        {
+          "category": "truck",
+          "bbox": [
+            0.9066,
+            0.3314,
+            1,
+            0.4078
+          ]
+        },
+        {
+          "category": "parking meter",
+          "bbox": [
+            0.1884,
+            0.3491,
+            0.2181,
+            0.4477
+          ]
+        }
+      ]
+    },
+    "203629": {
+      "captions": [
+        "A man on a cell phone in a public area holding his thumb up.",
+        "A group of people gathered inside of a room. ",
+        "A man on his cellphone posing for a  picture.",
+        "A man giving a thumbs up while on a cell phone.",
+        "The man is giving a thumbs up while on his phone."
+      ],
+      "instances": [
+        {
+          "category": "cell phone",
+          "bbox": [
+            0.4298,
+            0.4588,
+            0.4486,
+            0.5027
+          ]
+        },
+        {
+          "category": "cup",
+          "bbox": [
+            0.7556,
+            0.8382,
+            0.8651,
+            0.9798
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.2324,
+            0.3169,
+            0.6027,
+            0.9798
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.6017,
+            0.4047,
+            1,
+            0.9992
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.003,
+            0.3393,
+            0.3134,
+            0.9865
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.1636,
+            0.3791,
+            0.2579,
+            0.7329
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.5644,
+            0.36,
+            0.673,
+            0.6454
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.2415,
+            0.3791,
+            0.3363,
+            0.5121
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.6818,
+            0.3723,
+            0.7355,
+            0.5024
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.6538,
+            0.4281,
+            0.7339,
+            0.5356
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.7183,
+            0.3676,
+            0.7865,
+            0.508
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.1478,
+            0.3619,
+            0.2053,
+            0.5292
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.0009,
+            0.4311,
+            0.0444,
+            0.5641
+          ]
+        },
+        {
+          "category": "cup",
+          "bbox": [
+            0.9011,
+            0.8078,
+            0.9947,
+            0.9818
+          ]
+        }
+      ]
+    },
+    "258285": {
+      "captions": [
+        "Two large passenger jets flying over a beach filled with birds.",
+        "A plane is flying over a bird filed lake",
+        "Two airplanes are in the sky over blue water.",
+        "An airplane landing over an airplane on the ground.",
+        "A photo of two plans with water and birds surrounding it , one plane in the air one one the ground."
+      ],
+      "instances": [
+        {
+          "category": "bird",
+          "bbox": [
+            0.5073,
+            0.9407,
+            0.5362,
+            0.9731
+          ]
+        },
+        {
+          "category": "bird",
+          "bbox": [
+            0.3038,
+            0.9333,
+            0.3149,
+            0.9499
+          ]
+        },
+        {
+          "category": "bird",
+          "bbox": [
+            0.129,
+            0.8852,
+            0.1426,
+            0.9117
+          ]
+        },
+        {
+          "category": "bird",
+          "bbox": [
+            0.1585,
+            0.8511,
+            0.1645,
+            0.8702
+          ]
+        },
+        {
+          "category": "bird",
+          "bbox": [
+            0.4037,
+            0.8387,
+            0.4289,
+            0.8644
+          ]
+        },
+        {
+          "category": "bird",
+          "bbox": [
+            0.4982,
+            0.8332,
+            0.5132,
+            0.8605
+          ]
+        },
+        {
+          "category": "airplane",
+          "bbox": [
+            0.2759,
+            0.0852,
+            0.8247,
+            0.3161
+          ]
+        },
+        {
+          "category": "airplane",
+          "bbox": [
+            0.4778,
+            0.2523,
+            0.9832,
+            0.4947
+          ]
+        },
+        {
+          "category": "bird",
+          "bbox": [
+            0.5519,
+            0.8276,
+            0.5645,
+            0.8436
+          ]
+        },
+        {
+          "category": "bird",
+          "bbox": [
+            0.7887,
+            0.8124,
+            0.7977,
+            0.836
+          ]
+        },
+        {
+          "category": "bird",
+          "bbox": [
+            0.9271,
+            0.8199,
+            0.9363,
+            0.8385
+          ]
+        },
+        {
+          "category": "bird",
+          "bbox": [
+            0.6504,
+            0.8284,
+            0.6639,
+            0.8492
+          ]
+        },
+        {
+          "category": "bird",
+          "bbox": [
+            0.7518,
+            0.8105,
+            0.7628,
+            0.8304
+          ]
+        },
+        {
+          "category": "bird",
+          "bbox": [
+            0.8414,
+            0.8175,
+            0.8522,
+            0.8283
+          ]
+        },
+        {
+          "category": "bird",
+          "bbox": [
+            0.2916,
+            0.8488,
+            0.3107,
+            0.8679
+          ]
+        },
+        {
+          "category": "bird",
+          "bbox": [
+            0.0047,
+            0.7266,
+            0.9812,
+            0.9977
+          ]
+        }
+      ]
+    },
+    "506095": {
+      "captions": [
+        "A cat is staring at a laptop computer.",
+        "a cat on a desk with a laptop and a mouse",
+        "A cat that is sitting at a desk next to a laptop.",
+        "A kitten sitting on a laptop computer sitting on top of a wooden desk.",
+        "A kitten sits facing an open black laptop."
+      ],
+      "instances": [
+        {
+          "category": "cat",
+          "bbox": [
+            0.6577,
+            0.2075,
+            1,
+            0.7544
+          ]
+        },
+        {
+          "category": "laptop",
+          "bbox": [
+            0.108,
+            0.1348,
+            0.7659,
+            0.6899
+          ]
+        },
+        {
+          "category": "book",
+          "bbox": [
+            0.8362,
+            0.2394,
+            0.9544,
+            0.2734
+          ]
+        },
+        {
+          "category": "book",
+          "bbox": [
+            0,
+            0.5556,
+            0.1276,
+            0.6855
+          ]
+        },
+        {
+          "category": "book",
+          "bbox": [
+            0.039,
+            0.574,
+            0.2574,
+            0.6909
+          ]
+        },
+        {
+          "category": "book",
+          "bbox": [
+            0.8247,
+            0.214,
+            0.962,
+            0.2541
+          ]
+        },
+        {
+          "category": "book",
+          "bbox": [
+            0.8922,
+            0.2747,
+            0.9583,
+            0.3078
+          ]
+        },
+        {
+          "category": "book",
+          "bbox": [
+            0.9224,
+            0.3175,
+            0.9864,
+            0.3533
+          ]
+        },
+        {
+          "category": "book",
+          "bbox": [
+            0.8703,
+            0.2675,
+            0.9507,
+            0.2915
+          ]
+        },
+        {
+          "category": "book",
+          "bbox": [
+            0.9492,
+            0.1018,
+            0.9758,
+            0.1141
+          ]
+        },
+        {
+          "category": "book",
+          "bbox": [
+            0.9363,
+            0.1612,
+            0.9585,
+            0.1682
+          ]
+        }
+      ]
+    },
+    "506483": {
+      "captions": [
+        "An art installation is placed by a street.",
+        "People sit near a display of large artworks including an oversize bench and painted feline heads.",
+        "Looking down on a giant rocking bench and large animal heads.",
+        "An over sized wooden bench next to two massive animal art sculptures.",
+        "artistic sculptures and images on a city street"
+      ],
+      "instances": [
+        {
+          "category": "car",
+          "bbox": [
+            0.6564,
+            0.9386,
+            0.9334,
+            0.9998
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.0798,
+            0.6643,
+            0.147,
+            0.8053
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.1536,
+            0.6455,
+            0.2172,
+            0.8213
+          ]
+        },
+        {
+          "category": "bench",
+          "bbox": [
+            0.3156,
+            0.1236,
+            0.9514,
+            0.6348
+          ]
+        },
+        {
+          "category": "backpack",
+          "bbox": [
+            0.0623,
+            0.7005,
+            0.0972,
+            0.7689
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.0,
+            0.1322,
+            0.031,
+            0.1971
+          ]
+        }
+      ]
+    },
+    "460149": {
+      "captions": [
+        "A clock hosted on a pole on a pavement next to a building",
+        "Street clock on quiet street with trees and bicycles.",
+        "A tall clock stands on an empty sidewalk.",
+        "A pole that has a clock on the top of it.",
+        "a clock on a short tower and potted plants along the sidewalk"
+      ],
+      "instances": [
+        {
+          "category": "potted plant",
+          "bbox": [
+            0.1405,
+            0.7099,
+            0.3378,
+            0.8556
+          ]
+        },
+        {
+          "category": "bicycle",
+          "bbox": [
+            0.6505,
+            0.6706,
+            0.7657,
+            0.733
+          ]
+        },
+        {
+          "category": "car",
+          "bbox": [
+            0.3799,
+            0.6083,
+            0.4883,
+            0.6561
+          ]
+        },
+        {
+          "category": "clock",
+          "bbox": [
+            0.468,
+            0.0479,
+            0.699,
+            0.2161
+          ]
+        },
+        {
+          "category": "bicycle",
+          "bbox": [
+            0.6688,
+            0.6624,
+            0.7186,
+            0.6698
+          ]
+        },
+        {
+          "category": "car",
+          "bbox": [
+            0.7863,
+            0.625,
+            0.8601,
+            0.6676
+          ]
+        },
+        {
+          "category": "potted plant",
+          "bbox": [
+            0.7558,
+            0.6371,
+            0.8194,
+            0.682
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.9419,
+            0.6154,
+            0.954,
+            0.6406
+          ]
+        },
+        {
+          "category": "bicycle",
+          "bbox": [
+            0.6484,
+            0.6797,
+            0.7141,
+            0.7465
+          ]
+        },
+        {
+          "category": "car",
+          "bbox": [
+            0.8372,
+            0.6194,
+            0.8804,
+            0.6595
+          ]
+        },
+        {
+          "category": "potted plant",
+          "bbox": [
+            0.0173,
+            0.1974,
+            0.4433,
+            0.6857
+          ]
+        }
+      ]
+    },
+    "408439": {
+      "captions": [
+        "Cliffs rise on the edge of a placid lake.",
+        "A scenic view of a river with a train on the edge of it in the distance.",
+        "A large lake surrounded by beautiful tree covered mountains.",
+        "a landscape scene with water, mountains and trees",
+        "A train on a waterfront track surrounded by mountains."
+      ],
+      "instances": [
+        {
+          "category": "train",
+          "bbox": [
+            0.008,
+            0.5914,
+            0.562,
+            0.6442
+          ]
+        }
+      ]
+    },
+    "210299": {
+      "captions": [
+        "A little boy riding his bike and wearing a helmet",
+        "A little boy raveling down a road on a bike, with a yellow helmet on.",
+        "The boy wears a helmet while riding his bicycle.",
+        "a small child wearing a helmet and riding a bike",
+        "A little boy wearing a helmet and riding a bike."
+      ],
+      "instances": [
+        {
+          "category": "person",
+          "bbox": [
+            0.1983,
+            0.2587,
+            0.3988,
+            0.6785
+          ]
+        },
+        {
+          "category": "bicycle",
+          "bbox": [
+            0.2132,
+            0.3832,
+            0.4076,
+            0.835
+          ]
+        }
+      ]
+    },
+    "534270": {
+      "captions": [
+        "Man and woman with umbrella hats sitting on top of a bridge. ",
+        "A couple equipped with umbrella hats taking a break from walking their dog on a bridge on a rainy day.",
+        "Two people in ridiculous looking umbrella hats. ",
+        "two people with umbrella hats near one another ",
+        "A couple of people wearing umbrella hats next to the ocean."
+      ],
+      "instances": [
+        {
+          "category": "dog",
+          "bbox": [
+            0.4564,
+            0.8322,
+            0.6001,
+            0.9828
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.433,
+            0.4641,
+            0.636,
+            0.9753
+          ]
+        },
+        {
+          "category": "person",
+          "bbox": [
+            0.2633,
+            0.3214,
+            0.4594,
+            0.9775
+          ]
+        },
+        {
+          "category": "boat",
+          "bbox": [
+            0.9118,
+            0.3999,
+            0.978,
+            0.4327
+          ]
+        },
+        {
+          "category": "boat",
+          "bbox": [
+            0.2111,
+            0.2356,
+            0.4781,
+            0.3041
+          ]
+        },
+        {
+          "category": "boat",
+          "bbox": [
+            0.1436,
+            0.3285,
+            0.1892,
+            0.3605
+          ]
+        },
+        {
+          "category": "umbrella",
+          "bbox": [
+            0.4432,
+            0.4023,
+            0.6068,
+            0.4735
+          ]
+        },
+        {
+          "category": "umbrella",
+          "bbox": [
+            0.3252,
+            0.3108,
+            0.483,
+            0.4316
+          ]
+        },
+        {
+          "category": "umbrella",
+          "bbox": [
+            0.2066,
+            0.7376,
+            0.2838,
+            0.7779
+          ]
+        },
+        {
+          "category": "umbrella",
+          "bbox": [
+            0.4887,
+            0.7131,
+            0.6491,
+            0.8305
+          ]
+        }
+      ]
+    },
+    "205183": {
+      "captions": [
+        "A duck walking along a paved road next to a patch of grass.",
+        "A close up of a duck walking on a path.",
+        "a duck walks along a cement patch while looking down",
+        "A white duck out of water, walking on the ground. ",
+        "A goose standing in the road, looking at the ground."
+      ],
+      "instances": [
+        {
+          "category": "bird",
+          "bbox": [
+            0.2913,
+            0.2349,
+            0.8595,
+            0.8887
+          ]
+        }
+      ]
+    }
+  }
+}

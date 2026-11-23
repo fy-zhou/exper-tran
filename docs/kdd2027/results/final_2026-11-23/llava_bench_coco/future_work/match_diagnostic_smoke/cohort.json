@@ -1,0 +1,189 @@
+{
+  "seed": 42,
+  "source_manifest_sha256": "b6f792a5ee2159cad4ca707287669e3ca7588cd200b62e937ad3199eed96e98b",
+  "selection": "shuffle sorted official image IDs before linking any scores or answer text; take first six",
+  "target_model": "Gemma 4 31B-it",
+  "shared_question": "Describe the central subject and what is happening in the image.",
+  "images": [
+    {
+      "image_id": "llava_coco/506483",
+      "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000506483.png",
+      "clean_sha256": "344bf86671e890f82cdff7fd06ae51ff6d32fe397d848c781bf37b9898633d2b",
+      "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000403584.png",
+      "target_reference_sha256": "47ca10a651cb2fbfc7a8e83793e2ee6c7a00eb936257473cd10e220789c46ada",
+      "queries": [
+        {
+          "id": "39",
+          "text": "What kind of objects are included in the art installation?",
+          "kind": "open_vqa",
+          "category": "conv",
+          "reference_answer": "The art installation includes a display of large artworks, such as an oversized bench, painted feline heads, and potentially other artistic sculptures or images."
+        },
+        {
+          "id": "40",
+          "text": "Explain the visual content of the image in great detail.",
+          "kind": "open_vqa",
+          "category": "detail",
+          "reference_answer": "The image features an art installation placed on a city street. The display consists of a large, oversized wooden bench and two massive animal art sculptures, which appear to be painted feline heads. \n\nThere are several people in the scene, with two people sitting near the art display, one person standing nearby, and another person further to the left. A parked car is visible behind the bench, close to the edge of the street. Additionally, a backpack can be seen on the ground, closer to the left side of the bench."
+        },
+        {
+          "id": "41",
+          "text": "How might the art installation encourage interaction among people?",
+          "kind": "open_vqa",
+          "category": "complex",
+          "reference_answer": "The art installation, featuring an oversized wooden bench and two massive animal art sculptures, encourages interaction among people by providing a visually intriguing and inviting space to sit or gather. People are naturally drawn to the unique and whimsical nature of these installations, sparking curiosity and conversation among those who encounter them. The oversized bench provides seating for multiple individuals, prompting people to sit down, rest, or socialize while admiring the giant painted feline heads and other artworks on display. Additionally, the installations capture the attention of passersby, creating a shared experience and a sense of community among those who visit the area. The artistic environment stimulates discussion and appreciation of the art, facilitating social interactions and connections among those who gather near the sculptures and oversized bench."
+        }
+      ]
+    },
+    {
+      "image_id": "llava_coco/408439",
+      "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000408439.png",
+      "clean_sha256": "3455caf66d8709c6a0b8dd18972f96f01ebc0eeaf1b865a034f0f7e702b14cb3",
+      "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000399764.png",
+      "target_reference_sha256": "a23c583b38a38f2fa4539db4084775c4abb46ba79ff03908330246c66a300aa0",
+      "queries": [
+        {
+          "id": "15",
+          "text": "What is the body of water seen in the image?",
+          "kind": "open_vqa",
+          "category": "conv",
+          "reference_answer": "The image features a large, placid lake."
+        },
+        {
+          "id": "16",
+          "text": "Can you elaborate on the elements of the picture provided?",
+          "kind": "open_vqa",
+          "category": "detail",
+          "reference_answer": "The image depicts a serene and picturesque landscape with a large, placid lake surrounded by beautiful tree-covered mountains. Cliffs rise majestically on the edge of the lake, showcasing the grandeur of nature. \n\nIn the distance, near the waterfront, a train can be seen traveling on a track. The train adds a touch of human presence to the otherwise untouched landscape and further enhances the scenic view."
+        },
+        {
+          "id": "17",
+          "text": "What are potential reasons for the train to be traveling in such a scenic route?",
+          "kind": "open_vqa",
+          "category": "complex",
+          "reference_answer": "There could be several reasons for the train to be traveling on this scenic route surrounded by mountains, water, and trees. First, the train route might have been built to provide transportation services to local communities or businesses located in this remote or picturesque area. It may facilitate travel, trade, or tourism in the region. Second, the scenic route could be intentionally designed to attract tourists who seek leisure train journeys that showcase natural beauty and captivating landscapes. These types of train rides offer a unique and immersive experience for people who enjoy exploring breathtaking scenery and discovering new destinations while traveling comfortably. Ultimately, the train route could serve both practical and recreational purposes, fostering connectivity and promoting tourism for the area."
+        }
+      ]
+    },
+    {
+      "image_id": "llava_coco/34096",
+      "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000034096.png",
+      "clean_sha256": "f603fdc8ce46523db82ad1da890d74dc4b5b06de0ba152f8efc19c59d3816174",
+      "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000185472.png",
+      "target_reference_sha256": "fbf1173f9220af01a4adcf5d879ea0b096e08c967c9022276b1111c272638250",
+      "queries": [
+        {
+          "id": "21",
+          "text": "What stage is the house in regarding its construction?",
+          "kind": "open_vqa",
+          "category": "conv",
+          "reference_answer": "The house is in the beginning stages of its construction, with the wooden structure, studs, and staircase partially built but not yet completed."
+        },
+        {
+          "id": "22",
+          "text": "What is this photo about'?",
+          "kind": "open_vqa",
+          "category": "detail",
+          "reference_answer": "The image shows the beginning stages of a house under construction. The wooden structure is still being built, and there are lots of wooden studs visible throughout the scene, indicating work in progress. Additionally, a partially-built staircase can be seen within the house, giving an idea of the floor plan layout.\n\nDespite the house still being under construction, a bed and a TV are already present in the area. The bed is located near the center of the image, with the TV placed to its left. This shows that some household items have been brought in, probably in anticipation of the house's completion."
+        },
+        {
+          "id": "23",
+          "text": "What may be a potential obstacle for the house construction in its current state?",
+          "kind": "open_vqa",
+          "category": "complex",
+          "reference_answer": "In the current state of the house construction with wooden studs and a partially-built staircase, a potential obstacle that might occur is the incomplete structure being exposed to external elements like rain, snow, or strong winds. These conditions can potentially damage the building materials, delay construction work, and cause additional unexpected costs for repairing or replacing materials. It is essential for the builders to properly cover the construction site and store materials accordingly to protect them from potential damage when not in use."
+        }
+      ]
+    },
+    {
+      "image_id": "llava_coco/66144",
+      "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000066144.png",
+      "clean_sha256": "d7c4f1fbb174e0d1ae56490a5caadfd8e031422badada5cac3dff6ce745c0f33",
+      "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000428867.png",
+      "target_reference_sha256": "fe181654a2fac44b0eec0d5aa581b380f76743a137b4cff28027f65e68c5b59f",
+      "queries": [
+        {
+          "id": "54",
+          "text": "What type of car is parked next to the stop sign in the image?",
+          "kind": "open_vqa",
+          "category": "conv",
+          "reference_answer": "An old Volkswagen Bug is parked next to the stop sign in the image."
+        },
+        {
+          "id": "55",
+          "text": "Explain the visual content of the image in great detail.",
+          "kind": "open_vqa",
+          "category": "detail",
+          "reference_answer": "In the scene, a woman is standing in front of a window, observing the street outside. On the street, a vintage Volkswagen Bug is parked near a stop sign, which is located towards the center of the image. Several other cars occupy the street, including one positioned to the left of the Volkswagen and two others in the background. On the far left and far right sides of the image, there are additional cars partially visible. The street also features a tree growing near the stop sign, adding a touch of greenery to the urban setting."
+        },
+        {
+          "id": "56",
+          "text": "What can be inferred about the traffic situation in the area?",
+          "kind": "open_vqa",
+          "category": "complex",
+          "reference_answer": "From the image, it can be inferred that the traffic situation in the area is relatively light or calm. There is an old VW Bug parked near a stop sign, and a few other cars are also visible on the street. However, there doesn't seem to be any congestion or significant traffic. The presence of the stop sign indicates that there is some traffic regulation and order in place to manage vehicle movement, contributing to the overall calmness of the area. Moreover, no people are seen near the stop sign, which further suggests that there might be low pedestrian activity at the time the picture was taken."
+        }
+      ]
+    },
+    {
+      "image_id": "llava_coco/52312",
+      "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000052312.png",
+      "clean_sha256": "f7a0caeb4806443233179058834718d49c9dbe826324d2d099ce3f5ea1dc0b46",
+      "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000154431.png",
+      "target_reference_sha256": "9b7baa75a5508325be02c62553a9c75bae226e5bd5708ed9def1ca1647ce5486",
+      "queries": [
+        {
+          "id": "45",
+          "text": "What is unusual about the elderly man's facial appearance in the image?",
+          "kind": "open_vqa",
+          "category": "conv",
+          "reference_answer": "The unusual aspect of the elderly man's facial appearance in the image is that he has the head of a toothbrush under his nose, which mimics a mustache, specifically a toothbrush mustache."
+        },
+        {
+          "id": "46",
+          "text": "What's happening in the scene?",
+          "kind": "open_vqa",
+          "category": "detail",
+          "reference_answer": "The image features an elderly man humorously wearing the head of a toothbrush under his nose, creating the illusion of a toothbrush mustache. Since the toothbrush head is positioned like a mustache, it is reminiscent of a toothbrush mustache caricature often associated with Hitler. The man takes up most of the frame, appearing front and center in the scene."
+        },
+        {
+          "id": "47",
+          "text": "What message could be conveyed by the man's unusual facial adornment?",
+          "kind": "open_vqa",
+          "category": "complex",
+          "reference_answer": "The elderly man wearing the head of a toothbrush under his nose as a moustache could be conveying a satirical or humorous message. By mimicking a toothbrush mustache, he may be making light of or criticizing a specific historical figure or style associated with the toothbrush mustache, such as Adolf Hitler. Using a toothbrush instead of an actual mustache allows him to dramatically emphasize the point and create a lighthearted or comical effect. However, it's essential to consider cultural and social contexts when interpreting such unconventional expressions, as the message may not always be clear or universally accepted."
+        }
+      ]
+    },
+    {
+      "image_id": "llava_coco/225738",
+      "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000225738.png",
+      "clean_sha256": "f76f063ce092bd7e44a4b2c223b21eac29938074dfab94ba6b5039f19e81695f",
+      "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000151480.png",
+      "target_reference_sha256": "babe48811f21aa902e15c7f5f0e601fced1967eadb18db8d5d784d7c5e47b19e",
+      "queries": [
+        {
+          "id": "33",
+          "text": "How many giraffes are depicted in the image?",
+          "kind": "open_vqa",
+          "category": "conv",
+          "reference_answer": "There are four giraffes in the image."
+        },
+        {
+          "id": "34",
+          "text": "Write a detailed description of the given image.",
+          "kind": "open_vqa",
+          "category": "detail",
+          "reference_answer": "The image showcases a group of four giraffes standing in their natural habitat, a grassy field with some dry brush. They are dispersed across the field, with one giraffe positioned more towards the left, and the other three clustered closer together on the right side. The giraffes appear to be grazing peacefully or engaging in social interactions. A tree can be seen in the scene, providing shade and a point of interest for the giraffes to gather around."
+        },
+        {
+          "id": "35",
+          "text": "Why might these giraffes be gathering near the same tree?",
+          "kind": "open_vqa",
+          "category": "complex",
+          "reference_answer": "In the image, there are four giraffes gathered near the same tree in their natural habitat, a grass field with dry brush. Giraffes may gather near the same tree for various reasons. One common reason is to feed, as their long necks enable them to reach high branches for fresh leaves and foliage, which is a primary part of their diet. Giraffes are also social animals, so they may gather around the same tree to interact with each other and maintain their social bonds. Furthermore, the tree can provide shade in the hot African sun, offering a place for the giraffes to rest and regulate their body temperature."
+        }
+      ]
+    }
+  ]
+}

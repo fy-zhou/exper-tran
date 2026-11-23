@@ -1,0 +1,13 @@
+dataset,method,target,run,steps,returned,planned,status,target_hits,ASR,official_clean_score,official_adv_score,clean_target_hits
+crossvlad_captioning,foa_attack,Qwen3.5-27B,/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_foa_attack_all_b13f75ff6c09b5,300,85,85,RAW_COMPLETE,47,0.5529411764705883,,,1
+crossvlad_captioning,foa_attack,InternVL3.5-14B-HF,/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_foa_attack_all_b13f75ff6c09b5,300,85,85,RAW_COMPLETE,45,0.5294117647058824,,,0
+crossvlad_captioning,foa_attack,Gemma 4 31B-it,/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_foa_attack_all_b13f75ff6c09b5,300,85,85,RAW_COMPLETE,38,0.4470588235294118,,,0
+crossvlad_captioning,m_attack,Qwen3.5-27B,/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_m_attack_all_c0f866c8de897a,300,85,85,RAW_COMPLETE,41,0.4823529411764706,,,1
+crossvlad_captioning,m_attack,InternVL3.5-14B-HF,/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_m_attack_all_c0f866c8de897a,300,85,85,RAW_COMPLETE,43,0.5058823529411764,,,0
+crossvlad_captioning,m_attack,Gemma 4 31B-it,/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_m_attack_all_c0f866c8de897a,300,85,85,RAW_COMPLETE,35,0.4117647058823529,,,0
+crossvlad_captioning,ours,Gemma 4 31B-it,/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_ours_gemma4_418cdeee32feb6,50,85,85,RAW_COMPLETE,57,0.6705882352941176,,,0
+crossvlad_captioning,ours,InternVL3.5-14B-HF,/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_ours_internvl_4de474f0259f9a,50,85,85,RAW_COMPLETE,55,0.6470588235294118,,,0
+crossvlad_captioning,ours,Qwen3.5-27B,/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_ours_qwen_0fdbfe6e288c75,50,85,85,RAW_COMPLETE,53,0.6235294117647059,,,1
+crossvlad_captioning,ssa_cwa_clip,Qwen3.5-27B,/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_ssa_cwa_clip_all_c48453b309207c,10,85,85,RAW_COMPLETE,54,0.6352941176470588,,,1
+crossvlad_captioning,ssa_cwa_clip,InternVL3.5-14B-HF,/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_ssa_cwa_clip_all_c48453b309207c,10,85,85,RAW_COMPLETE,40,0.47058823529411764,,,0
+crossvlad_captioning,ssa_cwa_clip,Gemma 4 31B-it,/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_ssa_cwa_clip_all_c48453b309207c,10,85,85,RAW_COMPLETE,25,0.29411764705882354,,,0

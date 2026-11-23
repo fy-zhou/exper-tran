@@ -1,0 +1,86 @@
+[
+  {
+    "category": "all",
+    "mode": "clean",
+    "hits": 0,
+    "scored": 6,
+    "planned": 6
+  },
+  {
+    "category": "conv",
+    "mode": "clean",
+    "hits": 0,
+    "scored": 2,
+    "planned": 2
+  },
+  {
+    "category": "all",
+    "mode": "adv",
+    "hits": 0,
+    "scored": 6,
+    "planned": 6
+  },
+  {
+    "category": "conv",
+    "mode": "adv",
+    "hits": 0,
+    "scored": 2,
+    "planned": 2
+  },
+  {
+    "category": "all",
+    "mode": "true_target",
+    "hits": 5,
+    "scored": 6,
+    "planned": 6
+  },
+  {
+    "category": "conv",
+    "mode": "true_target",
+    "hits": 1,
+    "scored": 2,
+    "planned": 2
+  },
+  {
+    "category": "detail",
+    "mode": "clean",
+    "hits": 0,
+    "scored": 2,
+    "planned": 2
+  },
+  {
+    "category": "detail",
+    "mode": "adv",
+    "hits": 0,
+    "scored": 2,
+    "planned": 2
+  },
+  {
+    "category": "detail",
+    "mode": "true_target",
+    "hits": 2,
+    "scored": 2,
+    "planned": 2
+  },
+  {
+    "category": "complex",
+    "mode": "clean",
+    "hits": 0,
+    "scored": 2,
+    "planned": 2
+  },
+  {
+    "category": "complex",
+    "mode": "adv",
+    "hits": 0,
+    "scored": 2,
+    "planned": 2
+  },
+  {
+    "category": "complex",
+    "mode": "true_target",
+    "hits": 2,
+    "scored": 2,
+    "planned": 2
+  }
+]

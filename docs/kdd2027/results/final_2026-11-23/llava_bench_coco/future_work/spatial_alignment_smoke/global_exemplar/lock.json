@@ -1,0 +1,169 @@
+{
+  "config": {
+    "N": 6,
+    "variant": "gemma4",
+    "steps": 50,
+    "epsilon": 0.06274509803921569,
+    "alpha": 0.00392156862745098,
+    "seed": 42,
+    "pull": 0.5,
+    "push": 0.5,
+    "DI": true,
+    "canvas": 224,
+    "precision": "bf16",
+    "momentum": 1,
+    "method": "ours_uniform4_neighborhood48",
+    "dataset": "llava_bench_coco"
+  },
+  "target": "Gemma 4 31B-it",
+  "models": {
+    "CLIP ViT-L/14": {
+      "repo_id": "openai/clip-vit-large-patch14",
+      "revision": "32bd64288804d66eefd0ccbe215aa642df71cc41",
+      "family": "clip",
+      "expected_vision_depth": 24
+    },
+    "Qwen3.5-2B": {
+      "repo_id": "Qwen/Qwen3.5-2B",
+      "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+      "family": "qwen",
+      "expected_vision_depth": 24
+    },
+    "InternVL3.5-2B-HF": {
+      "repo_id": "OpenGVLab/InternVL3_5-2B-HF",
+      "revision": "3f301ffcf3dcbb47893afae6650ea3e78d96fb6d",
+      "family": "internvl",
+      "expected_vision_depth": 24
+    },
+    "Gemma 4 E2B-it": {
+      "repo_id": "google/gemma-4-E2B-it",
+      "revision": "3e22461f65e89153144f8adb70e3b8c2cc9845a7",
+      "family": "gemma4",
+      "expected_vision_depth": 16
+    }
+  },
+  "manifest": {
+    "images": [
+      {
+        "image_id": "llava_paper/514915/9",
+        "source_id": "llava_coco/109532",
+        "target_id": "llava_coco/514915",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000109532.png",
+        "clean_sha256": "9e0cfbc2b3b0e8c93bf45137c20d5d64756e7f31b0456b4707f2d5d6d24b85b2",
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000514915.png",
+        "target_reference_sha256": "debc9a7ccefb945ab0740909483edc5888088e8702622c28094581ac6227e965",
+        "queries": [
+          {
+            "id": "9",
+            "text": "What color is the dog in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The dog in the image is black."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_paper/514915/10",
+        "source_id": "llava_coco/534270",
+        "target_id": "llava_coco/514915",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000534270.png",
+        "clean_sha256": "5514383e3e992b87c1ddd6156bf9e6bcd7a70840533160d367ed832d668db410",
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000514915.png",
+        "target_reference_sha256": "debc9a7ccefb945ab0740909483edc5888088e8702622c28094581ac6227e965",
+        "queries": [
+          {
+            "id": "10",
+            "text": "Describe the following image.",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image features a large black dog with a red collar laying down on a kitchen floor. The tiled floor provides a comfortable space for the dog to relax. The dog is positioned towards the middle of the scene. Next to the dog, there are two bowls placed on the floor, one around the top-left side and the other slightly further to the right. These could be the dog's food and water bowls. The scene depicts a cozy domestic environment for the dog."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_paper/514915/11",
+        "source_id": "llava_coco/293505",
+        "target_id": "llava_coco/514915",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000293505.png",
+        "clean_sha256": "d59072d2b27b05eed30abdd8dfe2b56ae8ff1d8b36e3729fc0590796909f673a",
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000514915.png",
+        "target_reference_sha256": "debc9a7ccefb945ab0740909483edc5888088e8702622c28094581ac6227e965",
+        "queries": [
+          {
+            "id": "11",
+            "text": "Why might the dog have chosen to lay down on the floor in this location?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "The dog may have chosen to lay down on the kitchen floor in this location for several reasons. First, the tiled floor can provide a cool surface, which could be comforting compared to a warm or soft surface. This is particularly true if the dog has a thick coat or if the temperature in the room is high. Second, the dog is positioned next to its bowls and a toy, which suggests that the location is familiar and associated with food, water, and playtime. The dog could be resting near these resources for convenience and ease of access. Lastly, the location could be a central spot in the home, and dogs often prefer to stay near their owners or members of the household. By laying on the kitchen floor, the dog might be able to keep an eye on the activities happening around it and remain close to its family."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_paper/205183/69",
+        "source_id": "llava_coco/293505",
+        "target_id": "llava_coco/205183",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000293505.png",
+        "clean_sha256": "d59072d2b27b05eed30abdd8dfe2b56ae8ff1d8b36e3729fc0590796909f673a",
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000205183.png",
+        "target_reference_sha256": "10207ec0731d2642fc96aecd522650fd6be1a2165dcd2f23f36c779a49266edb",
+        "queries": [
+          {
+            "id": "69",
+            "text": "What type of bird is pictured in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "A white duck is pictured in the image."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_paper/205183/70",
+        "source_id": "llava_coco/293505",
+        "target_id": "llava_coco/205183",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000293505.png",
+        "clean_sha256": "d59072d2b27b05eed30abdd8dfe2b56ae8ff1d8b36e3729fc0590796909f673a",
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000205183.png",
+        "target_reference_sha256": "10207ec0731d2642fc96aecd522650fd6be1a2165dcd2f23f36c779a49266edb",
+        "queries": [
+          {
+            "id": "70",
+            "text": "What do you see happening in this image?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image features a single white bird, likely a duck or a goose, walking along a paved road. The bird appears to be closely examining the ground as it walks. The road runs adjacent to a patch of grass, providing a contrasting backdrop for the scene. The bird occupies a predominant part of the image, offering a close-up view of its action."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_paper/205183/71",
+        "source_id": "llava_coco/210299",
+        "target_id": "llava_coco/205183",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000210299.png",
+        "clean_sha256": "98ed46de3b92845d254f578412d8a4d5d2dc883596e3ce1d6399592f6f8fee09",
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000205183.png",
+        "target_reference_sha256": "10207ec0731d2642fc96aecd522650fd6be1a2165dcd2f23f36c779a49266edb",
+        "queries": [
+          {
+            "id": "71",
+            "text": "What challenges could the duck face while walking along the paved road?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "While walking along the paved road, the duck may face various challenges. Firstly, the duck could be at risk of encountering vehicles, which might not notice or expect to see wildlife on the road. This could put the duck in danger of being hit or injured by passing traffic. Secondly, the duck might struggle to find appropriate food sources on or near the paved road, as opposed to its natural habitat, such as a body of water or a grassy area, where it would have easier access to its regular diet.\n\nFurthermore, the duck might be exposed to potential predators, like domestic pets or other animals that live in urban environments, increasing the risk of harm for the duck. Lastly, walking on the paved concrete surface could be less comfortable for the duck than walking on softer natural ground, causing discomfort over time. Overall, the duck's safety and well-being may be compromised by navigating this environment that is not adapted to its natural behaviors and needs."
+          }
+        ]
+      }
+    ],
+    "N_images": 6,
+    "N_questions": 6,
+    "unique_targets": 2,
+    "reference_selection": "disjoint source neighborhoods for source and target anchor"
+  },
+  "reference_banks_sha256": "b8e29c2e54b22d5e6b2f61a932bf79d56906e922fbacabc3d99711c6f68b5dcb",
+  "reference_pool_sha256": "0c26c29031e81519638e7bb14d4066372a5391839d11884a4bf20afb38c2e8c4",
+  "native_worker_sha256": "62a19c9848b04a61b6addd3b4076b6a864e709fe82a50373b257a943c72b8149",
+  "pilot_source_sha256": "b26e134c13c71c494ae61b4ad54e940b6657e37797702a8768823594c0cd2d95",
+  "variant": "global_exemplar",
+  "exemplar_weight": 0.25,
+  "baseline_lock_sha256": "083b86db455d43cd1ce088c7e2d00e226bf6ba264ee037ca0d4a4ce376a23d37",
+  "spatial_pilot_sha256": "a7a19b5c9b5bff060b359727f8f36e41389a3da538609f9dab64505c98ae55d5"
+}

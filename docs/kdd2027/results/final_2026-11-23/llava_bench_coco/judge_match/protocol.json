@@ -1,0 +1,30 @@
+{
+  "requested_model": "gpt-6-luna",
+  "reasoning_effort": "medium",
+  "client": "codex-cli 0.171.0",
+  "route": "existing ChatGPT subscription Codex CLI",
+  "no_paid_API": true,
+  "official_rubric_preserved": true,
+  "official_GPT4_judge_replaced": true,
+  "CLI_system_context_differs_from_direct_API": true,
+  "historical_temperature_0_2_not_exposed_by_CLI": true,
+  "historical_max_tokens_1024_not_exposed_by_CLI": true,
+  "server_snapshot": "not disclosed; requested slug is not snapshot proof",
+  "source_sha256": "792df6309570d770cb6e69077c0c380e91963f1b012f7bf50360b2aa14d0b103",
+  "context_sha256": "b1e91e18ed5c1bd5587084575b2030a2754961a1922c4abe33f0ed082f0990c0",
+  "packet_version": "official_visual_context_v2",
+  "authorization": "User explicitly requested gpt-6-luna medium scoring",
+  "tools_disabled": [
+    "apps",
+    "shell_tool",
+    "unified_exec",
+    "multi_agent",
+    "browser_use",
+    "computer_use",
+    "image_generation",
+    "skill_search",
+    "view_image",
+    "hooks"
+  ],
+  "max_parallel": 2
+}

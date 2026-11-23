@@ -1,0 +1,182 @@
+[
+  {
+    "id": "llava_paper/514915/9",
+    "category": "conv",
+    "mode": "clean",
+    "source": "llava_coco/109532",
+    "target": "llava_coco/514915",
+    "judge_request": "161da3ab6c4abca3a595910c561015e16f692ebf9d9200d440191d2f0d028b85",
+    "candidate_result_sha256": "c74777aa2d970d3512e5c237f97a27ccbd8c315c8b6297377b4af4333b7e8b28",
+    "match": false
+  },
+  {
+    "id": "llava_paper/514915/9",
+    "category": "conv",
+    "mode": "adv",
+    "source": "llava_coco/109532",
+    "target": "llava_coco/514915",
+    "judge_request": "87853cc4de07d4ff218d42842955e80afbc427d85e8f3812ce47bd6f2c95bebe",
+    "candidate_result_sha256": "ac92ee1084d5598915d2fc2f090a7b83497f2dde4d236a8d3d17d32dea4d0ba5",
+    "match": false
+  },
+  {
+    "id": "llava_paper/514915/9",
+    "category": "conv",
+    "mode": "true_target",
+    "source": "llava_coco/109532",
+    "target": "llava_coco/514915",
+    "judge_request": "5677c4c973e679dec9179ee253ea7a134784bf98f5a6529074a22175afbe643c",
+    "candidate_result_sha256": "30cd9737f6f9cebadd402b42339da4382c97ac74ce878d2e9553e121e90fc175",
+    "match": true
+  },
+  {
+    "id": "llava_paper/514915/10",
+    "category": "detail",
+    "mode": "clean",
+    "source": "llava_coco/534270",
+    "target": "llava_coco/514915",
+    "judge_request": "3ac2df7db3ac8db76e083d281070f31a5ea088ece632e48aa7f02ad7aab5745d",
+    "candidate_result_sha256": "d404219de657608389c8837e1ce3b3658931b502994f505076f7ca549f24b5c7",
+    "match": false
+  },
+  {
+    "id": "llava_paper/514915/10",
+    "category": "detail",
+    "mode": "adv",
+    "source": "llava_coco/534270",
+    "target": "llava_coco/514915",
+    "judge_request": "352b73bc7cf971118c26b46c66ae895593b0b084e57aa92fe4a63499ac4bb068",
+    "candidate_result_sha256": "9572689a11fa4e4ff31c6cc9375c2a776ac52916097dfd1c43a6792c40d5ad13",
+    "match": false
+  },
+  {
+    "id": "llava_paper/514915/10",
+    "category": "detail",
+    "mode": "true_target",
+    "source": "llava_coco/534270",
+    "target": "llava_coco/514915",
+    "judge_request": "eff1b5eeb9c3f5e097ba86bb554ba64db2da5ee7f4a600c21b859da517084b0a",
+    "candidate_result_sha256": "7fbfccdc00194cbbdc843fa6b09589615d51901dc6dddc620e109836dd2fc18f",
+    "match": true
+  },
+  {
+    "id": "llava_paper/514915/11",
+    "category": "complex",
+    "mode": "clean",
+    "source": "llava_coco/293505",
+    "target": "llava_coco/514915",
+    "judge_request": "3af4318f31d1e22bd3ff47a13ef3e04cdacfa1235ea15a265826d80e8d4b35aa",
+    "candidate_result_sha256": "fb24774196dbedff33678a992dda08cb5132c21c073d75e90389b8aa19d35c8d",
+    "match": false
+  },
+  {
+    "id": "llava_paper/514915/11",
+    "category": "complex",
+    "mode": "adv",
+    "source": "llava_coco/293505",
+    "target": "llava_coco/514915",
+    "judge_request": "d13bea33a15bb1d2e8420426fbc2d610f71566582d6bc33d2db3d0d99693a110",
+    "candidate_result_sha256": "caec47024a2ca778bcf5383d693e9910831886e330c323c00023760c94f4882c",
+    "match": false
+  },
+  {
+    "id": "llava_paper/514915/11",
+    "category": "complex",
+    "mode": "true_target",
+    "source": "llava_coco/293505",
+    "target": "llava_coco/514915",
+    "judge_request": "c4229247f1fbad0038d370c8c50d730ee83570cffec111db07c04044ac4a3fa6",
+    "candidate_result_sha256": "2f1459d2a01f24e5df8fa5e2fdecb54a0f0c470e23e97fd81efea266efeb4729",
+    "match": true
+  },
+  {
+    "id": "llava_paper/205183/69",
+    "category": "conv",
+    "mode": "clean",
+    "source": "llava_coco/293505",
+    "target": "llava_coco/205183",
+    "judge_request": "1422bbfe4d8ebf2a756e3ffe948c3754e8ef295cb8cc1af395333f97a9b83a99",
+    "candidate_result_sha256": "4ef645e1ddba5dd0d9792cf953323fef0a6057f5ac4dec24faac70ff6525b84b",
+    "match": false
+  },
+  {
+    "id": "llava_paper/205183/69",
+    "category": "conv",
+    "mode": "adv",
+    "source": "llava_coco/293505",
+    "target": "llava_coco/205183",
+    "judge_request": "f8391b0efd0ed09f1a93341445892b5ec818aecc7fd5a1e6258e8d5d7b45cda1",
+    "candidate_result_sha256": "1d2556e3081ab98ac681c5413e2d35663d28b31daedc160969ac8e3a5c6a1d19",
+    "match": false
+  },
+  {
+    "id": "llava_paper/205183/69",
+    "category": "conv",
+    "mode": "true_target",
+    "source": "llava_coco/293505",
+    "target": "llava_coco/205183",
+    "judge_request": "35afc82e27d638fad736945c10c417b3a93e9137d341ad382c909ba1b94a9527",
+    "candidate_result_sha256": "aaf3e7e9d2b871977ee59486eb2e80449703948b90e7ed200ec447fb9e6b539e",
+    "match": false
+  },
+  {
+    "id": "llava_paper/205183/70",
+    "category": "detail",
+    "mode": "clean",
+    "source": "llava_coco/293505",
+    "target": "llava_coco/205183",
+    "judge_request": "490f172625ffef022721dc0a8e6185a837ee1d7d7db6a8ec3ce9d3bbc6ef1fcc",
+    "candidate_result_sha256": "fff968037cbd44f48258febc00c493e24ccf318b1128b3960402a73af26c5d1a",
+    "match": false
+  },
+  {
+    "id": "llava_paper/205183/70",
+    "category": "detail",
+    "mode": "adv",
+    "source": "llava_coco/293505",
+    "target": "llava_coco/205183",
+    "judge_request": "4b7fe1b45b258cb32700e5b1207b853a1cb47320937af0317a84efdd404b6b78",
+    "candidate_result_sha256": "e9b99b3d2d14e965cdd8ff293af3561c43fe5f3a52ba68859bd4ad453836e186",
+    "match": false
+  },
+  {
+    "id": "llava_paper/205183/70",
+    "category": "detail",
+    "mode": "true_target",
+    "source": "llava_coco/293505",
+    "target": "llava_coco/205183",
+    "judge_request": "0e019ff0d5c71e542844ca5b392106847705a0d43a0c5a39dec48877bb4046ae",
+    "candidate_result_sha256": "01627bedec6e0fc065aed0015779f3657883caec29086d3df27784dc5d1c674c",
+    "match": true
+  },
+  {
+    "id": "llava_paper/205183/71",
+    "category": "complex",
+    "mode": "clean",
+    "source": "llava_coco/210299",
+    "target": "llava_coco/205183",
+    "judge_request": "3a6be325853b3c56d33eb37443af44ff473e75400e5459ab7f6d64ba95744dbd",
+    "candidate_result_sha256": "bb689ad3ca080d571f19ef4d03520b722fb2816c3717772116feebb5c300278b",
+    "match": false
+  },
+  {
+    "id": "llava_paper/205183/71",
+    "category": "complex",
+    "mode": "adv",
+    "source": "llava_coco/210299",
+    "target": "llava_coco/205183",
+    "judge_request": "498058e6a93fa1a82243d759290edd07e08a5bf63b163b6ba40b4ec9effad049",
+    "candidate_result_sha256": "e6651ddc96015f584af1c62f2642c5067b5a796469b446eef348555677e18e02",
+    "match": false
+  },
+  {
+    "id": "llava_paper/205183/71",
+    "category": "complex",
+    "mode": "true_target",
+    "source": "llava_coco/210299",
+    "target": "llava_coco/205183",
+    "judge_request": "cc61bd3b9a42256a70cd73d319c0bdef972da462366f95d472dcb4f35577d4cf",
+    "candidate_result_sha256": "105eaf578b4e81ad29028c99de3f063db2289c75b75f453293e8a368d4c37bd5",
+    "match": true
+  }
+]

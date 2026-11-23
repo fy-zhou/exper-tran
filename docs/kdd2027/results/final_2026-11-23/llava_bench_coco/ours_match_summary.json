@@ -1,0 +1,194 @@
+[
+  {
+    "model": "Gemma 4 31B-it",
+    "category": "all",
+    "planned": 90,
+    "match_paired": 90,
+    "match_clean": {
+      "hits": 1,
+      "N": 90,
+      "rate": 0.011111111111111112
+    },
+    "match_adv": {
+      "hits": 10,
+      "N": 90,
+      "rate": 0.1111111111111111
+    }
+  },
+  {
+    "model": "Gemma 4 31B-it",
+    "category": "conv",
+    "planned": 30,
+    "match_paired": 30,
+    "match_clean": {
+      "hits": 0,
+      "N": 30,
+      "rate": 0.0
+    },
+    "match_adv": {
+      "hits": 5,
+      "N": 30,
+      "rate": 0.16666666666666666
+    }
+  },
+  {
+    "model": "Gemma 4 31B-it",
+    "category": "detail",
+    "planned": 30,
+    "match_paired": 30,
+    "match_clean": {
+      "hits": 1,
+      "N": 30,
+      "rate": 0.03333333333333333
+    },
+    "match_adv": {
+      "hits": 4,
+      "N": 30,
+      "rate": 0.13333333333333333
+    }
+  },
+  {
+    "model": "Gemma 4 31B-it",
+    "category": "complex",
+    "planned": 30,
+    "match_paired": 30,
+    "match_clean": {
+      "hits": 0,
+      "N": 30,
+      "rate": 0.0
+    },
+    "match_adv": {
+      "hits": 1,
+      "N": 30,
+      "rate": 0.03333333333333333
+    }
+  },
+  {
+    "model": "InternVL3.5-14B-HF",
+    "category": "all",
+    "planned": 90,
+    "match_paired": 90,
+    "match_clean": {
+      "hits": 1,
+      "N": 90,
+      "rate": 0.011111111111111112
+    },
+    "match_adv": {
+      "hits": 7,
+      "N": 90,
+      "rate": 0.07777777777777778
+    }
+  },
+  {
+    "model": "InternVL3.5-14B-HF",
+    "category": "conv",
+    "planned": 30,
+    "match_paired": 30,
+    "match_clean": {
+      "hits": 0,
+      "N": 30,
+      "rate": 0.0
+    },
+    "match_adv": {
+      "hits": 3,
+      "N": 30,
+      "rate": 0.1
+    }
+  },
+  {
+    "model": "InternVL3.5-14B-HF",
+    "category": "detail",
+    "planned": 30,
+    "match_paired": 30,
+    "match_clean": {
+      "hits": 1,
+      "N": 30,
+      "rate": 0.03333333333333333
+    },
+    "match_adv": {
+      "hits": 3,
+      "N": 30,
+      "rate": 0.1
+    }
+  },
+  {
+    "model": "InternVL3.5-14B-HF",
+    "category": "complex",
+    "planned": 30,
+    "match_paired": 30,
+    "match_clean": {
+      "hits": 0,
+      "N": 30,
+      "rate": 0.0
+    },
+    "match_adv": {
+      "hits": 1,
+      "N": 30,
+      "rate": 0.03333333333333333
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "category": "all",
+    "planned": 90,
+    "match_paired": 90,
+    "match_clean": {
+      "hits": 0,
+      "N": 90,
+      "rate": 0.0
+    },
+    "match_adv": {
+      "hits": 8,
+      "N": 90,
+      "rate": 0.08888888888888889
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "category": "conv",
+    "planned": 30,
+    "match_paired": 30,
+    "match_clean": {
+      "hits": 0,
+      "N": 30,
+      "rate": 0.0
+    },
+    "match_adv": {
+      "hits": 4,
+      "N": 30,
+      "rate": 0.13333333333333333
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "category": "detail",
+    "planned": 30,
+    "match_paired": 30,
+    "match_clean": {
+      "hits": 0,
+      "N": 30,
+      "rate": 0.0
+    },
+    "match_adv": {
+      "hits": 4,
+      "N": 30,
+      "rate": 0.13333333333333333
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "category": "complex",
+    "planned": 30,
+    "match_paired": 30,
+    "match_clean": {
+      "hits": 0,
+      "N": 30,
+      "rate": 0.0
+    },
+    "match_adv": {
+      "hits": 0,
+      "N": 30,
+      "rate": 0.0
+    }
+  }
+]

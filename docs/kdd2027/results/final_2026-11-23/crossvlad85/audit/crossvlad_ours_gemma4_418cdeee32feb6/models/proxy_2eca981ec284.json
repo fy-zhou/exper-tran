@@ -1,0 +1,35 @@
+{
+  "model": {
+    "repo_id": "Qwen/Qwen3.5-2B",
+    "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+    "family": "qwen",
+    "expected_vision_depth": 24
+  },
+  "role": "native_task_proxy",
+  "parameter_counts": {
+    "torch.bfloat16": 2213241664
+  },
+  "parameter_bytes": {
+    "torch.bfloat16": 4426483328
+  },
+  "total_parameters": 2213241664,
+  "components": {
+    "model": [
+      "torch.bfloat16"
+    ]
+  },
+  "devices": [
+    "cuda:0"
+  ],
+  "quantization": {
+    "is_loaded_in_4bit": false,
+    "is_loaded_in_8bit": false,
+    "is_quantized": false,
+    "quantization_method": "None",
+    "config_quantization": null,
+    "quantized_modules": []
+  },
+  "allocated": 5041419264,
+  "reserved": 5062524928,
+  "status": "PASS"
+}

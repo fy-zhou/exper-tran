@@ -1,0 +1,506 @@
+[
+  {
+    "dataset": "crossvlad_captioning",
+    "method": "foa_attack",
+    "target": "Qwen3.5-27B",
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_foa_attack_all_b13f75ff6c09b5",
+    "steps": 300,
+    "returned": 85,
+    "planned": 85,
+    "status": "RAW_COMPLETE",
+    "target_hits": 47,
+    "ASR": 0.5529411764705883,
+    "official_clean_score": null,
+    "official_adv_score": null,
+    "clean_target_hits": 1,
+    "directions": {
+      "bicycle->motorcycle": {
+        "hits": 15,
+        "returned": 17,
+        "N": 17
+      },
+      "car->bus": {
+        "hits": 8,
+        "returned": 17,
+        "N": 17
+      },
+      "cat->dog": {
+        "hits": 15,
+        "returned": 17,
+        "N": 17
+      },
+      "chair->couch": {
+        "hits": 2,
+        "returned": 17,
+        "N": 17
+      },
+      "tv->laptop": {
+        "hits": 7,
+        "returned": 17,
+        "N": 17
+      }
+    }
+  },
+  {
+    "dataset": "crossvlad_captioning",
+    "method": "foa_attack",
+    "target": "InternVL3.5-14B-HF",
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_foa_attack_all_b13f75ff6c09b5",
+    "steps": 300,
+    "returned": 85,
+    "planned": 85,
+    "status": "RAW_COMPLETE",
+    "target_hits": 45,
+    "ASR": 0.5294117647058824,
+    "official_clean_score": null,
+    "official_adv_score": null,
+    "clean_target_hits": 0,
+    "directions": {
+      "bicycle->motorcycle": {
+        "hits": 15,
+        "returned": 17,
+        "N": 17
+      },
+      "car->bus": {
+        "hits": 10,
+        "returned": 17,
+        "N": 17
+      },
+      "cat->dog": {
+        "hits": 11,
+        "returned": 17,
+        "N": 17
+      },
+      "chair->couch": {
+        "hits": 5,
+        "returned": 17,
+        "N": 17
+      },
+      "tv->laptop": {
+        "hits": 4,
+        "returned": 17,
+        "N": 17
+      }
+    }
+  },
+  {
+    "dataset": "crossvlad_captioning",
+    "method": "foa_attack",
+    "target": "Gemma 4 31B-it",
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_foa_attack_all_b13f75ff6c09b5",
+    "steps": 300,
+    "returned": 85,
+    "planned": 85,
+    "status": "RAW_COMPLETE",
+    "target_hits": 38,
+    "ASR": 0.4470588235294118,
+    "official_clean_score": null,
+    "official_adv_score": null,
+    "clean_target_hits": 0,
+    "directions": {
+      "bicycle->motorcycle": {
+        "hits": 12,
+        "returned": 17,
+        "N": 17
+      },
+      "car->bus": {
+        "hits": 4,
+        "returned": 17,
+        "N": 17
+      },
+      "cat->dog": {
+        "hits": 14,
+        "returned": 17,
+        "N": 17
+      },
+      "chair->couch": {
+        "hits": 3,
+        "returned": 17,
+        "N": 17
+      },
+      "tv->laptop": {
+        "hits": 5,
+        "returned": 17,
+        "N": 17
+      }
+    }
+  },
+  {
+    "dataset": "crossvlad_captioning",
+    "method": "m_attack",
+    "target": "Qwen3.5-27B",
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_m_attack_all_c0f866c8de897a",
+    "steps": 300,
+    "returned": 85,
+    "planned": 85,
+    "status": "RAW_COMPLETE",
+    "target_hits": 41,
+    "ASR": 0.4823529411764706,
+    "official_clean_score": null,
+    "official_adv_score": null,
+    "clean_target_hits": 1,
+    "directions": {
+      "bicycle->motorcycle": {
+        "hits": 13,
+        "returned": 17,
+        "N": 17
+      },
+      "car->bus": {
+        "hits": 6,
+        "returned": 17,
+        "N": 17
+      },
+      "cat->dog": {
+        "hits": 14,
+        "returned": 17,
+        "N": 17
+      },
+      "chair->couch": {
+        "hits": 0,
+        "returned": 17,
+        "N": 17
+      },
+      "tv->laptop": {
+        "hits": 8,
+        "returned": 17,
+        "N": 17
+      }
+    }
+  },
+  {
+    "dataset": "crossvlad_captioning",
+    "method": "m_attack",
+    "target": "InternVL3.5-14B-HF",
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_m_attack_all_c0f866c8de897a",
+    "steps": 300,
+    "returned": 85,
+    "planned": 85,
+    "status": "RAW_COMPLETE",
+    "target_hits": 43,
+    "ASR": 0.5058823529411764,
+    "official_clean_score": null,
+    "official_adv_score": null,
+    "clean_target_hits": 0,
+    "directions": {
+      "bicycle->motorcycle": {
+        "hits": 14,
+        "returned": 17,
+        "N": 17
+      },
+      "car->bus": {
+        "hits": 11,
+        "returned": 17,
+        "N": 17
+      },
+      "cat->dog": {
+        "hits": 11,
+        "returned": 17,
+        "N": 17
+      },
+      "chair->couch": {
+        "hits": 1,
+        "returned": 17,
+        "N": 17
+      },
+      "tv->laptop": {
+        "hits": 6,
+        "returned": 17,
+        "N": 17
+      }
+    }
+  },
+  {
+    "dataset": "crossvlad_captioning",
+    "method": "m_attack",
+    "target": "Gemma 4 31B-it",
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_m_attack_all_c0f866c8de897a",
+    "steps": 300,
+    "returned": 85,
+    "planned": 85,
+    "status": "RAW_COMPLETE",
+    "target_hits": 35,
+    "ASR": 0.4117647058823529,
+    "official_clean_score": null,
+    "official_adv_score": null,
+    "clean_target_hits": 0,
+    "directions": {
+      "bicycle->motorcycle": {
+        "hits": 10,
+        "returned": 17,
+        "N": 17
+      },
+      "car->bus": {
+        "hits": 6,
+        "returned": 17,
+        "N": 17
+      },
+      "cat->dog": {
+        "hits": 11,
+        "returned": 17,
+        "N": 17
+      },
+      "chair->couch": {
+        "hits": 3,
+        "returned": 17,
+        "N": 17
+      },
+      "tv->laptop": {
+        "hits": 5,
+        "returned": 17,
+        "N": 17
+      }
+    }
+  },
+  {
+    "dataset": "crossvlad_captioning",
+    "method": "ours",
+    "target": "Gemma 4 31B-it",
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_ours_gemma4_418cdeee32feb6",
+    "steps": 50,
+    "returned": 85,
+    "planned": 85,
+    "status": "RAW_COMPLETE",
+    "target_hits": 57,
+    "ASR": 0.6705882352941176,
+    "official_clean_score": null,
+    "official_adv_score": null,
+    "clean_target_hits": 0,
+    "directions": {
+      "bicycle->motorcycle": {
+        "hits": 15,
+        "returned": 17,
+        "N": 17
+      },
+      "car->bus": {
+        "hits": 11,
+        "returned": 17,
+        "N": 17
+      },
+      "cat->dog": {
+        "hits": 11,
+        "returned": 17,
+        "N": 17
+      },
+      "chair->couch": {
+        "hits": 6,
+        "returned": 17,
+        "N": 17
+      },
+      "tv->laptop": {
+        "hits": 14,
+        "returned": 17,
+        "N": 17
+      }
+    }
+  },
+  {
+    "dataset": "crossvlad_captioning",
+    "method": "ours",
+    "target": "InternVL3.5-14B-HF",
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_ours_internvl_4de474f0259f9a",
+    "steps": 50,
+    "returned": 85,
+    "planned": 85,
+    "status": "RAW_COMPLETE",
+    "target_hits": 55,
+    "ASR": 0.6470588235294118,
+    "official_clean_score": null,
+    "official_adv_score": null,
+    "clean_target_hits": 0,
+    "directions": {
+      "bicycle->motorcycle": {
+        "hits": 16,
+        "returned": 17,
+        "N": 17
+      },
+      "car->bus": {
+        "hits": 15,
+        "returned": 17,
+        "N": 17
+      },
+      "cat->dog": {
+        "hits": 3,
+        "returned": 17,
+        "N": 17
+      },
+      "chair->couch": {
+        "hits": 4,
+        "returned": 17,
+        "N": 17
+      },
+      "tv->laptop": {
+        "hits": 17,
+        "returned": 17,
+        "N": 17
+      }
+    }
+  },
+  {
+    "dataset": "crossvlad_captioning",
+    "method": "ours",
+    "target": "Qwen3.5-27B",
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_ours_qwen_0fdbfe6e288c75",
+    "steps": 50,
+    "returned": 85,
+    "planned": 85,
+    "status": "RAW_COMPLETE",
+    "target_hits": 53,
+    "ASR": 0.6235294117647059,
+    "official_clean_score": null,
+    "official_adv_score": null,
+    "clean_target_hits": 1,
+    "directions": {
+      "bicycle->motorcycle": {
+        "hits": 15,
+        "returned": 17,
+        "N": 17
+      },
+      "car->bus": {
+        "hits": 12,
+        "returned": 17,
+        "N": 17
+      },
+      "cat->dog": {
+        "hits": 9,
+        "returned": 17,
+        "N": 17
+      },
+      "chair->couch": {
+        "hits": 3,
+        "returned": 17,
+        "N": 17
+      },
+      "tv->laptop": {
+        "hits": 14,
+        "returned": 17,
+        "N": 17
+      }
+    }
+  },
+  {
+    "dataset": "crossvlad_captioning",
+    "method": "ssa_cwa_clip",
+    "target": "Qwen3.5-27B",
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_ssa_cwa_clip_all_c48453b309207c",
+    "steps": 10,
+    "returned": 85,
+    "planned": 85,
+    "status": "RAW_COMPLETE",
+    "target_hits": 54,
+    "ASR": 0.6352941176470588,
+    "official_clean_score": null,
+    "official_adv_score": null,
+    "clean_target_hits": 1,
+    "directions": {
+      "bicycle->motorcycle": {
+        "hits": 12,
+        "returned": 17,
+        "N": 17
+      },
+      "car->bus": {
+        "hits": 9,
+        "returned": 17,
+        "N": 17
+      },
+      "cat->dog": {
+        "hits": 17,
+        "returned": 17,
+        "N": 17
+      },
+      "chair->couch": {
+        "hits": 2,
+        "returned": 17,
+        "N": 17
+      },
+      "tv->laptop": {
+        "hits": 14,
+        "returned": 17,
+        "N": 17
+      }
+    }
+  },
+  {
+    "dataset": "crossvlad_captioning",
+    "method": "ssa_cwa_clip",
+    "target": "InternVL3.5-14B-HF",
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_ssa_cwa_clip_all_c48453b309207c",
+    "steps": 10,
+    "returned": 85,
+    "planned": 85,
+    "status": "RAW_COMPLETE",
+    "target_hits": 40,
+    "ASR": 0.47058823529411764,
+    "official_clean_score": null,
+    "official_adv_score": null,
+    "clean_target_hits": 0,
+    "directions": {
+      "bicycle->motorcycle": {
+        "hits": 8,
+        "returned": 17,
+        "N": 17
+      },
+      "car->bus": {
+        "hits": 7,
+        "returned": 17,
+        "N": 17
+      },
+      "cat->dog": {
+        "hits": 11,
+        "returned": 17,
+        "N": 17
+      },
+      "chair->couch": {
+        "hits": 3,
+        "returned": 17,
+        "N": 17
+      },
+      "tv->laptop": {
+        "hits": 11,
+        "returned": 17,
+        "N": 17
+      }
+    }
+  },
+  {
+    "dataset": "crossvlad_captioning",
+    "method": "ssa_cwa_clip",
+    "target": "Gemma 4 31B-it",
+    "run": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/crossvlad85/runs/crossvlad_ssa_cwa_clip_all_c48453b309207c",
+    "steps": 10,
+    "returned": 85,
+    "planned": 85,
+    "status": "RAW_COMPLETE",
+    "target_hits": 25,
+    "ASR": 0.29411764705882354,
+    "official_clean_score": null,
+    "official_adv_score": null,
+    "clean_target_hits": 0,
+    "directions": {
+      "bicycle->motorcycle": {
+        "hits": 3,
+        "returned": 17,
+        "N": 17
+      },
+      "car->bus": {
+        "hits": 3,
+        "returned": 17,
+        "N": 17
+      },
+      "cat->dog": {
+        "hits": 14,
+        "returned": 17,
+        "N": 17
+      },
+      "chair->couch": {
+        "hits": 2,
+        "returned": 17,
+        "N": 17
+      },
+      "tv->laptop": {
+        "hits": 3,
+        "returned": 17,
+        "N": 17
+      }
+    }
+  }
+]

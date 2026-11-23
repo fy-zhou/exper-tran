@@ -1,0 +1,26 @@
+{
+  "CLIP ViT-L/14": {
+    "repo_id": "openai/clip-vit-large-patch14",
+    "revision": "32bd64288804d66eefd0ccbe215aa642df71cc41",
+    "family": "clip",
+    "expected_vision_depth": 24
+  },
+  "Qwen3.5-2B": {
+    "repo_id": "Qwen/Qwen3.5-2B",
+    "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+    "family": "qwen",
+    "expected_vision_depth": 24
+  },
+  "InternVL3.5-2B-HF": {
+    "repo_id": "OpenGVLab/InternVL3_5-2B-HF",
+    "revision": "3f301ffcf3dcbb47893afae6650ea3e78d96fb6d",
+    "family": "internvl",
+    "expected_vision_depth": 24
+  },
+  "Gemma 4 E2B-it": {
+    "repo_id": "google/gemma-4-E2B-it",
+    "revision": "3e22461f65e89153144f8adb70e3b8c2cc9845a7",
+    "family": "gemma4",
+    "expected_vision_depth": 16
+  }
+}
