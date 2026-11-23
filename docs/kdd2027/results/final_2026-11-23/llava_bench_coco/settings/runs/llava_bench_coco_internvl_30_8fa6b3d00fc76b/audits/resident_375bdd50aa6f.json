@@ -1,0 +1,48 @@
+{
+  "model": {
+    "repo_id": "openai/clip-vit-large-patch14",
+    "revision": "32bd64288804d66eefd0ccbe215aa642df71cc41",
+    "family": "clip",
+    "expected_vision_depth": 24
+  },
+  "role": "native_task_proxy_resident",
+  "parameter_counts": {
+    "torch.bfloat16": 427616513
+  },
+  "parameter_bytes": {
+    "torch.bfloat16": 855233026
+  },
+  "total_parameters": 427616513,
+  "components": {
+    "logit_scale": [
+      "torch.bfloat16"
+    ],
+    "text_model": [
+      "torch.bfloat16"
+    ],
+    "vision_model": [
+      "torch.bfloat16"
+    ],
+    "visual_projection": [
+      "torch.bfloat16"
+    ],
+    "text_projection": [
+      "torch.bfloat16"
+    ]
+  },
+  "devices": [
+    "cpu",
+    "cuda:0"
+  ],
+  "quantization": {
+    "is_loaded_in_4bit": false,
+    "is_loaded_in_8bit": false,
+    "is_quantized": false,
+    "quantization_method": "None",
+    "config_quantization": null,
+    "quantized_modules": []
+  },
+  "allocated": 639947264,
+  "reserved": 910163968,
+  "status": "PASS"
+}

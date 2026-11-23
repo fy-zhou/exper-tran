@@ -1,0 +1,2749 @@
+{
+  "seed": 42,
+  "N": 512,
+  "excluded_attack_ids": [
+    1503,
+    1675,
+    15746,
+    16958,
+    20650,
+    24610,
+    25603,
+    32038,
+    34096,
+    39785,
+    52312,
+    55299,
+    56013,
+    61471,
+    66144,
+    66886,
+    67180,
+    67406,
+    67616,
+    74457,
+    79144,
+    81552,
+    81594,
+    82180,
+    84170,
+    84664,
+    88462,
+    89697,
+    92109,
+    92416,
+    97131,
+    97679,
+    97924,
+    109532,
+    113235,
+    113720,
+    114770,
+    119445,
+    121506,
+    122962,
+    127092,
+    132408,
+    133567,
+    133969,
+    140840,
+    147729,
+    164255,
+    164602,
+    167572,
+    171298,
+    172877,
+    176701,
+    179285,
+    182923,
+    183500,
+    188592,
+    189775,
+    190923,
+    191288,
+    192670,
+    203629,
+    205183,
+    210299,
+    210915,
+    213445,
+    214224,
+    217614,
+    221017,
+    225738,
+    226592,
+    226903,
+    231549,
+    232088,
+    242287,
+    244750,
+    257478,
+    258285,
+    265518,
+    270122,
+    270244,
+    270705,
+    274708,
+    287527,
+    293505,
+    295420,
+    297562,
+    303566,
+    305695,
+    308793,
+    311909,
+    316666,
+    319432,
+    327780,
+    332570,
+    334521,
+    335529,
+    341921,
+    347174,
+    349480,
+    353536,
+    367571,
+    369812,
+    378284,
+    381971,
+    384350,
+    385873,
+    401244,
+    404601,
+    408439,
+    411665,
+    415238,
+    422706,
+    422836,
+    422998,
+    423123,
+    425906,
+    426166,
+    431165,
+    438269,
+    441147,
+    446005,
+    448076,
+    449661,
+    450100,
+    451043,
+    451155,
+    453166,
+    453841,
+    454750,
+    455085,
+    459634,
+    460149,
+    461405,
+    463522,
+    463842,
+    464144,
+    470121,
+    471893,
+    473121,
+    475484,
+    476119,
+    476810,
+    481404,
+    482585,
+    484978,
+    492968,
+    496571,
+    498463,
+    504711,
+    506095,
+    506483,
+    506933,
+    508370,
+    508482,
+    514915,
+    515716,
+    523175,
+    525439,
+    528314,
+    528705,
+    529105,
+    530975,
+    534270,
+    537153,
+    539143,
+    541055,
+    546826,
+    548555,
+    551350,
+    551439,
+    556498,
+    557172,
+    559513,
+    565563,
+    566436,
+    568690,
+    571943,
+    572462,
+    572956,
+    575187
+  ],
+  "images": [
+    {
+      "image_id": 139,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000000139.png",
+      "sha256": "6e902d2d32c21fd54c86444e105e4167348551d4f5f8b3f060a02b8835eb8f61"
+    },
+    {
+      "image_id": 1532,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000001532.png",
+      "sha256": "23e43b5fb1778af78f503ac098d672753c0c786226d3e8165745f5c6817081bb"
+    },
+    {
+      "image_id": 1584,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000001584.png",
+      "sha256": "2b28387db46b068916a79fbe56d169f05e70b66a68179e56866feacde2dccc9d"
+    },
+    {
+      "image_id": 2006,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000002006.png",
+      "sha256": "5855dab3450b3aa4a09f1f312c768d94ee6680709bd0c16fb089bfa1943d69bf"
+    },
+    {
+      "image_id": 2299,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000002299.png",
+      "sha256": "7cf550a64395643b80d14cae2f307258f5bb5254ec9bb08d97a03081e201a8ba"
+    },
+    {
+      "image_id": 2532,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000002532.png",
+      "sha256": "3a0ebf9da49daca9b6226c7e8c1e063599511d94bc064b3e26b80239d871add1"
+    },
+    {
+      "image_id": 2592,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000002592.png",
+      "sha256": "f86c4ff6e996f3c314ef9f6fe00d781963b52e6abfac153837de81584f5de650"
+    },
+    {
+      "image_id": 4134,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000004134.png",
+      "sha256": "9f034ec727d70e27751196cb7a3a4b6508014d5e2b0c33d18b748f8f121a81cc"
+    },
+    {
+      "image_id": 4795,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000004795.png",
+      "sha256": "3c583c3270eb299faa7d807107257abbea6379d1151b586507940435fa392fb7"
+    },
+    {
+      "image_id": 5001,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000005001.png",
+      "sha256": "f1dce3d2472e454de148e25ffa93beeb050e674d8a127f9cca09cb199f767fe8"
+    },
+    {
+      "image_id": 5193,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000005193.png",
+      "sha256": "c847d21d0e703a2a7005918fff3124642419a556649e0a48822f10df5ade159d"
+    },
+    {
+      "image_id": 5992,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000005992.png",
+      "sha256": "c7aabcde58c1ba22cd97184cf19e3700727e0b060c0741c0871b3250c3889d46"
+    },
+    {
+      "image_id": 6471,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000006471.png",
+      "sha256": "f0643cb9706753e6d8c2d723e60e014814d7be66f346068b109b183ca0efd046"
+    },
+    {
+      "image_id": 6614,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000006614.png",
+      "sha256": "8a61258092548af13a74d7e2e70c0decf2dc10c88862640e94df197ef15b036e"
+    },
+    {
+      "image_id": 7278,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000007278.png",
+      "sha256": "34c1c007bcfe9b75082061d89b7b476a3754640fdf893d091b76378803f85439"
+    },
+    {
+      "image_id": 7991,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000007991.png",
+      "sha256": "4c7a9f9e5833b53f87795ba14197aa7807921d93b6ffabf6f2c00edad88ba6c4"
+    },
+    {
+      "image_id": 8021,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000008021.png",
+      "sha256": "49516c10696017c8fc8c2b81da2f6cbe9ae6c64b510e0269458a80edc36b5a66"
+    },
+    {
+      "image_id": 8690,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000008690.png",
+      "sha256": "1ed4336ae53e7b5764ebca0b426c50110573495f52bb40082eb5f7793af7ca29"
+    },
+    {
+      "image_id": 9448,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000009448.png",
+      "sha256": "61380484356001226bbaf0b853f69f335aa649cb1a4fe86daa4bba6df67c07ab"
+    },
+    {
+      "image_id": 11511,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000011511.png",
+      "sha256": "0aee347789edad888f42da266be1831e54af6e96252143e9f84dc0497b9e58c0"
+    },
+    {
+      "image_id": 11615,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000011615.png",
+      "sha256": "cbf4403f287cd506795287c4707a3559a992a6655a028ca3b154a51fbf997928"
+    },
+    {
+      "image_id": 12062,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000012062.png",
+      "sha256": "bcdf5486cefe67cb68388a610012d99b6392cfc4d6bce58d63e41d5064286e3c"
+    },
+    {
+      "image_id": 13004,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000013004.png",
+      "sha256": "66efeed9b6b3947033f98b92e89b8eb488d17a8289e1810d766deb21bb5ea858"
+    },
+    {
+      "image_id": 13659,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000013659.png",
+      "sha256": "72d5cbda14f6db88c79a82631429be659adf665679ee599d3685f77377d7e28d"
+    },
+    {
+      "image_id": 13729,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000013729.png",
+      "sha256": "c765ec5748dcb8374ff64b9c7a003332c8a203ae42e187fec5d6fa8731a72180"
+    },
+    {
+      "image_id": 14439,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000014439.png",
+      "sha256": "c436631a6a620524a3e8e87df9bf13fad4dd13f5969e1a4541b2e02e7de17b8a"
+    },
+    {
+      "image_id": 15272,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000015272.png",
+      "sha256": "238618ddbb24a06522e53b9dda7314f093075aa572431ec46066034426962d2f"
+    },
+    {
+      "image_id": 16502,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000016502.png",
+      "sha256": "0815ed58597e6fe14262fff12c9270822fac8e0ce047510523ebf54d8c23c7b9"
+    },
+    {
+      "image_id": 18193,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000018193.png",
+      "sha256": "b815ec688349ca53b6e98644831691ad55063de6f8fcdc30d9a973a3b578f556"
+    },
+    {
+      "image_id": 18380,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000018380.png",
+      "sha256": "bd17bf456ae4c9328848cb0d5a1439a0ef0cfca19ac3dc270a864f7e77b5a1fb"
+    },
+    {
+      "image_id": 20571,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000020571.png",
+      "sha256": "2c695a9ad70b53f70a886ccf165bd38a6067f14d35c948700b671c48c43f03a6"
+    },
+    {
+      "image_id": 22969,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000022969.png",
+      "sha256": "beacad0bee84bdfdf918c7c420fa68e5ddc5458c023c65d72a8e0de3f6baee12"
+    },
+    {
+      "image_id": 23230,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000023230.png",
+      "sha256": "bc0b745cf15fc5e8c05a9640d19fc950322190b0a9e1f3dcf12f4c858ac81435"
+    },
+    {
+      "image_id": 25228,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000025228.png",
+      "sha256": "94062af8e98cb1bcc07eb85734ad7ed74aada5008146e4b33f2a5b2b9328df80"
+    },
+    {
+      "image_id": 26690,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000026690.png",
+      "sha256": "ba1615f23c4c39484beb79e5c033b04c3282ed09a65926e698024d4df8c38d16"
+    },
+    {
+      "image_id": 26926,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000026926.png",
+      "sha256": "d3a87ba647b3af898639686e9ac29fc921b52518a3f0070fb645e76db3bc97a8"
+    },
+    {
+      "image_id": 29393,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000029393.png",
+      "sha256": "de013707c5b1c11bae030af6b4b2aa23a6340dc9755739ad6a6e57a8ba5356fc"
+    },
+    {
+      "image_id": 30675,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000030675.png",
+      "sha256": "12b911ee43a58f6f66646d40084133765e8dcfc02c60da35da1df9c726c4af83"
+    },
+    {
+      "image_id": 31248,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000031248.png",
+      "sha256": "9dff95c79c0a13546583059d69efaee2c1b39f9815f0e7ce430da00b51269de0"
+    },
+    {
+      "image_id": 31735,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000031735.png",
+      "sha256": "d44ea9996b5627a7327fbf615d06b35521eb8670add2c32b897653ba0aded5b5"
+    },
+    {
+      "image_id": 31749,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000031749.png",
+      "sha256": "189e60a7ca1b6ffde676762677326a531c4c26fa26674fd394eadb059aedc9f7"
+    },
+    {
+      "image_id": 31817,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000031817.png",
+      "sha256": "8364187f5053a3f3727f79168d0d0a294aa0db3183e2043c1b8acc17a842a588"
+    },
+    {
+      "image_id": 32081,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000032081.png",
+      "sha256": "ffd85b2668b17740d223649eba1b510d53206238eca6530e647fec1c8df857b8"
+    },
+    {
+      "image_id": 32735,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000032735.png",
+      "sha256": "d3b8c3b234b28dee026696e22c3d91a62466719b0b3c27a79eaac679d3e26f42"
+    },
+    {
+      "image_id": 34417,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000034417.png",
+      "sha256": "9c51f9cfbdd58ee125c2635933a0e51e7e3942bff2a6cbb3dcde0722574f9d9d"
+    },
+    {
+      "image_id": 34760,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000034760.png",
+      "sha256": "80befed8cedb3ee16e002649f7eb1ac50ecd6fcc47852eec1fe6e0fe934245a2"
+    },
+    {
+      "image_id": 34873,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000034873.png",
+      "sha256": "6d968d61bfc55eef41355a57435d86cbb711f6d7fc102aa4d1446d7e6d2ae4e8"
+    },
+    {
+      "image_id": 35682,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000035682.png",
+      "sha256": "a59247f4d0bf1bfbee8f373bb913087d485b0b510766b7d3bbb3d466489d2484"
+    },
+    {
+      "image_id": 36678,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000036678.png",
+      "sha256": "eb0bb7b03ce9eeb41a524f39f461835fdd850f03420282195d8e8ea4cf16a5a1"
+    },
+    {
+      "image_id": 40757,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000040757.png",
+      "sha256": "4b100d770e74b54751eb710308dcb9d53d79b59706e106b04e0ca8f86961d395"
+    },
+    {
+      "image_id": 41633,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000041633.png",
+      "sha256": "3e876dce8c87d554f2ac0b2dd25334bd908c8cbc8b37483d2c4c8a56be08fe94"
+    },
+    {
+      "image_id": 42070,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000042070.png",
+      "sha256": "158a1f6a8d1a2f720ea29dae64ebb6e7421050fa57c427a85e676c3d41644d51"
+    },
+    {
+      "image_id": 44260,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000044260.png",
+      "sha256": "040c7a35bd74528171cfd39df81b8312c179ae6aa899d71fee7f4f52d216c7b3"
+    },
+    {
+      "image_id": 46031,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000046031.png",
+      "sha256": "34c0bbc4833804587af46d22e45609da905ceca68a806c6e31c01dc82fddb990"
+    },
+    {
+      "image_id": 47828,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000047828.png",
+      "sha256": "9984ef60e81085f3d7d6f1948f1e05e51f995feab53644e7c0346fc5c471c235"
+    },
+    {
+      "image_id": 48924,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000048924.png",
+      "sha256": "a286c49e88e934aaf7715e4443d21b9fd5573c44f902a0fe15f880d41be75254"
+    },
+    {
+      "image_id": 49091,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000049091.png",
+      "sha256": "3a206ca92e412739f389350b1e25b7e7443b3dd81fe39cae17eb8fff43d937c7"
+    },
+    {
+      "image_id": 49761,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000049761.png",
+      "sha256": "5b6c972561c173c0cb66d886cf0c190c37e56e0e1e7713623c4c38eef3526cad"
+    },
+    {
+      "image_id": 50638,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000050638.png",
+      "sha256": "5db32ed838827cb5a9accee9dc241b32b59ff6741a1118c11c321d05fecc8615"
+    },
+    {
+      "image_id": 52007,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000052007.png",
+      "sha256": "c4d2526f7179eb40cbeb03e4075205df90f5b649fe3be71d9e155cb791f9eeac"
+    },
+    {
+      "image_id": 52565,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000052565.png",
+      "sha256": "9923a745a304e4bf87aa1f88e9b40e0fd0ed5f6ac37e490ce58dec6102cbadba"
+    },
+    {
+      "image_id": 53505,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000053505.png",
+      "sha256": "00e1aa986e66aaa4c67db6f288816e98094a2433fbd6fa11d0f6edefa3890c4d"
+    },
+    {
+      "image_id": 53529,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000053529.png",
+      "sha256": "282edd4fdf040f621475c4a20729fc19079005457b746d6a784440cfe41b2ef5"
+    },
+    {
+      "image_id": 53909,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000053909.png",
+      "sha256": "2405754d411c87a3f2b8b86ab46622dbfb1dc673a559e95c4d3791cd96ac69ed"
+    },
+    {
+      "image_id": 55002,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000055002.png",
+      "sha256": "86598589f31ec209d0b1e830987a1e0b7ea4dbe97e9bff991f48ac4f7581165e"
+    },
+    {
+      "image_id": 58655,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000058655.png",
+      "sha256": "a066b3fe1eea6781e2d1ddfb58ff9d42e2a59b0d204e4d6e2f4b07ae47d88e38"
+    },
+    {
+      "image_id": 60102,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000060102.png",
+      "sha256": "9320b4fed269e6170b2c65cb259e02bb010c3d5eba54b5aa1c4fdf20c79168e5"
+    },
+    {
+      "image_id": 63740,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000063740.png",
+      "sha256": "5fa281dda2c962dcf915f20eae0fb60c8bc2124ec1c4d523672348e11a39d11b"
+    },
+    {
+      "image_id": 65288,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000065288.png",
+      "sha256": "2e14135f61edb59c39114ec18b5f13b8a71ce136ae4d394c4758a2255eca06f4"
+    },
+    {
+      "image_id": 65485,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000065485.png",
+      "sha256": "ad899a4bf1ac850c8a8a029f81b2662855b79f40dabb8ce7ede0c4ec895c188b"
+    },
+    {
+      "image_id": 68093,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000068093.png",
+      "sha256": "70e7c7cd10891632492f498722fc91d45c573d7d101984d0328fcc1784f31fc3"
+    },
+    {
+      "image_id": 68765,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000068765.png",
+      "sha256": "8bc5bfdf6140aae465ceddb95a78275ba9039d34628a095295a075d44bb0db33"
+    },
+    {
+      "image_id": 73326,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000073326.png",
+      "sha256": "600df762b9971e0467b39b6f4003a6fdb531817510a82517ef493bcabf5f6f85"
+    },
+    {
+      "image_id": 74646,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000074646.png",
+      "sha256": "81c20a48cf110ab55d8197ee6b931232f0190f3efe689e47707ddaa9a715ce6c"
+    },
+    {
+      "image_id": 74860,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000074860.png",
+      "sha256": "39664c6b53e635d5a3f606ce4ebf747d8345cefdac13f90e9daa93442d912938"
+    },
+    {
+      "image_id": 76416,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000076416.png",
+      "sha256": "269ed290f5a097dfd22afa0f8b28e1364f7c0aa93f5ab3af2b04dcdd968a40b9"
+    },
+    {
+      "image_id": 78843,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000078843.png",
+      "sha256": "d2fd9745fed7714cb10488170d8600762f792c6ae4a35af4b98570a731e3f296"
+    },
+    {
+      "image_id": 79034,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000079034.png",
+      "sha256": "f4f337146c726c6547542606730426c520bbe6b3426eae7c4d2ac29ab7111d5b"
+    },
+    {
+      "image_id": 79408,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000079408.png",
+      "sha256": "a96ecd9007b4eb0c5020188287cc87483199790b9e09648d913dbdbd7b840021"
+    },
+    {
+      "image_id": 80273,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000080273.png",
+      "sha256": "c372aa5bb2f068dd488367ba84be4b7715c2fe317614aad24a530846f5f5dc0c"
+    },
+    {
+      "image_id": 80274,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000080274.png",
+      "sha256": "b6265033073b0402bb227526044ac871c0361d0bee6bf276f9cbe5b43ccfd2bb"
+    },
+    {
+      "image_id": 80949,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000080949.png",
+      "sha256": "caf89626125b3c1368cfe646ece900b6872a3ec8d256026f9426f85da01c2116"
+    },
+    {
+      "image_id": 82986,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000082986.png",
+      "sha256": "9167f3ca2ee1dee8016edb4dc522d17783e44d1b25f6a7c61b27b5701a82d1cc"
+    },
+    {
+      "image_id": 84241,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000084241.png",
+      "sha256": "f7a8875496281796489f188cb846976985a28354a4d10aa444229a19c7010358"
+    },
+    {
+      "image_id": 84477,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000084477.png",
+      "sha256": "3ec3f7269ef4f1445d2969be195cf93c073d8b5de3c61f3933939655320d7b76"
+    },
+    {
+      "image_id": 84650,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000084650.png",
+      "sha256": "b5f7562b2b8afba282eb46c113dc00c85d7c68287397c69e78603e7453c0d3f1"
+    },
+    {
+      "image_id": 85329,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000085329.png",
+      "sha256": "f98ff9803f35182c7145cad024a4250b35a21e61bcd11ba6f4d89b8345f42264"
+    },
+    {
+      "image_id": 87038,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000087038.png",
+      "sha256": "0b05edd7ab9f9bbb207b0a5c90db53bcc0dd0837f2952ef02330a8b00cd8d69a"
+    },
+    {
+      "image_id": 88485,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000088485.png",
+      "sha256": "ea220df11bbbd07c0257c09e2a8aa48c0f93efe73d7b40da58ab832965539aab"
+    },
+    {
+      "image_id": 91619,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000091619.png",
+      "sha256": "5e4d33398969587d7bce8c80737d2e4f900e3d18efb68e1f259434f8d65410f3"
+    },
+    {
+      "image_id": 92053,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000092053.png",
+      "sha256": "c44db2cc8bd2880e975f2bd5ebc352c36733c3ed88585c1123a0fb0fb1c93d3d"
+    },
+    {
+      "image_id": 93965,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000093965.png",
+      "sha256": "ef13fc789d0d352a562e42e509be403fee1b2794c13330041018ab23c38dc686"
+    },
+    {
+      "image_id": 94852,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000094852.png",
+      "sha256": "82524c30052bb327f06eb6754331f3881ae3ccf89bab5b32a5c0cd5cdf465ac0"
+    },
+    {
+      "image_id": 98287,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000098287.png",
+      "sha256": "81ad1f85dbca499b37a3eb45c5cc2601b182c865b4bfb19cc6e0f4823004a89b"
+    },
+    {
+      "image_id": 98392,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000098392.png",
+      "sha256": "c9046e918141fc90f1454238c509a1dae4c4d00f778823f488bab2bdda35d782"
+    },
+    {
+      "image_id": 98497,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000098497.png",
+      "sha256": "60d688dbac401868bfd572bd527da7960b10f65599a3d89e994d21fc675b8ec9"
+    },
+    {
+      "image_id": 100238,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000100238.png",
+      "sha256": "88ab1a6069406359f2f1c0ba27b075783f2a51f018416aedf83525d36ffa9dce"
+    },
+    {
+      "image_id": 100489,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000100489.png",
+      "sha256": "05cccadc93d216d0796e2ecdcc7577ce73ac5fee0b4789a9279f7ec9a59b5ced"
+    },
+    {
+      "image_id": 100582,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000100582.png",
+      "sha256": "8a16e38fd877bffd712edd855663c7494953f7f0d50664756fa30812b8d2a630"
+    },
+    {
+      "image_id": 101420,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000101420.png",
+      "sha256": "afeb2417eb79adfc412995cd79076e9174185143407b9b6a7b8c06a55e26e8a6"
+    },
+    {
+      "image_id": 101780,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000101780.png",
+      "sha256": "e14bfb2d959da13a237d0b2cbfae4b5a79df4a7db6e0ea105b82911458522331"
+    },
+    {
+      "image_id": 102331,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000102331.png",
+      "sha256": "23a48e4f7e43540afa78f5bb27995cb4265c1477d972921b5e1244140109487f"
+    },
+    {
+      "image_id": 102805,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000102805.png",
+      "sha256": "806dc95aaab0597465774b5370c0d633f5e676ce58dff99a799af797ca6b6e79"
+    },
+    {
+      "image_id": 102820,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000102820.png",
+      "sha256": "63f7fb525310ddb6e879f2763eda34a1a441fce684a2791e78e7479e59478bc0"
+    },
+    {
+      "image_id": 103548,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000103548.png",
+      "sha256": "69b7586c750540b110761bb7199a5b8b3162dccb1e3d06eeefcc7bb1fa1066b2"
+    },
+    {
+      "image_id": 104455,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000104455.png",
+      "sha256": "ea20688b1a06a6e7c026214b612a504f2e3a98267e0075db9aed71d4591738bd"
+    },
+    {
+      "image_id": 105264,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000105264.png",
+      "sha256": "50b56e7f1f85e1b543512c0700be062c3ada860cc1460d5b9cd485423196df0b"
+    },
+    {
+      "image_id": 106266,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000106266.png",
+      "sha256": "5c1b15bb9496d259676f264da5bdbb963912b3abadd206d7ccf342ffdb74ad3c"
+    },
+    {
+      "image_id": 108026,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000108026.png",
+      "sha256": "c2137a7879363a577e60344054be1a71978bd479a624ee6855ca2c2b9ce3ecda"
+    },
+    {
+      "image_id": 109992,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000109992.png",
+      "sha256": "88334e52e6479d7c32debc5725a220e1eb5844342d6a88c6cfdaaf3b887ce39f"
+    },
+    {
+      "image_id": 110972,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000110972.png",
+      "sha256": "a1dfc26f52af1fc9d71c729ab19240f37697433e9638decb4883c0acdd1de65f"
+    },
+    {
+      "image_id": 111609,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000111609.png",
+      "sha256": "76420ffef2f99aaec8008443cc166668b3964e7e983f1d59bc2ecf27e8ebf457"
+    },
+    {
+      "image_id": 113589,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000113589.png",
+      "sha256": "1c383c30e31843a1e117ab6e4f442f8d3a268d718fa28b0a4f1eff2d14fa6da3"
+    },
+    {
+      "image_id": 114884,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000114884.png",
+      "sha256": "c58873a10974b1bf0f12134b9b9e4f56c3bfc7f733b19030e9bc21111da272a4"
+    },
+    {
+      "image_id": 115118,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000115118.png",
+      "sha256": "bd5753f90a963a86cea6514d1f0d9c2e7ea072ca39a787fff161d77c9469e72b"
+    },
+    {
+      "image_id": 116589,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000116589.png",
+      "sha256": "cd0a2f579d81d59a934e5eeb933332fd49562e577eadc3c24aa1d28bfacc04ed"
+    },
+    {
+      "image_id": 118594,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000118594.png",
+      "sha256": "a200cf7b6f9a3de24450c4a3237a4e5cbbdcd057fd6eab51f614b2301a461058"
+    },
+    {
+      "image_id": 119641,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000119641.png",
+      "sha256": "3cba12cad7fdda93b1402cc3c4f26ae9f7b3835ea95f341584b9f132a178fff3"
+    },
+    {
+      "image_id": 119677,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000119677.png",
+      "sha256": "3bb2c6832f57222826981a988ece3a536054c0d5786d1ef16cfe92ac153e4871"
+    },
+    {
+      "image_id": 120584,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000120584.png",
+      "sha256": "d26732895ae7f5f129072487c4a0231b98f71f589266d56f556598f0f048e91f"
+    },
+    {
+      "image_id": 121242,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000121242.png",
+      "sha256": "cee7d91d54ba55932985fdf284d6b5403591a09caf0bbdc733e958825b71f74c"
+    },
+    {
+      "image_id": 121417,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000121417.png",
+      "sha256": "1f7a27d87f1d4bff13a483791fbf1373789d73d7599b1dc24253c9b17c087941"
+    },
+    {
+      "image_id": 122166,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000122166.png",
+      "sha256": "63c2ec8effb8bd978b8aaf55e8922cc32ee6e950fb20cc7d5fd07a7938586b18"
+    },
+    {
+      "image_id": 122745,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000122745.png",
+      "sha256": "6919e5492d3d0ecddf35b45d92e4623be5395b922b1602bc77951cc8557655e5"
+    },
+    {
+      "image_id": 123131,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000123131.png",
+      "sha256": "5b9a5e7aa95c4f03e86a0e792eedf3dadf226f8b1b2eba84b96f2367e7d2cbd6"
+    },
+    {
+      "image_id": 123480,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000123480.png",
+      "sha256": "1882f2b8d37a15ecf87fff2319690c5c0b09c1a1cc67a09f2b6bbd06e69ef5dc"
+    },
+    {
+      "image_id": 124277,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000124277.png",
+      "sha256": "cd3563329e4ca09a256cc9065438e2fca429d2645ae4326c6188e52b9e459e2b"
+    },
+    {
+      "image_id": 124636,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000124636.png",
+      "sha256": "8de0c86edeb8abfdc8fba945bdd3744f2012c4670f18c52560bb02bc5ebed0f3"
+    },
+    {
+      "image_id": 125257,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000125257.png",
+      "sha256": "3bf84251fe11d6dda47cb45723db13cfcdc70561b07bd58da35cb6a13ef3ff95"
+    },
+    {
+      "image_id": 125472,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000125472.png",
+      "sha256": "792cf203215594af2a5836e6412ef56ac347d103aa1643985926043ccac11ef6"
+    },
+    {
+      "image_id": 125936,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000125936.png",
+      "sha256": "1f6d5cfc722c76fde1e93bc527741e98e91cb7206b48e5fb2c4ee81f55d0a27b"
+    },
+    {
+      "image_id": 127624,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000127624.png",
+      "sha256": "d7ab402712ec2a9d7050e81dd25d805c789cb9af3d99b34f377182c88543ea1f"
+    },
+    {
+      "image_id": 128112,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000128112.png",
+      "sha256": "521204ff6b8c7508cb3217c5280da8f5ebd838b649527cadc325eb6b4a447e95"
+    },
+    {
+      "image_id": 128699,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000128699.png",
+      "sha256": "de5222410669e22172fc727b2091d37d972b4daf3472c1476315b28ec1919f25"
+    },
+    {
+      "image_id": 129322,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000129322.png",
+      "sha256": "cb5065351b395334cac3039bfee727e1484e168bd9376679cd3b306e19024ecd"
+    },
+    {
+      "image_id": 130566,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000130566.png",
+      "sha256": "80db8370bb9779d8b0ea0b409ae25c9a12c488ff65d88ce2a51f961ede75249f"
+    },
+    {
+      "image_id": 130599,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000130599.png",
+      "sha256": "b9b4ba2efa2da6f56a29b2e8df287896e7762f3a6d6c313bfa17aac5ab4b2da8"
+    },
+    {
+      "image_id": 132703,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000132703.png",
+      "sha256": "52f40d234c0141f717dbc5973e97569c6d0d9c1a208a7332a3dce5d1dcb8d97d"
+    },
+    {
+      "image_id": 133000,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000133000.png",
+      "sha256": "1af601e32c6c648159f5c2c93a759c56b9c0a4df92d115030316dab6b1367278"
+    },
+    {
+      "image_id": 133778,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000133778.png",
+      "sha256": "1f3581af1b9e7c12fe98dc397192baafdd515a756809b2abf4110d4f92e0720e"
+    },
+    {
+      "image_id": 133819,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000133819.png",
+      "sha256": "c062e0e3f837e25b3ff26773b6d18d948c990d819c3d39c930ca5656db954c7c"
+    },
+    {
+      "image_id": 134689,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000134689.png",
+      "sha256": "4f5eef6b9e7196a97c43024243295dc47abfee7e5413e729a411d0ac37445692"
+    },
+    {
+      "image_id": 135890,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000135890.png",
+      "sha256": "742fabf07ff8e06e95e1fdbaeed5450cf40e9dea28c4ec0190b5a18184bb8372"
+    },
+    {
+      "image_id": 136355,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000136355.png",
+      "sha256": "63b02405aee30604e2d1475e6a117e650f4b0c680c0270b703e04b576cce8bb3"
+    },
+    {
+      "image_id": 136600,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000136600.png",
+      "sha256": "0955f5cd3e8e3528a20ad429d57e9813d80ae031b3f4aa2d08d5c0f52935c999"
+    },
+    {
+      "image_id": 137727,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000137727.png",
+      "sha256": "07721d0290e6a12fcb3b993e461bf9b112dde85d1788673f6ba134664b374f8a"
+    },
+    {
+      "image_id": 138241,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000138241.png",
+      "sha256": "6ccd7df7f6b61d0b2f9de837dfc45d058c5d96975b40ca4f348d17429b07e284"
+    },
+    {
+      "image_id": 138550,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000138550.png",
+      "sha256": "c8ec7142bfab425b5869713bad366e6f21157038499d1f070ced4d3446a2c5c9"
+    },
+    {
+      "image_id": 139077,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000139077.png",
+      "sha256": "1865710b800d2d861c9f7b14baac1eac215b04125f0070a56fb1dc98ae922947"
+    },
+    {
+      "image_id": 140987,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000140987.png",
+      "sha256": "996a013c6c4ec47f10d15febb49849ac5e0a6567e7b1e6f92910f8ebe6f4ed5a"
+    },
+    {
+      "image_id": 141328,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000141328.png",
+      "sha256": "9225e336f3adeb60a8911cdbdd0a54474d9bc9dbff71fedcd1cc0dd799614670"
+    },
+    {
+      "image_id": 144300,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000144300.png",
+      "sha256": "e6228b9ac643d1728e17bd266352620be3441a42beb6f9feb15517fe2b09ba1b"
+    },
+    {
+      "image_id": 144706,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000144706.png",
+      "sha256": "7327d307c8a27b3b741a993034d329334faaf74dd4771f50de9c0d2ab09fa091"
+    },
+    {
+      "image_id": 145020,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000145020.png",
+      "sha256": "4e1eabf4fb140933c4657a88c920a5e62bf8fecf734f9c7a9bbe65b16e5924bf"
+    },
+    {
+      "image_id": 146155,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000146155.png",
+      "sha256": "fd544bbe73276a27ca73a5d9f4711b760d6e226c21c07bd2781d76d9916615fe"
+    },
+    {
+      "image_id": 146457,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000146457.png",
+      "sha256": "3ba131db02a66c6e15e31036ce32d6d9cff4dd5dddb9bcff16a85abafbf5b44e"
+    },
+    {
+      "image_id": 147498,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000147498.png",
+      "sha256": "e5da93851087557fb01f0594e46864d3bd47fac46b61902654c1ca7c22ec8c7a"
+    },
+    {
+      "image_id": 147740,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000147740.png",
+      "sha256": "69cd78fb44dacc1c4f732c96385b7634f18642ac70250c5fa91f1c5385b23357"
+    },
+    {
+      "image_id": 150726,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000150726.png",
+      "sha256": "b5c06cbfd8febca7f2d2bbdf0a269a308063ef173d996d9e5e48f65f3a31fc41"
+    },
+    {
+      "image_id": 151000,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000151000.png",
+      "sha256": "72ddbabe854b4224d6d07350ed9dcc4bc4caf0539d7046514187d7ea8408b657"
+    },
+    {
+      "image_id": 151051,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000151051.png",
+      "sha256": "9bb014f3865cdb99fe965883a2df9508f83f8dd1e554d0567eb68919c22952cc"
+    },
+    {
+      "image_id": 151480,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000151480.png",
+      "sha256": "babe48811f21aa902e15c7f5f0e601fced1967eadb18db8d5d784d7c5e47b19e"
+    },
+    {
+      "image_id": 151820,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000151820.png",
+      "sha256": "707cdd29bc5056804743e04e1a6cc2315819a0c49f8fef9f35dd9f0b71bf7e92"
+    },
+    {
+      "image_id": 152465,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000152465.png",
+      "sha256": "91c209eb215f8f0c3d303cce3d088fe32dd23096b12173476379dc406004ccc5"
+    },
+    {
+      "image_id": 152686,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000152686.png",
+      "sha256": "938d80124906f6def65bdf9748190be6cfcb787778b43a91e4a8ccf65e3db6eb"
+    },
+    {
+      "image_id": 152870,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000152870.png",
+      "sha256": "e9a62d39e0feb05c0af2a31952859f06c0726badf26d8cf32b94537a7a3409f6"
+    },
+    {
+      "image_id": 153299,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000153299.png",
+      "sha256": "1f3211a0fc7203d5e738b85e69e6bedc0227f191da5cc94df596f6748d9003f1"
+    },
+    {
+      "image_id": 153527,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000153527.png",
+      "sha256": "664827df34f4c47a51d5dbb0ce794ccc4811d5607c176f56f4c1b4107a4ed4cd"
+    },
+    {
+      "image_id": 153797,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000153797.png",
+      "sha256": "217e84a65dcbdacd8450a9fd85a9ad42557776a69a8ad194ae02549ad47b4f8b"
+    },
+    {
+      "image_id": 154431,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000154431.png",
+      "sha256": "9b7baa75a5508325be02c62553a9c75bae226e5bd5708ed9def1ca1647ce5486"
+    },
+    {
+      "image_id": 155179,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000155179.png",
+      "sha256": "db3e8d69109977b9c6deb6248a60c2e5fad1e837406c091269efc1347ee988ec"
+    },
+    {
+      "image_id": 156076,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000156076.png",
+      "sha256": "9a7196cc94bfba9e1243928e756668ef6e36acdb340c85cb7f761097caf89343"
+    },
+    {
+      "image_id": 156292,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000156292.png",
+      "sha256": "74d0ddb860bfd29585b9bd7f43edce94bb22ae75d624ca58c45b022b488abcd1"
+    },
+    {
+      "image_id": 157213,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000157213.png",
+      "sha256": "f57d0f3d4bf227e13b7cdca324bf093c48d4faa450501f4ed14469c24dfbfc83"
+    },
+    {
+      "image_id": 157390,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000157390.png",
+      "sha256": "15e25395a427cc550fb40d04eee400b71f2b27bb6b10c944e970415853c77ca3"
+    },
+    {
+      "image_id": 158744,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000158744.png",
+      "sha256": "57fe98a192ade63c7bf570dcbc7c51b99939b861a0463bec65f1c4ff9d5d0cab"
+    },
+    {
+      "image_id": 159977,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000159977.png",
+      "sha256": "c7242e74b8f2a99aea6660885f0e6d34e343d6a6bb44f0d6b7df38dca299c5b0"
+    },
+    {
+      "image_id": 161032,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000161032.png",
+      "sha256": "2a5d925f90f031c23ed784c4b966488375185eac4f6c9a81ff6a44620d2b50a7"
+    },
+    {
+      "image_id": 162035,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000162035.png",
+      "sha256": "184d97b4377a4953302bf2bb7c2f081aeeedcf20acdd2b42d1a803e402fa324c"
+    },
+    {
+      "image_id": 164363,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000164363.png",
+      "sha256": "ef47214f514816c30eef207352337e7e5d61be1f679ce7919bb2a8dfff773264"
+    },
+    {
+      "image_id": 166521,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000166521.png",
+      "sha256": "c8094cfbff532ba6ba427248d60495b282cd8b02aff19d7ca13f960c28626eab"
+    },
+    {
+      "image_id": 167067,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000167067.png",
+      "sha256": "7d1164d49070c2456986cd5f7aafcade337821ed2b1df26861c0027f244a4924"
+    },
+    {
+      "image_id": 167486,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000167486.png",
+      "sha256": "0bb373314327644b00983b37644dbbde9795f29919df99fbbbe7c466be250f3b"
+    },
+    {
+      "image_id": 170099,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000170099.png",
+      "sha256": "cf73e080bc7cdc5180e17342d045e70a0935639ebc5d4b8163683edb4c3ed3a5"
+    },
+    {
+      "image_id": 170739,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000170739.png",
+      "sha256": "a45b20fdce5059f8e7287ff46138ae88cdbc09a2deb6d75b07189512ee1c8415"
+    },
+    {
+      "image_id": 171757,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000171757.png",
+      "sha256": "469f6ad43e788d6361e7376e610e0b6f38003093822c9da93a99c918f39d17d2"
+    },
+    {
+      "image_id": 172571,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000172571.png",
+      "sha256": "373390c3cbe6d554ebe7b43aa24521d138f35b58a2c7ad1ef140e9f2bca45282"
+    },
+    {
+      "image_id": 173044,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000173044.png",
+      "sha256": "cb68fc85ab6409395233e91f12d165d95ff8cc5b09fb81ce053b23f7ac861837"
+    },
+    {
+      "image_id": 173383,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000173383.png",
+      "sha256": "2285113cf7b7f193b3700b4bab4d9bb37e61b8722e17578802da8ed24654ad9b"
+    },
+    {
+      "image_id": 176232,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000176232.png",
+      "sha256": "5573a30d23bdaf813bb4cdbe48a53b7270140e1d6d33b7429db9a009c461c539"
+    },
+    {
+      "image_id": 179265,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000179265.png",
+      "sha256": "4dc9d2c36193519179562a0588e8e5bc951375c7f0a96cf684c1913e6f869de6"
+    },
+    {
+      "image_id": 180011,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000180011.png",
+      "sha256": "6104dc8293d9b5ed66bec485b812262bcc65d0322ca34d8d632c6b96bf4f3fc7"
+    },
+    {
+      "image_id": 182162,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000182162.png",
+      "sha256": "4ee7965a2341c092b34a57c7ba17a218850c6478d786fbebb6bf79e2390a2d3b"
+    },
+    {
+      "image_id": 183104,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000183104.png",
+      "sha256": "eb8a51ed0b35e8783601097842cf201a45a41400145b0ec14c9760be6037a6f3"
+    },
+    {
+      "image_id": 184762,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000184762.png",
+      "sha256": "57535a63d72f565e7b0e29acc22e852e13876959dc4e8d42c55e7ce2cda78552"
+    },
+    {
+      "image_id": 185472,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000185472.png",
+      "sha256": "fbf1173f9220af01a4adcf5d879ea0b096e08c967c9022276b1111c272638250"
+    },
+    {
+      "image_id": 185599,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000185599.png",
+      "sha256": "9eced3da7778644b970ecc7a4835d551867bb79b5516d0144e9855f19b9354e0"
+    },
+    {
+      "image_id": 185950,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000185950.png",
+      "sha256": "72e083a19f50af05c9f29feffe5e544a9713a231c4deb848f733c33520b60e6b"
+    },
+    {
+      "image_id": 187236,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000187236.png",
+      "sha256": "7abf7c88d14109a0fe8442484226fd4070777fca80b8af68e565182a00e797c8"
+    },
+    {
+      "image_id": 189698,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000189698.png",
+      "sha256": "94f017c1622540ab49ba9ba1e55cf350a19676dc8cf7fa00175479f2b40f8968"
+    },
+    {
+      "image_id": 190007,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000190007.png",
+      "sha256": "6c822e20747a552f5f78d2f72016136d031b3c766a735c59d35aafcc7f993c3e"
+    },
+    {
+      "image_id": 190307,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000190307.png",
+      "sha256": "4463911ed6bc1f01c1dad9f5ee5a3b57dbd84f9a69247b555ff44c4a7a813230"
+    },
+    {
+      "image_id": 191013,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000191013.png",
+      "sha256": "5360b56d895520b53967da5e2fe70940785bb1b6871b60fd467b625affeb2836"
+    },
+    {
+      "image_id": 193429,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000193429.png",
+      "sha256": "ac84892bf5c20e06b3835822e105485517c083eb9d251588382304a3782316f4"
+    },
+    {
+      "image_id": 193926,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000193926.png",
+      "sha256": "e4c1f2d29b6fdb216857a81c69c8187f911eb7636b6b7de404ce72a13570b8a7"
+    },
+    {
+      "image_id": 194716,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000194716.png",
+      "sha256": "de1cf2aa40fceeb800c6ce3da7dd3196db708bb5b90452ec224ef627a9b521a2"
+    },
+    {
+      "image_id": 199442,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000199442.png",
+      "sha256": "28f81a924e7dbca74fcbc36e8fac1d22639a7167d62acc9ce36636a1649a56a3"
+    },
+    {
+      "image_id": 200152,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000200152.png",
+      "sha256": "2f73503f65efebb222a3520b41e3413ccd3827333eeb4b2dc8bdcadd3d8c2412"
+    },
+    {
+      "image_id": 200839,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000200839.png",
+      "sha256": "061a1104f3fcb8bfcc5e70654bd5f182048b2f8aca9afc29fa614d0eacb44bd8"
+    },
+    {
+      "image_id": 203389,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000203389.png",
+      "sha256": "e522364c7182b5238105382f7b6812ff8cd40a345b64d7fbc39e7339de3f01ee"
+    },
+    {
+      "image_id": 203931,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000203931.png",
+      "sha256": "524af3f5b8334e7b7187866dcb5ffaafb849bb54eeff7d374c2c447b06d61c43"
+    },
+    {
+      "image_id": 204871,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000204871.png",
+      "sha256": "c1ff053aba4dbc34350fb8aac86edd5396139d6d05c0cf8eeb3d7259f4107448"
+    },
+    {
+      "image_id": 205105,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000205105.png",
+      "sha256": "06f2c4ce331bd1bdd3fb11791a394c82de04d8b6c4ddeecd16d109961d0bcb5c"
+    },
+    {
+      "image_id": 206411,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000206411.png",
+      "sha256": "7ffd359df5c09fc8732218141f105236a6663f2b6851da3ad38b4af5529e6dda"
+    },
+    {
+      "image_id": 206838,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000206838.png",
+      "sha256": "b6c84e298ff95e563088d74092abe47c3529445571df763b2ded7dd8aa5dbabb"
+    },
+    {
+      "image_id": 209222,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000209222.png",
+      "sha256": "70a693a8379b569b005bf34e7a888550a56e1ef2e60c29f6dff6dc1487ba1f4e"
+    },
+    {
+      "image_id": 210273,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000210273.png",
+      "sha256": "a715c61ea6066d52e30f2379aa604efc4965e8e063a7fa534ccdd42e04272578"
+    },
+    {
+      "image_id": 212072,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000212072.png",
+      "sha256": "785516b4eed20285ff5c17b98edd4c0870f814ce8c73838687d0668a618c8af8"
+    },
+    {
+      "image_id": 212573,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000212573.png",
+      "sha256": "3945c2521024eb934e161acdb3184826d123aa2c1f64586e1419672838f175bc"
+    },
+    {
+      "image_id": 213035,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000213035.png",
+      "sha256": "9baabc37b993f8ac5d275805adc851b912f99dfd9890be534a0656a984f04625"
+    },
+    {
+      "image_id": 215245,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000215245.png",
+      "sha256": "427a9307bbfe5f9f95bc38fc3c5418308c8c7b75f4d0c91a0bd180e02a9e0077"
+    },
+    {
+      "image_id": 215644,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000215644.png",
+      "sha256": "f82a739a443291ff6eeca208c3f70a87aae5d7d44d5e5d62070a7fd945b2a776"
+    },
+    {
+      "image_id": 219485,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000219485.png",
+      "sha256": "08e1a1b9b768b753a107e3c66827bf133b6a0743551da36c257fb119cfe0c296"
+    },
+    {
+      "image_id": 220732,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000220732.png",
+      "sha256": "b4bf5bb84993ee733e63ea70baa9a247be96346a2e74bb29285a62d1f41727fb"
+    },
+    {
+      "image_id": 222825,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000222825.png",
+      "sha256": "72fc3329c243975211747c81faad2a8c14731f6a2febf7959ffb8df5a8a04f83"
+    },
+    {
+      "image_id": 223130,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000223130.png",
+      "sha256": "66cefa23cd1157f82ce4244f94e5ed64ace23456e0f5b9093ace43d4be6ccf15"
+    },
+    {
+      "image_id": 224337,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000224337.png",
+      "sha256": "7f033926bc24a55e3062d5b0a3202e353cd5fa7088a1339ed7eacfe8ab5cc059"
+    },
+    {
+      "image_id": 225532,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000225532.png",
+      "sha256": "106c618a74d9c91b1b35530026c01b9e8cb8017da4d4835feebc0a708ed38a93"
+    },
+    {
+      "image_id": 226984,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000226984.png",
+      "sha256": "92312452596692ea2c1b79230217911bd8b883027018f3a5e898203955dfba44"
+    },
+    {
+      "image_id": 227898,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000227898.png",
+      "sha256": "32fde2ab7417c03bd931398d2a434fa3b19d6f2198c026f53b0cab04abcd70f5"
+    },
+    {
+      "image_id": 229216,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000229216.png",
+      "sha256": "61cb9ed65cb714fb3119095a0369ff1d2679e978e755b6669e10be76b4cc5de6"
+    },
+    {
+      "image_id": 229601,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000229601.png",
+      "sha256": "60bd9c40e6f707943974f582b4357e61d4f9ad7a3eff0dc015274f136f48c88d"
+    },
+    {
+      "image_id": 231125,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000231125.png",
+      "sha256": "39e3abb001eb78b4922d451ad8b8cca4e916415e30b906a90071c503ca0b5550"
+    },
+    {
+      "image_id": 231831,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000231831.png",
+      "sha256": "429efd1711365c1d85ed0d62762524c9670fc1555ff9d07086f9fd36d80fe50d"
+    },
+    {
+      "image_id": 235057,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000235057.png",
+      "sha256": "9954b3f1d54f7b163814328021514363cd6c9415fb605a5ff2d0e51a19805a89"
+    },
+    {
+      "image_id": 237984,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000237984.png",
+      "sha256": "e999422ca1aa1888cf0d59dc0a5d13d50b13cd0e35704abfb2b99565e4abd8bf"
+    },
+    {
+      "image_id": 239857,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000239857.png",
+      "sha256": "1a0e4efcfaa9683179315fd86aeb76622282fe6ef3b20e2dc513899567cf4aac"
+    },
+    {
+      "image_id": 240049,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000240049.png",
+      "sha256": "96ded2e975e7da580798337774fadb89850e030923272ba65085f08b01ba5a31"
+    },
+    {
+      "image_id": 241319,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000241319.png",
+      "sha256": "edd6f14a98a870748f1fa785e1aa98ca5ba892d91a057e74af8926c3d155e0b6"
+    },
+    {
+      "image_id": 243626,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000243626.png",
+      "sha256": "ff5073aec0a513445740f645281b3a0a3c1b6492bcbf9c9d6baf4a1384cd9a5b"
+    },
+    {
+      "image_id": 246436,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000246436.png",
+      "sha256": "c997be6611943dae877217a4fabee133f2318b6780c4988f121baba3adb02bb4"
+    },
+    {
+      "image_id": 247838,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000247838.png",
+      "sha256": "d9e542e4e8e392d69d2d04f17598cac410443171179fa929f0039f842a97d1c9"
+    },
+    {
+      "image_id": 251572,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000251572.png",
+      "sha256": "01d8be5ddfb9013f2977590f4e1381fb82307e2da5a0399d59e41ad65df8c7cf"
+    },
+    {
+      "image_id": 252219,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000252219.png",
+      "sha256": "4ccd3b799106cd015c794c1791fc3a554073178371b2cc8f03230e909484903c"
+    },
+    {
+      "image_id": 253695,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000253695.png",
+      "sha256": "e2b9998007976dd4b1194c01d1e5aa6b62d6b77fdaa3cb59ea1f13297bd304e5"
+    },
+    {
+      "image_id": 255749,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000255749.png",
+      "sha256": "0f1dad922025d389e6b8ba967f2c01325f56735c3a0244c4639afd2b42f79fcd"
+    },
+    {
+      "image_id": 256916,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000256916.png",
+      "sha256": "c52fce9970855f2f1db14dde3a868fa405bbc8385bd05bdc81b1cd4883d19793"
+    },
+    {
+      "image_id": 257566,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000257566.png",
+      "sha256": "68fa5d9814bfe19d0df174826191d98ff7585eeb5f11be2d07bbdb6ecec8b825"
+    },
+    {
+      "image_id": 260105,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000260105.png",
+      "sha256": "9cbcba17a0ab8ba161bc3c91f00663ccfe8b37a3fb44368961d8bd22435957cf"
+    },
+    {
+      "image_id": 260657,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000260657.png",
+      "sha256": "7127e2c352654e30952109bbe1f0bfecec9f08d9ad4a52ee9edc56db506fd97d"
+    },
+    {
+      "image_id": 261318,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000261318.png",
+      "sha256": "0bd8cbfcdebc3715b92c7b3a05aa56acddfb214ae303b682059f0ee7cc06357a"
+    },
+    {
+      "image_id": 262682,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000262682.png",
+      "sha256": "df621189e0e226a6fc6f5f8394b48e7d9754cb689d1105cdcb0845ac0225ffd5"
+    },
+    {
+      "image_id": 266206,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000266206.png",
+      "sha256": "6fe104f44f4607b5e5c271a8da837150db41e4b44c49f26666cc72e9f474d47e"
+    },
+    {
+      "image_id": 267191,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000267191.png",
+      "sha256": "9adb292ed78c7f2f8be44c6a4adc26a34b50674366d131af2ae0b4ed8f9115fe"
+    },
+    {
+      "image_id": 267351,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000267351.png",
+      "sha256": "2894fb6851119645cf9fb70ebae516a0f21f783b373a3bdb85f83f2039b0f9d8"
+    },
+    {
+      "image_id": 268831,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000268831.png",
+      "sha256": "84a05692a7395aaed5f60f0befb5bc095f0b3979729a99cc5608902d709abcaa"
+    },
+    {
+      "image_id": 268996,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000268996.png",
+      "sha256": "e9b2a57a788c5cc3e7ababeda43664bcef2a5d25c7f94c6437c43fe651fd78fa"
+    },
+    {
+      "image_id": 269196,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000269196.png",
+      "sha256": "64b3105cae8758dde206286f4bc38cb16837fb6dfa0103e321b802b84ee743ff"
+    },
+    {
+      "image_id": 270883,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000270883.png",
+      "sha256": "71448f173e01e27d60565b45ba12502c353cb5f716f186386ab430add3bbd044"
+    },
+    {
+      "image_id": 273198,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000273198.png",
+      "sha256": "5e2056ec6063bb2b20fe17ba73186fe31249e3397ed29f1e426ab4d8862b9596"
+    },
+    {
+      "image_id": 275198,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000275198.png",
+      "sha256": "a295bd20c07086d0d1e9ee4750bf9c2ebe3d44495d400db9eb458fc50e12ecaa"
+    },
+    {
+      "image_id": 275392,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000275392.png",
+      "sha256": "2e07391cf88bf6c72d0cee3a8dc6c8176bf3051682a7f344d4114d0559b4b9f3"
+    },
+    {
+      "image_id": 277051,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000277051.png",
+      "sha256": "9067d93a3a02fa13e75c6035e5e86df4f2238ae7c3a6b83bf3b5c9776d7b8b2c"
+    },
+    {
+      "image_id": 278006,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000278006.png",
+      "sha256": "3ffd790742959556f8d95dae3e61a22be109aad11600fe0a2b56d7c016ec9c8d"
+    },
+    {
+      "image_id": 279145,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000279145.png",
+      "sha256": "b3506132503bd4027b724d8115a647fbfd2c0a61511607228ac652b899b1305b"
+    },
+    {
+      "image_id": 279769,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000279769.png",
+      "sha256": "8327eb46870897cde55955ad38608dd26cf180c8f96819cb579e70a4469f6fb6"
+    },
+    {
+      "image_id": 282046,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000282046.png",
+      "sha256": "281b82644f09de80051dd45b92f1b0f48912a0ee38f15f9a10e68aa1e7fd9459"
+    },
+    {
+      "image_id": 286422,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000286422.png",
+      "sha256": "d7da02b2e209143c50b17488f4223fbc5b534950d5516a2c11a7265670851b96"
+    },
+    {
+      "image_id": 288062,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000288062.png",
+      "sha256": "ea5bf3a29a4398740618511ff533601c27eea2f53948019ab8880f4b2185769d"
+    },
+    {
+      "image_id": 289516,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000289516.png",
+      "sha256": "1539716ae5d510ad276e1cf30ce9999aaac966ee4935d3f85a6d7305e3d5a78b"
+    },
+    {
+      "image_id": 290179,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000290179.png",
+      "sha256": "bca5f41827a1a645ce895fa10e0b30b48cbe7ad00fa280625472dabae585ab8c"
+    },
+    {
+      "image_id": 290768,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000290768.png",
+      "sha256": "a13a45cac40c4772fce5a6cc93ce2016b80193c0fc9315b5f2496359b43e0907"
+    },
+    {
+      "image_id": 290843,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000290843.png",
+      "sha256": "cd71f41f25621dcae9d4cb6a2b5d36768d593407f4579cb9e6e0de0bac29c792"
+    },
+    {
+      "image_id": 292024,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000292024.png",
+      "sha256": "19825255d384a35f5e97a1c38c5f71f6c6ae6efee722f500e5d1528bc3f0f530"
+    },
+    {
+      "image_id": 292225,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000292225.png",
+      "sha256": "24d53c3960f3dd3b6e0e62a4242b255b2335ba554a1bcf5ef113b28b7324d7bc"
+    },
+    {
+      "image_id": 293071,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000293071.png",
+      "sha256": "54cbdf42f9f7a7263f3e41ab457722c2f55c6bd129ff9d7f123dcb243b1a7dca"
+    },
+    {
+      "image_id": 295478,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000295478.png",
+      "sha256": "4de4086034c665e9948ee3090f16889e56adcc40c8323c8c31cd257abb352fc6"
+    },
+    {
+      "image_id": 295713,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000295713.png",
+      "sha256": "5837af42db2f2eedb989a381467c3cb10b9c5552f093cdf52552e08de43706be"
+    },
+    {
+      "image_id": 296284,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000296284.png",
+      "sha256": "22ab778cafa12d425a584d5c7603583aba13b0030f0cc1fc28cab83ee6904d1a"
+    },
+    {
+      "image_id": 297578,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000297578.png",
+      "sha256": "96e9cb21c17afe9bc0587214fc30b613d99e4e2f6da300b2d06bbc5fb61314da"
+    },
+    {
+      "image_id": 300659,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000300659.png",
+      "sha256": "424e7b7955a8cee5ae7ae43dbc23100de302787b71d0b25e8910612970af8807"
+    },
+    {
+      "image_id": 302536,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000302536.png",
+      "sha256": "292a6ba9dd5befeb6a02e617b1887d73059952e0d893ebb6fb61ced532e86846"
+    },
+    {
+      "image_id": 303499,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000303499.png",
+      "sha256": "03c9591b7ad968c03c856a4e3ef4550d7bdc7e6b00d8296bbb646a81121d625d"
+    },
+    {
+      "image_id": 304291,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000304291.png",
+      "sha256": "cee83f9ecbeba65f99342e58928481657894728ae7d9805af950908e62ff3d53"
+    },
+    {
+      "image_id": 309391,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000309391.png",
+      "sha256": "40cc92f11d5b4c8c88201c935c053e0ec9d4fe8264aa5d15c01deea7aa1efe2a"
+    },
+    {
+      "image_id": 309452,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000309452.png",
+      "sha256": "12c128a4e0d7333602d474c9f2ea1d67411bcd0572a257bc119289adcdbf9f4a"
+    },
+    {
+      "image_id": 309467,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000309467.png",
+      "sha256": "19f47fa7ea8351eb00c50d010ce24797ce88dffcc92de5552ab06a5e70e5afc5"
+    },
+    {
+      "image_id": 310980,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000310980.png",
+      "sha256": "88406ab87cbdca8291b6b828968671cf60683230dc4be49fa9f6972e0822c3d8"
+    },
+    {
+      "image_id": 311081,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000311081.png",
+      "sha256": "b9fb4bbe3be524b73173becc9a90fb648b277abdfcc461a00f027ec3e18db136"
+    },
+    {
+      "image_id": 312263,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000312263.png",
+      "sha256": "43b9c57e257f30fda83ec715faf6924cd5ddb44d4a712aa1a33bb895b5c110af"
+    },
+    {
+      "image_id": 314034,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000314034.png",
+      "sha256": "a376e83dc226feaa2142fdc80192c8d5f8fe2e6225dad448198457d8fc235f44"
+    },
+    {
+      "image_id": 314251,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000314251.png",
+      "sha256": "192167b74e065e2a8c77aa0d31617e7bfa464166a7247cc0515952db4df50362"
+    },
+    {
+      "image_id": 314264,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000314264.png",
+      "sha256": "361559b5d88f1875d7c8426e9ae90b88c0c7265c0ff2c00d1e93cc6fd9040e79"
+    },
+    {
+      "image_id": 314294,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000314294.png",
+      "sha256": "97cecdc3f1c9feaedde184c5556abbce11958386ccfec03ab76a798eaafc0ebc"
+    },
+    {
+      "image_id": 314709,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000314709.png",
+      "sha256": "b85ccc74f83af807f4eda389fafeb7e56ba9b6e62f2d3675456e12bff650dd03"
+    },
+    {
+      "image_id": 320664,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000320664.png",
+      "sha256": "a3754f2113ec379075ca6435114f8e4d0e935d8ce3bcd0d57f4ac85c63bb0c94"
+    },
+    {
+      "image_id": 320706,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000320706.png",
+      "sha256": "19112e28728d901f263d2d805c932e651f0de5e31279fc068773f50bf0759a2d"
+    },
+    {
+      "image_id": 322211,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000322211.png",
+      "sha256": "91c987757dae4dc1dda4f34311f80a30b43d51d3487ea0f83b2036d0fab55b48"
+    },
+    {
+      "image_id": 322844,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000322844.png",
+      "sha256": "7177f9deb12d56513f5376057c4c568306e0482babe69166c8bb3e8d31aee43c"
+    },
+    {
+      "image_id": 323751,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000323751.png",
+      "sha256": "1fbefaef1625898653deb1f236712aa65d856448550092560f9560439962a907"
+    },
+    {
+      "image_id": 323895,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000323895.png",
+      "sha256": "160716ad64003700bdfc3cc68c6eaf9ecfaa6937ff347ccdb62691ed957c1098"
+    },
+    {
+      "image_id": 324258,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000324258.png",
+      "sha256": "adb7bfc5dc5d51efd773c571a8e40af9c35d28da2bf0fc207fef9029fdb74621"
+    },
+    {
+      "image_id": 325114,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000325114.png",
+      "sha256": "f20400f1539fe1b88327f739f7edec030d3b17f128f0f43579620802f9e0df66"
+    },
+    {
+      "image_id": 325838,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000325838.png",
+      "sha256": "6b841dd3d62a9934b54e272f4d7163dcff2f367da2ec8ed14f0dd36d86b6917f"
+    },
+    {
+      "image_id": 326128,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000326128.png",
+      "sha256": "ea31321cbba7bcfdf75d98f8fbc8894a5e2963cba3b83f21d8399f618b26dbdf"
+    },
+    {
+      "image_id": 327605,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000327605.png",
+      "sha256": "d2d3e163697f07f8c582b75d3de9b13cee6a1dfc8cbc20dc14d06856fa50c5fc"
+    },
+    {
+      "image_id": 327701,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000327701.png",
+      "sha256": "cc01919a388ed13484019bb71d77caf2fc048c34c6e9adf6e203ecc1986f7206"
+    },
+    {
+      "image_id": 334767,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000334767.png",
+      "sha256": "d132c257ccdedfca067fe753048a7d059b329887692e451fe247b6c2bc337484"
+    },
+    {
+      "image_id": 338191,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000338191.png",
+      "sha256": "cca2c36268895abc5cd1c39082efce7c87e38e21666d43067c5044e889fab86c"
+    },
+    {
+      "image_id": 338986,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000338986.png",
+      "sha256": "447621f4c9ef92cfbde1cafeb6f642fa26d33b53124fb81f907b326e94c1599e"
+    },
+    {
+      "image_id": 340015,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000340015.png",
+      "sha256": "784d7871f251b547638e4326ec9fd04936113c40df60181fc60d540a51d41fc8"
+    },
+    {
+      "image_id": 342186,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000342186.png",
+      "sha256": "269e00b88e3ed713687a3b1c8d1f1e0c2a0923180de9b76c03464bdefe6f2233"
+    },
+    {
+      "image_id": 345469,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000345469.png",
+      "sha256": "107efbc60f6128e9c37723e07526be28c50d7d6c7cbd702c96f3b3cbeba3154e"
+    },
+    {
+      "image_id": 349152,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000349152.png",
+      "sha256": "9f9cb2553fea03b1b2bcba926b6f3ecd3b1c4927d0093c1eb34aaffc4c5c8f0b"
+    },
+    {
+      "image_id": 350607,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000350607.png",
+      "sha256": "afb7c23e21a335fbcd91e2343facea236263cfb46d4a77253fbb46ac0ffc91a4"
+    },
+    {
+      "image_id": 352491,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000352491.png",
+      "sha256": "a46ba81a47993e1722820bde8b7576356c6a5e75ffacdb0806c8bd1fc1f72994"
+    },
+    {
+      "image_id": 352582,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000352582.png",
+      "sha256": "95c2efbf307c8dc13272d7265f1874b6ad80f0e28f94b62c7f68ef6a99b1a728"
+    },
+    {
+      "image_id": 352900,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000352900.png",
+      "sha256": "98a9e53dc81bd117bf7cf1bcd4e08e1ed0f8d2906c2b80e6f9090e4aaa17fe32"
+    },
+    {
+      "image_id": 353518,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000353518.png",
+      "sha256": "bf49424a0b26fed96fefd275fa510419a4b5e49105135a401c59b5a9fdf430ec"
+    },
+    {
+      "image_id": 353970,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000353970.png",
+      "sha256": "4d357edad31f35b5d1dbd17f4554a95b3933ac994ceb50538cdb53b1c5c7c9ff"
+    },
+    {
+      "image_id": 355677,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000355677.png",
+      "sha256": "1f324c89261ba1855214dd9890697df5e6e8de75052b1801797b034bec36039c"
+    },
+    {
+      "image_id": 357238,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000357238.png",
+      "sha256": "5ca8d153205ceb7edc05acc263c21060c018d2ab713b46c33ab7eb6e8186f366"
+    },
+    {
+      "image_id": 357816,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000357816.png",
+      "sha256": "88092619bd36c51b610b2d91d7d80b5d362db70438fa7ce6b7ba13ac6bd7dbf9"
+    },
+    {
+      "image_id": 359781,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000359781.png",
+      "sha256": "2639a0adf8fdf6acf62d99e3294c197099305793bee51228b6175562d4ea401f"
+    },
+    {
+      "image_id": 361147,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000361147.png",
+      "sha256": "1065aa32e6c98d2ad5218bcf2722e83760304941e5a06f70b5000d58d511327c"
+    },
+    {
+      "image_id": 363072,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000363072.png",
+      "sha256": "40f7f80354f71388b8100d5b83e801994566688209cb18281a0e8fd7cf62cb71"
+    },
+    {
+      "image_id": 365098,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000365098.png",
+      "sha256": "2dc26937c1a84dcb96280f0b0da450906b1bd01ee7a05c383375218b02a82e9a"
+    },
+    {
+      "image_id": 367386,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000367386.png",
+      "sha256": "5eaef0fa95d8e9d58b06491e96d581e6c57c43a1ba2f2e1805819e96b62da4fd"
+    },
+    {
+      "image_id": 370813,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000370813.png",
+      "sha256": "f7149e9393d3b22c14f1f2f23155d79c5336c304e5b9adbf5f4f967c4f18c549"
+    },
+    {
+      "image_id": 371472,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000371472.png",
+      "sha256": "c51a8c7e56f0863288aa7ac6b1b7d263f7158e0e2bedf5a6950ae5bbbe6fcdce"
+    },
+    {
+      "image_id": 372718,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000372718.png",
+      "sha256": "17ef42ab371ff8a34405f3b33a80bc3bdd7cc26863d62fb02edcd94be019db75"
+    },
+    {
+      "image_id": 375469,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000375469.png",
+      "sha256": "c18b032b5b530679920d0632deab676eb9f0418107861a6f64fa306903496f0a"
+    },
+    {
+      "image_id": 376284,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000376284.png",
+      "sha256": "0f3168fbde1263c981fc8bd089a6efa816a9552937a3017f3a973dfb26f86e87"
+    },
+    {
+      "image_id": 377113,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000377113.png",
+      "sha256": "0cbbe1dadac1c24ce39c207a9f00c8eb8eded554af4d6a546dfca2b0537df2a8"
+    },
+    {
+      "image_id": 377393,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000377393.png",
+      "sha256": "2ee73604007aa61699b77b6b89c4ab0f932a570e88e8dba0e435a11852ea2c17"
+    },
+    {
+      "image_id": 378099,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000378099.png",
+      "sha256": "d1811de7ccc6b87d0d2b3851d564dda5ef5dba0753ec087e8fa9857be9a734b3"
+    },
+    {
+      "image_id": 378244,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000378244.png",
+      "sha256": "6c14b6827dc66777e077df1f90eb1d25313eb0665ffb68b59e822f43a70f8d23"
+    },
+    {
+      "image_id": 379842,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000379842.png",
+      "sha256": "d693c1a0919e4b9237a2ea849fd1a58ccebf0f9010efd59532b4122741044e36"
+    },
+    {
+      "image_id": 381587,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000381587.png",
+      "sha256": "81703baeb030c80dd6c89bedbb4e83fd48d82d98b62c20b1c71ebacf3c9f749d"
+    },
+    {
+      "image_id": 382125,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000382125.png",
+      "sha256": "cdb436723b6b583f9a05da7e031da7d01440553d21c2dff245f53118c38af7b0"
+    },
+    {
+      "image_id": 382743,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000382743.png",
+      "sha256": "89f5e33db8cf135c613e3b07e7646557ec0f2d443d4bb67b2c1133053acbcdba"
+    },
+    {
+      "image_id": 386352,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000386352.png",
+      "sha256": "41ec7a6bed1ebccba9b5be2d12f5e67654c3884e74a079597fbf5fbb233be649"
+    },
+    {
+      "image_id": 386457,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000386457.png",
+      "sha256": "0d183dfbd8df62c65110f9c8f8ca717c7c3f2d8fd3625e25a01d1d01888280eb"
+    },
+    {
+      "image_id": 388903,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000388903.png",
+      "sha256": "12d731da8b84cf0515c3d5e0adb02764d60b39402362cf9d0f6a08816ffd6501"
+    },
+    {
+      "image_id": 392481,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000392481.png",
+      "sha256": "fb6244478f65946fe76ba6185ca0682d8e5cc432c7e70ec502a0b82b78cfd755"
+    },
+    {
+      "image_id": 392722,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000392722.png",
+      "sha256": "3fb6aaf3eee0561260528f45759e8fc19cddb9c6af1430426d29c35b635af77b"
+    },
+    {
+      "image_id": 393056,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000393056.png",
+      "sha256": "d850fe8d204c6dd9f906a360f85db3131fafa226d5b5f2581458e31a96b36d1e"
+    },
+    {
+      "image_id": 395801,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000395801.png",
+      "sha256": "88b2abc3cd6564d54eface71340f4ed15f4b69a55fb6793dfca993d9a1c848d3"
+    },
+    {
+      "image_id": 396274,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000396274.png",
+      "sha256": "eb10d8950f2dc291b955e0116b944997c06d5a760cead6816de7d671d327aa0e"
+    },
+    {
+      "image_id": 396903,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000396903.png",
+      "sha256": "52284ae681a687610ad7d66369b375df1f5dfea396cac87249f67e287cc1ac2b"
+    },
+    {
+      "image_id": 397354,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000397354.png",
+      "sha256": "2e16d827d0bfb5db52f43c2ae40ed2b3b4a631a76d58d1a2934b0e21f992af50"
+    },
+    {
+      "image_id": 398652,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000398652.png",
+      "sha256": "cdc71d176df2aa7280f4a1b975466dc688ef3a2ca7eaae5cdf05fc4f66dfa414"
+    },
+    {
+      "image_id": 398905,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000398905.png",
+      "sha256": "11254035c9e4f74ece3910ab9bc631bfcdbf328a38930a2e6f53cd87f095c18f"
+    },
+    {
+      "image_id": 399764,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000399764.png",
+      "sha256": "a23c583b38a38f2fa4539db4084775c4abb46ba79ff03908330246c66a300aa0"
+    },
+    {
+      "image_id": 400082,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000400082.png",
+      "sha256": "96f928e6efedd83ce4ebc023dcb8ad3ece28d6c40ebe81df34e72886bf0505e4"
+    },
+    {
+      "image_id": 401446,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000401446.png",
+      "sha256": "0b897dec50c06d5ad87b37dbc2a68d3a367bee6b04c6f8efc7f92be7dc9e1637"
+    },
+    {
+      "image_id": 402473,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000402473.png",
+      "sha256": "9b1812fa8a9f45636d8be6a72b6e4ab521bb01831639cdb78a6832be8511947d"
+    },
+    {
+      "image_id": 402615,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000402615.png",
+      "sha256": "4860848533505b2f9600c711ea2a04805aff2b8aa3e7ef28e335af3390f7f27e"
+    },
+    {
+      "image_id": 403122,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000403122.png",
+      "sha256": "a5211db9595abf1641ec17db4ec067ecd301e5a33c7b68744ff1756ccb52a633"
+    },
+    {
+      "image_id": 403584,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000403584.png",
+      "sha256": "47ca10a651cb2fbfc7a8e83793e2ee6c7a00eb936257473cd10e220789c46ada"
+    },
+    {
+      "image_id": 404534,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000404534.png",
+      "sha256": "7ec10fd8af31012e6d2825b9983ac75be402551c4e96e82fb2c62fcc09469eff"
+    },
+    {
+      "image_id": 405205,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000405205.png",
+      "sha256": "7d0e880dc6aa9b872a43ed73b21fb7220483ce1eaf4560adb43d3c075da9110c"
+    },
+    {
+      "image_id": 405972,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000405972.png",
+      "sha256": "7090188fb1e6375407082c4679deca96b48033b73a050be3d297f3678ed6d52a"
+    },
+    {
+      "image_id": 407650,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000407650.png",
+      "sha256": "1bf8a68237229ebde9cad2a8ca9e8d7a1c195f53d036b1a1e8f4b15251242138"
+    },
+    {
+      "image_id": 410428,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000410428.png",
+      "sha256": "f1419867e0e1deefe63940ec6be13bd0df91e7d8fd39d3cb33ee42242786038a"
+    },
+    {
+      "image_id": 413247,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000413247.png",
+      "sha256": "ca60d332116390dedf66a33ac4c9814cc81c3188b7ad3345429c5ce301659c51"
+    },
+    {
+      "image_id": 414795,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000414795.png",
+      "sha256": "1f3e50cbfec50a2cabc0481605f20f35ffdaf33843047f0cd3e3c80b88e3f17f"
+    },
+    {
+      "image_id": 415990,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000415990.png",
+      "sha256": "dcf6c3ced51d4db12aec613b6cb272959fa21014dd2c41c792718f32501c46dc"
+    },
+    {
+      "image_id": 417249,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000417249.png",
+      "sha256": "7868ac3abd01017654d35999e342451aaea033688c3db93fae83fc5382e9fe61"
+    },
+    {
+      "image_id": 417465,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000417465.png",
+      "sha256": "725787c97b1ffff1e680db5180418b5756abf82336a195d044201ec2e943c504"
+    },
+    {
+      "image_id": 421060,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000421060.png",
+      "sha256": "ce5962b9f3b7c75ec3a1244b7d27939a881fb9f43c1f37a45609f722e59df426"
+    },
+    {
+      "image_id": 421757,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000421757.png",
+      "sha256": "750b6143030624151eb182a89728699a9f2ff908ab0004ebc4fa567908a75604"
+    },
+    {
+      "image_id": 424551,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000424551.png",
+      "sha256": "dc1705fc802a2a29fed3b8b18295c4c656951b5caf3895e26639088e52da9eff"
+    },
+    {
+      "image_id": 426241,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000426241.png",
+      "sha256": "255cd864d2476f1d31427365e310d35cffabb69f6f5bcb43f08d120f5fa85115"
+    },
+    {
+      "image_id": 428867,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000428867.png",
+      "sha256": "fe181654a2fac44b0eec0d5aa581b380f76743a137b4cff28027f65e68c5b59f"
+    },
+    {
+      "image_id": 430056,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000430056.png",
+      "sha256": "1595ffc1653566c77b772af15dce010f53c4009a09816a2c2ba55cfa004ef64c"
+    },
+    {
+      "image_id": 431727,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000431727.png",
+      "sha256": "cf8ae5198f29afed8685c196bc2647bb0e86b74e2aa3336fce378c67544c05a3"
+    },
+    {
+      "image_id": 432898,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000432898.png",
+      "sha256": "330a14fe4b4354a5fc0cb708e4d4ca9f836e4366797bad0bc9c94c790fc877fc"
+    },
+    {
+      "image_id": 436883,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000436883.png",
+      "sha256": "04669e61a984914d5a3243a3d76b5a1593bbced0ae1c7444f486a702dcbea083"
+    },
+    {
+      "image_id": 437331,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000437331.png",
+      "sha256": "fba00a12d5ef31a7595a5221c53f6efea324bf3f805df48d6b541fc5d3e28353"
+    },
+    {
+      "image_id": 438017,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000438017.png",
+      "sha256": "ad34bb76733fedbdd28e2fbfe3c9ff51d3ebd718777927c35f11497a568885f7"
+    },
+    {
+      "image_id": 438774,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000438774.png",
+      "sha256": "a9942da68f41ce75e825857da029c53f1f1adb4c23604de26570b6104ee53128"
+    },
+    {
+      "image_id": 440171,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000440171.png",
+      "sha256": "16e84a739dcbd64fec0fd982c50354459d645891cac3fdee341e4756505b346a"
+    },
+    {
+      "image_id": 440617,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000440617.png",
+      "sha256": "9a4ca86c59cdbc00101247965ce376233a2be623c25bc89d30ee542f08d906cd"
+    },
+    {
+      "image_id": 441491,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000441491.png",
+      "sha256": "eb3cc7066fee59c474d30dd101ea3de278fcf1a13ae520e3024c6ba7ee33fbb3"
+    },
+    {
+      "image_id": 442323,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000442323.png",
+      "sha256": "1fa1f3f780d73887e2a00a047e0daf45815b6b612206c79ba9eb74407ec2389c"
+    },
+    {
+      "image_id": 443498,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000443498.png",
+      "sha256": "6ca7a3bb22bddd1267ba069cfdf1245b91887b080f3d715680170da48ac9cb0d"
+    },
+    {
+      "image_id": 446206,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000446206.png",
+      "sha256": "a81fba1cbd1f86cd21f269789a6f175a689d8378ba23f00baff504eb6da4e52d"
+    },
+    {
+      "image_id": 446574,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000446574.png",
+      "sha256": "3aeac7d698db2bef3951a69ed88e8f1ce6d497e03fbfa342d4f9f2181f701bd9"
+    },
+    {
+      "image_id": 449190,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000449190.png",
+      "sha256": "c94a04647671223f1977bb14a2b4bf8cf592ada88c17ea3e5ab44dfbc878fa49"
+    },
+    {
+      "image_id": 449406,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000449406.png",
+      "sha256": "891e537809a27b240730d1a07038c604328793b48c637247a5b6d8d416752439"
+    },
+    {
+      "image_id": 449996,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000449996.png",
+      "sha256": "6296363dd4d5839317ad6a82ad112fc7af30853005d5eb441905a632c63a01da"
+    },
+    {
+      "image_id": 450559,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000450559.png",
+      "sha256": "feb0543ee4a5e339930584fc8631d2e7cf941e270b89b2606e7bf120cb7aed00"
+    },
+    {
+      "image_id": 451879,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000451879.png",
+      "sha256": "6c6b3282f10b1d872295d7fcaaa0a5b12ae6fa4e8faa4dbc5ba14795db745176"
+    },
+    {
+      "image_id": 454067,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000454067.png",
+      "sha256": "27b5aa2bd7ee056c838e20f26c96b75601cc634900a4733dd1fd33cb967ee177"
+    },
+    {
+      "image_id": 455624,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000455624.png",
+      "sha256": "2507b7d343d06f535bbcca2b49939275ca6aa0a465a124d90b947f7279f9fb35"
+    },
+    {
+      "image_id": 455981,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000455981.png",
+      "sha256": "0d4ee6fccda120a658fe6ae43ed94fe700a0a51153dde159a8ac85538a464ff9"
+    },
+    {
+      "image_id": 456015,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000456015.png",
+      "sha256": "3d48bca227f172d6a90ee68458525826644cda2c24339f5387fca375e0bd81ad"
+    },
+    {
+      "image_id": 456394,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000456394.png",
+      "sha256": "38045e636c6cbb07bc6a06d7ee6755b9df2d821caabb05e029913c8ace1d72d9"
+    },
+    {
+      "image_id": 456865,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000456865.png",
+      "sha256": "e616c289bae2cf0c389d5c0e69ed1867bc9880ce4b205a7c8772b73a0b022ac9"
+    },
+    {
+      "image_id": 458755,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000458755.png",
+      "sha256": "e0de42efb3518c003d90bda36ec77c7a6098dcb34c075862229c369781ca4a96"
+    },
+    {
+      "image_id": 459195,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000459195.png",
+      "sha256": "a437cab579da4d29250992b3280f4475dcfaa206875d88eb3afc28662a830fb0"
+    },
+    {
+      "image_id": 459396,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000459396.png",
+      "sha256": "a809c8b881db4765d73c6138e220ffcbd5b7516edbe4fc7c334fc7648dcfff55"
+    },
+    {
+      "image_id": 460494,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000460494.png",
+      "sha256": "67065c0103bd07a9ca84ea232949d13538934d5f89b0a51e602bf62016b9c86b"
+    },
+    {
+      "image_id": 460841,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000460841.png",
+      "sha256": "0b399f62a1c078d6e1aae0588b2abbfb717812713c95644ee3af4bdf38e1a545"
+    },
+    {
+      "image_id": 461009,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000461009.png",
+      "sha256": "f25c80f606abf14331942e78fc36b6fbe973b795d1105d507b81e8ef1388d4d1"
+    },
+    {
+      "image_id": 463918,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000463918.png",
+      "sha256": "03d5978d4058f8d458b08ebf0cf674241baf7b023a795ffcc6078fe1ce064d82"
+    },
+    {
+      "image_id": 464689,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000464689.png",
+      "sha256": "87f977d2b6f1d28dc6e5e9bc0a81533fc97f45badd2fe76df3bf9a8174098b14"
+    },
+    {
+      "image_id": 465180,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000465180.png",
+      "sha256": "28ae459c878fbc17427dc1160f97c4992ca757340067a750204dfdc18b6597f8"
+    },
+    {
+      "image_id": 468124,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000468124.png",
+      "sha256": "d55773b1e3b016a1732d26b9a30830ab290347d2110a6d4a4436d056cecc6b88"
+    },
+    {
+      "image_id": 468954,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000468954.png",
+      "sha256": "386a28e9ba4ebed6dd460082e5dd725293c01da84b8ccbb590ac501d9898753d"
+    },
+    {
+      "image_id": 469652,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000469652.png",
+      "sha256": "8054159b91593453265f2ed9ad261adda8b3a1acb9a91ea2c71330323ffc219a"
+    },
+    {
+      "image_id": 471991,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000471991.png",
+      "sha256": "15f49e1d910967d70fa0d861844526700a7b5e63f6de0927b8c249eb31f73070"
+    },
+    {
+      "image_id": 475191,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000475191.png",
+      "sha256": "da4cb9527eaf0ae03cb1ddfc3e6f9c0ae7615dc2d538241efd50564fd74c3395"
+    },
+    {
+      "image_id": 475387,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000475387.png",
+      "sha256": "686fd9f0685af50db1d27ef9b43a48dc38aaa878f86d0e1f77b702d64c6b3874"
+    },
+    {
+      "image_id": 476770,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000476770.png",
+      "sha256": "9ee4e96eeb2b154c5c1a0dbffd9922ce89cd146e4b8094245ec446409fe9ba6b"
+    },
+    {
+      "image_id": 478420,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000478420.png",
+      "sha256": "de1e5d6ba6c7d436eacaf4ab841cff4db2f46bfe5c55e6f3e98607aefb96e634"
+    },
+    {
+      "image_id": 479030,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000479030.png",
+      "sha256": "b1763ae01f702b81a3fa799ae9fd6d96307273a3e294753b871cf251df9282a8"
+    },
+    {
+      "image_id": 479099,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000479099.png",
+      "sha256": "c27c869220e75c13117246df2573e83d66d667ec225d461b604419dc4aef6b6c"
+    },
+    {
+      "image_id": 481582,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000481582.png",
+      "sha256": "e4ad10c3cc75fee89a9190d711b0e82f43a2ef5b1519cd2ef829200276fd1e6b"
+    },
+    {
+      "image_id": 482970,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000482970.png",
+      "sha256": "940275d9222d1db119d312414f082ab642c85f9ce234148e9b4069feaa74b812"
+    },
+    {
+      "image_id": 484404,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000484404.png",
+      "sha256": "f232b1ea6b6beb970bfa8d6969405e5eb7cf4faf1a442efee5fb251f621d8ebd"
+    },
+    {
+      "image_id": 484760,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000484760.png",
+      "sha256": "70b6787b9035f34e3c1bf66b229fd1af1b351321fbe6ca4a6a687fa5155f9525"
+    },
+    {
+      "image_id": 485237,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000485237.png",
+      "sha256": "27e344a6108353e3325c15bd8e0493b2e5115b32a1de398af8609cf49d01425e"
+    },
+    {
+      "image_id": 485802,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000485802.png",
+      "sha256": "9714cc8b4513b3eb71f2babb6debd0028875907f5ccb5b80dd0ecfd0350920c6"
+    },
+    {
+      "image_id": 486104,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000486104.png",
+      "sha256": "e922f3e750268a9c14b00cdf04399676b24bc3c9a96d211e2565218e46cb70d6"
+    },
+    {
+      "image_id": 489091,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000489091.png",
+      "sha256": "ee764447fbb8e6f87bac91aa81d652c61596e5fc4a1fb1295e64827b31d4ba0f"
+    },
+    {
+      "image_id": 489611,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000489611.png",
+      "sha256": "2489e279eae17f59c8881369536c6f8aad62942183219b733a394fdebd13d49f"
+    },
+    {
+      "image_id": 489764,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000489764.png",
+      "sha256": "8084165a13b5a829d24c5e4f72a6003e67d452e520bb9b00f0a7f5de98fc6103"
+    },
+    {
+      "image_id": 490470,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000490470.png",
+      "sha256": "53db4c09a9fbdf287224c9e86b321716c20387a46b9c2d98cfaf11a19f027c53"
+    },
+    {
+      "image_id": 490936,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000490936.png",
+      "sha256": "6f7e8c27c986a5df8abddf92e2c4bd2dc3bd561e4d0b2260a41eaf9091fe5304"
+    },
+    {
+      "image_id": 491216,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000491216.png",
+      "sha256": "b96c0bb23fa4d2119fc080023c95f448ca5696a12a58b2b31ca36240d4d27a29"
+    },
+    {
+      "image_id": 491613,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000491613.png",
+      "sha256": "f32e8c3520ffaff279b474fe588978bfd88fd3a552da1e88921b5bd0c4c847be"
+    },
+    {
+      "image_id": 491867,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000491867.png",
+      "sha256": "a59d7e72fb127408706ffeb5f8029ad20a11c560cf768bf8277c0997fef7a7a9"
+    },
+    {
+      "image_id": 492284,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000492284.png",
+      "sha256": "663f88050f067bda4123a784814d43d293c8c8aba36f6f90090b54f8a20f272d"
+    },
+    {
+      "image_id": 493284,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000493284.png",
+      "sha256": "a743093bc856feb4e7135fafbea9876ba8f8a58120dd7c7cc5de4371d11d1cc5"
+    },
+    {
+      "image_id": 493566,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000493566.png",
+      "sha256": "bd9b0dae9932d3ffcd9e8957a1a7555333ae0eb6e0f15b13af27ae155a2f7059"
+    },
+    {
+      "image_id": 495448,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000495448.png",
+      "sha256": "fc6924eb216f0599372f286d55aa5a299c957d997b042806f6d57947673b927c"
+    },
+    {
+      "image_id": 497867,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000497867.png",
+      "sha256": "502261629ffa880969827c494bef85dad5fb7021ba73425b3108ef387ee7adcb"
+    },
+    {
+      "image_id": 498857,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000498857.png",
+      "sha256": "fc7906ce3eb4f9502b151d375effbfa5bfc20b2bad3e6006708c821a6d20bd9c"
+    },
+    {
+      "image_id": 502599,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000502599.png",
+      "sha256": "456125b01c9d18298ad9d3d4a45f071a0992a82d0e01e5d0df4e301b10802920"
+    },
+    {
+      "image_id": 502732,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000502732.png",
+      "sha256": "a970db52c933783e1d255914f5d9bc8bcb3cc044bcbcd76e2951d546034cc176"
+    },
+    {
+      "image_id": 504415,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000504415.png",
+      "sha256": "69f12b27bdd317d18c20a2bddf0228ce932b23a6901c65821d89d84ecb42f53b"
+    },
+    {
+      "image_id": 505789,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000505789.png",
+      "sha256": "69df88b07fb21bfb89347ca4445df85e8c77a7622bfe011a7b46fdb4373c0024"
+    },
+    {
+      "image_id": 506279,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000506279.png",
+      "sha256": "9b35c0df3631ac366379b9f14c9b5f018196c5a6f5605a20c7879d31bd4aef1e"
+    },
+    {
+      "image_id": 506656,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000506656.png",
+      "sha256": "38bb623ed6c487a732dfa58f4a0d8134417666a64f22146638b321ebd14c814b"
+    },
+    {
+      "image_id": 507042,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000507042.png",
+      "sha256": "7983fb92e0aee706a51bb9e8fa8e9b4c0a46a5e5022237852bd84787ddc30151"
+    },
+    {
+      "image_id": 508312,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000508312.png",
+      "sha256": "2127037bdcf55a1714b43c73667168282154b709ad54c0f345cac6fea1198eeb"
+    },
+    {
+      "image_id": 509260,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000509260.png",
+      "sha256": "eb6df997111927d188985ea6df9ee534264ccdf754aec9d89ffd1c40c1b28bcf"
+    },
+    {
+      "image_id": 509735,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000509735.png",
+      "sha256": "3b287eeff9ba664b3dfb0a3a9f58ca4929406390998bd710484f88b95e670301"
+    },
+    {
+      "image_id": 514540,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000514540.png",
+      "sha256": "6efbf2b4719cdeff2bb35643a7b31069ced74f37221778b208e750cffc615681"
+    },
+    {
+      "image_id": 515982,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000515982.png",
+      "sha256": "a61e157b761002a1eb038b82f673d90c22a970fbc6c91fa8a5c882b84de93661"
+    },
+    {
+      "image_id": 517056,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000517056.png",
+      "sha256": "5e48927bf4ac5268e569fb68b9ff3400936f9bbc50e4b98e734a14fa6b003a37"
+    },
+    {
+      "image_id": 517687,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000517687.png",
+      "sha256": "0ec0a8a76a082761920cf57a85d802d58f419f8c796d91ec192a033e9cda0407"
+    },
+    {
+      "image_id": 517832,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000517832.png",
+      "sha256": "d843a53f781c647ff999cae4431a2c242b255800a2bd65612d96331be4380706"
+    },
+    {
+      "image_id": 519569,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000519569.png",
+      "sha256": "e0a0c88bef22dbc3c36942e78039603d8785f52d6995f2795c45a03b84cd6848"
+    },
+    {
+      "image_id": 521717,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000521717.png",
+      "sha256": "2197c66b535ab4d21e480db4fac07cf81fd2a31ab526547e566bdfce46a159e9"
+    },
+    {
+      "image_id": 522393,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000522393.png",
+      "sha256": "4539aee6c7eb56e39d51e4d6d626690cf892a38d6f11794f648bfd0a5c2f98e0"
+    },
+    {
+      "image_id": 524850,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000524850.png",
+      "sha256": "f0c733200aa4535e53399059f40ceda4cb7c6e010e55b0254ee9673731c76d9c"
+    },
+    {
+      "image_id": 525155,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000525155.png",
+      "sha256": "e2d4001cd7d8fdb9588c303e2e93a4c7ca4f5b15ad7c778a103879fb1a72bdd2"
+    },
+    {
+      "image_id": 525286,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000525286.png",
+      "sha256": "30a3b7fd8fdaf08720aead8cc15f35ff9b3d5b433b067ad7ea097bd200372a9a"
+    },
+    {
+      "image_id": 526103,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000526103.png",
+      "sha256": "ee50aca8ddfb95e936975e378e05170430d85131fdfb4c0f1f618b72fa4c3905"
+    },
+    {
+      "image_id": 528524,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000528524.png",
+      "sha256": "0e48f9d5bb51c49d363126b3ee2cf3fcf7fb713a2013c359d16e415a8fd3c0ef"
+    },
+    {
+      "image_id": 528862,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000528862.png",
+      "sha256": "4a9d790a354bfff00784836b9921ddd995545a34af9749ee2ecbac088d1317dd"
+    },
+    {
+      "image_id": 528977,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000528977.png",
+      "sha256": "8f902c96d26ae51d8a1583326eaed66d71e2c7e9ff90bfcca71f6f3cf9f761fa"
+    },
+    {
+      "image_id": 528980,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000528980.png",
+      "sha256": "aeeada1317a0ccb01bcad2c00f4c7383b01e51c974e4841f4726871abf93b1b2"
+    },
+    {
+      "image_id": 530052,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000530052.png",
+      "sha256": "39e4b2bd98f863c82c09a5a2bb0b703ee055ffefd131ecb826150e275b147889"
+    },
+    {
+      "image_id": 530470,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000530470.png",
+      "sha256": "7d1547a5fd029a448bd0ec80ee1c8246017a01a0cd90d12ac12eac0e582c65fb"
+    },
+    {
+      "image_id": 531707,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000531707.png",
+      "sha256": "d41506559106b6931087cd7bf3e0c1915084e35ba31cabdd1101b38546bd15f0"
+    },
+    {
+      "image_id": 532493,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000532493.png",
+      "sha256": "af1ea7fa26add17f10d44fa4c842d8975268018ea5afffc60c6ccb50df9fac67"
+    },
+    {
+      "image_id": 532575,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000532575.png",
+      "sha256": "4c718cfcb290c7f7e7458671c4c41f8da46db1a9ea6242e1606d9a9d1e2932b8"
+    },
+    {
+      "image_id": 532761,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000532761.png",
+      "sha256": "c10a6f131c067832551e98d7fe559503233f8e5c215cdb74907d10fe1f5f033b"
+    },
+    {
+      "image_id": 533493,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000533493.png",
+      "sha256": "55d42e632a05de57c1b15e4fd6f4cc1896bc46a78dccc54ba2a97df07efd65d1"
+    },
+    {
+      "image_id": 534394,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000534394.png",
+      "sha256": "0cbb2f98cc16f0edbf31e22a3bc5d924422f5a88a53ed63c5b3fb96509b81eec"
+    },
+    {
+      "image_id": 540414,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000540414.png",
+      "sha256": "2942f90fc67ec0377d998ed09b79d740d964c7d6b211b2c81803f95701459047"
+    },
+    {
+      "image_id": 540466,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000540466.png",
+      "sha256": "86af95cd458f9ddb735c80f6c8dbe225161d1f6ed0a84dca509d7000001bfc1b"
+    },
+    {
+      "image_id": 542856,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000542856.png",
+      "sha256": "93c87dd2722e9559ae3bce18d5364108062be60dcdc4d06d11a359acdc48a173"
+    },
+    {
+      "image_id": 544052,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000544052.png",
+      "sha256": "bfe970880a88b93a939e1b95829b0c7befed325bc9d23bf0ad616ab1dd4a9265"
+    },
+    {
+      "image_id": 545100,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000545100.png",
+      "sha256": "40f6fdb9004a8473f435acb7284821581e931f49cec24cc2cc8e4aaee68f0eac"
+    },
+    {
+      "image_id": 546659,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000546659.png",
+      "sha256": "ca902f6078e632d74a9726ebbbbfd4cc6c4ea8395a8887dd4657e5444111ed7c"
+    },
+    {
+      "image_id": 546976,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000546976.png",
+      "sha256": "a2f3f3b4d18fc54a7b5fd972dd9b9e2f81a0baeb147db063e123236cb73eb8d5"
+    },
+    {
+      "image_id": 547383,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000547383.png",
+      "sha256": "ae5d34ba9902282c040cc2cb4464ce084e09f3f547119d6a086b97e70ec32e96"
+    },
+    {
+      "image_id": 548246,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000548246.png",
+      "sha256": "6fdd5939a7648ba3c9c2e758de76b5c33f3f1bfcba798150473bebcfd18cc3cb"
+    },
+    {
+      "image_id": 549390,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000549390.png",
+      "sha256": "f727b94b441a1bdf8fd3fe54c48cd4f10afa9d31e822ade84371b4988b30db6c"
+    },
+    {
+      "image_id": 552842,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000552842.png",
+      "sha256": "379634a10be96ca5d7321738d7aaf40971b637f678fd6c8989c66297fb715089"
+    },
+    {
+      "image_id": 553094,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000553094.png",
+      "sha256": "2cebddee4804bf3cf087cacf202ec8bac1df46e294f0dd4f435bdb6560997e07"
+    },
+    {
+      "image_id": 554291,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000554291.png",
+      "sha256": "2233b2627f280fa6ad127af0d02f05b03a0874378b112e8b5fa1cf7e77ef885b"
+    },
+    {
+      "image_id": 554735,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000554735.png",
+      "sha256": "9f69d0ec1768cad7b09d69b67fbf0d748914a447705e19d7b6d08bc4f5264330"
+    },
+    {
+      "image_id": 555050,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000555050.png",
+      "sha256": "7e40783473e386765477059f0ff983cd2692e08a2b1b4fc5794af2fe04eb4be0"
+    },
+    {
+      "image_id": 557501,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000557501.png",
+      "sha256": "cee21feeeabb08d318a1d2ab6c06d70722b13ed2a8a23555db70d3225c1a7354"
+    },
+    {
+      "image_id": 558114,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000558114.png",
+      "sha256": "4110d1aa90e33c3d37a45a7560b9fa788fc89136d084fb30594bca6a60cfc5a5"
+    },
+    {
+      "image_id": 560011,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000560011.png",
+      "sha256": "ae2ca4cf5fcade168b1724865524ec806dea38c3ea93dc9da46929e1b62101a8"
+    },
+    {
+      "image_id": 561223,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000561223.png",
+      "sha256": "b90b10070d051a55ffacc60c2a5f9aa9b2fb0195c48c7bcea69c70b80fa762f1"
+    },
+    {
+      "image_id": 561335,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000561335.png",
+      "sha256": "22a0bf0bf239f301191ef4806e3a0d9c8c49328b18f63712b2846374b8dc9c46"
+    },
+    {
+      "image_id": 562121,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000562121.png",
+      "sha256": "f4510289bcdea63618b310d836f3c943d6892c193309c59fc54e9484b722c88f"
+    },
+    {
+      "image_id": 562448,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000562448.png",
+      "sha256": "7f049422e8c22dcdd6d67ff7b0fa205d3cc510f6f6723bda6ee0b7c2388267af"
+    },
+    {
+      "image_id": 562561,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000562561.png",
+      "sha256": "c7524b5ea0eeae8bfea1baf03664c062aa3315bb8f541ecedd6528d1dc8ca7c6"
+    },
+    {
+      "image_id": 565962,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000565962.png",
+      "sha256": "49df1bb934f840c928f54fe4161adcf37ca7285985159f4425fd70e2236c2327"
+    },
+    {
+      "image_id": 566042,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000566042.png",
+      "sha256": "b2ed4e953f377afc13ebd4bb5adc20328c7b961017fec587c7bcfde739157b0c"
+    },
+    {
+      "image_id": 567898,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000567898.png",
+      "sha256": "8740451eb2bb8626c5645ab6b9daf4ed82b7d25ff58e3bd14bec1c5dd91850b5"
+    },
+    {
+      "image_id": 568195,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000568195.png",
+      "sha256": "b9978913b43ab0461134fae83ff750800f3c0d2c3aef885aba8ec2910e40d84c"
+    },
+    {
+      "image_id": 568439,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000568439.png",
+      "sha256": "b3940142a883c6ad6d4594b69131d07a1f78b8c9f471b7df26d15b6404bc096b"
+    },
+    {
+      "image_id": 568814,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000568814.png",
+      "sha256": "ef4386de604af043be60b2bc46d43c96a159d45418d7850a21d42115f6216d70"
+    },
+    {
+      "image_id": 569565,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000569565.png",
+      "sha256": "8b08475b810083b65b376d510e56ed7abbb3d475162cf6fc08e1ba7047a4aff2"
+    },
+    {
+      "image_id": 569976,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000569976.png",
+      "sha256": "26daa1eb0496f632c4cbdc33282a33eef107d12a57def02f9149a4610fbf020a"
+    },
+    {
+      "image_id": 571893,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000571893.png",
+      "sha256": "5bd94f38c77128b298f7d76d49600a0cb175c8e29d75da7de9aa1e4faa859f00"
+    },
+    {
+      "image_id": 574315,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000574315.png",
+      "sha256": "ef2424581c32a2b902065a7a2ed7e864e202c6b0e0193809a042ea5e42301355"
+    },
+    {
+      "image_id": 574520,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000574520.png",
+      "sha256": "edb8eb4c642c82c7c22612141262c317b5c6e2a3f01b66da2722bb767638a0d7"
+    },
+    {
+      "image_id": 575081,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000575081.png",
+      "sha256": "374c59a979e1e8c6d18538200781538a63b6de6bd0fdf6677ca59de7a50fd149"
+    },
+    {
+      "image_id": 577864,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000577864.png",
+      "sha256": "a11c0b2c6eab28ca02a6b85a798b5a223631dead269bb35df059b42702bc0cd8"
+    },
+    {
+      "image_id": 579655,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000579655.png",
+      "sha256": "6b6df7a4de123ac0e0ca0ecbb38e6947bd9f0af0da56408709c7a2cc6df8569c"
+    },
+    {
+      "image_id": 579893,
+      "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/native_tasks_ours_first/reference_images/000000579893.png",
+      "sha256": "ee8376a66f2d6d49a3fde363bec631465b15fe7a7666d0c1b15684e0049f01bc"
+    }
+  ],
+  "annotation_sha256": "113a836d90195ee1f884e704da6304dfaaecff1f023f49b6ca93c4aaae470268"
+}

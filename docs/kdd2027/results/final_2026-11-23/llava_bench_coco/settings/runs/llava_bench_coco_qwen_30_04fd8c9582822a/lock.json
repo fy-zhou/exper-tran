@@ -1,0 +1,1303 @@
+{
+  "config": {
+    "method": "ours_uniform4_neighborhood48",
+    "dataset": "llava_bench_coco",
+    "variant": "qwen",
+    "steps": 50,
+    "engineering": false,
+    "N": 30,
+    "seed": 42,
+    "epsilon": 0.06274509803921569,
+    "alpha": 0.00392156862745098,
+    "canvas": 224,
+    "pull": 0.5,
+    "push": 0.5,
+    "DI": true,
+    "CLS": 0,
+    "patch": 0,
+    "momentum": 1,
+    "parameter_dtype": "bfloat16",
+    "smoke_only": false,
+    "pilot": false,
+    "reference_count": 48,
+    "primary_goal": "native_task_quality_and_representation_transfer"
+  },
+  "manifest": {
+    "dataset": "llava_bench_coco",
+    "task": "official_open_VQA",
+    "N_images": 30,
+    "N_questions": 90,
+    "images": [
+      {
+        "image_id": "llava_coco/20650",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000020650.png",
+        "clean_sha256": "9acc30f1e915835367cf2a36d54bed72ad49c8bd9506a216d40e7458814a6328",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000020650.png",
+          "sha256": "9acc30f1e915835367cf2a36d54bed72ad49c8bd9506a216d40e7458814a6328",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000020650.jpg",
+          "original_sha256": "69926b339fff30f3970503dba6eda91c3ec3b6bddbe28a6c8ea4341c33f692dd"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000170099.png",
+        "target_reference_sha256": "cf73e080bc7cdc5180e17342d045e70a0935639ebc5d4b8163683edb4c3ed3a5",
+        "captions": [
+          "On the orange plate, there are a burger or sandwich, a bowl of broccoli, and a pickle.",
+          "The image features a dining table with an orange plate in the center. On the plate, there is a half of a sandwich, a pickle, and a bowl of broccoli, creating a visually appealing and mouth-watering combination. A fork is also placed alongside the plate, ready to be used for enjoying the meal. Several individual pieces of broccoli can be seen around the bowl, adding variety and color to the scene.",
+          "Based on the image, it can be inferred that the individual has a balanced approach to their dietary choices. The meal on the table consists of a sandwich, a bowl of broccoli, and a pickle on an orange plate. The sandwich likely provides carbohydrates and proteins, while the broccoli offers essential vitamins, minerals, and fiber. The pickle adds some flavor and tanginess to the meal. This combination of foods illustrates that the person is interested in having a diverse and nutritious diet, incorporating both proteins and vegetables in their meal. Additionally, the presence of a fork suggests that they prefer using cutlery while eating, which can be seen as a more cultured and organized approach to dining."
+        ],
+        "queries": [
+          {
+            "id": "66",
+            "text": "What type of food items are present on the orange plate?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "On the orange plate, there are a burger or sandwich, a bowl of broccoli, and a pickle."
+          },
+          {
+            "id": "67",
+            "text": "What are the key elements in this picture?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image features a dining table with an orange plate in the center. On the plate, there is a half of a sandwich, a pickle, and a bowl of broccoli, creating a visually appealing and mouth-watering combination. A fork is also placed alongside the plate, ready to be used for enjoying the meal. Several individual pieces of broccoli can be seen around the bowl, adding variety and color to the scene."
+          },
+          {
+            "id": "68",
+            "text": "What can be inferred about the individual's dietary choices?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "Based on the image, it can be inferred that the individual has a balanced approach to their dietary choices. The meal on the table consists of a sandwich, a bowl of broccoli, and a pickle on an orange plate. The sandwich likely provides carbohydrates and proteins, while the broccoli offers essential vitamins, minerals, and fiber. The pickle adds some flavor and tanginess to the meal. This combination of foods illustrates that the person is interested in having a diverse and nutritious diet, incorporating both proteins and vegetables in their meal. Additionally, the presence of a fork suggests that they prefer using cutlery while eating, which can be seen as a more cultured and organized approach to dining."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/34096",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000034096.png",
+        "clean_sha256": "f603fdc8ce46523db82ad1da890d74dc4b5b06de0ba152f8efc19c59d3816174",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000034096.png",
+          "sha256": "f603fdc8ce46523db82ad1da890d74dc4b5b06de0ba152f8efc19c59d3816174",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000034096.jpg",
+          "original_sha256": "eca9355a1df32cb00eae6fcab28d4fd5f5bf2f4866e17f59a65e9893aa83358a"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000185472.png",
+        "target_reference_sha256": "fbf1173f9220af01a4adcf5d879ea0b096e08c967c9022276b1111c272638250",
+        "captions": [
+          "The house is in the beginning stages of its construction, with the wooden structure, studs, and staircase partially built but not yet completed.",
+          "The image shows the beginning stages of a house under construction. The wooden structure is still being built, and there are lots of wooden studs visible throughout the scene, indicating work in progress. Additionally, a partially-built staircase can be seen within the house, giving an idea of the floor plan layout.\n\nDespite the house still being under construction, a bed and a TV are already present in the area. The bed is located near the center of the image, with the TV placed to its left. This shows that some household items have been brought in, probably in anticipation of the house's completion.",
+          "In the current state of the house construction with wooden studs and a partially-built staircase, a potential obstacle that might occur is the incomplete structure being exposed to external elements like rain, snow, or strong winds. These conditions can potentially damage the building materials, delay construction work, and cause additional unexpected costs for repairing or replacing materials. It is essential for the builders to properly cover the construction site and store materials accordingly to protect them from potential damage when not in use."
+        ],
+        "queries": [
+          {
+            "id": "21",
+            "text": "What stage is the house in regarding its construction?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The house is in the beginning stages of its construction, with the wooden structure, studs, and staircase partially built but not yet completed."
+          },
+          {
+            "id": "22",
+            "text": "What is this photo about'?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image shows the beginning stages of a house under construction. The wooden structure is still being built, and there are lots of wooden studs visible throughout the scene, indicating work in progress. Additionally, a partially-built staircase can be seen within the house, giving an idea of the floor plan layout.\n\nDespite the house still being under construction, a bed and a TV are already present in the area. The bed is located near the center of the image, with the TV placed to its left. This shows that some household items have been brought in, probably in anticipation of the house's completion."
+          },
+          {
+            "id": "23",
+            "text": "What may be a potential obstacle for the house construction in its current state?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "In the current state of the house construction with wooden studs and a partially-built staircase, a potential obstacle that might occur is the incomplete structure being exposed to external elements like rain, snow, or strong winds. These conditions can potentially damage the building materials, delay construction work, and cause additional unexpected costs for repairing or replacing materials. It is essential for the builders to properly cover the construction site and store materials accordingly to protect them from potential damage when not in use."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/52312",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000052312.png",
+        "clean_sha256": "f7a0caeb4806443233179058834718d49c9dbe826324d2d099ce3f5ea1dc0b46",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000052312.png",
+          "sha256": "f7a0caeb4806443233179058834718d49c9dbe826324d2d099ce3f5ea1dc0b46",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000052312.jpg",
+          "original_sha256": "fb6edd1a9954d16486d0fc56fed641cd16b5f645609e448d3814cc0149090304"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000154431.png",
+        "target_reference_sha256": "9b7baa75a5508325be02c62553a9c75bae226e5bd5708ed9def1ca1647ce5486",
+        "captions": [
+          "The unusual aspect of the elderly man's facial appearance in the image is that he has the head of a toothbrush under his nose, which mimics a mustache, specifically a toothbrush mustache.",
+          "The image features an elderly man humorously wearing the head of a toothbrush under his nose, creating the illusion of a toothbrush mustache. Since the toothbrush head is positioned like a mustache, it is reminiscent of a toothbrush mustache caricature often associated with Hitler. The man takes up most of the frame, appearing front and center in the scene.",
+          "The elderly man wearing the head of a toothbrush under his nose as a moustache could be conveying a satirical or humorous message. By mimicking a toothbrush mustache, he may be making light of or criticizing a specific historical figure or style associated with the toothbrush mustache, such as Adolf Hitler. Using a toothbrush instead of an actual mustache allows him to dramatically emphasize the point and create a lighthearted or comical effect. However, it's essential to consider cultural and social contexts when interpreting such unconventional expressions, as the message may not always be clear or universally accepted."
+        ],
+        "queries": [
+          {
+            "id": "45",
+            "text": "What is unusual about the elderly man's facial appearance in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The unusual aspect of the elderly man's facial appearance in the image is that he has the head of a toothbrush under his nose, which mimics a mustache, specifically a toothbrush mustache."
+          },
+          {
+            "id": "46",
+            "text": "What's happening in the scene?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image features an elderly man humorously wearing the head of a toothbrush under his nose, creating the illusion of a toothbrush mustache. Since the toothbrush head is positioned like a mustache, it is reminiscent of a toothbrush mustache caricature often associated with Hitler. The man takes up most of the frame, appearing front and center in the scene."
+          },
+          {
+            "id": "47",
+            "text": "What message could be conveyed by the man's unusual facial adornment?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "The elderly man wearing the head of a toothbrush under his nose as a moustache could be conveying a satirical or humorous message. By mimicking a toothbrush mustache, he may be making light of or criticizing a specific historical figure or style associated with the toothbrush mustache, such as Adolf Hitler. Using a toothbrush instead of an actual mustache allows him to dramatically emphasize the point and create a lighthearted or comical effect. However, it's essential to consider cultural and social contexts when interpreting such unconventional expressions, as the message may not always be clear or universally accepted."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/56013",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000056013.png",
+        "clean_sha256": "389f708ebaaa834656027993176f973be3081e4789aa1110174e43324ac6feb4",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000056013.png",
+          "sha256": "389f708ebaaa834656027993176f973be3081e4789aa1110174e43324ac6feb4",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000056013.jpg",
+          "original_sha256": "bc18a52fc595bfea72b4129a93c44439ed78452e76d76ba2a2a66647ab6a016b"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000049091.png",
+        "target_reference_sha256": "3a206ca92e412739f389350b1e25b7e7443b3dd81fe39cae17eb8fff43d937c7",
+        "captions": [
+          "The cart with luggage bags is located in a lobby.",
+          "The scene is set in a lobby at a commercial business, where a wheeled luggage cart is filled with various suitcases and bags. There are a number of luggage bags, including two backpacks, one near the front of the cart and another near the back, as well as multiple suitcases placed on different sections of the cart. \n\nA handbag is also visible, placed near the front of the cart. Two people are present in the scene: one person standing near the left side and another person on the right side, possibly engaging in conversation or waiting to transport their luggage to their rooms.",
+          "In the image, a cart is filled with numerous pieces of luggage, including suitcases, bags, and backpacks, in the lobby of a commercial business. The staff responsible for handling the luggage might face several challenges such as:\n\n1. Efficiently organizing and placing the luggage on the cart to prevent any damages or items from falling off during transportation.\n2. Identifying and keeping track of each guest's belongings to avoid misplacement or mixing up the luggage.\n3. Maneuvering the heavily loaded cart without causing hindrances to other guests in the lobby while ensuring their safety.\n4. Carrying or transporting the luggage to the guests' rooms in a timely manner to maintain customer satisfaction and efficient use of staff resources.\n\nTo overcome these challenges, staff might need proper training in luggage handling, organization, and customer service skills. Maintaining clear luggage tags and taking note of each item could help them ensure accurate delivery to the corresponding guests' rooms."
+        ],
+        "queries": [
+          {
+            "id": "12",
+            "text": "Where is the cart with luggage bags located?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The cart with luggage bags is located in a lobby."
+          },
+          {
+            "id": "13",
+            "text": "Describe the following image.",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The scene is set in a lobby at a commercial business, where a wheeled luggage cart is filled with various suitcases and bags. There are a number of luggage bags, including two backpacks, one near the front of the cart and another near the back, as well as multiple suitcases placed on different sections of the cart. \n\nA handbag is also visible, placed near the front of the cart. Two people are present in the scene: one person standing near the left side and another person on the right side, possibly engaging in conversation or waiting to transport their luggage to their rooms."
+          },
+          {
+            "id": "14",
+            "text": "What challenges might the staff encounter with handling luggage in the lobby?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "In the image, a cart is filled with numerous pieces of luggage, including suitcases, bags, and backpacks, in the lobby of a commercial business. The staff responsible for handling the luggage might face several challenges such as:\n\n1. Efficiently organizing and placing the luggage on the cart to prevent any damages or items from falling off during transportation.\n2. Identifying and keeping track of each guest's belongings to avoid misplacement or mixing up the luggage.\n3. Maneuvering the heavily loaded cart without causing hindrances to other guests in the lobby while ensuring their safety.\n4. Carrying or transporting the luggage to the guests' rooms in a timely manner to maintain customer satisfaction and efficient use of staff resources.\n\nTo overcome these challenges, staff might need proper training in luggage handling, organization, and customer service skills. Maintaining clear luggage tags and taking note of each item could help them ensure accurate delivery to the corresponding guests' rooms."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/66144",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000066144.png",
+        "clean_sha256": "d7c4f1fbb174e0d1ae56490a5caadfd8e031422badada5cac3dff6ce745c0f33",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000066144.png",
+          "sha256": "d7c4f1fbb174e0d1ae56490a5caadfd8e031422badada5cac3dff6ce745c0f33",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000066144.jpg",
+          "original_sha256": "767d51d432aada8ebc722bfb235dff45d84c5d8d471f55fbfe5f0f0d15ea3ade"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000428867.png",
+        "target_reference_sha256": "fe181654a2fac44b0eec0d5aa581b380f76743a137b4cff28027f65e68c5b59f",
+        "captions": [
+          "An old Volkswagen Bug is parked next to the stop sign in the image.",
+          "In the scene, a woman is standing in front of a window, observing the street outside. On the street, a vintage Volkswagen Bug is parked near a stop sign, which is located towards the center of the image. Several other cars occupy the street, including one positioned to the left of the Volkswagen and two others in the background. On the far left and far right sides of the image, there are additional cars partially visible. The street also features a tree growing near the stop sign, adding a touch of greenery to the urban setting.",
+          "From the image, it can be inferred that the traffic situation in the area is relatively light or calm. There is an old VW Bug parked near a stop sign, and a few other cars are also visible on the street. However, there doesn't seem to be any congestion or significant traffic. The presence of the stop sign indicates that there is some traffic regulation and order in place to manage vehicle movement, contributing to the overall calmness of the area. Moreover, no people are seen near the stop sign, which further suggests that there might be low pedestrian activity at the time the picture was taken."
+        ],
+        "queries": [
+          {
+            "id": "54",
+            "text": "What type of car is parked next to the stop sign in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "An old Volkswagen Bug is parked next to the stop sign in the image."
+          },
+          {
+            "id": "55",
+            "text": "Explain the visual content of the image in great detail.",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "In the scene, a woman is standing in front of a window, observing the street outside. On the street, a vintage Volkswagen Bug is parked near a stop sign, which is located towards the center of the image. Several other cars occupy the street, including one positioned to the left of the Volkswagen and two others in the background. On the far left and far right sides of the image, there are additional cars partially visible. The street also features a tree growing near the stop sign, adding a touch of greenery to the urban setting."
+          },
+          {
+            "id": "56",
+            "text": "What can be inferred about the traffic situation in the area?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "From the image, it can be inferred that the traffic situation in the area is relatively light or calm. There is an old VW Bug parked near a stop sign, and a few other cars are also visible on the street. However, there doesn't seem to be any congestion or significant traffic. The presence of the stop sign indicates that there is some traffic regulation and order in place to manage vehicle movement, contributing to the overall calmness of the area. Moreover, no people are seen near the stop sign, which further suggests that there might be low pedestrian activity at the time the picture was taken."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/81552",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000081552.png",
+        "clean_sha256": "30c1aa1957421a623444ab09fe0efff6d06cfbe764fa34433efdc52d1924dace",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000081552.png",
+          "sha256": "30c1aa1957421a623444ab09fe0efff6d06cfbe764fa34433efdc52d1924dace",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000081552.jpg",
+          "original_sha256": "d931bbf8aaa7b2856fa202fd8ce7592f4d4d99eb8c9a12229816bf7ca0fc368b"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000517687.png",
+        "target_reference_sha256": "0ec0a8a76a082761920cf57a85d802d58f419f8c796d91ec192a033e9cda0407",
+        "captions": [
+          "The cat is curled up and sleeping on the red couch.",
+          "A tan and black cat is curled up and comfortably asleep on a vibrant red couch. The cat is situated towards the center of the plush seat. The red couch itself is prominent in the image, occupying a large portion of the frame. The peaceful sleeping cat adds a sense of warmth and coziness to the scene.",
+          "The cat may have chosen to sleep on the red couch for several reasons. The couch appears to be plush and comfortable, providing a soft surface for the cat to curl up and maintain its body heat. Cats also prefer quiet and low-traffic areas to rest. The couch may be located in such an area, providing a sense of security for the cat while sleeping. Furthermore, felines are known to be attracted to soft and warm materials, making the red velvet seat an appealing spot for relaxation. It's also common for cats to sleep in locations familiar to them or near their human companions, so the couch might be a place where the cat often spends time or feels safe."
+        ],
+        "queries": [
+          {
+            "id": "51",
+            "text": "What is the cat doing on the red couch?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The cat is curled up and sleeping on the red couch."
+          },
+          {
+            "id": "52",
+            "text": "Write a detailed description of the given image.",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "A tan and black cat is curled up and comfortably asleep on a vibrant red couch. The cat is situated towards the center of the plush seat. The red couch itself is prominent in the image, occupying a large portion of the frame. The peaceful sleeping cat adds a sense of warmth and coziness to the scene."
+          },
+          {
+            "id": "53",
+            "text": "What factors may have led the cat to choose this location for sleep?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "The cat may have chosen to sleep on the red couch for several reasons. The couch appears to be plush and comfortable, providing a soft surface for the cat to curl up and maintain its body heat. Cats also prefer quiet and low-traffic areas to rest. The couch may be located in such an area, providing a sense of security for the cat while sleeping. Furthermore, felines are known to be attracted to soft and warm materials, making the red velvet seat an appealing spot for relaxation. It's also common for cats to sleep in locations familiar to them or near their human companions, so the couch might be a place where the cat often spends time or feels safe."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/92109",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000092109.png",
+        "clean_sha256": "8d93b739f36570b58d1d9d556fa1ec18939c83046d6bbe929672258e7ac4a765",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000092109.png",
+          "sha256": "8d93b739f36570b58d1d9d556fa1ec18939c83046d6bbe929672258e7ac4a765",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000092109.jpg",
+          "original_sha256": "085a82316b0aa1bc20ec68fe19ac400a6f4c185183ec9b7932d23e2f160f63bb"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000386457.png",
+        "target_reference_sha256": "0d183dfbd8df62c65110f9c8f8ca717c7c3f2d8fd3625e25a01d1d01888280eb",
+        "captions": [
+          "The main focus of the image is the head of a giraffe, shown in a close-up headshot.",
+          "The image is a clear and colorful close up of a giraffe's head, showcasing its beautiful features. The giraffe is standing tall among several bright green trees, likely in its natural habitat. It appears to be chewing on some leaves, while its face is turned to the side, providing a detailed view of its profile.",
+          "From the image, it can be inferred that the giraffe's habitat is likely a natural environment with an abundance of greenery. The giraffe is standing tall among several bright green trees, which suggests that the area is rich in vegetation and provides plenty of food sources for the giraffe, such as leaves. This natural habitat is likely suitable for giraffes to thrive and maintain their unique characteristics, such as their long necks, which are adapted for reaching leaves on tall trees."
+        ],
+        "queries": [
+          {
+            "id": "36",
+            "text": "What is the main focus of the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The main focus of the image is the head of a giraffe, shown in a close-up headshot."
+          },
+          {
+            "id": "37",
+            "text": "What is this photo about'?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image is a clear and colorful close up of a giraffe's head, showcasing its beautiful features. The giraffe is standing tall among several bright green trees, likely in its natural habitat. It appears to be chewing on some leaves, while its face is turned to the side, providing a detailed view of its profile."
+          },
+          {
+            "id": "38",
+            "text": "What can be inferred about the giraffe's habitat from this image?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "From the image, it can be inferred that the giraffe's habitat is likely a natural environment with an abundance of greenery. The giraffe is standing tall among several bright green trees, which suggests that the area is rich in vegetation and provides plenty of food sources for the giraffe, such as leaves. This natural habitat is likely suitable for giraffes to thrive and maintain their unique characteristics, such as their long necks, which are adapted for reaching leaves on tall trees."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/97131",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000097131.png",
+        "clean_sha256": "f7e85b50883bc1bcc754be247d5e6663677240ab3b4791738bb47439cc9bac36",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000097131.png",
+          "sha256": "f7e85b50883bc1bcc754be247d5e6663677240ab3b4791738bb47439cc9bac36",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000097131.jpg",
+          "original_sha256": "8aeefef6e7caab578e89c91720c75689171a4680413f2091e6c6a99dd0ba4b0c"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000106266.png",
+        "target_reference_sha256": "5c1b15bb9496d259676f264da5bdbb963912b3abadd206d7ccf342ffdb74ad3c",
+        "captions": [
+          "The main focus of the image is a car parked on the side of the road, next to a parking meter.",
+          "The scene features a black car parked on the side of the road next to a parking meter. There is another parking meter slightly further ahead of the car. The car is parked in front of a building, which seems to be the destination for the driver. \n\nAdditionally, there are other vehicles in the image. A gray car is situated further behind the black car, and a truck can be seen in the background on the right side. Moreover, there is another vehicle barely visible on the left side of the scene.",
+          "The most plausible reason for the car to be parked on the side of the road is that it is utilizing the available parking spot with parking meters. In the image, the car is parked next to two parking meters, which indicates that the driver has parked the car to follow parking regulations and likely paid for their parking session. The car might be parked there so the driver or passengers can go to a nearby building, shop, or participate in any other activities in the area. Parking meters are commonly used in urban and commercial areas to manage and regulate limited street parking spaces, and it's reasonable to assume the driver is abiding by these parking rules."
+        ],
+        "queries": [
+          {
+            "id": "42",
+            "text": "What is the main focus of the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The main focus of the image is a car parked on the side of the road, next to a parking meter."
+          },
+          {
+            "id": "43",
+            "text": "Can you elaborate on the elements of the picture provided?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The scene features a black car parked on the side of the road next to a parking meter. There is another parking meter slightly further ahead of the car. The car is parked in front of a building, which seems to be the destination for the driver. \n\nAdditionally, there are other vehicles in the image. A gray car is situated further behind the black car, and a truck can be seen in the background on the right side. Moreover, there is another vehicle barely visible on the left side of the scene."
+          },
+          {
+            "id": "44",
+            "text": "What might be the reason for the car to be parked on the side of the road?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "The most plausible reason for the car to be parked on the side of the road is that it is utilizing the available parking spot with parking meters. In the image, the car is parked next to two parking meters, which indicates that the driver has parked the car to follow parking regulations and likely paid for their parking session. The car might be parked there so the driver or passengers can go to a nearby building, shop, or participate in any other activities in the area. Parking meters are commonly used in urban and commercial areas to manage and regulate limited street parking spaces, and it's reasonable to assume the driver is abiding by these parking rules."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/109532",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000109532.png",
+        "clean_sha256": "9e0cfbc2b3b0e8c93bf45137c20d5d64756e7f31b0456b4707f2d5d6d24b85b2",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000109532.png",
+          "sha256": "9e0cfbc2b3b0e8c93bf45137c20d5d64756e7f31b0456b4707f2d5d6d24b85b2",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000109532.jpg",
+          "original_sha256": "c051332274b4c6e832602f724eaf57b3430cb1a8f98f211223dbc9c691401711"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000371472.png",
+        "target_reference_sha256": "c51a8c7e56f0863288aa7ac6b1b7d263f7158e0e2bedf5a6950ae5bbbe6fcdce",
+        "captions": [
+          "The dog in the image is a husky.",
+          "The image shows a large, adorable husky dog sleeping peacefully on a dog bed in a room. The room has a somewhat dark ambiance, making the scene feel cozy and comfortable. \n\nIn the same room, there are two chairs, one positioned towards the center and another one closer to the right side. Additionally, there are two potted plants, one situated slightly behind and to the right of the dog and the other placed further to the right in the room. The presence of these elements gives the room a warm, inviting atmosphere.",
+          "The dog owner seems to have taken several measures to make their dog feel comfortable in the room. Based on the image, an adorable husky dog has a designated dog bed to sleep in, providing cushioning and a cozy space for rest. The room is also dimly lit or dark, which contributes to a calmer atmosphere that promotes sleep and relaxation. There might be other considerations, such as room temperature or air circulation, that aid in creating a comfortable environment for the dog. It's essential for pet owners to ensure that their pets have a secure and comfortable space to rest in order to maintain their well-being and happiness."
+        ],
+        "queries": [
+          {
+            "id": "60",
+            "text": "What breed is the dog in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The dog in the image is a husky."
+          },
+          {
+            "id": "61",
+            "text": "What are the key elements in this picture?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image shows a large, adorable husky dog sleeping peacefully on a dog bed in a room. The room has a somewhat dark ambiance, making the scene feel cozy and comfortable. \n\nIn the same room, there are two chairs, one positioned towards the center and another one closer to the right side. Additionally, there are two potted plants, one situated slightly behind and to the right of the dog and the other placed further to the right in the room. The presence of these elements gives the room a warm, inviting atmosphere."
+          },
+          {
+            "id": "62",
+            "text": "What measures may be taken by the dog's owner to make the dog feel comfortable in the room?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "The dog owner seems to have taken several measures to make their dog feel comfortable in the room. Based on the image, an adorable husky dog has a designated dog bed to sleep in, providing cushioning and a cozy space for rest. The room is also dimly lit or dark, which contributes to a calmer atmosphere that promotes sleep and relaxation. There might be other considerations, such as room temperature or air circulation, that aid in creating a comfortable environment for the dog. It's essential for pet owners to ensure that their pets have a secure and comfortable space to rest in order to maintain their well-being and happiness."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/164255",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000164255.png",
+        "clean_sha256": "b6f5f2710597319cb905e729a9e6a8675b2a40587ad8f3cfe0e5ece751936a9a",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000164255.png",
+          "sha256": "b6f5f2710597319cb905e729a9e6a8675b2a40587ad8f3cfe0e5ece751936a9a",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000164255.jpg",
+          "original_sha256": "b26b02c4a98fadfa29b0869b7ff72a38d326fe5a9fed5a01a13847b65e6be67e"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000084650.png",
+        "target_reference_sha256": "b5f7562b2b8afba282eb46c113dc00c85d7c68287397c69e78603e7453c0d3f1",
+        "captions": [
+          "The main object in the image is a colorful striped umbrella standing on the beach.",
+          "The image features a colorful striped umbrella on the beach, with its vibrant appearance attracting attention. The umbrella is firmly positioned in the sand, providing shade and comfort for visitors. The umbrella sits near the ocean, offering a lovely view of the water and contributing to the pleasant beach atmosphere.",
+          "The colorful umbrella set up on the beach serves several purposes. First, it provides shade from the sun, which helps protect people from direct sunlight and the associated harmful UV rays, reducing the risk of sunburn and heatstroke. Second, it offers a comfortable spot to relax, rest, and enjoy the beach ambiance without being exposed to the intense sun or heat. Finally, the umbrella creates a designated area for beach-goers to keep their belongings and have a visible landmark to locate their spot quickly when in the crowded beach environment."
+        ],
+        "queries": [
+          {
+            "id": "18",
+            "text": "What is the main object in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The main object in the image is a colorful striped umbrella standing on the beach."
+          },
+          {
+            "id": "19",
+            "text": "What do you think is going on in this snapshot?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image features a colorful striped umbrella on the beach, with its vibrant appearance attracting attention. The umbrella is firmly positioned in the sand, providing shade and comfort for visitors. The umbrella sits near the ocean, offering a lovely view of the water and contributing to the pleasant beach atmosphere."
+          },
+          {
+            "id": "20",
+            "text": "What purpose does the umbrella serve on the beach?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "The colorful umbrella set up on the beach serves several purposes. First, it provides shade from the sun, which helps protect people from direct sunlight and the associated harmful UV rays, reducing the risk of sunburn and heatstroke. Second, it offers a comfortable spot to relax, rest, and enjoy the beach ambiance without being exposed to the intense sun or heat. Finally, the umbrella creates a designated area for beach-goers to keep their belongings and have a visible landmark to locate their spot quickly when in the crowded beach environment."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/203629",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000203629.png",
+        "clean_sha256": "6dfeb640ce4655da7bde847c484b456187d156798a22b7028845e84900e4b65e",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000203629.png",
+          "sha256": "6dfeb640ce4655da7bde847c484b456187d156798a22b7028845e84900e4b65e",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000203629.jpg",
+          "original_sha256": "39ca3711f193e0c662ac3f1474f51959a2a8ed59de4663cd3afd2e696651b850"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000036678.png",
+        "target_reference_sha256": "eb0bb7b03ce9eeb41a524f39f461835fdd850f03420282195d8e8ea4cf16a5a1",
+        "captions": [
+          "The man in the image is using his cell phone and giving a thumbs up, possibly posing for a picture.",
+          "The image depicts a group of people gathered inside a room, creating a lively social atmosphere. A man is prominently featured in the scene, holding a cell phone to his ear and smiling with a thumbs-up gesture, possibly posing for a picture or simply enjoying the conversation.\n\nThere are multiple other people in the room, adding to the gathering and engaging in various conversations. The scene also has two cups visible, one on the left side of the room and another on the right side, indicating that the gathering may be a casual social event.",
+          "It is likely that the man is giving a thumbs-up gesture while talking on the phone to express a positive emotion or to signal agreement, approval, or satisfaction with the conversation he is having. This non-verbal communication can be conveyed to the people around him or to the person taking the picture of him while on the phone call. The man might be receiving good news, agreeing with the person on the phone, or sharing his excitement with the group of people surrounding him in the room. The specific reason cannot be precisely determined from the image alone, but it does indicate a positive sentiment associated with the phone call."
+        ],
+        "queries": [
+          {
+            "id": "57",
+            "text": "What is the man doing in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The man in the image is using his cell phone and giving a thumbs up, possibly posing for a picture."
+          },
+          {
+            "id": "58",
+            "text": "Can you describe the main features of this image for me?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image depicts a group of people gathered inside a room, creating a lively social atmosphere. A man is prominently featured in the scene, holding a cell phone to his ear and smiling with a thumbs-up gesture, possibly posing for a picture or simply enjoying the conversation.\n\nThere are multiple other people in the room, adding to the gathering and engaging in various conversations. The scene also has two cups visible, one on the left side of the room and another on the right side, indicating that the gathering may be a casual social event."
+          },
+          {
+            "id": "59",
+            "text": "What might be the reason behind the man's thumbs-up gesture while on the phone?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "It is likely that the man is giving a thumbs-up gesture while talking on the phone to express a positive emotion or to signal agreement, approval, or satisfaction with the conversation he is having. This non-verbal communication can be conveyed to the people around him or to the person taking the picture of him while on the phone call. The man might be receiving good news, agreeing with the person on the phone, or sharing his excitement with the group of people surrounding him in the room. The specific reason cannot be precisely determined from the image alone, but it does indicate a positive sentiment associated with the phone call."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/205183",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000205183.png",
+        "clean_sha256": "10207ec0731d2642fc96aecd522650fd6be1a2165dcd2f23f36c779a49266edb",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000205183.png",
+          "sha256": "10207ec0731d2642fc96aecd522650fd6be1a2165dcd2f23f36c779a49266edb",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000205183.jpg",
+          "original_sha256": "71a85127af827852c9921ed57ee3e23d119a063de00deefbeb93d54733b831cc"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000252219.png",
+        "target_reference_sha256": "4ccd3b799106cd015c794c1791fc3a554073178371b2cc8f03230e909484903c",
+        "captions": [
+          "A white duck is pictured in the image.",
+          "The image features a single white bird, likely a duck or a goose, walking along a paved road. The bird appears to be closely examining the ground as it walks. The road runs adjacent to a patch of grass, providing a contrasting backdrop for the scene. The bird occupies a predominant part of the image, offering a close-up view of its action.",
+          "While walking along the paved road, the duck may face various challenges. Firstly, the duck could be at risk of encountering vehicles, which might not notice or expect to see wildlife on the road. This could put the duck in danger of being hit or injured by passing traffic. Secondly, the duck might struggle to find appropriate food sources on or near the paved road, as opposed to its natural habitat, such as a body of water or a grassy area, where it would have easier access to its regular diet.\n\nFurthermore, the duck might be exposed to potential predators, like domestic pets or other animals that live in urban environments, increasing the risk of harm for the duck. Lastly, walking on the paved concrete surface could be less comfortable for the duck than walking on softer natural ground, causing discomfort over time. Overall, the duck's safety and well-being may be compromised by navigating this environment that is not adapted to its natural behaviors and needs."
+        ],
+        "queries": [
+          {
+            "id": "69",
+            "text": "What type of bird is pictured in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "A white duck is pictured in the image."
+          },
+          {
+            "id": "70",
+            "text": "What do you see happening in this image?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image features a single white bird, likely a duck or a goose, walking along a paved road. The bird appears to be closely examining the ground as it walks. The road runs adjacent to a patch of grass, providing a contrasting backdrop for the scene. The bird occupies a predominant part of the image, offering a close-up view of its action."
+          },
+          {
+            "id": "71",
+            "text": "What challenges could the duck face while walking along the paved road?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "While walking along the paved road, the duck may face various challenges. Firstly, the duck could be at risk of encountering vehicles, which might not notice or expect to see wildlife on the road. This could put the duck in danger of being hit or injured by passing traffic. Secondly, the duck might struggle to find appropriate food sources on or near the paved road, as opposed to its natural habitat, such as a body of water or a grassy area, where it would have easier access to its regular diet.\n\nFurthermore, the duck might be exposed to potential predators, like domestic pets or other animals that live in urban environments, increasing the risk of harm for the duck. Lastly, walking on the paved concrete surface could be less comfortable for the duck than walking on softer natural ground, causing discomfort over time. Overall, the duck's safety and well-being may be compromised by navigating this environment that is not adapted to its natural behaviors and needs."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/210299",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000210299.png",
+        "clean_sha256": "98ed46de3b92845d254f578412d8a4d5d2dc883596e3ce1d6399592f6f8fee09",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000210299.png",
+          "sha256": "98ed46de3b92845d254f578412d8a4d5d2dc883596e3ce1d6399592f6f8fee09",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000210299.jpg",
+          "original_sha256": "dbdcbb432c918d11747928a3eb0d80498b9cc52087b5fe515e17b3cffb7e8240"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000118594.png",
+        "target_reference_sha256": "a200cf7b6f9a3de24450c4a3237a4e5cbbdcd057fd6eab51f614b2301a461058",
+        "captions": [
+          "Yes, the little boy is wearing a helmet to ensure his safety while riding his bike.",
+          "The image depicts a little boy riding his bike on a road. He is practicing safety by wearing a yellow helmet while cycling. The boy is visible from a side angle, capturing both him and his bicycle in motion.",
+          "The little boy's precaution of wearing a helmet is noteworthy because it shows that the child or their guardian is aware of and strictly adhering to safety precautions. Wearing a helmet while riding a bicycle is crucial for reducing the risk of severe head injuries in the event of a crash, fall, or any other unforeseen incident. It is especially important for children, who are often more prone to accidents due to their limited experience with balancing and negotiating obstacles. By wearing a helmet, the boy is demonstrating responsible behavior and setting a positive example for others to follow, promoting a culture of safety awareness."
+        ],
+        "queries": [
+          {
+            "id": "72",
+            "text": "Is the little boy wearing any safety gear while riding his bike?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "Yes, the little boy is wearing a helmet to ensure his safety while riding his bike."
+          },
+          {
+            "id": "73",
+            "text": "Can you elaborate on the elements of the picture provided?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image depicts a little boy riding his bike on a road. He is practicing safety by wearing a yellow helmet while cycling. The boy is visible from a side angle, capturing both him and his bicycle in motion."
+          },
+          {
+            "id": "74",
+            "text": "Why is the little boy's precaution noteworthy?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "The little boy's precaution of wearing a helmet is noteworthy because it shows that the child or their guardian is aware of and strictly adhering to safety precautions. Wearing a helmet while riding a bicycle is crucial for reducing the risk of severe head injuries in the event of a crash, fall, or any other unforeseen incident. It is especially important for children, who are often more prone to accidents due to their limited experience with balancing and negotiating obstacles. By wearing a helmet, the boy is demonstrating responsible behavior and setting a positive example for others to follow, promoting a culture of safety awareness."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/225738",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000225738.png",
+        "clean_sha256": "f76f063ce092bd7e44a4b2c223b21eac29938074dfab94ba6b5039f19e81695f",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000225738.png",
+          "sha256": "f76f063ce092bd7e44a4b2c223b21eac29938074dfab94ba6b5039f19e81695f",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000225738.jpg",
+          "original_sha256": "f9e223dc99aedef067f1e3ee7e1cba20343664e1c7ab9dac1ba57a7ff456e646"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000151480.png",
+        "target_reference_sha256": "babe48811f21aa902e15c7f5f0e601fced1967eadb18db8d5d784d7c5e47b19e",
+        "captions": [
+          "There are four giraffes in the image.",
+          "The image showcases a group of four giraffes standing in their natural habitat, a grassy field with some dry brush. They are dispersed across the field, with one giraffe positioned more towards the left, and the other three clustered closer together on the right side. The giraffes appear to be grazing peacefully or engaging in social interactions. A tree can be seen in the scene, providing shade and a point of interest for the giraffes to gather around.",
+          "In the image, there are four giraffes gathered near the same tree in their natural habitat, a grass field with dry brush. Giraffes may gather near the same tree for various reasons. One common reason is to feed, as their long necks enable them to reach high branches for fresh leaves and foliage, which is a primary part of their diet. Giraffes are also social animals, so they may gather around the same tree to interact with each other and maintain their social bonds. Furthermore, the tree can provide shade in the hot African sun, offering a place for the giraffes to rest and regulate their body temperature."
+        ],
+        "queries": [
+          {
+            "id": "33",
+            "text": "How many giraffes are depicted in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "There are four giraffes in the image."
+          },
+          {
+            "id": "34",
+            "text": "Write a detailed description of the given image.",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image showcases a group of four giraffes standing in their natural habitat, a grassy field with some dry brush. They are dispersed across the field, with one giraffe positioned more towards the left, and the other three clustered closer together on the right side. The giraffes appear to be grazing peacefully or engaging in social interactions. A tree can be seen in the scene, providing shade and a point of interest for the giraffes to gather around."
+          },
+          {
+            "id": "35",
+            "text": "Why might these giraffes be gathering near the same tree?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "In the image, there are four giraffes gathered near the same tree in their natural habitat, a grass field with dry brush. Giraffes may gather near the same tree for various reasons. One common reason is to feed, as their long necks enable them to reach high branches for fresh leaves and foliage, which is a primary part of their diet. Giraffes are also social animals, so they may gather around the same tree to interact with each other and maintain their social bonds. Furthermore, the tree can provide shade in the hot African sun, offering a place for the giraffes to rest and regulate their body temperature."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/258285",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000258285.png",
+        "clean_sha256": "f7105571d3d57c8382b06cf09dc1826863f485ef6389d83676ba38e70a044f75",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000258285.png",
+          "sha256": "f7105571d3d57c8382b06cf09dc1826863f485ef6389d83676ba38e70a044f75",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000258285.jpg",
+          "original_sha256": "afc77af755988d023bd3e38060b23e36299ee7be26f71ac7066e208e4282bf2f"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000377113.png",
+        "target_reference_sha256": "0cbbe1dadac1c24ce39c207a9f00c8eb8eded554af4d6a546dfca2b0537df2a8",
+        "captions": [
+          "There are two large passenger airplanes visible in the image.",
+          "The scene captures a picturesque view of two large passenger jets, one in the air and one on the ground. They are flying over a beautiful beach filled with various birds. Many birds can be seen scattered across the scene, both near the water and around the area. The blue water in the background adds a calming touch to the image.",
+          "The presence of two large passenger jets flying in close proximity to the beach filled with birds can have a negative impact on the avian population. The noise generated by the engines can be stressful and disruptive for the birds, potentially resulting in altered behaviors, flight patterns, or even relocation from the area. In addition, the airplanes could pose a risk of bird strikes, in which birds collide with the planes, leading to injuries or fatalities for the birds and damage to the aircraft. This highlights the importance of maintaining safe distances between airplanes and wildlife habitats in order to minimize the risk of adverse effects on both the environment and aviation."
+        ],
+        "queries": [
+          {
+            "id": "48",
+            "text": "How many airplanes are visible in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "There are two large passenger airplanes visible in the image."
+          },
+          {
+            "id": "49",
+            "text": "What do you see happening in this image?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The scene captures a picturesque view of two large passenger jets, one in the air and one on the ground. They are flying over a beautiful beach filled with various birds. Many birds can be seen scattered across the scene, both near the water and around the area. The blue water in the background adds a calming touch to the image."
+          },
+          {
+            "id": "50",
+            "text": "What environmental impact might these planes' activity have on the birds?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "The presence of two large passenger jets flying in close proximity to the beach filled with birds can have a negative impact on the avian population. The noise generated by the engines can be stressful and disruptive for the birds, potentially resulting in altered behaviors, flight patterns, or even relocation from the area. In addition, the airplanes could pose a risk of bird strikes, in which birds collide with the planes, leading to injuries or fatalities for the birds and damage to the aircraft. This highlights the importance of maintaining safe distances between airplanes and wildlife habitats in order to minimize the risk of adverse effects on both the environment and aviation."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/293505",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000293505.png",
+        "clean_sha256": "d59072d2b27b05eed30abdd8dfe2b56ae8ff1d8b36e3729fc0590796909f673a",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000293505.png",
+          "sha256": "d59072d2b27b05eed30abdd8dfe2b56ae8ff1d8b36e3729fc0590796909f673a",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000293505.jpg",
+          "original_sha256": "f42095fa381f703f34ff880c668ca49f7d3cd7089b88fe904314dd6261348795"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000352582.png",
+        "target_reference_sha256": "95c2efbf307c8dc13272d7265f1874b6ad80f0e28f94b62c7f68ef6a99b1a728",
+        "captions": [
+          "The person is riding a motorbike, which can also be referred to as a motorcycle or a moped. In this case, the terms motorcycle, scooter, and moped are used interchangeably to describe the same vehicle the woman is riding.",
+          "The scene showcases a dirt road, with a woman riding a motorcycle in the middle of the road. She is accompanied by a man walking alongside her, with another man further down the road. Various animals, including three cows, are also present in the scene, suggesting a rural setting. The main cow is positioned to the right of the motorcycle while two smaller cows can be seen on the left side of the road. The people and animals all appear to be going in the same direction down the dirt road.",
+          "The woman on the motorcycle might face challenges navigating the dirt road, especially because of the presence of multiple objects and living beings on the road. In the image, a cow is nearby, along with two other smaller cows, two men, and a dog. Dirt roads can be uneven, dusty, and unpredictable, making it important for the woman to maneuver cautiously to avoid any potential accidents. Additionally, she needs to be aware of the animals and people around her to ensure both her safety and the safety of others. This situation requires her to be vigilant, slow down when necessary, and carefully navigate through the environment."
+        ],
+        "queries": [
+          {
+            "id": "81",
+            "text": "Is the person riding a motorbike or scooter?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The person is riding a motorbike, which can also be referred to as a motorcycle or a moped. In this case, the terms motorcycle, scooter, and moped are used interchangeably to describe the same vehicle the woman is riding."
+          },
+          {
+            "id": "82",
+            "text": "Explain the visual content of the image in great detail.",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The scene showcases a dirt road, with a woman riding a motorcycle in the middle of the road. She is accompanied by a man walking alongside her, with another man further down the road. Various animals, including three cows, are also present in the scene, suggesting a rural setting. The main cow is positioned to the right of the motorcycle while two smaller cows can be seen on the left side of the road. The people and animals all appear to be going in the same direction down the dirt road."
+          },
+          {
+            "id": "83",
+            "text": "What challenges might the woman on the motorcycle face in this situation?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "The woman on the motorcycle might face challenges navigating the dirt road, especially because of the presence of multiple objects and living beings on the road. In the image, a cow is nearby, along with two other smaller cows, two men, and a dog. Dirt roads can be uneven, dusty, and unpredictable, making it important for the woman to maneuver cautiously to avoid any potential accidents. Additionally, she needs to be aware of the animals and people around her to ensure both her safety and the safety of others. This situation requires her to be vigilant, slow down when necessary, and carefully navigate through the environment."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/319432",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000319432.png",
+        "clean_sha256": "88b48c5f99ee32d7afb41989ca839da484f19c967ac0c34b3edb01610b6b0bf9",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000319432.png",
+          "sha256": "88b48c5f99ee32d7afb41989ca839da484f19c967ac0c34b3edb01610b6b0bf9",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000319432.jpg",
+          "original_sha256": "c48b1deff2b8495ac375359d84dbc0fc58994419fe67c601a8162de4a5f9d003"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000449190.png",
+        "target_reference_sha256": "c94a04647671223f1977bb14a2b4bf8cf592ada88c17ea3e5ab44dfbc878fa49",
+        "captions": [
+          "In the image, the man is holding up clothes on hangers, possibly in some hanger bags, and appears to be preparing for travel, as a suitcase is also in front of him.",
+          "The image depicts a man standing near a window, holding two clothing hangers with garments in both hands, one red and one white. In front of him, there is a suitcase, possibly indicating that he is preparing for travel or organizing his belongings. The man appears to be showing or comparing these clothes while packing his luggage.",
+          "The man might be holding the clothes on hangers because he is preparing to pack his suitcase for a trip or has just arrived at his destination and is unpacking his belongings. By holding the clothes on hangers, he can avoid wrinkles and ensure that the garments remain in good condition for wearing during his journey or at his destination. The presence of a suitcase in front of him supports this idea, as it is commonly used for transportation and storage of personal belongings when traveling."
+        ],
+        "queries": [
+          {
+            "id": "30",
+            "text": "What is the man doing in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "In the image, the man is holding up clothes on hangers, possibly in some hanger bags, and appears to be preparing for travel, as a suitcase is also in front of him."
+          },
+          {
+            "id": "31",
+            "text": "Can you describe the main features of this image for me?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image depicts a man standing near a window, holding two clothing hangers with garments in both hands, one red and one white. In front of him, there is a suitcase, possibly indicating that he is preparing for travel or organizing his belongings. The man appears to be showing or comparing these clothes while packing his luggage."
+          },
+          {
+            "id": "32",
+            "text": "Why might the man be holding the clothes on hangers?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "The man might be holding the clothes on hangers because he is preparing to pack his suitcase for a trip or has just arrived at his destination and is unpacking his belongings. By holding the clothes on hangers, he can avoid wrinkles and ensure that the garments remain in good condition for wearing during his journey or at his destination. The presence of a suitcase in front of him supports this idea, as it is commonly used for transportation and storage of personal belongings when traveling."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/353536",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000353536.png",
+        "clean_sha256": "72315e32caf791c4ec28a949f595f9207b1fc57825d755d0d7354c8d48ea79bd",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000353536.png",
+          "sha256": "72315e32caf791c4ec28a949f595f9207b1fc57825d755d0d7354c8d48ea79bd",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000353536.jpg",
+          "original_sha256": "7025388bf3d76276a21feaa1c72fd47a0ba448fd8aded8c9e11cd68196bcc0ed"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000139077.png",
+        "target_reference_sha256": "1865710b800d2d861c9f7b14baac1eac215b04125f0070a56fb1dc98ae922947",
+        "captions": [
+          "The main objects on the table in the image are plates, glasses, eating utensils, and possibly a bottle of something.",
+          "The image showcases a dining table filled with various dirty dishes, eating utensils, and a bottle. The table has plates and glasses scattered across it. There are at least two cups on the table, with one positioned on the left and another on the right side. \n\nTwo forks can be seen, one resting on a small white plate and the other located towards the left side of the table. A spoon is also present, placed near the left corner of the table. Additionally, there is a bottle located in the upper central area of the table.",
+          "A meal or gathering might have recently taken place around this table, as evidenced by the variety of dirty dishes, utensils, and drinkware present on it. The aftermath of this meal or event could involve the need to clean up and wash the dirty dishes, glasses, and eating utensils. Items on the table include plates, forks, spoons, cups, and a bottle, which are typically used during such occasions. Participants might have engaged in conversation, shared food and beverages, and enjoyed each other's company at this table. Once the gathering is complete, disposing of any leftovers and cleaning the table area would be necessary to prepare it for the next use."
+        ],
+        "queries": [
+          {
+            "id": "3",
+            "text": "What are the main objects on the table in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The main objects on the table in the image are plates, glasses, eating utensils, and possibly a bottle of something."
+          },
+          {
+            "id": "4",
+            "text": "Describe the following image.",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image showcases a dining table filled with various dirty dishes, eating utensils, and a bottle. The table has plates and glasses scattered across it. There are at least two cups on the table, with one positioned on the left and another on the right side. \n\nTwo forks can be seen, one resting on a small white plate and the other located towards the left side of the table. A spoon is also present, placed near the left corner of the table. Additionally, there is a bottle located in the upper central area of the table."
+          },
+          {
+            "id": "5",
+            "text": "What activity might have recently taken place around this table and what could be its aftermath?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "A meal or gathering might have recently taken place around this table, as evidenced by the variety of dirty dishes, utensils, and drinkware present on it. The aftermath of this meal or event could involve the need to clean up and wash the dirty dishes, glasses, and eating utensils. Items on the table include plates, forks, spoons, cups, and a bottle, which are typically used during such occasions. Participants might have engaged in conversation, shared food and beverages, and enjoyed each other's company at this table. Once the gathering is complete, disposing of any leftovers and cleaning the table area would be necessary to prepare it for the next use."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/367571",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000367571.png",
+        "clean_sha256": "45a9b43cfef7ce8fe499a69b893ee67578580a43f987c542bb83c5eba661064a",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000367571.png",
+          "sha256": "45a9b43cfef7ce8fe499a69b893ee67578580a43f987c542bb83c5eba661064a",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000367571.jpg",
+          "original_sha256": "d39653d24581aec9dce1d2aa8388d4bf58026457da1058279e989c2762866414"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000156076.png",
+        "target_reference_sha256": "9a7196cc94bfba9e1243928e756668ef6e36acdb340c85cb7f761097caf89343",
+        "captions": [
+          "There are four doughnuts in the box.",
+          "The image features a box filled with four different kinds of doughnuts sitting on a table. Each doughnut appears to have a unique design or topping. One of the doughnuts is a cake-style doughnut, while another has nuts and coconut on top. The third doughnut appears to be a glazed one, and the last doughnut also has various toppings. The doughnuts are positioned inside the box in close proximity to one another, showcasing their delicious variety.",
+          "The box contains a variety of doughnuts with unique taste combinations. Among the four doughnuts, there are cake doughnuts, a glazed doughnut, and one with a mix of nuts and coconut as toppings. These different toppings and textures provide a diverse selection for those who want to try various flavors and types of doughnuts. Combining the flavors of nuts and coconut on one doughnut, in particular, offers a unique taste experience that blends the richness of nuts with the tropical sweetness of coconut. Thus, the box offers a selection that caters to different preferences and invites people to discover new taste combinations."
+        ],
+        "queries": [
+          {
+            "id": "27",
+            "text": "How many doughnuts are in the box?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "There are four doughnuts in the box."
+          },
+          {
+            "id": "28",
+            "text": "Write a detailed description of the given image.",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image features a box filled with four different kinds of doughnuts sitting on a table. Each doughnut appears to have a unique design or topping. One of the doughnuts is a cake-style doughnut, while another has nuts and coconut on top. The third doughnut appears to be a glazed one, and the last doughnut also has various toppings. The doughnuts are positioned inside the box in close proximity to one another, showcasing their delicious variety."
+          },
+          {
+            "id": "29",
+            "text": "What unique taste combinations can be found in this box of doughnuts?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "The box contains a variety of doughnuts with unique taste combinations. Among the four doughnuts, there are cake doughnuts, a glazed doughnut, and one with a mix of nuts and coconut as toppings. These different toppings and textures provide a diverse selection for those who want to try various flavors and types of doughnuts. Combining the flavors of nuts and coconut on one doughnut, in particular, offers a unique taste experience that blends the richness of nuts with the tropical sweetness of coconut. Thus, the box offers a selection that caters to different preferences and invites people to discover new taste combinations."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/385873",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000385873.png",
+        "clean_sha256": "aff1f3c1c671b4a0602d28ddb4fe59fc38c6de670f298493022e0b5f74a8742e",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000385873.png",
+          "sha256": "aff1f3c1c671b4a0602d28ddb4fe59fc38c6de670f298493022e0b5f74a8742e",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000385873.jpg",
+          "original_sha256": "1cd20fad2691fb64e22ff3b7a17c4fb94381cc45936c0ecad0a93ffbee20c995"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000454067.png",
+        "target_reference_sha256": "27b5aa2bd7ee056c838e20f26c96b75601cc634900a4733dd1fd33cb967ee177",
+        "captions": [
+          "There are three pizzas in the image.",
+          "The image displays three open pizza boxes with pizzas inside. The first pizza box, situated to the left, contains a smaller pizza. The second pizza box, positioned in the middle, features a larger pizza topped with tortilla chips. The third pizza box, located to the right, contains another smaller pizza. \n\nBeside the large pizza, there are two side orders of sauce in bowls, accompanying the delicious meal. The arrangement showcases a delicious spread of pizzas, inviting everyone to enjoy their different flavors and sizes.",
+          "When dividing these pizzas equitably among a group of people, one might face several challenges due to the different sizes and potential toppings on the pizzas. In the image, there are three pizzas sitting in their delivery boxes, with one pizza being larger than the other two. This size difference may complicate equal distribution of pizza slices among the group, as some people might want more of the larger pizza, while others may prefer the smaller ones.\n\nFurthermore, one of the pizzas is topped with tortilla chips, which could lead to preference differences among the group, as some people might like this topping while others may not. Lastly, alongside one of the pizzas, there are two side orders of sauce, which may need to be shared among those who enjoy sauce with their pizza. All these factors make it a challenge to ensure that everyone in the group has an equal and satisfying share of the pizzas and accompanying sauces. One possible solution is to have a group discussion and decide on rules or a plan for dividing the pizzas, taking into account individual preferences and dietary restrictions if any."
+        ],
+        "queries": [
+          {
+            "id": "24",
+            "text": "How many pizzas are there in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "There are three pizzas in the image."
+          },
+          {
+            "id": "25",
+            "text": "Explain the visual content of the image in great detail.",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image displays three open pizza boxes with pizzas inside. The first pizza box, situated to the left, contains a smaller pizza. The second pizza box, positioned in the middle, features a larger pizza topped with tortilla chips. The third pizza box, located to the right, contains another smaller pizza. \n\nBeside the large pizza, there are two side orders of sauce in bowls, accompanying the delicious meal. The arrangement showcases a delicious spread of pizzas, inviting everyone to enjoy their different flavors and sizes."
+          },
+          {
+            "id": "26",
+            "text": "What are the possible challenges one might face when dividing these pizzas equitably among a group of people?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "When dividing these pizzas equitably among a group of people, one might face several challenges due to the different sizes and potential toppings on the pizzas. In the image, there are three pizzas sitting in their delivery boxes, with one pizza being larger than the other two. This size difference may complicate equal distribution of pizza slices among the group, as some people might want more of the larger pizza, while others may prefer the smaller ones.\n\nFurthermore, one of the pizzas is topped with tortilla chips, which could lead to preference differences among the group, as some people might like this topping while others may not. Lastly, alongside one of the pizzas, there are two side orders of sauce, which may need to be shared among those who enjoy sauce with their pizza. All these factors make it a challenge to ensure that everyone in the group has an equal and satisfying share of the pizzas and accompanying sauces. One possible solution is to have a group discussion and decide on rules or a plan for dividing the pizzas, taking into account individual preferences and dietary restrictions if any."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/408439",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000408439.png",
+        "clean_sha256": "3455caf66d8709c6a0b8dd18972f96f01ebc0eeaf1b865a034f0f7e702b14cb3",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000408439.png",
+          "sha256": "3455caf66d8709c6a0b8dd18972f96f01ebc0eeaf1b865a034f0f7e702b14cb3",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000408439.jpg",
+          "original_sha256": "cb02539b045a8c223392f0df6a309ae97a3a0d435d7ec036092acc134025b077"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000399764.png",
+        "target_reference_sha256": "a23c583b38a38f2fa4539db4084775c4abb46ba79ff03908330246c66a300aa0",
+        "captions": [
+          "The image features a large, placid lake.",
+          "The image depicts a serene and picturesque landscape with a large, placid lake surrounded by beautiful tree-covered mountains. Cliffs rise majestically on the edge of the lake, showcasing the grandeur of nature. \n\nIn the distance, near the waterfront, a train can be seen traveling on a track. The train adds a touch of human presence to the otherwise untouched landscape and further enhances the scenic view.",
+          "There could be several reasons for the train to be traveling on this scenic route surrounded by mountains, water, and trees. First, the train route might have been built to provide transportation services to local communities or businesses located in this remote or picturesque area. It may facilitate travel, trade, or tourism in the region. Second, the scenic route could be intentionally designed to attract tourists who seek leisure train journeys that showcase natural beauty and captivating landscapes. These types of train rides offer a unique and immersive experience for people who enjoy exploring breathtaking scenery and discovering new destinations while traveling comfortably. Ultimately, the train route could serve both practical and recreational purposes, fostering connectivity and promoting tourism for the area."
+        ],
+        "queries": [
+          {
+            "id": "15",
+            "text": "What is the body of water seen in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The image features a large, placid lake."
+          },
+          {
+            "id": "16",
+            "text": "Can you elaborate on the elements of the picture provided?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image depicts a serene and picturesque landscape with a large, placid lake surrounded by beautiful tree-covered mountains. Cliffs rise majestically on the edge of the lake, showcasing the grandeur of nature. \n\nIn the distance, near the waterfront, a train can be seen traveling on a track. The train adds a touch of human presence to the otherwise untouched landscape and further enhances the scenic view."
+          },
+          {
+            "id": "17",
+            "text": "What are potential reasons for the train to be traveling in such a scenic route?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "There could be several reasons for the train to be traveling on this scenic route surrounded by mountains, water, and trees. First, the train route might have been built to provide transportation services to local communities or businesses located in this remote or picturesque area. It may facilitate travel, trade, or tourism in the region. Second, the scenic route could be intentionally designed to attract tourists who seek leisure train journeys that showcase natural beauty and captivating landscapes. These types of train rides offer a unique and immersive experience for people who enjoy exploring breathtaking scenery and discovering new destinations while traveling comfortably. Ultimately, the train route could serve both practical and recreational purposes, fostering connectivity and promoting tourism for the area."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/431165",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000431165.png",
+        "clean_sha256": "2f0e579845e8ab817979fc5053499f39f4041b900d460f83eac06080f40793fb",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000431165.png",
+          "sha256": "2f0e579845e8ab817979fc5053499f39f4041b900d460f83eac06080f40793fb",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000431165.jpg",
+          "original_sha256": "4ad6acd3eb334191e78430ec5fe08024692c0a3a53e789d4df92978fe6ac27e6"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000150726.png",
+        "target_reference_sha256": "b5c06cbfd8febca7f2d2bbdf0a269a308063ef173d996d9e5e48f65f3a31fc41",
+        "captions": [
+          "The color of the elephant in the image is grey.",
+          "The image depicts a baby elephant standing alone inside an enclosure. The elephant is positioned towards the center of the pen with a large sand dune, or dirt mount, nearby. In the background, there is a brick building that serves as part of the exhibit. The grey elephant stands calmly, occupying the majority of the scene in this pen.",
+          "A potential concern for the baby elephant standing alone inside the pen could be the lack of social interaction with other elephants. Elephants are highly social creatures and form strong bonds within their family units. The absence of other elephants in the enclosure might lead to feelings of loneliness, stress, and anxiety for the baby elephant. It is crucial for the mental and emotional well-being of elephants, especially young ones, to have regular opportunities to interact with their peers and family members in a naturalistic, supportive environment. By addressing this concern, the caretakers of the baby elephant can help ensure its psychological well-being and overall health."
+        ],
+        "queries": [
+          {
+            "id": "63",
+            "text": "What is the color of the elephant in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The color of the elephant in the image is grey."
+          },
+          {
+            "id": "64",
+            "text": "What do you think is going on in this snapshot?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image depicts a baby elephant standing alone inside an enclosure. The elephant is positioned towards the center of the pen with a large sand dune, or dirt mount, nearby. In the background, there is a brick building that serves as part of the exhibit. The grey elephant stands calmly, occupying the majority of the scene in this pen."
+          },
+          {
+            "id": "65",
+            "text": "What could be a potential concern for the baby elephant in this setting?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "A potential concern for the baby elephant standing alone inside the pen could be the lack of social interaction with other elephants. Elephants are highly social creatures and form strong bonds within their family units. The absence of other elephants in the enclosure might lead to feelings of loneliness, stress, and anxiety for the baby elephant. It is crucial for the mental and emotional well-being of elephants, especially young ones, to have regular opportunities to interact with their peers and family members in a naturalistic, supportive environment. By addressing this concern, the caretakers of the baby elephant can help ensure its psychological well-being and overall health."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/441147",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000441147.png",
+        "clean_sha256": "5d112cbae0285061e2d56e17471303fc3751770b0ced99e47ab779d4fae3e3eb",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000441147.png",
+          "sha256": "5d112cbae0285061e2d56e17471303fc3751770b0ced99e47ab779d4fae3e3eb",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000441147.jpg",
+          "original_sha256": "aeda88ebb0901d7321b608cf636f189e3648c30b314d5f739dd2e60458397fcb"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000446206.png",
+        "target_reference_sha256": "a81fba1cbd1f86cd21f269789a6f175a689d8378ba23f00baff504eb6da4e52d",
+        "captions": [
+          "The colors of the two suitcases in the image are black and brown with yellow details.",
+          "The image features two antique suitcases made of leather, stacked one on top of the other. The top suitcase is black, while the bottom one has a combination of brown and yellow colors. Both suitcases are prominently displayed side by side, taking up a large portion of the image. They appear to be vintage luggage, possibly available for purchase with price tags attached, showcasing their classic design and craftsmanship.",
+          "Several factors could make the two stacked suitcases valuable. In the image, they are described as antique, which suggests that they are potentially rare or have some historical significance. Their age and rarity could contribute to their value. Additionally, they are made of leather, which is a material known for its durability and, in some cases, luxury. The suitcases also differ in color, featuring black, brown, and yellow tones, which may attract buyers due to their aesthetic appeal or the desire to own a unique piece of luggage. Furthermore, the presence of price tags on the luggage indicates that they are being sold, drawing attention to their perceived value in the market. Collectors or enthusiasts of vintage items may find these suitcases valuable due to their material, design, age, and distinct appearance."
+        ],
+        "queries": [
+          {
+            "id": "0",
+            "text": "What is the color of the two suitcases in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The colors of the two suitcases in the image are black and brown with yellow details."
+          },
+          {
+            "id": "1",
+            "text": "Analyze the image in a comprehensive and detailed manner.",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image features two antique suitcases made of leather, stacked one on top of the other. The top suitcase is black, while the bottom one has a combination of brown and yellow colors. Both suitcases are prominently displayed side by side, taking up a large portion of the image. They appear to be vintage luggage, possibly available for purchase with price tags attached, showcasing their classic design and craftsmanship."
+          },
+          {
+            "id": "2",
+            "text": "What potential factors could make these suitcases valuable?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "Several factors could make the two stacked suitcases valuable. In the image, they are described as antique, which suggests that they are potentially rare or have some historical significance. Their age and rarity could contribute to their value. Additionally, they are made of leather, which is a material known for its durability and, in some cases, luxury. The suitcases also differ in color, featuring black, brown, and yellow tones, which may attract buyers due to their aesthetic appeal or the desire to own a unique piece of luggage. Furthermore, the presence of price tags on the luggage indicates that they are being sold, drawing attention to their perceived value in the market. Collectors or enthusiasts of vintage items may find these suitcases valuable due to their material, design, age, and distinct appearance."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/460149",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000460149.png",
+        "clean_sha256": "fc395f869ab3bab29814a1e2873621edb776e73773ba3d7ea9356070258d2acf",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000460149.png",
+          "sha256": "fc395f869ab3bab29814a1e2873621edb776e73773ba3d7ea9356070258d2acf",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000460149.jpg",
+          "original_sha256": "1b82a75353dce59c7b71fe0b9d3b3242ed1fd3e268015bdc8f92b6fa924825f6"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000469652.png",
+        "target_reference_sha256": "8054159b91593453265f2ed9ad261adda8b3a1acb9a91ea2c71330323ffc219a",
+        "captions": [
+          "The main object featured in the image is the clock mounted on a pole or a short tower, standing on the sidewalk next to a building.",
+          "The image features a quiet street with a tall clock mounted on a pole at the side of the pavement, near a building. The pole stands prominently on the empty sidewalk, offering a convenient time-keeping source for pedestrians.\n\nThere are a few potted plants along the sidewalk, adding a touch of greenery to the scene. Bicycles can also be seen parked nearby, and a couple of cars are parked further down the street. A person is walking in the background, adding some life to the otherwise calm environment.",
+          "As you walk down this quiet street, you can easily tell the time by looking at the tall clock that is mounted on a pole along the sidewalk. This clock stands out significantly, making it easily noticeable. Regarding the direction of the sidewalk, the presence of potted plants, bicycles, and cars suggest that this is a well-maintained and organized street. As you follow the sidewalk further, you will see that it is lined with trees, potted plants, and parked bicycles and cars, guiding you in the direction it leads. Additionally, the building next to the clock also gives you context for the orientation and direction of the street."
+        ],
+        "queries": [
+          {
+            "id": "78",
+            "text": "What is the main object featured in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The main object featured in the image is the clock mounted on a pole or a short tower, standing on the sidewalk next to a building."
+          },
+          {
+            "id": "79",
+            "text": "Describe the following image.",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image features a quiet street with a tall clock mounted on a pole at the side of the pavement, near a building. The pole stands prominently on the empty sidewalk, offering a convenient time-keeping source for pedestrians.\n\nThere are a few potted plants along the sidewalk, adding a touch of greenery to the scene. Bicycles can also be seen parked nearby, and a couple of cars are parked further down the street. A person is walking in the background, adding some life to the otherwise calm environment."
+          },
+          {
+            "id": "80",
+            "text": "Imagine you are walking down this street; how would you know the time or which direction the sidewalk leads?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "As you walk down this quiet street, you can easily tell the time by looking at the tall clock that is mounted on a pole along the sidewalk. This clock stands out significantly, making it easily noticeable. Regarding the direction of the sidewalk, the presence of potted plants, bicycles, and cars suggest that this is a well-maintained and organized street. As you follow the sidewalk further, you will see that it is lined with trees, potted plants, and parked bicycles and cars, guiding you in the direction it leads. Additionally, the building next to the clock also gives you context for the orientation and direction of the street."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/506095",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000506095.png",
+        "clean_sha256": "643801c8d303eb878c88f7c1a3d5fe5577ec7b077c34e31490404f7d98cdb4d2",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000506095.png",
+          "sha256": "643801c8d303eb878c88f7c1a3d5fe5577ec7b077c34e31490404f7d98cdb4d2",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000506095.jpg",
+          "original_sha256": "ddf37637fe8057d1f6a06a56b16f58637ab0464dc9e000b068bbc9874237f215"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000102820.png",
+        "target_reference_sha256": "63f7fb525310ddb6e879f2763eda34a1a441fce684a2791e78e7479e59478bc0",
+        "captions": [
+          "The main focus of the image is a cat or kitten sitting on or next to a laptop computer.",
+          "The image features a cat sitting on a wooden desk, intently staring at a black laptop computer that is open in front of it. The desk is quite organized, with several books spread around, both on the left and right sides of the laptop. Some books are neatly piled and others are laid out individually. The scene could be interpreted as the cat appearing to use the laptop or showing interest in what's on the screen.",
+          "The cat may be interested in the laptop due to the light coming from the screen, the movement of the cursor, or the sounds produced by the laptop, such as keystrokes or notifications. Cats are known to be naturally curious creatures and are often attracted to objects that stimulate their senses. The visual display, warmth emanating from the device, and interactive nature of the laptop could be appealing to the cat, prompting it to sit on the desk and face the open laptop. Additionally, the cat may simply be seeking its owner's attention or wanting to be close to them while they use the laptop."
+        ],
+        "queries": [
+          {
+            "id": "6",
+            "text": "What is the main focus of the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The main focus of the image is a cat or kitten sitting on or next to a laptop computer."
+          },
+          {
+            "id": "7",
+            "text": "What is this photo about'?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image features a cat sitting on a wooden desk, intently staring at a black laptop computer that is open in front of it. The desk is quite organized, with several books spread around, both on the left and right sides of the laptop. Some books are neatly piled and others are laid out individually. The scene could be interpreted as the cat appearing to use the laptop or showing interest in what's on the screen."
+          },
+          {
+            "id": "8",
+            "text": "What could be a reason for the cat's interest in the laptop?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "The cat may be interested in the laptop due to the light coming from the screen, the movement of the cursor, or the sounds produced by the laptop, such as keystrokes or notifications. Cats are known to be naturally curious creatures and are often attracted to objects that stimulate their senses. The visual display, warmth emanating from the device, and interactive nature of the laptop could be appealing to the cat, prompting it to sit on the desk and face the open laptop. Additionally, the cat may simply be seeking its owner's attention or wanting to be close to them while they use the laptop."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/506483",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000506483.png",
+        "clean_sha256": "344bf86671e890f82cdff7fd06ae51ff6d32fe397d848c781bf37b9898633d2b",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000506483.png",
+          "sha256": "344bf86671e890f82cdff7fd06ae51ff6d32fe397d848c781bf37b9898633d2b",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000506483.jpg",
+          "original_sha256": "ccbd004f74c079db2fd6eb9defd3d8beee63978f644815755835c4ae2077aa25"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000403584.png",
+        "target_reference_sha256": "47ca10a651cb2fbfc7a8e83793e2ee6c7a00eb936257473cd10e220789c46ada",
+        "captions": [
+          "The art installation includes a display of large artworks, such as an oversized bench, painted feline heads, and potentially other artistic sculptures or images.",
+          "The image features an art installation placed on a city street. The display consists of a large, oversized wooden bench and two massive animal art sculptures, which appear to be painted feline heads. \n\nThere are several people in the scene, with two people sitting near the art display, one person standing nearby, and another person further to the left. A parked car is visible behind the bench, close to the edge of the street. Additionally, a backpack can be seen on the ground, closer to the left side of the bench.",
+          "The art installation, featuring an oversized wooden bench and two massive animal art sculptures, encourages interaction among people by providing a visually intriguing and inviting space to sit or gather. People are naturally drawn to the unique and whimsical nature of these installations, sparking curiosity and conversation among those who encounter them. The oversized bench provides seating for multiple individuals, prompting people to sit down, rest, or socialize while admiring the giant painted feline heads and other artworks on display. Additionally, the installations capture the attention of passersby, creating a shared experience and a sense of community among those who visit the area. The artistic environment stimulates discussion and appreciation of the art, facilitating social interactions and connections among those who gather near the sculptures and oversized bench."
+        ],
+        "queries": [
+          {
+            "id": "39",
+            "text": "What kind of objects are included in the art installation?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The art installation includes a display of large artworks, such as an oversized bench, painted feline heads, and potentially other artistic sculptures or images."
+          },
+          {
+            "id": "40",
+            "text": "Explain the visual content of the image in great detail.",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image features an art installation placed on a city street. The display consists of a large, oversized wooden bench and two massive animal art sculptures, which appear to be painted feline heads. \n\nThere are several people in the scene, with two people sitting near the art display, one person standing nearby, and another person further to the left. A parked car is visible behind the bench, close to the edge of the street. Additionally, a backpack can be seen on the ground, closer to the left side of the bench."
+          },
+          {
+            "id": "41",
+            "text": "How might the art installation encourage interaction among people?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "The art installation, featuring an oversized wooden bench and two massive animal art sculptures, encourages interaction among people by providing a visually intriguing and inviting space to sit or gather. People are naturally drawn to the unique and whimsical nature of these installations, sparking curiosity and conversation among those who encounter them. The oversized bench provides seating for multiple individuals, prompting people to sit down, rest, or socialize while admiring the giant painted feline heads and other artworks on display. Additionally, the installations capture the attention of passersby, creating a shared experience and a sense of community among those who visit the area. The artistic environment stimulates discussion and appreciation of the art, facilitating social interactions and connections among those who gather near the sculptures and oversized bench."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/514915",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000514915.png",
+        "clean_sha256": "debc9a7ccefb945ab0740909483edc5888088e8702622c28094581ac6227e965",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000514915.png",
+          "sha256": "debc9a7ccefb945ab0740909483edc5888088e8702622c28094581ac6227e965",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000514915.jpg",
+          "original_sha256": "19f6682b4b285b5fbd58acb18c5a76f34bb3115af047470fda202946c280d1fc"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000031735.png",
+        "target_reference_sha256": "d44ea9996b5627a7327fbf615d06b35521eb8670add2c32b897653ba0aded5b5",
+        "captions": [
+          "The dog in the image is black.",
+          "The image features a large black dog with a red collar laying down on a kitchen floor. The tiled floor provides a comfortable space for the dog to relax. The dog is positioned towards the middle of the scene. Next to the dog, there are two bowls placed on the floor, one around the top-left side and the other slightly further to the right. These could be the dog's food and water bowls. The scene depicts a cozy domestic environment for the dog.",
+          "The dog may have chosen to lay down on the kitchen floor in this location for several reasons. First, the tiled floor can provide a cool surface, which could be comforting compared to a warm or soft surface. This is particularly true if the dog has a thick coat or if the temperature in the room is high. Second, the dog is positioned next to its bowls and a toy, which suggests that the location is familiar and associated with food, water, and playtime. The dog could be resting near these resources for convenience and ease of access. Lastly, the location could be a central spot in the home, and dogs often prefer to stay near their owners or members of the household. By laying on the kitchen floor, the dog might be able to keep an eye on the activities happening around it and remain close to its family."
+        ],
+        "queries": [
+          {
+            "id": "9",
+            "text": "What color is the dog in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The dog in the image is black."
+          },
+          {
+            "id": "10",
+            "text": "Describe the following image.",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image features a large black dog with a red collar laying down on a kitchen floor. The tiled floor provides a comfortable space for the dog to relax. The dog is positioned towards the middle of the scene. Next to the dog, there are two bowls placed on the floor, one around the top-left side and the other slightly further to the right. These could be the dog's food and water bowls. The scene depicts a cozy domestic environment for the dog."
+          },
+          {
+            "id": "11",
+            "text": "Why might the dog have chosen to lay down on the floor in this location?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "The dog may have chosen to lay down on the kitchen floor in this location for several reasons. First, the tiled floor can provide a cool surface, which could be comforting compared to a warm or soft surface. This is particularly true if the dog has a thick coat or if the temperature in the room is high. Second, the dog is positioned next to its bowls and a toy, which suggests that the location is familiar and associated with food, water, and playtime. The dog could be resting near these resources for convenience and ease of access. Lastly, the location could be a central spot in the home, and dogs often prefer to stay near their owners or members of the household. By laying on the kitchen floor, the dog might be able to keep an eye on the activities happening around it and remain close to its family."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/515716",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000515716.png",
+        "clean_sha256": "9f4e7defed31ca1e869d553e9b7468540b67c662735b26ece9890efe3a08afe7",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000515716.png",
+          "sha256": "9f4e7defed31ca1e869d553e9b7468540b67c662735b26ece9890efe3a08afe7",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000515716.jpg",
+          "original_sha256": "278888a6f542f57fe44fd73b6cbf2b0b8f78360e7abe0e76403a10ac89c667ca"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000005992.png",
+        "target_reference_sha256": "c7aabcde58c1ba22cd97184cf19e3700727e0b060c0741c0871b3250c3889d46",
+        "captions": [
+          "There are three people visible in the image - two women and one man.",
+          "The image shows a group of people at a celebration, likely participating in a wine tasting event. There are a total of six people, with three young adults prominently in the foreground. A man wearing glasses stands in the middle, flanked by a couple of women on either side. They are all holding wine glasses, enjoying the event and smiling.\n\nAt the table, there are several wine bottles dispersed along its surface, showing the variety of options available for tasting. Additionally, there is a handbag placed on the table, possibly belonging to one of the women attending the event. \n\nTwo more people are visible in the background. They are smiling and making conversation while engaging in the celebration with the others.",
+          "It appears that the group of people are gathered for a wine tasting or celebration in which they are enjoying various types of wine. They are seen standing and sitting around a table with several wine bottles and holding wine glasses. Their smiles and the friendly atmosphere indicate that it's a social event where they have gathered to indulge in sampling different wines, engage in conversations, and enjoy each other's company."
+        ],
+        "queries": [
+          {
+            "id": "75",
+            "text": "How many people are visible in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "There are three people visible in the image - two women and one man."
+          },
+          {
+            "id": "76",
+            "text": "What do you see happening in this image?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image shows a group of people at a celebration, likely participating in a wine tasting event. There are a total of six people, with three young adults prominently in the foreground. A man wearing glasses stands in the middle, flanked by a couple of women on either side. They are all holding wine glasses, enjoying the event and smiling.\n\nAt the table, there are several wine bottles dispersed along its surface, showing the variety of options available for tasting. Additionally, there is a handbag placed on the table, possibly belonging to one of the women attending the event. \n\nTwo more people are visible in the background. They are smiling and making conversation while engaging in the celebration with the others."
+          },
+          {
+            "id": "77",
+            "text": "What might be the reason behind this gathering?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "It appears that the group of people are gathered for a wine tasting or celebration in which they are enjoying various types of wine. They are seen standing and sitting around a table with several wine bottles and holding wine glasses. Their smiles and the friendly atmosphere indicate that it's a social event where they have gathered to indulge in sampling different wines, engage in conversations, and enjoy each other's company."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/525439",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000525439.png",
+        "clean_sha256": "2443cf2c104936184a3c06b12941e8072fd3ce6b5c8073469ea1d003de912fde",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000525439.png",
+          "sha256": "2443cf2c104936184a3c06b12941e8072fd3ce6b5c8073469ea1d003de912fde",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000525439.jpg",
+          "original_sha256": "023a7b68203f01cf177bc3888345194e23a47ba7cfefb2775da807da3f2388f2"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000053529.png",
+        "target_reference_sha256": "282edd4fdf040f621475c4a20729fc19079005457b746d6a784440cfe41b2ef5",
+        "captions": [
+          "The skateboard in the image is in an upside-down position, with its wheels pointing up and laying on the ground.",
+          "In the image, a person wearing camo shorts is standing on a cement surface next to an overturned skateboard. The skateboard is laying upside down with its wheels pointing up, giving a sense of it having been flipped or potentially used for a trick. The boy appears to be standing in front of the skateboard, engaging with it or possibly preparing for his next move.",
+          "It's plausible that prior to this moment, the person standing next to the overturned skateboard might have attempted a trick or maneuver on the skateboard, which resulted in either a failed attempt or a wipeout. As a consequence, the skateboard ended up upside down on the ground, with its wheels pointed upward. The person, possibly the skateboarder, is standing next to it, possibly pondering their next move, contemplating a retry or assessing any potential damage to the skateboard."
+        ],
+        "queries": [
+          {
+            "id": "84",
+            "text": "What is the position of the skateboard in the image?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The skateboard in the image is in an upside-down position, with its wheels pointing up and laying on the ground."
+          },
+          {
+            "id": "85",
+            "text": "Can you elaborate on the elements of the picture provided?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "In the image, a person wearing camo shorts is standing on a cement surface next to an overturned skateboard. The skateboard is laying upside down with its wheels pointing up, giving a sense of it having been flipped or potentially used for a trick. The boy appears to be standing in front of the skateboard, engaging with it or possibly preparing for his next move."
+          },
+          {
+            "id": "86",
+            "text": "What might have happened prior to this moment?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "It's plausible that prior to this moment, the person standing next to the overturned skateboard might have attempted a trick or maneuver on the skateboard, which resulted in either a failed attempt or a wipeout. As a consequence, the skateboard ended up upside down on the ground, with its wheels pointed upward. The person, possibly the skateboarder, is standing next to it, possibly pondering their next move, contemplating a retry or assessing any potential damage to the skateboard."
+          }
+        ]
+      },
+      {
+        "image_id": "llava_coco/534270",
+        "clean": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000534270.png",
+        "clean_sha256": "5514383e3e992b87c1ddd6156bf9e6bcd7a70840533160d367ed832d668db410",
+        "original": {
+          "path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/llava/000000534270.png",
+          "sha256": "5514383e3e992b87c1ddd6156bf9e6bcd7a70840533160d367ed832d668db410",
+          "original_path": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/llava_bench_coco/images/000000534270.jpg",
+          "original_sha256": "be3b1df76cb9df79d634a20bceed6cbb7133e28ebb66798369a8c99049b67206"
+        },
+        "target_reference": "/home/ubuntu/exper-tran/outputs/kdd2027_baseline_reproduction/datasets/canonical224/targets/000000353518.png",
+        "target_reference_sha256": "bf49424a0b26fed96fefd275fa510419a4b5e49105135a401c59b5a9fdf430ec",
+        "captions": [
+          "The man and woman are wearing umbrella hats, which are designed to provide protection from the rain.",
+          "The image depicts a man and a woman sitting on top of a bridge, both wearing umbrella hats. The quirky umbrella hats provide them with some cover from the rainy weather. A dog is accompanying the couple, taking a break with them on the bridge. \n\nThe surrounding area has a view of the ocean, and there are boats visible in the water. One boat can be found close to the right edge of the scene, while two other boats are in the middle and the far left side of the frame. Additional umbrellas can be spotted in the area, signifying that other pedestrians have also sought shelter from the rain.",
+          "On this rainy day, the umbrella hats provide the couple several benefits as they sit on top of a bridge near the ocean with their dog. First, the umbrella hats enable them to keep their hands free, allowing them to hold their dog's leash, interact with each other, and perform other tasks without holding a traditional umbrella. Second, the umbrella hats protect their heads and upper bodies from getting wet due to rain, making their outdoor experience more comfortable. Additionally, the novel and fun nature of the umbrella hats can be a conversation starter and bring some humor to their day despite the gloomy weather."
+        ],
+        "queries": [
+          {
+            "id": "87",
+            "text": "What type of hats are the man and woman wearing?",
+            "kind": "open_vqa",
+            "category": "conv",
+            "reference_answer": "The man and woman are wearing umbrella hats, which are designed to provide protection from the rain."
+          },
+          {
+            "id": "88",
+            "text": "Can you describe the main features of this image for me?",
+            "kind": "open_vqa",
+            "category": "detail",
+            "reference_answer": "The image depicts a man and a woman sitting on top of a bridge, both wearing umbrella hats. The quirky umbrella hats provide them with some cover from the rainy weather. A dog is accompanying the couple, taking a break with them on the bridge. \n\nThe surrounding area has a view of the ocean, and there are boats visible in the water. One boat can be found close to the right edge of the scene, while two other boats are in the middle and the far left side of the frame. Additional umbrellas can be spotted in the area, signifying that other pedestrians have also sought shelter from the rain."
+          },
+          {
+            "id": "89",
+            "text": "What benefits do umbrella hats provide to the couple on this rainy day?",
+            "kind": "open_vqa",
+            "category": "complex",
+            "reference_answer": "On this rainy day, the umbrella hats provide the couple several benefits as they sit on top of a bridge near the ocean with their dog. First, the umbrella hats enable them to keep their hands free, allowing them to hold their dog's leash, interact with each other, and perform other tasks without holding a traditional umbrella. Second, the umbrella hats protect their heads and upper bodies from getting wet due to rain, making their outdoor experience more comfortable. Additionally, the novel and fun nature of the umbrella hats can be a conversation starter and bring some humor to their day despite the gloomy weather."
+          }
+        ]
+      }
+    ],
+    "official_source_sha256": "6387d32c34c7f192b3b50ca487411e5a45b4d71fe1a1e8499945c02e4ad9fba4",
+    "judge_status": "OFFICIAL_GPT4_JUDGE_NOT_CONFIGURED",
+    "input_resolution_adaptation": "224_canvas_clean_and_adv_paired",
+    "no_relabel_as_ten_class_ASR": true
+  },
+  "target": "Qwen3.5-27B",
+  "models": {
+    "CLIP ViT-L/14": {
+      "repo_id": "openai/clip-vit-large-patch14",
+      "revision": "32bd64288804d66eefd0ccbe215aa642df71cc41",
+      "family": "clip",
+      "expected_vision_depth": 24
+    },
+    "Qwen3.5-2B": {
+      "repo_id": "Qwen/Qwen3.5-2B",
+      "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+      "family": "qwen",
+      "expected_vision_depth": 24
+    },
+    "InternVL3.5-2B-HF": {
+      "repo_id": "OpenGVLab/InternVL3_5-2B-HF",
+      "revision": "3f301ffcf3dcbb47893afae6650ea3e78d96fb6d",
+      "family": "internvl",
+      "expected_vision_depth": 24
+    },
+    "Gemma 4 E2B-it": {
+      "repo_id": "google/gemma-4-E2B-it",
+      "revision": "3e22461f65e89153144f8adb70e3b8c2cc9845a7",
+      "family": "gemma4",
+      "expected_vision_depth": 16
+    }
+  },
+  "sources": {
+    "scripts/kdd2027/native_tasks/worker.py": "62a19c9848b04a61b6addd3b4076b6a864e709fe82a50373b257a943c72b8149",
+    "scripts/kdd2027/native_tasks/prepare.py": "82b0e0943ea585c3feba3de1466f3767b50e94143efb5d6b4d2a4a5e0e9e8d7f",
+    "experiments/2026-10-a100-precommercial-v7-targeted-50/src/vision_features.py": "cf3b9b073cac4f8eaf7a5e4b81e679f58703f5e14885531aaf6dde1035af509b",
+    "experiments/2026-10-a100-precommercial-v7-targeted-50/src/attack_optimizers.py": "745bd7bd5670441ea8e7d46aa09454a737d07a681ef2f609bb0e53428294b899",
+    "experiments/2026-10-a100-precommercial-v7-targeted-50/stage12_joint24h/device_residency.py": "895fc65988364867cf8340b84f924385d29e22af194e57387ba5e4e7b0f93516"
+  },
+  "reference_banks_sha256": "7e85519becce1431ec48da2e0e7be6b5fdf94ae9dc567fba0c29e6b0001e31ad",
+  "reference_pool_sha256": "0c26c29031e81519638e7bb14d4066372a5391839d11884a4bf20afb38c2e8c4"
+}

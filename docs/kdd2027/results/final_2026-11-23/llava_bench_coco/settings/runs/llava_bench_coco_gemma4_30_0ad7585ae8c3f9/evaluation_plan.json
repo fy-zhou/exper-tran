@@ -1,0 +1,40 @@
+{
+  "valid_ids": [
+    "llava_coco/20650",
+    "llava_coco/34096",
+    "llava_coco/52312",
+    "llava_coco/56013",
+    "llava_coco/66144",
+    "llava_coco/81552",
+    "llava_coco/92109",
+    "llava_coco/97131",
+    "llava_coco/109532",
+    "llava_coco/164255",
+    "llava_coco/203629",
+    "llava_coco/205183",
+    "llava_coco/210299",
+    "llava_coco/225738",
+    "llava_coco/258285",
+    "llava_coco/293505",
+    "llava_coco/319432",
+    "llava_coco/353536",
+    "llava_coco/367571",
+    "llava_coco/385873",
+    "llava_coco/408439",
+    "llava_coco/431165",
+    "llava_coco/441147",
+    "llava_coco/460149",
+    "llava_coco/506095",
+    "llava_coco/506483",
+    "llava_coco/514915",
+    "llava_coco/515716",
+    "llava_coco/525439",
+    "llava_coco/534270"
+  ],
+  "planned_N": 30,
+  "missing_ids": [],
+  "denominator_not_shrunk": true,
+  "targets": [
+    "Gemma 4 31B-it"
+  ]
+}

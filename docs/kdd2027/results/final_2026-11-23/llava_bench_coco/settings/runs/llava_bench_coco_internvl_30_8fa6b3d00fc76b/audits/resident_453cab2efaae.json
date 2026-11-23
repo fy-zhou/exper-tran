@@ -1,0 +1,36 @@
+{
+  "model": {
+    "repo_id": "google/gemma-4-E2B-it",
+    "revision": "3e22461f65e89153144f8adb70e3b8c2cc9845a7",
+    "family": "gemma4",
+    "expected_vision_depth": 16
+  },
+  "role": "native_task_proxy_resident",
+  "parameter_counts": {
+    "torch.bfloat16": 5104297504
+  },
+  "parameter_bytes": {
+    "torch.bfloat16": 10208595008
+  },
+  "total_parameters": 5104297504,
+  "components": {
+    "model": [
+      "torch.bfloat16"
+    ]
+  },
+  "devices": [
+    "cpu",
+    "cuda:0"
+  ],
+  "quantization": {
+    "is_loaded_in_4bit": false,
+    "is_loaded_in_8bit": false,
+    "is_quantized": false,
+    "quantization_method": "None",
+    "config_quantization": null,
+    "quantized_modules": []
+  },
+  "allocated": 1637752832,
+  "reserved": 11528044544,
+  "status": "PASS"
+}

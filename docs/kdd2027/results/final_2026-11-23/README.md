@@ -1,5 +1,7 @@
 # KDD2027 experiment results snapshot · 2026-11-23
 
+[Result files and settings index](ARTIFACTS.md)
+
 ## CrossVLAD 5 × 17
 
 All 12 method-model conditions completed, totaling 1,020 evaluated image-method-model rows.

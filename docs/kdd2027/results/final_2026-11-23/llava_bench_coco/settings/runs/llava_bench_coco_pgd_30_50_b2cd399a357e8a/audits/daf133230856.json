@@ -1,0 +1,38 @@
+{
+  "model": {
+    "repo_id": "OpenGVLab/InternVL3_5-14B-HF",
+    "revision": "226b96d5912e69159abc0384cefcbd51487fdce0",
+    "family": "internvl",
+    "expected_vision_depth": 24
+  },
+  "role": "target",
+  "parameter_counts": {
+    "torch.bfloat16": 15119523840
+  },
+  "parameter_bytes": {
+    "torch.bfloat16": 30239047680
+  },
+  "total_parameters": 15119523840,
+  "components": {
+    "model": [
+      "torch.bfloat16"
+    ],
+    "lm_head": [
+      "torch.bfloat16"
+    ]
+  },
+  "devices": [
+    "cuda:0"
+  ],
+  "quantization": {
+    "is_loaded_in_4bit": false,
+    "is_loaded_in_8bit": false,
+    "is_quantized": false,
+    "quantization_method": "None",
+    "config_quantization": null,
+    "quantized_modules": []
+  },
+  "allocated": 30272623616,
+  "reserved": 31060918272,
+  "status": "PASS"
+}
